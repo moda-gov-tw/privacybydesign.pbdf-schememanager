@@ -2,17 +2,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-12-20 04:57+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2022-12-30 06:02+0000\n"
+"Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://weblate.toomore.net/projects/"
+"irma/privacybydesign-pbdf-schememanager/zh_Hant/>\n"
+"Language: zh_Hant_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.15\n"
 
 #. (itstool) path: Description/en
 #: ./PubHubs/Issues/pubhubsaccount/description.xml:14
 msgid "Your PubHubs account"
-msgstr ""
+msgstr "您的 PubHubs 帳號"
 
 #. (itstool) path: Name/en
 #: ./PubHubs/Issues/pubhubsaccount/description.xml:22
@@ -27,13 +31,13 @@ msgstr ""
 #: ./sidn-pbdf/Issues/email/description.xml:51
 #: ./surf/Issues/surfdrive/description.xml:32
 msgid "Email address"
-msgstr ""
+msgstr "電子郵件地址"
 
 #. (itstool) path: Description/en
 #: ./PubHubs/Issues/pubhubsaccount/description.xml:26
 #: ./surf/Issues/surfdrive/description.xml:36
 msgid "Your email address"
-msgstr ""
+msgstr "您的電子郵件地址"
 
 #. (itstool) path: Name/en
 #: ./PubHubs/Issues/pubhubsaccount/description.xml:32
@@ -42,22 +46,22 @@ msgstr ""
 #: ./sidn-pbdf/Issues/mobilenumber/description.xml:3
 #: ./sidn-pbdf/Issues/mobilenumber/description.xml:51
 msgid "Mobile phone number"
-msgstr ""
+msgstr "行動裝置電話號碼"
 
 #. (itstool) path: Description/en
 #: ./PubHubs/Issues/pubhubsaccount/description.xml:36
 msgid "Your mobile phone number"
-msgstr ""
+msgstr "您的行動裝置電話號碼"
 
 #. (itstool) path: Name/en
 #: ./PubHubs/Issues/pubhubsaccount/description.xml:42
 msgid "Registration date"
-msgstr ""
+msgstr "登記日期"
 
 #. (itstool) path: Description/en
 #: ./PubHubs/Issues/pubhubsaccount/description.xml:46
 msgid "Your registration date"
-msgstr ""
+msgstr "您的登記日期"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
@@ -68,13 +72,13 @@ msgstr ""
 #: ./nijmegen/Issues/address/description.xml:7
 #: ./pbdf/Issues/idin/description.xml:91
 msgid "Address"
-msgstr ""
+msgstr "地址"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/address/description.xml:14
 #: ./gemeente/Issues/address/description.xml:14
 msgid "Your home address, from the Dutch population register"
-msgstr ""
+msgstr "您的住家地址來自荷蘭人口登記名冊"
 
 #. (itstool) path: Category/en
 #: ./bzkpilot/Issues/address/description.xml:30
@@ -89,69 +93,84 @@ msgstr ""
 #: ./sidn-pbdf/Issues/email/description.xml:28
 #: ./sidn-pbdf/Issues/mobilenumber/description.xml:28
 msgid "Personal"
-msgstr ""
+msgstr "個人"
 
 #. (itstool) path: FAQIntro/en
 #: ./bzkpilot/Issues/address/description.xml:34
 msgid "Add your address from the Dutch population register (BRP) to your IRMA app."
-msgstr ""
+msgstr "將荷蘭人口登記名冊 (BRP) 中的地址新增到您的 IRMA 應用程式中。"
 
 #. (itstool) path: FAQPurpose/en
 #: ./bzkpilot/Issues/address/description.xml:38
 #: ./gemeente/Issues/address/description.xml:36
 msgid "With your home address in your IRMA app, you can give information about where you live. For instance, you can prove in which municipality you live without disclosing your exact address."
-msgstr ""
+msgstr "透過您 IRMA 應用程式中的住家地址，您可以提供關於您居住地的資訊。舉例來說，您"
+"可以在不必揭露自己確切地址的情況下證明自己居住在哪個城市。"
 
 #. (itstool) path: FAQContent/en
 #: ./bzkpilot/Issues/address/description.xml:42
 #: ./gemeente/Issues/address/description.xml:40
 msgid "You will add the following data:\\n• street,\\n• street number,\\n• postal code,\\n• city,\\n• municipality."
 msgstr ""
+"您將會新增以下資料：\\n"
+"• 街道、\\n"
+"• 門牌號碼、\\n"
+"• 郵遞區號、\\n"
+"• 城市、\\n"
+"• 城市。"
 
 #. (itstool) path: FAQHowto/en
 #: ./bzkpilot/Issues/address/description.xml:46
 msgid "Complete the following steps.\\n1. Open the Sesame ID app and enter your PIN code.\\n2. In the Sesame app, choose 'Sharing data' and select 'IRMA'.\\n3. Confirm that you wish to add your data to your IRMA app. The Sesame ID app copies your data into your IRMA-app.\\n\\nYou now receive two cards: one card with your home address and automatically also one card with your personal details."
 msgstr ""
+"完成以下步驟。\\n"
+"1. 開啟 Sesame ID 應用程式並輸入您的 PIN 碼。\\n"
+"2. 在 Sesame 應用程式中，選擇「分享資料」並選取「IRMA」。\\n"
+"3. 確認您想要新增資料到 IRMA 應用程式中。Sesame ID 應用程式會複製您的資料到 "
+"IRMA 應用程式中。\\n"
+"\\n"
+"現在，您會收到兩張卡片：一張包含您住家地址的卡片，另一張則是自動包含您個人資"
+"料的卡片。"
 
 #. (itstool) path: Name/en
 #: ./bzkpilot/Issues/address/description.xml:53
 #: ./gemeente/Issues/address/description.xml:50
 #: ./nijmegen/Issues/address/description.xml:26
 msgid "Street"
-msgstr ""
+msgstr "街道"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/address/description.xml:57
 #: ./gemeente/Issues/address/description.xml:54
 #: ./nijmegen/Issues/address/description.xml:30
 msgid "Your street"
-msgstr ""
+msgstr "您的街道"
 
 #. (itstool) path: Name/en
 #: ./bzkpilot/Issues/address/description.xml:63
 #: ./gemeente/Issues/address/description.xml:60
 #: ./nijmegen/Issues/address/description.xml:36
 msgid "House number"
-msgstr ""
+msgstr "門牌號碼"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/address/description.xml:67
 #: ./gemeente/Issues/address/description.xml:64
 msgid "Your house number, with possible extension"
-msgstr ""
+msgstr "您的門牌號碼，可能還有延伸資訊"
 
 #. (itstool) path: Name/en
 #: ./bzkpilot/Issues/address/description.xml:73
 #: ./gemeente/Issues/address/description.xml:70
 #: ./pbdf/Issues/idin/description.xml:101
 msgid "Postal code"
-msgstr ""
+msgstr "郵遞區號"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/address/description.xml:77
 #: ./gemeente/Issues/address/description.xml:74
 msgid "Your postal code"
-msgstr ""
+msgstr "您的郵遞區號"
 
 #. (itstool) path: Name/en
 #: ./bzkpilot/Issues/address/description.xml:83
@@ -162,28 +181,28 @@ msgstr ""
 #: ./pbdf/Issues/diploma/description.xml:126
 #: ./pbdf/Issues/idin/description.xml:111
 msgid "City"
-msgstr ""
+msgstr "城市"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/address/description.xml:87
 #: ./gemeente/Issues/address/description.xml:94
 #: ./nijmegen/Issues/address/description.xml:70
 msgid "Your city of residence"
-msgstr ""
+msgstr "您居住的城市"
 
 #. (itstool) path: Name/en
 #: ./bzkpilot/Issues/address/description.xml:93
 #: ./gemeente/Issues/address/description.xml:80
 #: ./nijmegen/Issues/address/description.xml:56
 msgid "Municipality"
-msgstr ""
+msgstr "市鎮"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/address/description.xml:97
 #: ./gemeente/Issues/address/description.xml:84
 #: ./nijmegen/Issues/address/description.xml:60
 msgid "Your municipality"
-msgstr ""
+msgstr "您的市鎮"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
@@ -194,36 +213,56 @@ msgstr ""
 #: ./nijmegen/Issues/personalData/description.xml:3
 #: ./nijmegen/Issues/personalData/description.xml:7
 msgid "Personal data"
-msgstr ""
+msgstr "個人資料"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/personalData/description.xml:14
 #: ./gemeente/Issues/personalData/description.xml:14
 msgid "Your personal data, from the Dutch population register (BRP)"
-msgstr ""
+msgstr "您的個人資料，來自荷蘭人口登記名冊 (BRP)"
 
 #. (itstool) path: FAQIntro/en
 #: ./bzkpilot/Issues/personalData/description.xml:34
 #: ./gemeente/Issues/personalData/description.xml:32
 msgid "Add your personal data from the Dutch population register (BRP) to your IRMA app."
-msgstr ""
+msgstr "將來自荷蘭人口登記名冊 (BRP) 的個人資料新增至您的 IRMA 應用程式。"
 
 #. (itstool) path: FAQPurpose/en
 #: ./bzkpilot/Issues/personalData/description.xml:38
 #: ./gemeente/Issues/personalData/description.xml:36
 msgid "With your personal data in your IRMA app, you can make yourself known online. For instance, you can disclose your name or prove that you are over 18 years of age (without revealing your date of birth)."
 msgstr ""
+"透過您 IRMA 應用程式中的個人資料，您可以讓自己在線上為人所知。舉例來說，"
+"您可以揭露您的名字或證明您超過 18 歲了（但不用揭露您的出生日期）。"
 
 #. (itstool) path: FAQContent/en
 #: ./bzkpilot/Issues/personalData/description.xml:42
 #: ./gemeente/Issues/personalData/description.xml:40
 msgid "You will add the following data:\\n• full name,\\n• initials,\\n• surname,\\n• gender,\\n• date of birth,\\n• age (older than 12, 16, 18, 21 or 65),\\n• nationality,\\n• country of birth,\\n• citizen registration number (BSN)."
 msgstr ""
+"您將會新增以下資料：\\n"
+"• 全名、\\n"
+"• 縮寫、\\n"
+"• 姓氏、\\n"
+"• 性別、\\n"
+"• 出生日期、\\n"
+"• 年齡（大於 12、16、18、21 或 65 歲）、\\n"
+"• 國籍、\\n"
+"• 出生國家、\\n"
+"• 公民登記號碼 (BSN)。"
 
 #. (itstool) path: FAQHowto/en
 #: ./bzkpilot/Issues/personalData/description.xml:46
 msgid "Complete the following steps.\\n1. Open the Sesame ID app and enter your PIN code.\\n2. In the Sesame app, choose 'Sharing data' and select 'IRMA'.\\n3. Confirm that you wish to add your data to your IRMA app. The Sesame ID app copies your data into your IRMA-app.\\n\\nYou now receive two cards: one card with your personal details and automatically also one card with your home address."
 msgstr ""
+"完成以下步驟。\\n"
+"1. 開啟 Sesame ID 應用程式並輸入您的 PIN 碼。\\n"
+"2. 在 Sesame 應用程式中，選擇「分享資料」並選取「IRMA」。\\n"
+"3. 確認您想要新增資料到 IRMA 應用程式中。Sesame ID 應用程式會複製您的資料到 "
+"IRMA 應用程式中。\\n"
+"\\n"
+"現在，您會收到兩張卡片：一張包含您個人資料的卡片，另一張則是自動包含您住家地"
+"址的卡片。"
 
 #. (itstool) path: Name/en
 #: ./bzkpilot/Issues/personalData/description.xml:53
@@ -236,7 +275,7 @@ msgstr ""
 #: ./pbdf/Issues/surfnet/description.xml:56
 #: ./pbdf/Issues/twitter/description.xml:39
 msgid "Full name"
-msgstr ""
+msgstr "全名"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/personalData/description.xml:57
@@ -244,7 +283,7 @@ msgstr ""
 #: ./pilot-amsterdam/Issues/idcard/description.xml:33
 #: ./pilot-amsterdam/Issues/passport/description.xml:33
 msgid "Your full family name: your family name or (a combination with) the name of your partner"
-msgstr ""
+msgstr "您的全名：您的姓氏或/與您伴侶名字的組合"
 
 #. (itstool) path: Name/en
 #: ./bzkpilot/Issues/personalData/description.xml:63
@@ -254,7 +293,7 @@ msgstr ""
 #: ./nijmegen/Issues/personalData/description.xml:26
 #: ./pbdf/Issues/idin/description.xml:51
 msgid "Initials"
-msgstr ""
+msgstr "縮寫"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/personalData/description.xml:67
@@ -263,7 +302,7 @@ msgstr ""
 #: ./gemeente/Issues/personalData/description.xml:55
 #: ./nijmegen/Issues/personalData/description.xml:30
 msgid "Your initials, abbreviating your first names"
-msgstr ""
+msgstr "您名字的縮寫"
 
 #. (itstool) path: Name/en
 #: ./bzkpilot/Issues/personalData/description.xml:73
@@ -274,7 +313,7 @@ msgstr ""
 #: ./pilot-amsterdam/Issues/idcard/description.xml:39
 #: ./pilot-amsterdam/Issues/passport/description.xml:39
 msgid "First names"
-msgstr ""
+msgstr "名字"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/personalData/description.xml:77
@@ -283,7 +322,7 @@ msgstr ""
 #: ./gemeente/Issues/personalData/description.xml:65
 #: ./nijmegen/Issues/personalData/description.xml:40
 msgid "Your first names"
-msgstr ""
+msgstr "您的名字"
 
 #. (itstool) path: Name/en
 #: ./bzkpilot/Issues/personalData/description.xml:83
@@ -293,7 +332,7 @@ msgstr ""
 #: ./nijmegen/Issues/personalData/description.xml:46
 #: ./pbdf/Issues/diploma/description.xml:36
 msgid "Prefix"
-msgstr ""
+msgstr "前綴"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/personalData/description.xml:87
@@ -302,7 +341,7 @@ msgstr ""
 #: ./gemeente/Issues/personalData/description.xml:75
 #: ./nijmegen/Issues/personalData/description.xml:50
 msgid "Prefix of your family name"
-msgstr ""
+msgstr "您姓氏的前綴"
 
 #. (itstool) path: Name/en
 #: ./bzkpilot/Issues/personalData/description.xml:93
@@ -317,7 +356,7 @@ msgstr ""
 #: ./pbdf/Issues/surfnet-2/description.xml:111
 #: ./pbdf/Issues/surfnet/description.xml:76
 msgid "Family name"
-msgstr ""
+msgstr "姓氏"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/personalData/description.xml:97
@@ -326,7 +365,7 @@ msgstr ""
 #: ./gemeente/Issues/personalData/description.xml:85
 #: ./nijmegen/Issues/personalData/description.xml:60
 msgid "Your family name, as given to you at birth"
-msgstr ""
+msgstr "您出生時的姓氏"
 
 #. (itstool) path: Name/en
 #: ./bzkpilot/Issues/personalData/description.xml:103
@@ -337,7 +376,7 @@ msgstr ""
 #: ./pilot-amsterdam/Issues/idcard/description.xml:49
 #: ./pilot-amsterdam/Issues/passport/description.xml:49
 msgid "Gender"
-msgstr ""
+msgstr "性別"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/personalData/description.xml:107
@@ -346,7 +385,7 @@ msgstr ""
 #: ./pilot-amsterdam/Issues/idcard/description.xml:53
 #: ./pilot-amsterdam/Issues/passport/description.xml:53
 msgid "Your gender"
-msgstr ""
+msgstr "您的性別"
 
 #. (itstool) path: Name/en
 #: ./bzkpilot/Issues/personalData/description.xml:113
@@ -360,7 +399,7 @@ msgstr ""
 #: ./pilot-amsterdam/Issues/idcard/description.xml:59
 #: ./pilot-amsterdam/Issues/passport/description.xml:59
 msgid "Date of birth"
-msgstr ""
+msgstr "出生日期"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/personalData/description.xml:117
@@ -371,7 +410,7 @@ msgstr ""
 #: ./pilot-amsterdam/Issues/idcard/description.xml:63
 #: ./pilot-amsterdam/Issues/passport/description.xml:63
 msgid "Your date of birth"
-msgstr ""
+msgstr "您的出生日期"
 
 #. (itstool) path: Name/en
 #: ./bzkpilot/Issues/personalData/description.xml:123
@@ -382,7 +421,7 @@ msgstr ""
 #: ./pilot-amsterdam/Issues/idcard/description.xml:69
 #: ./pilot-amsterdam/Issues/passport/description.xml:69
 msgid "Over 12"
-msgstr ""
+msgstr "超過 12 歲"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/personalData/description.xml:127
@@ -393,7 +432,7 @@ msgstr ""
 #: ./pilot-amsterdam/Issues/idcard/description.xml:73
 #: ./pilot-amsterdam/Issues/passport/description.xml:73
 msgid "Whether you are over 12"
-msgstr ""
+msgstr "您是否超過 12 歲"
 
 #. (itstool) path: Name/en
 #: ./bzkpilot/Issues/personalData/description.xml:133
@@ -404,7 +443,7 @@ msgstr ""
 #: ./pilot-amsterdam/Issues/idcard/description.xml:79
 #: ./pilot-amsterdam/Issues/passport/description.xml:79
 msgid "Over 16"
-msgstr ""
+msgstr "超過 16 歲"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/personalData/description.xml:137
@@ -415,7 +454,7 @@ msgstr ""
 #: ./pilot-amsterdam/Issues/idcard/description.xml:83
 #: ./pilot-amsterdam/Issues/passport/description.xml:83
 msgid "Whether you are over 16"
-msgstr ""
+msgstr "您是否超過 16 歲"
 
 #. (itstool) path: Name/en
 #: ./bzkpilot/Issues/personalData/description.xml:143
@@ -426,7 +465,7 @@ msgstr ""
 #: ./pilot-amsterdam/Issues/idcard/description.xml:89
 #: ./pilot-amsterdam/Issues/passport/description.xml:89
 msgid "Over 18"
-msgstr ""
+msgstr "超過 18 歲"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/personalData/description.xml:147
@@ -437,7 +476,7 @@ msgstr ""
 #: ./pilot-amsterdam/Issues/idcard/description.xml:93
 #: ./pilot-amsterdam/Issues/passport/description.xml:93
 msgid "Whether you are over 18"
-msgstr ""
+msgstr "您是否超過 18 歲"
 
 #. (itstool) path: Name/en
 #: ./bzkpilot/Issues/personalData/description.xml:153
@@ -448,7 +487,7 @@ msgstr ""
 #: ./pilot-amsterdam/Issues/idcard/description.xml:99
 #: ./pilot-amsterdam/Issues/passport/description.xml:99
 msgid "Over 21"
-msgstr ""
+msgstr "超過 21 歲"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/personalData/description.xml:157
@@ -459,7 +498,7 @@ msgstr ""
 #: ./pilot-amsterdam/Issues/idcard/description.xml:103
 #: ./pilot-amsterdam/Issues/passport/description.xml:103
 msgid "Whether you are over 21"
-msgstr ""
+msgstr "您是否超過 21 歲"
 
 #. (itstool) path: Name/en
 #: ./bzkpilot/Issues/personalData/description.xml:163
@@ -470,7 +509,7 @@ msgstr ""
 #: ./pilot-amsterdam/Issues/idcard/description.xml:109
 #: ./pilot-amsterdam/Issues/passport/description.xml:109
 msgid "Over 65"
-msgstr ""
+msgstr "超過 65 歲"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/personalData/description.xml:167
@@ -481,71 +520,71 @@ msgstr ""
 #: ./pilot-amsterdam/Issues/idcard/description.xml:113
 #: ./pilot-amsterdam/Issues/passport/description.xml:113
 msgid "Whether you are over 65"
-msgstr ""
+msgstr "您是否超過 65 歲"
 
 #. (itstool) path: Name/en
 #: ./bzkpilot/Issues/personalData/description.xml:173
 #: ./gemeente/Issues/personalData/description.xml:111
 #: ./nijmegen/Issues/personalData/description.xml:106
 msgid "Dutch nationality"
-msgstr ""
+msgstr "荷蘭國籍"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/personalData/description.xml:177
 #: ./gemeente/Issues/personalData/description.xml:115
 #: ./nijmegen/Issues/personalData/description.xml:110
 msgid "Whether you have the dutch nationality"
-msgstr ""
+msgstr "您是否擁有荷蘭國籍"
 
 #. (itstool) path: Name/en
 #: ./bzkpilot/Issues/personalData/description.xml:183
 #: ./gemeente/Issues/personalData/description.xml:151
 msgid "Country of birth"
-msgstr ""
+msgstr "出生國家"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/personalData/description.xml:187
 #: ./gemeente/Issues/personalData/description.xml:155
 msgid "Your country of birth"
-msgstr ""
+msgstr "您的出生國家"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/personalData/description.xml:197
 msgid "Your Dutch Citizen registration number (BSN)"
-msgstr ""
+msgstr "您的荷蘭公民登記號碼 (BSN)"
 
 #. (itstool) path: Name/en
 #: ./bzkpilot/Issues/personalData/description.xml:203
 #: ./pilot-amsterdam/Issues/idcard/description.xml:159
 #: ./pilot-amsterdam/Issues/passport/description.xml:159
 msgid "Photo"
-msgstr ""
+msgstr "照片"
 
 #. (itstool) path: Description/en
 #: ./bzkpilot/Issues/personalData/description.xml:207
 msgid "Your picture"
-msgstr ""
+msgstr "您的照片"
 
 #. (itstool) path: Name/en
 #: ./chipsoft/Issues/bsn/description.xml:3
 #: ./chipsoft/Issues/bsn/description.xml:26
 msgid "BSN from healthcare"
-msgstr ""
+msgstr "來自衛生保健的 BSN"
 
 #. (itstool) path: ShortName/en
 #: ./chipsoft/Issues/bsn/description.xml:7
 msgid "BSN healthcare"
-msgstr ""
+msgstr "衛生保健 BSN"
 
 #. (itstool) path: Description/en
 #: ./chipsoft/Issues/bsn/description.xml:14
 msgid "Your Dutch Citizen service number (BSN), from the Dutch population register, verified face to face"
-msgstr ""
+msgstr "您的荷蘭公民服務號碼 (BSN)，來自荷蘭人口登記名冊，經過面對面驗證"
 
 #. (itstool) path: Description/en
 #: ./chipsoft/Issues/bsn/description.xml:30
 msgid "Your Dutch Citizen service number (BSN) from healthcare"
-msgstr ""
+msgstr "您從衛生保健部門取得的荷蘭公民服務號碼 (BSN)"
 
 #. (itstool) path: Name/en
 #. (itstool) path: Description/en
@@ -554,139 +593,158 @@ msgstr ""
 #: ./chipsoft/Issues/testbsn/description.xml:26
 #: ./chipsoft/Issues/testbsn/description.xml:30
 msgid "Test BSN from healthcare"
-msgstr ""
+msgstr "測試來自衛生保健部門的 BSN"
 
 #. (itstool) path: ShortName/en
 #: ./chipsoft/Issues/testbsn/description.xml:7
 msgid "Test BSN healthcare"
-msgstr ""
+msgstr "測試衛生保健 BSN"
 
 #. (itstool) path: Name/en
 #: ./description.xml:5
 #: ./pbdf/description.xml:8
 msgid "Privacy by Design Foundation"
-msgstr ""
+msgstr "Privacy by Design 基金會"
 
 #. (itstool) path: Description/en
 #: ./description.xml:9
 msgid "The Privacy by Design Foundation develops the IRMA app and the IRMA infrastructure, and issues basic attributes for free"
-msgstr ""
+msgstr "Privacy by Design 基金會開發了 IRMA 應用程式與 IRMA "
+"基礎設施，並免費發行基本屬性"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
 #: ./gebiedonline/Issues/livingarea/description.xml:3
 #: ./gebiedonline/Issues/livingarea/description.xml:7
 msgid "Living area"
-msgstr ""
+msgstr "居住區域"
 
 #. (itstool) path: Description/en
 #: ./gebiedonline/Issues/livingarea/description.xml:15
 msgid "The area where I live"
-msgstr ""
+msgstr "我居住的地區"
 
 #. (itstool) path: Name/en
 #: ./gebiedonline/Issues/livingarea/description.xml:30
 #: ./gebiedonline/Issues/workingarea/description.xml:29
 msgid "Zip code in 4 digits"
-msgstr ""
+msgstr "四位數的郵遞區號"
 
 #. (itstool) path: Description/en
 #: ./gebiedonline/Issues/livingarea/description.xml:34
 msgid "Zip code (4 digits) of the area where I live"
-msgstr ""
+msgstr "我居住區域的四位數郵遞區號"
 
 #. (itstool) path: Name/en
 #: ./gebiedonline/Issues/livingarea/description.xml:41
 #: ./gebiedonline/Issues/workingarea/description.xml:40
 msgid "District"
-msgstr ""
+msgstr "區"
 
 #. (itstool) path: Description/en
 #: ./gebiedonline/Issues/livingarea/description.xml:45
 msgid "The district where I live"
-msgstr ""
+msgstr "我居住的區"
 
 #. (itstool) path: Description/en
 #: ./gebiedonline/Issues/livingarea/description.xml:56
 msgid "The city where I live"
-msgstr ""
+msgstr "我居住的城市"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
 #: ./gebiedonline/Issues/useridentification/description.xml:3
 #: ./gebiedonline/Issues/useridentification/description.xml:7
 msgid "User identification"
-msgstr ""
+msgstr "使用者識別"
 
 #. (itstool) path: Description/en
 #: ./gebiedonline/Issues/useridentification/description.xml:15
 msgid "My identification for Gebiedonline community websites"
-msgstr ""
+msgstr "我在 Gebiedonline 社群網站的識別"
 
 #. (itstool) path: Name/en
 #: ./gebiedonline/Issues/useridentification/description.xml:31
 #: ./sidn-pbdf/Issues/uniqueid/description.xml:22
 msgid "Login code"
-msgstr ""
+msgstr "登入代號"
 
 #. (itstool) path: Description/en
 #: ./gebiedonline/Issues/useridentification/description.xml:35
 msgid "My personal code to get access to my user account"
-msgstr ""
+msgstr "我的個人代號，用於存取我的使用者帳號"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
 #: ./gebiedonline/Issues/workingarea/description.xml:3
 #: ./gebiedonline/Issues/workingarea/description.xml:7
 msgid "Working area"
-msgstr ""
+msgstr "工作區域"
 
 #. (itstool) path: Description/en
 #: ./gebiedonline/Issues/workingarea/description.xml:14
 msgid "The area where I work"
-msgstr ""
+msgstr "我工作的區域"
 
 #. (itstool) path: Description/en
 #: ./gebiedonline/Issues/workingarea/description.xml:33
 msgid "Zip code (4 digits) of the area(s) where I work"
-msgstr ""
+msgstr "我工作區域的四位數郵遞區號"
 
 #. (itstool) path: Description/en
 #: ./gebiedonline/Issues/workingarea/description.xml:44
 msgid "The district(s) where I work"
-msgstr ""
+msgstr "我工作的區"
 
 #. (itstool) path: Description/en
 #: ./gebiedonline/Issues/workingarea/description.xml:55
 msgid "The city/cities where I work"
-msgstr ""
+msgstr "我工作的城市"
 
 #. (itstool) path: Name/en
 #: ./gemeente/Issues/address/description.xml:3
 msgid "Home address"
-msgstr ""
+msgstr "住家地址"
 
 #. (itstool) path: FAQIntro/en
 #: ./gemeente/Issues/address/description.xml:32
 msgid "Add your home address from the Dutch population register (BRP) to your IRMA app."
-msgstr ""
+msgstr "將荷蘭人口登記名冊 (BRP) 的住家地址新增至您的 IRMA 應用程式。"
 
 #. (itstool) path: FAQHowto/en
 #: ./gemeente/Issues/address/description.xml:44
 msgid "If you live in the Netherlands, you can add your home address from the Dutch population register (BRP) to your IRMA app. You need your DigiD for this.\\n Complete the following steps.\\n1. Log in with your DigiD, at the municipality of Nijmegen (it provides this service to everyone in the Netherlands; you don't need to live in Nijmegen).\\n2. The municipality of Nijmegen copies your data into your IRMA app.\\n\\nYou now receive two cards: one card with your home address and automatically also one card with your personal details."
 msgstr ""
+"若您生活在荷蘭，您可以將荷蘭人口登記名冊 (BRP) 的住家地址新增至 IRMA "
+"應用程式中。為此，您需要 DigD。\\n"
+" 完成以下步驟。\\n"
+"1. 在奈梅亨使用您的 DigD "
+"登入（其對荷蘭的所有人提供服務，您不必住在住在奈梅亨）。\\n"
+"2. 奈梅亨會將您的資料複製到 IRMA 應用程式中。\\n"
+"\\n"
+"現在，您會收到兩張卡片：一張包含您住家地址的卡片，另一張則是自動包含您個人資"
+"料的卡片。"
 
 #. (itstool) path: FAQHowto/en
 #: ./gemeente/Issues/personalData/description.xml:44
 msgid "If you live in the Netherlands, you can add your home address from the Dutch population register (BRP) to your IRMA app. You need your DigiD for this.\\n Complete the following steps.\\n1. Log in with your DigiD, at the municipality of Nijmegen (it provides this service to everyone in the Netherlands; you don't need to live in Nijmegen).\\n2. The municipality of Nijmegen copies your data into your IRMA app.\\n\\nYou now receive two cards: one card with your personal data and automatically also one card with your home address."
 msgstr ""
+"若您生活在荷蘭，您可以將荷蘭人口登記名冊 (BRP) 的住家地址新增至 IRMA "
+"應用程式中。為此，您需要 DigD。\\n"
+" 完成以下步驟。\\n"
+"1. 在奈梅亨使用您的 DigD "
+"登入（其對荷蘭的所有人提供服務，您不必住在住在奈梅亨）。\\n"
+"2. 奈梅亨會將您的資料複製到 IRMA 應用程式中。\\n"
+"\\n"
+"現在，您會收到兩張卡片：一張包含您個人資料的卡片，另一張則是自動包含您住家地"
+"址的卡片。"
 
 #. (itstool) path: Description/en
 #: ./gemeente/Issues/personalData/description.xml:95
 #: ./nijmegen/Issues/personalData/description.xml:80
 #: ./pbdf/Issues/irmatube/description.xml:54
 msgid "Your full name"
-msgstr ""
+msgstr "您的全名"
 
 #. (itstool) path: Name/en
 #: ./gemeente/Issues/personalData/description.xml:121
@@ -694,77 +752,77 @@ msgstr ""
 #: ./pilot-amsterdam/Issues/idcard/description.xml:29
 #: ./pilot-amsterdam/Issues/passport/description.xml:29
 msgid "Surname"
-msgstr ""
+msgstr "姓氏"
 
 #. (itstool) path: Name/en
 #: ./gemeente/Issues/personalData/description.xml:141
 msgid "City of birth"
-msgstr ""
+msgstr "出生城市"
 
 #. (itstool) path: Description/en
 #: ./gemeente/Issues/personalData/description.xml:145
 msgid "Your city of birth"
-msgstr ""
+msgstr "您出生的城市"
 
 #. (itstool) path: Description/en
 #: ./gemeente/Issues/personalData/description.xml:215
 #: ./nijmegen/Issues/bsn/description.xml:30
 msgid "Your Dutch Citizen service number (BSN)"
-msgstr ""
+msgstr "您的荷蘭公民服務號碼 (BSN)"
 
 #. (itstool) path: Name/en
 #: ./gemeente/Issues/personalData/description.xml:221
 #: ./pilot-amsterdam/Issues/idcard/description.xml:139
 #: ./pilot-amsterdam/Issues/passport/description.xml:139
 msgid "Assurance level"
-msgstr ""
+msgstr "保險等級"
 
 #. (itstool) path: Description/en
 #: ./gemeente/Issues/personalData/description.xml:225
 msgid "The assurance level with which your identity was verified"
-msgstr ""
+msgstr "驗證您身份的保險等級"
 
 #. (itstool) path: ShortName/en
 #. (itstool) path: Name/en
 #: ./gemeente/description.xml:4
 #: ./gemeente/description.xml:8
 msgid "Your Municipality"
-msgstr ""
+msgstr "您的市鎮"
 
 #. (itstool) path: Description/en
 #: ./ivido/Issues/login/description.xml:14
 msgid "Attributen benodigd voor het inloggen bij Ivido"
-msgstr ""
+msgstr "登入 Ivido 所需的屬性"
 
 #. (itstool) path: Description/en
 #: ./ivido/Issues/login/description.xml:34
 msgid "Unique identifier for Ivido"
-msgstr ""
+msgstr "Ivido 的唯一識別碼"
 
 #. (itstool) path: Description/en
 #: ./nijmegen/Issues/address/description.xml:14
 msgid "Your address, from the Dutch population register"
-msgstr ""
+msgstr "您的地址，來自荷蘭人口登記名冊"
 
 #. (itstool) path: Description/en
 #: ./nijmegen/Issues/address/description.xml:40
 msgid "Your house number, letter and/or addition"
-msgstr ""
+msgstr "您的門牌號碼、字母及/或附加資訊"
 
 #. (itstool) path: Name/en
 #: ./nijmegen/Issues/address/description.xml:46
 msgid "Zip code"
-msgstr ""
+msgstr "郵遞區號"
 
 #. (itstool) path: Description/en
 #: ./nijmegen/Issues/address/description.xml:50
 msgid "Your zip code"
-msgstr ""
+msgstr "您的郵遞區號"
 
 #. (itstool) path: Name/en
 #: ./nijmegen/Issues/ageLimits/description.xml:3
 msgid "Age limits"
-msgstr ""
+msgstr "年齡限制"
 
 #. (itstool) path: ShortName/en
 #. (itstool) path: Name/en
@@ -772,96 +830,96 @@ msgstr ""
 #: ./pbdf/Issues/ageLimits/description.xml:3
 #: ./pbdf/Issues/ageLimits/description.xml:7
 msgid "Age"
-msgstr ""
+msgstr "年齡"
 
 #. (itstool) path: Description/en
 #: ./nijmegen/Issues/ageLimits/description.xml:14
 msgid "Your age limits, derived from your birthdate from the Dutch population register"
-msgstr ""
+msgstr "您的年齡限制，根據您在荷蘭人口登記名冊的出生日期所得出"
 
 #. (itstool) path: Description/en
 #: ./nijmegen/Issues/bsn/description.xml:14
 msgid "Your Dutch Citizen service number (BSN), from the Dutch population register"
-msgstr ""
+msgstr "您的荷蘭公民服務號碼 (BSN)，來自荷蘭人口登記名冊"
 
 #. (itstool) path: Description/en
 #: ./nijmegen/Issues/personalData/description.xml:14
 msgid "Your personal data, from the Dutch population register"
-msgstr ""
+msgstr "您的個人資料，來自荷蘭人口登記名冊"
 
 #. (itstool) path: Description/en
 #: ./nijmegen/Issues/personalData/description.xml:70
 msgid "Your full family name: your family name or (a combination with) that of your partner"
-msgstr ""
+msgstr "您的全名：您的姓氏或/與您伴侶名字的組合"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
 #: ./nijmegen/Issues/travelDocument/description.xml:3
 #: ./nijmegen/Issues/travelDocument/description.xml:7
 msgid "Travel Document"
-msgstr ""
+msgstr "旅行證件"
 
 #. (itstool) path: Description/en
 #: ./nijmegen/Issues/travelDocument/description.xml:14
 msgid "Your Dutch passport or identity card, from the Dutch population register"
-msgstr ""
+msgstr "您的荷蘭護照或身份證，來自荷蘭人口登記名冊"
 
 #. (itstool) path: Name/en
 #: ./nijmegen/Issues/travelDocument/description.xml:26
 msgid "Document kind"
-msgstr ""
+msgstr "證件類型"
 
 #. (itstool) path: Description/en
 #: ./nijmegen/Issues/travelDocument/description.xml:30
 msgid "The document kind (passport or identity card)"
-msgstr ""
+msgstr "證件類型（護照或身份證）"
 
 #. (itstool) path: Name/en
 #: ./nijmegen/Issues/travelDocument/description.xml:36
 #: ./pilot-amsterdam/Issues/idcard/description.xml:149
 #: ./pilot-amsterdam/Issues/passport/description.xml:149
 msgid "Document number"
-msgstr ""
+msgstr "證件號碼"
 
 #. (itstool) path: Description/en
 #: ./nijmegen/Issues/travelDocument/description.xml:40
 msgid "The travel document number"
-msgstr ""
+msgstr "旅行證件號碼"
 
 #. (itstool) path: Name/en
 #: ./nijmegen/Issues/travelDocument/description.xml:46
 msgid "Issuance date"
-msgstr ""
+msgstr "發行日期"
 
 #. (itstool) path: Description/en
 #: ./nijmegen/Issues/travelDocument/description.xml:50
 msgid "Date of issuance of the travel document"
-msgstr ""
+msgstr "旅行證件發行日期"
 
 #. (itstool) path: Name/en
 #: ./nijmegen/Issues/travelDocument/description.xml:56
 msgid "Expiry date"
-msgstr ""
+msgstr "到期日"
 
 #. (itstool) path: Description/en
 #: ./nijmegen/Issues/travelDocument/description.xml:60
 msgid "Expiry date of the travel document"
-msgstr ""
+msgstr "旅行證件的到期日"
 
 #. (itstool) path: Name/en
 #: ./nijmegen/Issues/travelDocument/description.xml:66
 msgid "Document issuer"
-msgstr ""
+msgstr "證件發行者"
 
 #. (itstool) path: Description/en
 #: ./nijmegen/Issues/travelDocument/description.xml:70
 msgid "Issuer of the travel document"
-msgstr ""
+msgstr "旅行證件的發行者"
 
 #. (itstool) path: Name/en
 #: ./nuts/Issues/agb/description.xml:3
 msgid "AGB code"
-msgstr ""
+msgstr "AGB 代碼"
 
 #. (itstool) path: Name/nl
 #. (itstool) path: Name/en
@@ -869,107 +927,121 @@ msgstr ""
 #: ./nuts/Issues/agb/description.xml:51
 #: ./nuts/Issues/agb/description.xml:52
 msgid "AGB-code"
-msgstr ""
+msgstr "AGB 代碼"
 
 #. (itstool) path: Description/en
 #: ./nuts/Issues/agb/description.xml:14
 msgid "An AGB code (in Dutch: Algemeen GegevensBeheer code) is a Dutch national code system which uniquely identifies a care provider. Care providers are registered in a national database with such a code. The database is maintained by Vektis"
 msgstr ""
+"AGB 代碼（荷蘭語：Algemeen GegevensBeheer code）是荷蘭國家代碼系統，唯一識別"
+"保健提供者。保健提供者使用這類代碼在國家資料庫中註冊。資料庫由 Vektis 維護"
 
 #. (itstool) path: Category/en
 #: ./nuts/Issues/agb/description.xml:28
 msgid "Healthcare"
-msgstr ""
+msgstr "衛生保健"
 
 #. (itstool) path: FAQIntro/en
 #: ./nuts/Issues/agb/description.xml:32
 msgid "Add your AGB code to your IRMA app."
-msgstr ""
+msgstr "將您的 AGB 代碼新增至 IRMA 應用程式中。"
 
 #. (itstool) path: FAQPurpose/en
 #: ./nuts/Issues/agb/description.xml:36
 msgid "With your AGB code in your IRMA app, you can prove what your healthcare provider code in the AGB registry is."
-msgstr ""
+msgstr "使用 IRMA 應用程式中的 AGB 代碼，您可以證明您在 AGB "
+"登記名冊中的衛生保健提供者代碼是什麼。"
 
 #. (itstool) path: FAQContent/en
 #: ./nuts/Issues/agb/description.xml:40
 msgid "You will add the following data:\\n• AGB code."
 msgstr ""
+"您將要新增以下資料：\\n"
+"• AGB 代碼。"
 
 #. (itstool) path: FAQHowto/en
 #: ./nuts/Issues/agb/description.xml:44
 msgid "In case you are a healthcare professional registered in the Netherlands, you can load your AGB code into your IRMA app. But first, you need to load your personal data, stemming from the Dutch population registry. Assuming you already have these personal data in your IRMA app, complete the following steps.\\n1. Reveal your initials, surname and date of birth to the Nuts Foundation via IRMA.\\n2. Enter your own AGB code manually.\\n3. Confirm that you wish to add your AGB code to your IRMA app. After verifying your data in the AGB registry, the Nuts Foundation copies your AGB code into your IRMA app.\\n\\nYou now receive a card with your AGB code."
 msgstr ""
+"若您是在荷蘭註冊的衛生保健專業人員，您可以將您的 AGB 代碼載入到 IRMA "
+"應用程式中。但您必須先載入來自荷蘭人口登記名冊的個人資料。假設您的 IRMA "
+"應用程式已經有這些個人資料了，那麼請完成以下步驟。\\n"
+"1. 透過 IRMA 向 Nuts 基金會揭露您的名字縮寫、姓氏與出生日期。\\n"
+"2. 手動輸入您的 AGB 代碼。\\n"
+"3. 確認您想要新增 AGB 代碼到 IRMA 應用程式。在驗證 AGB 登記名冊中的資料後，"
+"Nuts 基金會複製您的 AGB 代碼到 IRMA 應用程式中。\\n"
+"\\n"
+"現在，您會收到包含您 AGB 代碼的卡片。"
 
 #. (itstool) path: Description/en
 #: ./nuts/Issues/agb/description.xml:55
 msgid "Uniquely identifying code for individual healthcare professional"
-msgstr ""
+msgstr "個人衛生保健專業人員的唯一識別碼"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/ageLimits/description.xml:14
 msgid "Your age attributes, issued after revealing your birthdate, from your iDIN bank attributes"
-msgstr ""
+msgstr "您的年齡屬性，在揭露您的出生日期後發佈，來自您的 iDIN 銀行屬性"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/big/description.xml:3
 msgid "BIG registration"
-msgstr ""
+msgstr "BIG 登記名冊"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/big/description.xml:14
 msgid "BIG attributes from the BIG registration"
-msgstr ""
+msgstr "來自 BIG 登記名冊的 BIG 屬性"
 
 #. (itstool) path: IssueURL/en
 #: ./pbdf/Issues/big/description.xml:19
 msgid "https://privacybydesign.foundation/issuance/big/"
-msgstr ""
+msgstr "https://privacybydesign.foundation/issuance/big/"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/big/description.xml:26
 msgid "BIG number"
-msgstr ""
+msgstr "BIG 號碼"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/big/description.xml:30
 msgid "Your BIG code"
-msgstr ""
+msgstr "您的 BIG 代碼"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/big/description.xml:36
 msgid "Start date"
-msgstr ""
+msgstr "開始日期"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/big/description.xml:40
 msgid "Start date of this registration"
-msgstr ""
+msgstr "本次登記開始的日期"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/big/description.xml:46
 msgid "Profession"
-msgstr ""
+msgstr "職業"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/big/description.xml:50
 msgid "The profession you have"
-msgstr ""
+msgstr "您從事的職業"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/big/description.xml:56
 msgid "Specialism"
-msgstr ""
+msgstr "專長"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/big/description.xml:60
 msgid "The specialty you have as part of your profession"
-msgstr ""
+msgstr "作為您從事職業的一部分，您的專長"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/diploma/description.xml:14
 msgid "Data extracted from your diploma provided by DUO"
-msgstr ""
+msgstr "從 DUO 提供的文憑中擷取的資料"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/diploma/description.xml:26
@@ -978,96 +1050,96 @@ msgstr ""
 #: ./pbdf/Issues/surfnet-2/description.xml:101
 #: ./pbdf/Issues/surfnet/description.xml:66
 msgid "First name"
-msgstr ""
+msgstr "名字"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/diploma/description.xml:30
 msgid "Your first name from your diploma"
-msgstr ""
+msgstr "文憑上的名字"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/diploma/description.xml:40
 msgid "Your family name prefix from your diploma"
-msgstr ""
+msgstr "文憑上的姓氏前綴"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/diploma/description.xml:50
 msgid "Your family name from your diploma"
-msgstr ""
+msgstr "文憑上的姓氏"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/diploma/description.xml:60
 msgid "Your date of birth from your diploma"
-msgstr ""
+msgstr "文憑上的出生日期"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/diploma/description.xml:70
 msgid "Your gender from your diploma"
-msgstr ""
+msgstr "文憑上的性別"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/diploma/description.xml:76
 msgid "Education"
-msgstr ""
+msgstr "教育"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/diploma/description.xml:80
 msgid "Completed education"
-msgstr ""
+msgstr "完成的教育"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/diploma/description.xml:86
 msgid "Degree"
-msgstr ""
+msgstr "學位"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/diploma/description.xml:90
 msgid "Type of education"
-msgstr ""
+msgstr "教育類型"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/diploma/description.xml:96
 #: ./pbdf/Issues/linkedin/description.xml:70
 #: ./pbdf/Issues/twitter/description.xml:59
 msgid "Profile"
-msgstr ""
+msgstr "概況"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/diploma/description.xml:100
 msgid "Education profile"
-msgstr ""
+msgstr "教育概況"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/diploma/description.xml:106
 msgid "Achieved in"
-msgstr ""
+msgstr "取得於"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/diploma/description.xml:110
 msgid "Month of achieving this diploma"
-msgstr ""
+msgstr "取得該文憑的月份"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/diploma/description.xml:116
 #: ./pbdf/Issues/surfnet/description.xml:26
 msgid "Institute"
-msgstr ""
+msgstr "研究機構"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/diploma/description.xml:120
 msgid "The institute where this degree has been achieved"
-msgstr ""
+msgstr "取得學位時所在的研究機構"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/diploma/description.xml:130
 msgid "The city of the institute where this degree has been achieved"
-msgstr ""
+msgstr "取得學位時所在研究機構的城市"
 
 #. (itstool) path: ShortName/en
 #: ./pbdf/Issues/email/description.xml:7
 #: ./sidn-pbdf/Issues/email/description.xml:7
 msgid "Email"
-msgstr ""
+msgstr "電子郵件"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/email/description.xml:15
@@ -1075,197 +1147,245 @@ msgstr ""
 #: ./sidn-pbdf/Issues/email/description.xml:14
 #: ./sidn-pbdf/Issues/email/description.xml:55
 msgid "Your verified email address"
-msgstr ""
+msgstr "您經過驗證的電子郵件地址"
 
 #. (itstool) path: FAQIntro/en
 #: ./pbdf/Issues/email/description.xml:28
 #: ./sidn-pbdf/Issues/email/description.xml:32
 msgid "Add your email address to your IRMA app. You can add multiple email addresses."
-msgstr ""
+msgstr "將您的電子郵件地址新增至 IRMA 應用程式。您可以新增多個電子郵件地址。"
 
 #. (itstool) path: FAQPurpose/en
 #: ./pbdf/Issues/email/description.xml:32
 #: ./sidn-pbdf/Issues/email/description.xml:36
 msgid "With your email address in your IRMA app, you can show that this address is really yours. For instance, you can use your email address to fill in a line in a form, or to login at a website."
-msgstr ""
+msgstr "在您的 IRMA 應用程式中使用電子郵件地址，您可以證明這個地址確實是您的。舉例來"
+"說，您可以使用電子郵件地址來填寫表單，或是登入網站。"
 
 #. (itstool) path: FAQContent/en
 #: ./pbdf/Issues/email/description.xml:36
 msgid "You will add the following data:\\n• email address\\n• email domain name."
 msgstr ""
+"您會新增以下資料：\\n"
+"• 電子郵件地址\\n"
+"• 電子郵件網域名稱。"
 
 #. (itstool) path: FAQHowto/en
 #: ./pbdf/Issues/email/description.xml:40
 #: ./sidn-pbdf/Issues/email/description.xml:44
 msgid "Complete the following steps.\\n1. Enter your e-mail address.\\n2. Open your email application and go to your Inbox (if there is no new mail soon, please check your Spam folder).\\n3. Click the link in the email message, sent by the Privacy by Design Foundation. If you see a QR code on your computer screen, scan it with the QR scanner in your IRMA app. The Privacy by Design Foundation copies your email data into your IRMA app.\\n\\nYou now receive a card with your email address and its domain name in your IRMA app. Repeat this process for other email addresses that you wish to add."
 msgstr ""
+"完成以下步驟。\\n"
+"1. 輸入您的電子郵件地址。\\n"
+"2. 開啟您的電子郵件應用程式並檢視收件匣（若未看到新郵件，請檢查「垃圾信件」資"
+"料夾）。\\n"
+"3. 點擊 Privacy by Design 基金會傳送的電子郵件中的連結。若您在電腦畫面上看見 "
+"QR code，請以 IRMA 應用程式中的 QR code 掃描程式掃描。Privacy by Design "
+"會複製您的電子郵件資料到 IRMA 應用程式中。\\n"
+"\\n"
+"現在，您會在 IRMA 應用程式中收到包含您電子郵件地址與其網域名稱的卡片。對您要"
+"新增的其他電子郵件地址重複此流程。"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/email/description.xml:57
 #: ./sidn-pbdf/Issues/email/description.xml:61
 msgid "Email domain name"
-msgstr ""
+msgstr "電子郵件網域名稱"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/email/description.xml:61
 #: ./sidn-pbdf/Issues/email/description.xml:65
 msgid "The domain name of your email address"
-msgstr ""
+msgstr "您電子郵件地址的網域名稱"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/facebook/description.xml:14
 msgid "Facebook attributes obtained using Facebook Connect"
-msgstr ""
+msgstr "使用 Facebook Connect 取得的 Facebook 屬性"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/facebook/description.xml:31
 msgid "Your full name, as registered by Facebook"
-msgstr ""
+msgstr "您在 Facebook 註冊的全名"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/facebook/description.xml:41
 msgid "Your first name, as registered by Facebook"
-msgstr ""
+msgstr "您在 Facebook 註冊的名字"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/facebook/description.xml:51
 msgid "Your family name, as registered by Facebook"
-msgstr ""
+msgstr "您在 Facebook 註冊的姓氏"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/facebook/description.xml:61
 msgid "Your email address, as registered by Facebook"
-msgstr ""
+msgstr "您在 Facebook 註冊的電子郵件地址"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/facebook/description.xml:71
 msgid "Your date of birth, as registered in Facebook"
-msgstr ""
+msgstr "您在 Facebook 註冊的出生日期"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/ideal/description.xml:3
 msgid "Bank account"
-msgstr ""
+msgstr "銀行帳戶"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/ideal/description.xml:14
 msgid "Your account details, provided by your bank, obtained through a token payment"
-msgstr ""
+msgstr "您的銀行提供的帳戶詳細資訊，透過代幣支付取得"
 
 #. (itstool) path: Category/en
 #: ./pbdf/Issues/ideal/description.xml:28
 msgid "Financial"
-msgstr ""
+msgstr "財務"
 
 #. (itstool) path: FAQIntro/en
 #: ./pbdf/Issues/ideal/description.xml:32
 msgid "Add your bank account to your IRMA app. You can add multiple bank accounts."
-msgstr ""
+msgstr "將您的銀行帳戶新增至 IRMA 應用程式中。您可以新增多個銀行帳戶。"
 
 #. (itstool) path: FAQPurpose/en
 #: ./pbdf/Issues/ideal/description.xml:36
 msgid "With your bank account in your IRMA app you can disclose that you are the account holder of this verified bank account."
-msgstr ""
+msgstr "您可以透過揭露 IRMA "
+"應用程式中的銀行帳戶來證明您是該經過驗證銀行帳戶的持有者。"
 
 #. (itstool) path: FAQContent/en
 #: ./pbdf/Issues/ideal/description.xml:40
 msgid "You will add the following data:\\n• IBAN,\\n• BIC code,\\n• account holder."
 msgstr ""
+"您會新增以下資料：\\n"
+"• IBAN、\\n"
+"• BIC 代碼、\\n"
+"• 帳戶持有者。"
 
 #. (itstool) path: FAQHowto/en
 #: ./pbdf/Issues/ideal/description.xml:44
 msgid "In case you have a Dutch bank account, you can add its account details to your IRMA app. To do so, complete the following steps.\\n1. Select iDeal payment.\\n2. Transfer an amount of at least 50 cents to the Privacy by Design Foundation via an ordinary iDEAL payment.\\n3. The Privacy by Design Foundation receives your bank details from iDEAL and passes them on to your IRMA app.\\n\\nYou now receive a card with the bank details of the account that you used for the payment. Repeat this process for other bank accounts that you wish to load into IRMA."
 msgstr ""
+"若您有荷蘭的銀行帳戶，您可以將其詳細資訊新增至 IRMA "
+"應用程式中。若要這麼做，請完成以下步驟。\\n"
+"1. 選取 iDeal 支付。\\n"
+"2. 透過普通的 iDeal 支付向 Privacy by Design 基金會轉帳至少 0.5 元。\\n"
+"3. Privacy by Design 基金會從 iDeal 收到您的銀行詳細資料後就會將其傳遞給 "
+"IRMA 應用程式。\\n"
+"\\n"
+"現在，您會收到包含您用於付款的帳戶資訊。對您想要載入至 IRMA "
+"中的其他銀行帳戶重複此流程。"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/ideal/description.xml:51
 msgid "Account holder"
-msgstr ""
+msgstr "帳戶持有者"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/ideal/description.xml:55
 msgid "Your full name, as registered at your bank"
-msgstr ""
+msgstr "您在銀行登記的全名"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/ideal/description.xml:65
 msgid "The IBAN of your bank account"
-msgstr ""
+msgstr "您銀行帳戶的 IBAN"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/ideal/description.xml:75
 msgid "The Bank Identifier Code of your bank"
-msgstr ""
+msgstr "您銀行的銀行識別碼"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/idin/description.xml:3
 msgid "Personal data from the bank"
-msgstr ""
+msgstr "來自銀行的個人資料"
 
 #. (itstool) path: ShortName/en
 #: ./pbdf/Issues/idin/description.xml:7
 msgid "Personal data bank"
-msgstr ""
+msgstr "個人資料銀行"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/idin/description.xml:14
 msgid "Your personal data, provided by your bank, obtained through iDIN"
-msgstr ""
+msgstr "您的銀行提供的個人資料，夠過 iDIN 取得"
 
 #. (itstool) path: FAQIntro/en
 #: ./pbdf/Issues/idin/description.xml:32
 msgid "Add your personal data from your bank to your IRMA app."
-msgstr ""
+msgstr "將來自您銀行的個人資料新增至 IRMA 應用程式中。"
 
 #. (itstool) path: FAQPurpose/en
 #: ./pbdf/Issues/idin/description.xml:36
 msgid "With your personal data from your bank in your IRMA app, you can, for instance, prove what your name is, what your date of birth is, and where you live."
-msgstr ""
+msgstr "使用您 IRMA "
+"應用程式中來自銀行的個人資料，您可以藉此證明您的姓名、出生日期與居住地等。"
 
 #. (itstool) path: FAQContent/en
 #: ./pbdf/Issues/idin/description.xml:40
 msgid "You will add the following data:\\n• initials,\\n• last name,\\n• gender,\\n• date of birth,\\n• age limits (older than 12, 16, 18, 21 or 65),\\n• address,\\n• postal code,\\n• city."
 msgstr ""
+"您會新增以下資料：\\n"
+"• 縮寫、\\n"
+"• 姓氏、\\n"
+"• 性別、\\n"
+"• 出生日期、\\n"
+"• 年齡限制（超過 12、16、18、21 或 65 歲）、\\n"
+"• 地址、\\n"
+"• 郵遞區號、\\n"
+"• 城市。"
 
 #. (itstool) path: FAQHowto/en
 #: ./pbdf/Issues/idin/description.xml:44
 msgid "If you have a Dutch bank account, you can add personal data from the bank to your IRMA app.\\n\\n To do so, complete the following steps.\\n1. Log in to your own bank via the bank's login service called iDIN.\\n2. You see the personal data that you can load into your IRMA app.\\n3. Confirm that you wish to do so.\\nThe Privacy by Design Foundation receives your personal data from iDIN and passes them on to your IRMA app.\\n\\nYou now receive a card with your personal details from your bank."
 msgstr ""
+"若您有荷蘭的銀行帳戶，您可以將來自銀行的個人資料新增至 IRMA 應用程式中。\\n"
+"\\n"
+"若要這麼做，請完成以下步驟。\\n"
+"1. 透過名為 iDIN 的銀行登入服務登入您的銀行。\\n"
+"2. 您會看到可以載入 IRMA 應用程式的個人資料。\\n"
+"3. 確認您想要這麼做。\\n"
+"Privacy by Design 基金會收到您來自 iDIN 的個人資料然後將其傳遞給 IRMA "
+"應用程式。\\n"
+"\\n"
+"現在，您會收到包含來自您銀行個人資料的卡片。"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/idin/description.xml:55
 msgid "First letters of your given name(s), as registered at your bank"
-msgstr ""
+msgstr "您在銀行登記的名字縮寫"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/idin/description.xml:65
 msgid "Your family name, as registered at your bank"
-msgstr ""
+msgstr "您在銀行登記的姓氏"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/idin/description.xml:75
 msgid "Your date of birth, as registered at your bank"
-msgstr ""
+msgstr "您在銀行登記的出生日期"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/idin/description.xml:85
 msgid "Your gender, as registered at your bank"
-msgstr ""
+msgstr "您在銀行登記的性別"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/idin/description.xml:95
 msgid "Your address, as registered at your bank"
-msgstr ""
+msgstr "您在銀行登記的地址"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/idin/description.xml:105
 msgid "Your postal code, as registered at your bank"
-msgstr ""
+msgstr "您在銀行登記的郵遞區號"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/idin/description.xml:115
 msgid "Your city of residence, as registered at your bank"
-msgstr ""
+msgstr "您在銀行登記的居住城市"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/idin/description.xml:121
