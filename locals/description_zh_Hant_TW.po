@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-12-20 04:57+0000\n"
-"PO-Revision-Date: 2022-12-30 06:02+0000\n"
+"PO-Revision-Date: 2022-12-31 14:14+0000\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.toomore.net/projects/"
 "irma/privacybydesign-pbdf-schememanager/zh_Hant/>\n"
@@ -1274,7 +1274,7 @@ msgstr ""
 "3. Privacy by Design 基金會從 iDeal 收到您的銀行詳細資料後就會將其傳遞給 "
 "IRMA 應用程式。\\n"
 "\\n"
-"現在，您會收到包含您用於付款的帳戶資訊。對您想要載入至 IRMA "
+"現在，您會收到包含您用於付款的帳戶資訊的卡片。對您想要載入至 IRMA "
 "中的其他銀行帳戶重複此流程。"
 
 #. (itstool) path: Name/en
@@ -1390,72 +1390,72 @@ msgstr "您在銀行登記的居住城市"
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/idin/description.xml:121
 msgid "Country"
-msgstr ""
+msgstr "國家"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/idin/description.xml:125
 msgid "Your country of residence, as registered at your bank"
-msgstr ""
+msgstr "您在銀行登記的居住國家"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/irmatube/description.xml:3
 msgid "IRMATube membership"
-msgstr ""
+msgstr "IRMATube 會員資格"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/irmatube/description.xml:14
 msgid "Your IRMATube membership attributes"
-msgstr ""
+msgstr "您的 IRMATube 會員資格屬性"
 
 #. (itstool) path: IssueURL/en
 #: ./pbdf/Issues/irmatube/description.xml:19
 msgid "https://privacybydesign.foundation/demo-en/irmaTube/"
-msgstr ""
+msgstr "https://privacybydesign.foundation/demo-en/irmaTube/"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/irmatube/description.xml:34
 msgid "Your membership type"
-msgstr ""
+msgstr "您的會員資格屬性"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/irmatube/description.xml:44
 msgid "Your membership ID"
-msgstr ""
+msgstr "您的會員資格 ID"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/linkedin/description.xml:14
 msgid "LinkedIn attributes from your LinkedIn account"
-msgstr ""
+msgstr "來自您 LinkedIn 帳號的 LinkedIn 屬性"
 
 #. (itstool) path: IssueURL/en
 #: ./pbdf/Issues/linkedin/description.xml:19
 msgid "https://privacybydesign.foundation/issuance/social/linkedin/"
-msgstr ""
+msgstr "https://privacybydesign.foundation/issuance/social/linkedin/"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/linkedin/description.xml:34
 msgid "Your full name, as registered by LinkedIn"
-msgstr ""
+msgstr "您在 LinkedIn 上登記的全名"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/linkedin/description.xml:44
 msgid "Your first name, as registered by LinkedIn"
-msgstr ""
+msgstr "您在 LinkedIn 上登記的名字"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/linkedin/description.xml:54
 msgid "Your family name, as registered by LinkedIn"
-msgstr ""
+msgstr "您在 LinkedIn 上登記的姓氏"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/linkedin/description.xml:64
 msgid "Your email address, as registered by LinkedIn"
-msgstr ""
+msgstr "您在 LinkedIn 上登記的電子郵件地址"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/linkedin/description.xml:74
 msgid "URL to your LinkedIn profile"
-msgstr ""
+msgstr "指向您 LinkedIn 個人檔案的 URL"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
@@ -1463,29 +1463,29 @@ msgstr ""
 #: ./pbdf/Issues/mijnirma/description.xml:7
 #: ./sidn-pbdf/Issues/irma/description.xml:7
 msgid "MyIRMA"
-msgstr ""
+msgstr "MyIRMA"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/mijnirma/description.xml:15
 msgid "Your MyIRMA attribute"
-msgstr ""
+msgstr "您的 MyIRMA 屬性"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/mijnirma/description.xml:28
 #: ./pbdf/Issues/twitter/description.xml:29
 msgid "Username"
-msgstr ""
+msgstr "使用者名稱"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/mijnirma/description.xml:32
 msgid "Your MyIRMA username"
-msgstr ""
+msgstr "您的 MyIRMA 使用者名稱"
 
 #. (itstool) path: ShortName/en
 #: ./pbdf/Issues/mobilenumber/description.xml:7
 #: ./sidn-pbdf/Issues/mobilenumber/description.xml:7
 msgid "Mobile number"
-msgstr ""
+msgstr "手機號碼"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/mobilenumber/description.xml:15
@@ -1493,208 +1493,239 @@ msgstr ""
 #: ./sidn-pbdf/Issues/mobilenumber/description.xml:14
 #: ./sidn-pbdf/Issues/mobilenumber/description.xml:55
 msgid "Your verified mobile phone number"
-msgstr ""
+msgstr "您驗證過的手機號碼"
 
 #. (itstool) path: FAQIntro/en
 #: ./pbdf/Issues/mobilenumber/description.xml:29
 #: ./sidn-pbdf/Issues/mobilenumber/description.xml:32
 msgid "Add your mobile phone number to your IRMA app.\\nYou can add multiple phone numbers."
 msgstr ""
+"將您的手機號碼新增至 IRMA 應用程式。\\n"
+"您可以新增多個手機號碼。"
 
 #. (itstool) path: FAQPurpose/en
 #: ./pbdf/Issues/mobilenumber/description.xml:33
 #: ./sidn-pbdf/Issues/mobilenumber/description.xml:36
 msgid "With your mobile phone number in your IRMA app, you can show that this number is really yours. For instance, you can disclose your phone number in a form or use it to login at a website."
-msgstr ""
+msgstr "使用您 IRMA 應用程式中的手機號碼，您可以證明這個號碼確實是您的。舉例來說，您"
+"可以在表單中揭露您的手機號碼，或是使用其登入網站。"
 
 #. (itstool) path: FAQContent/en
 #: ./pbdf/Issues/mobilenumber/description.xml:37
 #: ./sidn-pbdf/Issues/mobilenumber/description.xml:40
 msgid "You will add the following data:\\n• mobile phone number."
 msgstr ""
+"您會新增以下資料\\n"
+"• 手機號碼。"
 
 #. (itstool) path: FAQHowto/en
 #: ./pbdf/Issues/mobilenumber/description.xml:41
 #: ./sidn-pbdf/Issues/mobilenumber/description.xml:44
 msgid "Complete the following steps.\\n1. Enter your mobile phone number.\\n2. Check the IRMA SMS message on your phone.\\n3. Use either the verification code in the message, or use the link in the message. After filling in the verification on the webpage for issuing phone numbers you will see a QR code that you can scan with the IRMA app on your phone. If you use the direct link in the SMS message you are sent back automatically to the IRMA app.\\n\\nYou now receive a card with your mobile phone number. Repeat this process for other mobile phone numbers that you wish to add."
 msgstr ""
+"請完成以下步驟。\\n"
+"1. 輸入您的手機號碼。\\n"
+"2. 在手機上檢查是否有收到來自 IRMA 的簡訊。\\n"
+"3. 使用簡訊中的驗證碼或是連結。在用於驗證的網頁上填寫手機號碼，然後您會看到 "
+"QR code，您可以使用手機上的 IRMA 應用程式掃描。若您點擊簡訊中的直接連結，"
+"您會被自動送回 IRMA 應用程式。\\n"
+"\\n"
+"現在，您會收到包含您手機號碼的卡片。對您想要新增的其他手機號碼重複此流程。"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
 #: ./pbdf/Issues/surfnet-2/description.xml:3
 #: ./pbdf/Issues/surfnet-2/description.xml:7
 msgid "Education and research"
-msgstr ""
+msgstr "教育與研究"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/surfnet-2/description.xml:14
 msgid "Education and research personal data, obtained through SURFconext"
-msgstr ""
+msgstr "透過 SURFconext 取得的教育與研究個人資料"
 
 #. (itstool) path: IssueURL/en
 #: ./pbdf/Issues/surfnet-2/description.xml:19
 msgid "https://privacybydesign.foundation/issuance/surfconext/surfconext/"
-msgstr ""
+msgstr "https://privacybydesign.foundation/issuance/surfconext/surfconext/"
 
 #. (itstool) path: Category/en
 #: ./pbdf/Issues/surfnet-2/description.xml:28
 msgid "Education / research"
-msgstr ""
+msgstr "教育 / 研究"
 
 #. (itstool) path: FAQIntro/en
 #: ./pbdf/Issues/surfnet-2/description.xml:32
 msgid "Add your education and research data to your IRMA app."
-msgstr ""
+msgstr "將您的教育與研究資料新增至 IRMA 應用程式。"
 
 #. (itstool) path: FAQPurpose/en
 #: ./pbdf/Issues/surfnet-2/description.xml:36
 msgid "You can use your education and research data in your IRMA app to prove that you are studying or working at a particular school, university or research institute."
-msgstr ""
+msgstr "您可以使用 IRMA "
+"應用程式中的教育與研究資料來證明您正在特定學校、大學或研究機構唸書或工作。"
 
 #. (itstool) path: FAQContent/en
 #: ./pbdf/Issues/surfnet-2/description.xml:40
 msgid "You will add the following data:\\n• first name,\\n• last name,\\n• e-mail address,\\n• institution,\\n• employee/student,\\n• local registration number."
 msgstr ""
+"您會新增以下資料：\\n"
+"• 名字、\\n"
+"• 姓氏、\\n"
+"• 電子郵件地址、\\n"
+"• 機構、\\n"
+"• 員工/學生、\\n"
+"• 當地登記號碼。"
 
 #. (itstool) path: FAQHowto/en
 #: ./pbdf/Issues/surfnet-2/description.xml:44
 msgid "If you study or work at a participating education / research institution, you can add personal data from this institution to your IRMA app.\\n\\n Complete the following steps.\\n1. Select your own institution within the SURFconext environment; if it is not listed, your institution is not participating and you cannot add this card.\\n2. Log in at the website of your own institution, in the usual manner.\\n3. Confirm that you wish to add your data to IRMA. \\n\\nYou now receive a card with your education / research details."
 msgstr ""
+"若您在教育/研究機構讀書或工作，可以將來自該機構的個人資料新增至 IRMA "
+"應用程式。\\n"
+"\\n"
+"\\請完成以下步驟。\\n"
+"1. 在 SURFconext "
+"環境中選取您的機構，若未列出，則您的機構並未參與，您就無法新增此卡片。\\n"
+"2. 按照平常的方式登入您機構的網站。\\n"
+"3. 確認您想要新增資料至 IRMA。\\n"
+"\\n"
+"現在，您會收到包含您教育/研究詳細資訊的卡片。"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/surfnet-2/description.xml:51
 msgid "Institution"
-msgstr ""
+msgstr "機構"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/surfnet-2/description.xml:55
 msgid "The institution where you study or work"
-msgstr ""
+msgstr "您唸書或工作的機構"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/surfnet-2/description.xml:65
 msgid "Your role at your institution"
-msgstr ""
+msgstr "您在機構中的角色"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/surfnet-2/description.xml:71
 msgid "Registration number"
-msgstr ""
+msgstr "登記號碼"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/surfnet-2/description.xml:75
 msgid "Your registration number at your institution"
-msgstr ""
+msgstr "您在機構的登記號碼"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/surfnet-2/description.xml:81
 msgid "Extended registration"
-msgstr ""
+msgstr "延伸登記"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/surfnet-2/description.xml:85
 msgid "Extended registration number at your institution"
-msgstr ""
+msgstr "在您機構的延伸登記號碼"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/surfnet-2/description.xml:95
 msgid "Your full name, as registered by your institution"
-msgstr ""
+msgstr "在您機構登記的全名"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/surfnet-2/description.xml:105
 msgid "Your first name, as registered by your institution"
-msgstr ""
+msgstr "在您機構登記的名字"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/surfnet-2/description.xml:115
 msgid "Your family name, as registered by your institution"
-msgstr ""
+msgstr "在您機構登記的姓氏"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/surfnet-2/description.xml:125
 msgid "Your email address at your institution"
-msgstr ""
+msgstr "在您機構登記的電子郵件地址"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/surfnet/description.xml:14
 msgid "Your Surfnet attributes obtained through SURFconext"
-msgstr ""
+msgstr "透過 SURFconext 取得的 Surfnet 屬性"
 
 #. (itstool) path: IssueURL/en
 #: ./pbdf/Issues/surfnet/description.xml:19
 msgid "https://privacybydesign.foundation/issuance/surfnet/surfnet/"
-msgstr ""
+msgstr "https://privacybydesign.foundation/issuance/surfnet/surfnet/"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/surfnet/description.xml:30
 msgid "The institute that provided these attributes"
-msgstr ""
+msgstr "提供這些屬性的機構"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/surfnet/description.xml:40
 msgid "Your position at your institute"
-msgstr ""
+msgstr "您在機構的職位"
 
 #. (itstool) path: Name/en
 #: ./pbdf/Issues/surfnet/description.xml:46
 msgid "Institute ID"
-msgstr ""
+msgstr "機構 ID"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/surfnet/description.xml:50
 msgid "Your ID number at your institute"
-msgstr ""
+msgstr "您在機構的 ID 號碼"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/surfnet/description.xml:60
 msgid "Your full name, as registered by your institute"
-msgstr ""
+msgstr "您在機構登記的全名"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/surfnet/description.xml:70
 msgid "Your first name, as registered by your institute"
-msgstr ""
+msgstr "您在機構登記的名字"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/surfnet/description.xml:80
 msgid "Your family name, as registered by your institute"
-msgstr ""
+msgstr "您在機構登記的姓氏"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/surfnet/description.xml:90
 msgid "Your email address at your institute"
-msgstr ""
+msgstr "您在機構登記的電子郵件地址"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/twitter/description.xml:14
 msgid "Twitter attributes from your Twitter account"
-msgstr ""
+msgstr "來自您 Twitter 帳號的 Twitter 屬性"
 
 #. (itstool) path: IssueURL/en
 #: ./pbdf/Issues/twitter/description.xml:19
 msgid "https://privacybydesign.foundation/issuance/social/twitter/"
-msgstr ""
+msgstr "https://privacybydesign.foundation/issuance/social/twitter/"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/twitter/description.xml:33
 msgid "Your username at Twitter, as registered by Twitter"
-msgstr ""
+msgstr "您在 Twitter 上註冊的使用者名稱"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/twitter/description.xml:43
 msgid "Your full name, as registered by Twitter"
-msgstr ""
+msgstr "您在 Twitter 上登記的全名"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/twitter/description.xml:53
 msgid "Your email address, as registered by Twitter"
-msgstr ""
+msgstr "您在 Twitter 上登記的電子郵件地址"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/twitter/description.xml:63
 msgid "URL to your Twitter profile"
-msgstr ""
+msgstr "指向您 Twitter 個人檔案的 URL"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
