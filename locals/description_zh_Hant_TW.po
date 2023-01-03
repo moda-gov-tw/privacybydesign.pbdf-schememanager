@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-12-20 04:57+0000\n"
-"PO-Revision-Date: 2022-12-31 14:14+0000\n"
+"PO-Revision-Date: 2023-01-04 14:14+0000\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.toomore.net/projects/"
 "irma/privacybydesign-pbdf-schememanager/zh_Hant/>\n"
@@ -1732,241 +1732,244 @@ msgstr "指向您 Twitter 個人檔案的 URL"
 #: ./pilot-amsterdam/Issues/idcard/description.xml:3
 #: ./pilot-amsterdam/Issues/idcard/description.xml:7
 msgid "Pilot ID card data"
-msgstr ""
+msgstr "試行證件卡片資料"
 
 #. (itstool) path: Description/en
 #: ./pilot-amsterdam/Issues/idcard/description.xml:14
 msgid "Your ID card read from the IRMA desk"
-msgstr ""
+msgstr "從 IRMA 服務台讀取的證件卡片資料"
 
 #. (itstool) path: Description/en
 #: ./pilot-amsterdam/Issues/idcard/description.xml:43
 #: ./pilot-amsterdam/Issues/passport/description.xml:43
 msgid "All your first names"
-msgstr ""
+msgstr "您全部的名字"
 
 #. (itstool) path: Name/en
 #: ./pilot-amsterdam/Issues/idcard/description.xml:119
 #: ./pilot-amsterdam/Issues/passport/description.xml:119
 msgid "Nationality"
-msgstr ""
+msgstr "國籍"
 
 #. (itstool) path: Description/en
 #: ./pilot-amsterdam/Issues/idcard/description.xml:123
 #: ./pilot-amsterdam/Issues/passport/description.xml:123
 msgid "Your nationality"
-msgstr ""
+msgstr "您的國籍"
 
 #. (itstool) path: Name/en
 #: ./pilot-amsterdam/Issues/idcard/description.xml:129
 #: ./pilot-amsterdam/Issues/passport/description.xml:129
 msgid "Personal Identification Number"
-msgstr ""
+msgstr "個人識別號碼"
 
 #. (itstool) path: Description/en
 #: ./pilot-amsterdam/Issues/idcard/description.xml:133
 #: ./pilot-amsterdam/Issues/passport/description.xml:133
 msgid "Your Personal Identification Number. For Dutch travel documents your Dutch Citizen service number (BSN)"
-msgstr ""
+msgstr "您的個人識別號碼。對於荷蘭的旅行證件來說，就是荷蘭公民服務號碼 (BSN)"
 
 #. (itstool) path: Description/en
 #: ./pilot-amsterdam/Issues/idcard/description.xml:143
 #: ./pilot-amsterdam/Issues/passport/description.xml:143
 msgid "The level of assurance according to eIDAS"
-msgstr ""
+msgstr "根據 eIDAS 的保險等級"
 
 #. (itstool) path: Description/en
 #: ./pilot-amsterdam/Issues/idcard/description.xml:153
 msgid "The document number of your ID card"
-msgstr ""
+msgstr "您的身份證件號碼"
 
 #. (itstool) path: Description/en
 #: ./pilot-amsterdam/Issues/idcard/description.xml:163
 msgid "The portrait photo as included in your ID card"
-msgstr ""
+msgstr "身份證件中包含的肖像照片"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
 #: ./pilot-amsterdam/Issues/passport/description.xml:3
 #: ./pilot-amsterdam/Issues/passport/description.xml:7
 msgid "Pilot Passport data"
-msgstr ""
+msgstr "試行護照資料"
 
 #. (itstool) path: Description/en
 #: ./pilot-amsterdam/Issues/passport/description.xml:14
 msgid "Your Dutch passport read from the IRMA desk"
-msgstr ""
+msgstr "從 IRMA 服務台讀取的荷蘭護照"
 
 #. (itstool) path: Description/en
 #: ./pilot-amsterdam/Issues/passport/description.xml:153
 msgid "The document number of your passport"
-msgstr ""
+msgstr "您護照的證件號碼"
 
 #. (itstool) path: Description/en
 #: ./pilot-amsterdam/Issues/passport/description.xml:163
 msgid "The portrait photo as included in your passport"
-msgstr ""
+msgstr "包含在您護照中的肖像照片"
 
 #. (itstool) path: ShortName/en
 #. (itstool) path: Name/en
 #: ./pilot-amsterdam/description.xml:4
 #: ./pilot-amsterdam/description.xml:8
 msgid "Pilot Municipality of Amsterdam"
-msgstr ""
+msgstr "阿姆斯特丹試行市鎮"
 
 #. (itstool) path: IssueURL/en
 #: ./sidn-pbdf/Issues/email/description.xml:19
 msgid "https://sidnemailissuer.irmaconnect.nl/issuance/email"
-msgstr ""
+msgstr "https://sidnemailissuer.irmaconnect.nl/issuance/email"
 
 #. (itstool) path: FAQContent/en
 #: ./sidn-pbdf/Issues/email/description.xml:40
 msgid "You will add the following data.\\n• emailaddress\\n• email domain name"
 msgstr ""
+"您會新增以下資料。\\n"
+"• 電子郵件地址\\n"
+"• 電子郵件網域名稱"
 
 #. (itstool) path: Name/en
 #: ./sidn-pbdf/Issues/irma/description.xml:3
 msgid "MyIRMA app ID"
-msgstr ""
+msgstr "MyIRMA 應用程式 ID"
 
 #. (itstool) path: Description/en
 #: ./sidn-pbdf/Issues/irma/description.xml:14
 #: ./sidn-pbdf/Issues/irma/description.xml:31
 msgid "Your MyIRMA app ID"
-msgstr ""
+msgstr "您的 MyIRMA 應用程式 ID"
 
 #. (itstool) path: Name/en
 #: ./sidn-pbdf/Issues/irma/description.xml:27
 msgid "App ID"
-msgstr ""
+msgstr "應用程式 ID"
 
 #. (itstool) path: IssueURL/en
 #: ./sidn-pbdf/Issues/mobilenumber/description.xml:19
 msgid "https://sidnsmsissuer.irmaconnect.nl/issuance/sms/"
-msgstr ""
+msgstr "https://sidnsmsissuer.irmaconnect.nl/issuance/sms/"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
 #: ./sidn-pbdf/Issues/uniqueid/description.xml:3
 #: ./sidn-pbdf/Issues/uniqueid/description.xml:7
 msgid "Login data"
-msgstr ""
+msgstr "登入資料"
 
 #. (itstool) path: Description/en
 #: ./sidn-pbdf/Issues/uniqueid/description.xml:14
 msgid "Your unique login data."
-msgstr ""
+msgstr "您唯一的登入資料。"
 
 #. (itstool) path: Description/en
 #: ./sidn-pbdf/Issues/uniqueid/description.xml:26
 msgid "Your unique login code."
-msgstr ""
+msgstr "您唯一的登入代碼。"
 
 #. (itstool) path: Name/en
 #: ./sidn-pbdf/Issues/uniqueid/description.xml:32
 msgid "Organization"
-msgstr ""
+msgstr "組織"
 
 #. (itstool) path: Description/en
 #: ./sidn-pbdf/Issues/uniqueid/description.xml:36
 msgid "The organization that uses this login."
-msgstr ""
+msgstr "使用此登入資料的組織。"
 
 #. (itstool) path: Name/en
 #: ./sidn-pbdf/description.xml:8
 msgid "SIDN on behalf of Privacy by Design Foundation"
-msgstr ""
+msgstr "SIDN 代表 Privacy by Design 基金會"
 
 #. (itstool) path: Description/en
 #: ./surf/Issues/secureid/description.xml:14
 msgid "Your SURFsecureID 2nd factor"
-msgstr ""
+msgstr "您的 SURFsecureID 第二因素"
 
 #. (itstool) path: Description/en
 #: ./surf/Issues/secureid/description.xml:30
 msgid "Your SURFsecureID identifier"
-msgstr ""
+msgstr "您的 SURFsecureID 識別字串"
 
 #. (itstool) path: Name/en
 #: ./surf/Issues/secureid/description.xml:36
 msgid "Environment"
-msgstr ""
+msgstr "環境"
 
 #. (itstool) path: Description/en
 #: ./surf/Issues/secureid/description.xml:40
 msgid "The SURFsecureID environment"
-msgstr ""
+msgstr "SURFsecureID 環境"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
 #: ./surf/Issues/surfdrive/description.xml:3
 #: ./surf/Issues/surfdrive/description.xml:7
 msgid "SURFdrive license"
-msgstr ""
+msgstr "SURFdrive 許可證"
 
 #. (itstool) path: Description/en
 #: ./surf/Issues/surfdrive/description.xml:14
 msgid "Your SURFdrive licence, for logging in at SURFdrive"
-msgstr ""
+msgstr "您的 SURFdrive 許可證，用來登入 SURFdrive"
 
 #. (itstool) path: Name/en
 #: ./surf/Issues/surfdrive/description.xml:22
 msgid "Institution user ID"
-msgstr ""
+msgstr "機構使用者 ID"
 
 #. (itstool) path: Description/en
 #: ./surf/Issues/surfdrive/description.xml:26
 msgid "Your ID at your institute"
-msgstr ""
+msgstr "您在機構中的 ID"
 
 #. (itstool) path: Name/en
 #: ./surf/Issues/surfdrive/description.xml:42
 msgid "Name"
-msgstr ""
+msgstr "名字"
 
 #. (itstool) path: Description/en
 #: ./surf/Issues/surfdrive/description.xml:46
 msgid "Your name"
-msgstr ""
+msgstr "您的名字"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
 #: ./vgz/Issues/machtiging/description.xml:3
 #: ./vgz/Issues/machtiging/description.xml:7
 msgid "Mandate"
-msgstr ""
+msgstr "委任"
 
 #. (itstool) path: Description/en
 #: ./vgz/Issues/machtiging/description.xml:14
 msgid "With this mandate you can submit claims to VGZ on behalf of the person who mandated you"
-msgstr ""
+msgstr "有了此委任，您可以代表委任您的人向 VGZ 遞交聲明"
 
 #. (itstool) path: Name/en
 #: ./vgz/Issues/machtiging/description.xml:26
 msgid "VGZ Customer number"
-msgstr ""
+msgstr "VGZ 客戶編號"
 
 #. (itstool) path: Description/en
 #: ./vgz/Issues/machtiging/description.xml:30
 msgid "The VGZ customer number of the VGZ client who mandated you"
-msgstr ""
+msgstr "委任您的 VGZ 客戶的 VGZ 客戶編號"
 
 #. (itstool) path: Name/en
 #: ./vgz/Issues/machtiging/description.xml:36
 msgid "Insured person"
-msgstr ""
+msgstr "委託人"
 
 #. (itstool) path: Description/en
 #: ./vgz/Issues/machtiging/description.xml:40
 msgid "The name of the VGZ customer who mandated you"
-msgstr ""
+msgstr "委託您的 VGZ 客戶名字"
 
 #. (itstool) path: Name/en
 #: ./vgz/Issues/machtiging/description.xml:46
 msgid "MandateID"
-msgstr ""
+msgstr "委任 ID"
 
 #. (itstool) path: Description/en
 #: ./vgz/Issues/machtiging/description.xml:50
 msgid "A unique ID for this mandate"
-msgstr ""
+msgstr "此委任的唯一 ID"
