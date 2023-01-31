@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-12-20 04:57+0000\n"
-"PO-Revision-Date: 2023-01-31 13:21+0000\n"
+"PO-Revision-Date: 2023-01-31 13:32+0000\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://weblate.toomore.net/projects/"
 "irma/privacybydesign-pbdf-schememanager/zh_Hant/>\n"
@@ -46,12 +46,12 @@ msgstr "您的電子郵件地址"
 #: ./sidn-pbdf/Issues/mobilenumber/description.xml:3
 #: ./sidn-pbdf/Issues/mobilenumber/description.xml:51
 msgid "Mobile phone number"
-msgstr "行動裝置電話號碼"
+msgstr "行動電話號碼"
 
 #. (itstool) path: Description/en
 #: ./PubHubs/Issues/pubhubsaccount/description.xml:36
 msgid "Your mobile phone number"
-msgstr "您的行動裝置電話號碼"
+msgstr "您的行動電話號碼"
 
 #. (itstool) path: Name/en
 #: ./PubHubs/Issues/pubhubsaccount/description.xml:42
@@ -1486,7 +1486,7 @@ msgstr "您的 MyIRMA 使用者名稱"
 #: ./pbdf/Issues/mobilenumber/description.xml:7
 #: ./sidn-pbdf/Issues/mobilenumber/description.xml:7
 msgid "Mobile number"
-msgstr "手機號碼"
+msgstr "行動電話號碼"
 
 #. (itstool) path: Description/en
 #: ./pbdf/Issues/mobilenumber/description.xml:15
@@ -1494,22 +1494,22 @@ msgstr "手機號碼"
 #: ./sidn-pbdf/Issues/mobilenumber/description.xml:14
 #: ./sidn-pbdf/Issues/mobilenumber/description.xml:55
 msgid "Your verified mobile phone number"
-msgstr "您驗證過的手機號碼"
+msgstr "您驗證過的行動電話號碼"
 
 #. (itstool) path: FAQIntro/en
 #: ./pbdf/Issues/mobilenumber/description.xml:29
 #: ./sidn-pbdf/Issues/mobilenumber/description.xml:32
 msgid "Add your mobile phone number to your IRMA app.\\nYou can add multiple phone numbers."
 msgstr ""
-"將您的手機號碼新增至 IRMA 程式中。\\n"
-"您可以新增多個手機號碼。"
+"將您的行動電話號碼新增至 IRMA 程式中。\\n"
+"您可以新增多個行動電話號碼。"
 
 #. (itstool) path: FAQPurpose/en
 #: ./pbdf/Issues/mobilenumber/description.xml:33
 #: ./sidn-pbdf/Issues/mobilenumber/description.xml:36
 msgid "With your mobile phone number in your IRMA app, you can show that this number is really yours. For instance, you can disclose your phone number in a form or use it to login at a website."
-msgstr "透過您 IRMA 程式中的手機號碼，您可以證明這個號碼確實是您所有。舉例來說，您可"
-"以在表單中揭露您的手機號碼，或是用來登入網站。"
+msgstr "透過您 IRMA 程式中的行動電話號碼，您可以證明這個號碼確實是您所有。舉例來說，"
+"您可以在表單中揭露您的行動電話號碼，或是用來登入網站。"
 
 #. (itstool) path: FAQContent/en
 #: ./pbdf/Issues/mobilenumber/description.xml:37
@@ -1517,7 +1517,7 @@ msgstr "透過您 IRMA 程式中的手機號碼，您可以證明這個號碼確
 msgid "You will add the following data:\\n• mobile phone number."
 msgstr ""
 "您會新增以下資料：\\n"
-"• 手機號碼。"
+"• 行動電話號碼。"
 
 #. (itstool) path: FAQHowto/en
 #: ./pbdf/Issues/mobilenumber/description.xml:41
@@ -1525,13 +1525,14 @@ msgstr ""
 msgid "Complete the following steps.\\n1. Enter your mobile phone number.\\n2. Check the IRMA SMS message on your phone.\\n3. Use either the verification code in the message, or use the link in the message. After filling in the verification on the webpage for issuing phone numbers you will see a QR code that you can scan with the IRMA app on your phone. If you use the direct link in the SMS message you are sent back automatically to the IRMA app.\\n\\nYou now receive a card with your mobile phone number. Repeat this process for other mobile phone numbers that you wish to add."
 msgstr ""
 "請完成以下步驟。\\n"
-"1. 輸入您的手機號碼。\\n"
-"2. 在手機上檢查是否有收到來自 IRMA 的 SMS 簡訊。\\n"
-"3. 使用簡訊中的驗證碼或是連結。在驗證用的網頁上填寫手機號碼，然後您會看到 QR "
-"圖碼，您可以使用手機上的 IRMA 程式掃描它。若您點按簡訊中的直接連結，"
-"您會被自動送回 IRMA 程式中。\\n"
+"1. 輸入您的行動電話號碼。\\n"
+"2. 在行動電話上檢查是否有收到來自 IRMA 的 SMS 簡訊。\\n"
+"3. 使用簡訊中的驗證碼或是連結。在驗證用的網頁上填寫行動電話號碼，"
+"然後您會看到 QR 圖碼，您可以使用行動電話上的 IRMA "
+"程式掃描它。若您點按簡訊中的直接連結，您會被自動送回 IRMA 程式中。\\n"
 "\\n"
-"現在，您會收到您手機號碼的卡片。請對您想要新增的其他手機號碼重複此流程。"
+"現在，您會收到您行動電話號碼的卡片。請對您想要新增的其他行動電話號碼重複此流"
+"程。"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
@@ -1859,12 +1860,12 @@ msgstr "登入資料"
 #. (itstool) path: Description/en
 #: ./sidn-pbdf/Issues/uniqueid/description.xml:14
 msgid "Your unique login data."
-msgstr "您唯一的登入資料。"
+msgstr "您唯一識別的登入資料。"
 
 #. (itstool) path: Description/en
 #: ./sidn-pbdf/Issues/uniqueid/description.xml:26
 msgid "Your unique login code."
-msgstr "您唯一的登入代碼。"
+msgstr "您唯一識別的登入代碼。"
 
 #. (itstool) path: Name/en
 #: ./sidn-pbdf/Issues/uniqueid/description.xml:32
@@ -1973,4 +1974,4 @@ msgstr "委任 ID"
 #. (itstool) path: Description/en
 #: ./vgz/Issues/machtiging/description.xml:50
 msgid "A unique ID for this mandate"
-msgstr "此委任的唯一 ID"
+msgstr "此委任的唯一識別 ID"
