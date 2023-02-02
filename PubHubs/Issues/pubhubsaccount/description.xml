@@ -1,51 +1,60 @@
 <IssueSpecification version="4">
-	<Name>
-		<en>PubHubs Account</en>
-		<nl>PubHubs Account</nl>
-	</Name>
-	<ShortName>
-		<en>PubHubs Account</en>
-		<nl>PubHubs Account</nl>
-	</ShortName>
-	<SchemeManager>pbdf</SchemeManager>
-	<IssuerID>PubHubs</IssuerID>
-	<CredentialID>pubhubsaccount</CredentialID>
-	<Description>
-		<en>Your PubHubs account</en>
-		<nl>Je PubHubs account</nl>
-	</Description>
-	<ShouldBeSingleton>false</ShouldBeSingleton>
+    <Name>
+        <en>PubHubs Account</en>
+        <nl>PubHubs Account</nl>
+        <zh>PubHubs 帳號</zh>
+    </Name>
+    <ShortName>
+        <en>PubHubs Account</en>
+        <nl>PubHubs Account</nl>
+        <zh>PubHubs 帳號</zh>
+    </ShortName>
+    <SchemeManager>pbdf</SchemeManager>
+    <IssuerID>PubHubs</IssuerID>
+    <CredentialID>pubhubsaccount</CredentialID>
+    <Description>
+        <en>Your PubHubs account</en>
+        <nl>Je PubHubs account</nl>
+        <zh>您的 PubHubs 帳號</zh>
+    </Description>
+    <ShouldBeSingleton>false</ShouldBeSingleton>
 
-	<Attributes>
-		<Attribute id="email">
-			<Name>
-				<en>Email address</en>
-				<nl>E-mailadres</nl>
-			</Name>
-			<Description>
-				<en>Your email address</en>
-				<nl>Je e-mailadres</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="mobilenumber">
-			<Name>
-				<en>Mobile phone number</en>
-				<nl>Mobiele telefoonnummer</nl>
-			</Name>
-			<Description>
-				<en>Your mobile phone number</en>
-				<nl>Je mobiel telefoonnummer</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="registrationdate">
-			<Name>
-				<en>Registration date</en>
-				<nl>Registratiedatum</nl>
-			</Name>
-			<Description>
-				<en>Your registration date</en>
-				<nl>Jouw registratie datum</nl>
-			</Description>
-		</Attribute>
-	</Attributes>
+    <Attributes>
+        <Attribute id="email">
+            <Name>
+                <en>Email address</en>
+                <nl>E-mailadres</nl>
+                <zh>電子郵件地址</zh>
+            </Name>
+            <Description>
+                <en>Your email address</en>
+                <nl>Je e-mailadres</nl>
+                <zh>您的電子郵件地址</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="mobilenumber">
+            <Name>
+                <en>Mobile phone number</en>
+                <nl>Mobiele telefoonnummer</nl>
+                <zh>行動電話號碼</zh>
+            </Name>
+            <Description>
+                <en>Your mobile phone number</en>
+                <nl>Je mobiel telefoonnummer</nl>
+                <zh>您的行動電話號碼</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="registrationdate">
+            <Name>
+                <en>Registration date</en>
+                <nl>Registratiedatum</nl>
+                <zh>登記日期</zh>
+            </Name>
+            <Description>
+                <en>Your registration date</en>
+                <nl>Jouw registratie datum</nl>
+                <zh>您的登記日期</zh>
+            </Description>
+        </Attribute>
+    </Attributes>
 </IssueSpecification>

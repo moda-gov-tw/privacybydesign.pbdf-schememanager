@@ -1,15 +1,17 @@
 <Issuer version="4">
-	<ID>gemeente</ID>
-	<ShortName>
-		<en>Your Municipality</en>
-		<nl>Je Gemeente</nl>
-	</ShortName>
-	<Name>
-		<en>Your Municipality</en>
-		<nl>Je Gemeente</nl>
-	</Name>
-	<SchemeManager>pbdf</SchemeManager>
-	<ContactAddress>https://www.nijmegen.nl</ContactAddress>
-	<ContactEMail>b.withaar@nijmegen.nl</ContactEMail>
-	<baseURL></baseURL>
+    <ID>gemeente</ID>
+    <ShortName>
+        <en>Your Municipality</en>
+        <nl>Je Gemeente</nl>
+        <zh>您的省市鎮</zh>
+    </ShortName>
+    <Name>
+        <en>Your Municipality</en>
+        <nl>Je Gemeente</nl>
+        <zh>您的省市鎮</zh>
+    </Name>
+    <SchemeManager>pbdf</SchemeManager>
+    <ContactAddress>https://www.nijmegen.nl</ContactAddress>
+    <ContactEMail>b.withaar@nijmegen.nl</ContactEMail>
+    <baseURL></baseURL>
 </Issuer>

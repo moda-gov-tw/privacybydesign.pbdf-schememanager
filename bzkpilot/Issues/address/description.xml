@@ -1,102 +1,116 @@
 <IssueSpecification version="4">
-	<Name>
-		<en>Address</en>
-		<nl>Adres</nl>
-	</Name>
-	<ShortName>
-		<en>Address</en>
-		<nl>Adres</nl>
-	</ShortName>
-	<SchemeManager>pbdf</SchemeManager>
-	<IssuerID>bzkpilot</IssuerID>
-	<CredentialID>address</CredentialID>
-	<Description>
-		<en>Your home address, from the Dutch population register</en>
-		<nl>Je adres, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
-	</Description>
-	<IssueURL>
-		<en>https://mul-mmi.belastingdienst.nl/IRMA-authenticator-(-pilot)</en>
-		<nl>https://mul-mmi.belastingdienst.nl/IRMA-authenticator-(-pilot)</nl>
-	</IssueURL>
-	<IsULIssueURL>true</IsULIssueURL>
-	<ShouldBeSingleton>true</ShouldBeSingleton>
+    <Name>
+        <en>Address</en>
+        <nl>Adres</nl>
+        <zh>地址</zh>
+    </Name>
+    <ShortName>
+        <en>Address</en>
+        <nl>Adres</nl>
+        <zh>地址</zh>
+    </ShortName>
+    <SchemeManager>pbdf</SchemeManager>
+    <IssuerID>bzkpilot</IssuerID>
+    <CredentialID>address</CredentialID>
+    <Description>
+        <en>Your home address, from the Dutch population register</en>
+        <nl>Je adres, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
+        <zh>您的住家地址，出自荷蘭人口登記名冊</zh>
+    </Description>
+    <IssueURL>
+        <en>https://mul-mmi.belastingdienst.nl/IRMA-authenticator-(-pilot)</en>
+        <nl>https://mul-mmi.belastingdienst.nl/IRMA-authenticator-(-pilot)</nl>
+        <zh>https://mul-mmi.belastingdienst.nl/IRMA-authenticator-(-pilot)</zh>
+    </IssueURL>
+    <IsULIssueURL>true</IsULIssueURL>
+    <ShouldBeSingleton>true</ShouldBeSingleton>
 
-	<ForegroundColor>#ffffff</ForegroundColor>
-	<BackgroundGradientStart>#014483</BackgroundGradientStart>
-	<BackgroundGradientEnd>#2574A6</BackgroundGradientEnd>
-	<IsInCredentialStore>false</IsInCredentialStore>
+    <ForegroundColor>#ffffff</ForegroundColor>
+    <BackgroundGradientStart>#014483</BackgroundGradientStart>
+    <BackgroundGradientEnd>#2574A6</BackgroundGradientEnd>
+    <IsInCredentialStore>false</IsInCredentialStore>
 
-	<Category>
-		<en>Personal</en>
-		<nl>Persoonlijk</nl>
-	</Category>
-	<FAQIntro>
-		<en>Add your address from the Dutch population register (BRP) to your IRMA app.</en>
-		<nl>Laad je adres uit de basisregistratie personen (BRP) in je IRMA-app.</nl>
-	</FAQIntro>
-	<FAQPurpose>
-		<en>With your home address in your IRMA app, you can give information about where you live. For instance, you can prove in which municipality you live without disclosing your exact address.</en>
-		<nl>Met jouw woonadres in de IRMA-app kun je informatie geven over waar je woont. Dan kun je bijvoorbeeld bewijzen in welke gemeente je woont zonder je exacte adres te onthullen.</nl>
-	</FAQPurpose>
-	<FAQContent>
-		<en>You will add the following data:\n• street,\n• street number,\n• postal code,\n• city,\n• municipality.</en>
-		<nl>Je laadt de volgende gegevens:\n• straat,\n• huisnummer,\n• postcode,\n• woonplaats,\n• gemeente.</nl>
-	</FAQContent>
-	<FAQHowto>
-		<en>Complete the following steps.\n1. Open the Sesame ID app and enter your PIN code.\n2. In the Sesame app, choose 'Sharing data' and select 'IRMA'.\n3. Confirm that you wish to add your data to your IRMA app. The Sesame ID app copies your data into your IRMA-app.\n\nYou now receive two cards: one card with your home address and automatically also one card with your personal details.</en>
-		<nl>Doorloop de volgende stappen.\n1. Open de Sesam ID-app en voer je pincode in.\n2. Kies in de Sesam app voor 'Gegevens delen' en selecteer 'IRMA'.\n3. Bevestig het overzetten van je gegevens naar je IRMA-app. De Sesam ID-app voegt je gegevens toe in je IRMA-app.\n\nJe ontvangt nu nu twee kaartjes: een kaartje met je woonadres, en automatisch ook een kaartje met je persoonsgegevens.</nl>
-	</FAQHowto>
+    <Category>
+        <en>Personal</en>
+        <nl>Persoonlijk</nl>
+    </Category>
+    <FAQIntro>
+        <en>Add your address from the Dutch population register (BRP) to your IRMA app.</en>
+        <nl>Laad je adres uit de basisregistratie personen (BRP) in je IRMA-app.</nl>
+    </FAQIntro>
+    <FAQPurpose>
+        <en>With your home address in your IRMA app, you can give information about where you live. For instance, you can prove in which municipality you live without disclosing your exact address.</en>
+        <nl>Met jouw woonadres in de IRMA-app kun je informatie geven over waar je woont. Dan kun je bijvoorbeeld bewijzen in welke gemeente je woont zonder je exacte adres te onthullen.</nl>
+    </FAQPurpose>
+    <FAQContent>
+        <en>You will add the following data:\n• street,\n• street number,\n• postal code,\n• city,\n• municipality.</en>
+        <nl>Je laadt de volgende gegevens:\n• straat,\n• huisnummer,\n• postcode,\n• woonplaats,\n• gemeente.</nl>
+    </FAQContent>
+    <FAQHowto>
+        <en>Complete the following steps.\n1. Open the Sesame ID app and enter your PIN code.\n2. In the Sesame app, choose 'Sharing data' and select 'IRMA'.\n3. Confirm that you wish to add your data to your IRMA app. The Sesame ID app copies your data into your IRMA-app.\n\nYou now receive two cards: one card with your home address and automatically also one card with your personal details.</en>
+        <nl>Doorloop de volgende stappen.\n1. Open de Sesam ID-app en voer je pincode in.\n2. Kies in de Sesam app voor 'Gegevens delen' en selecteer 'IRMA'.\n3. Bevestig het overzetten van je gegevens naar je IRMA-app. De Sesam ID-app voegt je gegevens toe in je IRMA-app.\n\nJe ontvangt nu nu twee kaartjes: een kaartje met je woonadres, en automatisch ook een kaartje met je persoonsgegevens.</nl>
+    </FAQHowto>
 
-	<Attributes>
-		<Attribute id="street" displayIndex="0">
-			<Name>
-				<en>Street</en>
-				<nl>Straat</nl>
-			</Name>
-			<Description>
-				<en>Your street</en>
-				<nl>Je straat</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="houseNumber" optional="true" displayIndex="1">
-			<Name>
-				<en>House number</en>
-				<nl>Huisnummer</nl>
-			</Name>
-			<Description>
-				<en>Your house number, with possible extension</en>
-				<nl>Je huisnummer, met eventuele toevoeging</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="zipcode" displayIndex="2">
-			<Name>
-				<en>Postal code</en>
-				<nl>Postcode</nl>
-			</Name>
-			<Description>
-				<en>Your postal code</en>
-				<nl>Je postcode</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="city" displayIndex="3">
-			<Name>
-				<en>City</en>
-				<nl>Woonplaats</nl>
-			</Name>
-			<Description>
-				<en>Your city of residence</en>
-				<nl>Je woonplaats</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="municipality" displayIndex="4">
-			<Name>
-				<en>Municipality</en>
-				<nl>Gemeente</nl>
-			</Name>
-			<Description>
-				<en>Your municipality</en>
-				<nl>Je gemeente</nl>
-			</Description>
-		</Attribute>
-	</Attributes>
+    <Attributes>
+        <Attribute id="street" displayIndex="0">
+            <Name>
+                <en>Street</en>
+                <nl>Straat</nl>
+                <zh>街道</zh>
+            </Name>
+            <Description>
+                <en>Your street</en>
+                <nl>Je straat</nl>
+                <zh>您的街道</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="houseNumber" optional="true" displayIndex="1">
+            <Name>
+                <en>House number</en>
+                <nl>Huisnummer</nl>
+                <zh>門牌號碼</zh>
+            </Name>
+            <Description>
+                <en>Your house number, with possible extension</en>
+                <nl>Je huisnummer, met eventuele toevoeging</nl>
+                <zh>您的門牌號碼，可以有延伸資訊</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="zipcode" displayIndex="2">
+            <Name>
+                <en>Postal code</en>
+                <nl>Postcode</nl>
+                <zh>郵遞區號</zh>
+            </Name>
+            <Description>
+                <en>Your postal code</en>
+                <nl>Je postcode</nl>
+                <zh>您的郵遞區號</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="city" displayIndex="3">
+            <Name>
+                <en>City</en>
+                <nl>Woonplaats</nl>
+                <zh>鄉鎮市區</zh>
+            </Name>
+            <Description>
+                <en>Your city of residence</en>
+                <nl>Je woonplaats</nl>
+                <zh>您居住的鄉鎮市區</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="municipality" displayIndex="4">
+            <Name>
+                <en>Municipality</en>
+                <nl>Gemeente</nl>
+                <zh>省市鎮</zh>
+            </Name>
+            <Description>
+                <en>Your municipality</en>
+                <nl>Je gemeente</nl>
+                <zh>您的省市鎮</zh>
+            </Description>
+        </Attribute>
+    </Attributes>
 </IssueSpecification>

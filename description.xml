@@ -1,21 +1,21 @@
 <SchemeManager version="7">
-	<Id>pbdf</Id>
-	<Url>https://privacybydesign.foundation/schememanager/pbdf</Url>
-	<Name>
-		<en>Privacy by Design Foundation</en>
-		<nl>Stichting Privacy by Design</nl>
-	</Name>
-	<Description>
-		<en>The Privacy by Design Foundation develops the IRMA app and the IRMA infrastructure, and issues basic attributes for free</en>
-		<nl>De stichting Privacy by Design ontwikkelt de IRMA app en de IRMA infrastructuur, en geeft gratis een set basisattributen uit</nl>
-	</Description>
-	<MinimumAppVersion>
-		<Android>49</Android>
-		<iOS>33</iOS>
-	</MinimumAppVersion>
-	<KeyshareServer>https://irma.sidn.nl/tomcat/irma_keyshare_server/api/v1</KeyshareServer>
-	<KeyshareWebsite>https://privacybydesign.foundation/mijnirma/</KeyshareWebsite>
-	<KeyshareAttribute>pbdf.pbdf.mijnirma.email</KeyshareAttribute>
-	<TimestampServer>https://irma.sidn.nl/atumd/</TimestampServer>
-	<Contact>https://privacybydesign.foundation/</Contact>
+    <Id>pbdf</Id>
+    <Url>https://privacybydesign.foundation/schememanager/pbdf</Url>
+    <Name>
+        <en>Privacy by Design Foundation</en>
+        <nl>Stichting Privacy by Design</nl>
+    </Name>
+    <Description>
+        <en>The Privacy by Design Foundation develops the IRMA app and the IRMA infrastructure, and issues basic attributes for free</en>
+        <nl>De stichting Privacy by Design ontwikkelt de IRMA app en de IRMA infrastructuur, en geeft gratis een set basisattributen uit</nl>
+    </Description>
+    <MinimumAppVersion>
+        <Android>49</Android>
+        <iOS>33</iOS>
+    </MinimumAppVersion>
+    <KeyshareServer>https://irma.sidn.nl/tomcat/irma_keyshare_server/api/v1</KeyshareServer>
+    <KeyshareWebsite>https://privacybydesign.foundation/mijnirma/</KeyshareWebsite>
+    <KeyshareAttribute>pbdf.pbdf.mijnirma.email</KeyshareAttribute>
+    <TimestampServer>https://irma.sidn.nl/atumd/</TimestampServer>
+    <Contact>https://privacybydesign.foundation/</Contact>
 </SchemeManager>

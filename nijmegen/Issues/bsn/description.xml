@@ -1,35 +1,41 @@
 <IssueSpecification version="4">
-	<Name>
-		<en>BSN</en>
-		<nl>BSN</nl>
-	</Name>
-	<ShortName>
-		<en>BSN</en>
-		<nl>BSN</nl>
-	</ShortName>
-	<SchemeManager>pbdf</SchemeManager>
-	<IssuerID>nijmegen</IssuerID>
-	<CredentialID>bsn</CredentialID>
-	<Description>
-		<en>Your Dutch Citizen service number (BSN), from the Dutch population register</en>
-		<nl>Je Burgerservicenummer (BSN), afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
-	</Description>
-	<ShouldBeSingleton>true</ShouldBeSingleton>
-	<IssueURL>
-		<en>https://services.nijmegen.nl/irma/issue/start</en>
-		<nl>https://services.nijmegen.nl/irma/issue/start</nl>
-	</IssueURL>
+    <Name>
+        <en>BSN</en>
+        <nl>BSN</nl>
+        <zh>BSN</zh>
+    </Name>
+    <ShortName>
+        <en>BSN</en>
+        <nl>BSN</nl>
+        <zh>BSN</zh>
+    </ShortName>
+    <SchemeManager>pbdf</SchemeManager>
+    <IssuerID>nijmegen</IssuerID>
+    <CredentialID>bsn</CredentialID>
+    <Description>
+        <en>Your Dutch Citizen service number (BSN), from the Dutch population register</en>
+        <nl>Je Burgerservicenummer (BSN), afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
+        <zh>您的荷蘭公民服務號碼 (BSN)，出自荷蘭人口登記名冊</zh>
+    </Description>
+    <ShouldBeSingleton>true</ShouldBeSingleton>
+    <IssueURL>
+        <en>https://services.nijmegen.nl/irma/issue/start</en>
+        <nl>https://services.nijmegen.nl/irma/issue/start</nl>
+        <zh>https://services.nijmegen.nl/irma/issue/start</zh>
+    </IssueURL>
 
-	<Attributes>
-		<Attribute id="bsn">
-			<Name>
-				<en>BSN</en>
-				<nl>BSN</nl>
-			</Name>
-			<Description>
-				<en>Your Dutch Citizen service number (BSN)</en>
-				<nl>Je Burgerservicenummer (BSN)</nl>
-			</Description>
-		</Attribute>
-	</Attributes>
+    <Attributes>
+        <Attribute id="bsn">
+            <Name>
+                <en>BSN</en>
+                <nl>BSN</nl>
+                <zh>BSN</zh>
+            </Name>
+            <Description>
+                <en>Your Dutch Citizen service number (BSN)</en>
+                <nl>Je Burgerservicenummer (BSN)</nl>
+                <zh>您的荷蘭公民服務號碼 (BSN)</zh>
+            </Description>
+        </Attribute>
+    </Attributes>
 </IssueSpecification>

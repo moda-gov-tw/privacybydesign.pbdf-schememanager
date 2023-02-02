@@ -1,79 +1,93 @@
 <IssueSpecification version="4">
-	<Name>
-		<en>LinkedIn</en>
-		<nl>LinkedIn</nl>
-	</Name>
-	<ShortName>
-		<en>LinkedIn</en>
-		<nl>LinkedIn</nl>
-	</ShortName>
-	<SchemeManager>pbdf</SchemeManager>
-	<IssuerID>pbdf</IssuerID>
-	<CredentialID>linkedin</CredentialID>
-	<Description>
-		<en>LinkedIn attributes from your LinkedIn account</en>
-		<nl>LinkedIn attributen uit je LinkedIn account</nl>
-	</Description>
-	<ShouldBeSingleton>false</ShouldBeSingleton>
-	<IssueURL>
-		<en>https://privacybydesign.foundation/issuance/social/linkedin/</en>
-		<nl>https://privacybydesign.foundation/uitgifte/social/linkedin/</nl>
-	</IssueURL>
+    <Name>
+        <en>LinkedIn</en>
+        <nl>LinkedIn</nl>
+        <zh>LinkedIn</zh>
+    </Name>
+    <ShortName>
+        <en>LinkedIn</en>
+        <nl>LinkedIn</nl>
+        <zh>LinkedIn</zh>
+    </ShortName>
+    <SchemeManager>pbdf</SchemeManager>
+    <IssuerID>pbdf</IssuerID>
+    <CredentialID>linkedin</CredentialID>
+    <Description>
+        <en>LinkedIn attributes from your LinkedIn account</en>
+        <nl>LinkedIn attributen uit je LinkedIn account</nl>
+        <zh>出自您 LinkedIn 帳號的 LinkedIn 特性</zh>
+    </Description>
+    <ShouldBeSingleton>false</ShouldBeSingleton>
+    <IssueURL>
+        <en>https://privacybydesign.foundation/issuance/social/linkedin/</en>
+        <nl>https://privacybydesign.foundation/uitgifte/social/linkedin/</nl>
+        <zh>https://privacybydesign.foundation/issuance/social/linkedin/</zh>
+    </IssueURL>
 
-	<ForegroundColor>#FFFFFF</ForegroundColor>
-	<BackgroundGradientStart>#0277B5</BackgroundGradientStart>
-	<BackgroundGradientEnd>#196E9F</BackgroundGradientEnd>
+    <ForegroundColor>#FFFFFF</ForegroundColor>
+    <BackgroundGradientStart>#0277B5</BackgroundGradientStart>
+    <BackgroundGradientEnd>#196E9F</BackgroundGradientEnd>
 
-	<Attributes>
-		<Attribute id="fullname" optional="true">
-			<Name>
-				<en>Full name</en>
-				<nl>Volledige naam</nl>
-			</Name>
-			<Description>
-				<en>Your full name, as registered by LinkedIn</en>
-				<nl>Je volledige naam, zoals geregistreerd bij LinkedIn</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="firstname">
-			<Name>
-				<en>First name</en>
-				<nl>Voornaam</nl>
-			</Name>
-			<Description>
-				<en>Your first name, as registered by LinkedIn</en>
-				<nl>Je voornaam, zoals geregistreerd bij LinkedIn</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="familyname">
-			<Name>
-				<en>Family name</en>
-				<nl>Achternaam</nl>
-			</Name>
-			<Description>
-				<en>Your family name, as registered by LinkedIn</en>
-				<nl>Je achternaam, zoals geregistreerd bij LinkedIn</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="email">
-			<Name>
-				<en>Email address</en>
-				<nl>E-mailadres</nl>
-			</Name>
-			<Description>
-				<en>Your email address, as registered by LinkedIn</en>
-				<nl>Je e-mailadres, zoals geregistreerd bij LinkedIn</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="profileurl" optional="true">
-			<Name>
-				<en>Profile</en>
-				<nl>Profiel</nl>
-			</Name>
-			<Description>
-				<en>URL to your LinkedIn profile</en>
-				<nl>URL naar je LinkedIn-profiel</nl>
-			</Description>
-		</Attribute>
-	</Attributes>
+    <Attributes>
+        <Attribute id="fullname" optional="true">
+            <Name>
+                <en>Full name</en>
+                <nl>Volledige naam</nl>
+                <zh>全名</zh>
+            </Name>
+            <Description>
+                <en>Your full name, as registered by LinkedIn</en>
+                <nl>Je volledige naam, zoals geregistreerd bij LinkedIn</nl>
+                <zh>您在 LinkedIn 上登記的全名</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="firstname">
+            <Name>
+                <en>First name</en>
+                <nl>Voornaam</nl>
+                <zh>名字</zh>
+            </Name>
+            <Description>
+                <en>Your first name, as registered by LinkedIn</en>
+                <nl>Je voornaam, zoals geregistreerd bij LinkedIn</nl>
+                <zh>您在 LinkedIn 上登記的名字</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="familyname">
+            <Name>
+                <en>Family name</en>
+                <nl>Achternaam</nl>
+                <zh>姓氏</zh>
+            </Name>
+            <Description>
+                <en>Your family name, as registered by LinkedIn</en>
+                <nl>Je achternaam, zoals geregistreerd bij LinkedIn</nl>
+                <zh>您在 LinkedIn 上登記的姓氏</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="email">
+            <Name>
+                <en>Email address</en>
+                <nl>E-mailadres</nl>
+                <zh>電子郵件地址</zh>
+            </Name>
+            <Description>
+                <en>Your email address, as registered by LinkedIn</en>
+                <nl>Je e-mailadres, zoals geregistreerd bij LinkedIn</nl>
+                <zh>您在 LinkedIn 上登記的電子郵件地址</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="profileurl" optional="true">
+            <Name>
+                <en>Profile</en>
+                <nl>Profiel</nl>
+                <zh>個人檔案</zh>
+            </Name>
+            <Description>
+                <en>URL to your LinkedIn profile</en>
+                <nl>URL naar je LinkedIn-profiel</nl>
+                <zh>指向您 LinkedIn 個人檔案的網址</zh>
+            </Description>
+        </Attribute>
+    </Attributes>
 </IssueSpecification>
