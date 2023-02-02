@@ -1,51 +1,60 @@
 <IssueSpecification version="4">
-	<Name>
-		<en>SURFdrive license</en>
-		<nl>SURFdrive licentie</nl>
-	</Name>
-	<ShortName>
-		<en>SURFdrive license</en>
-		<nl>SURFdrive licentie</nl>
-	</ShortName>
-	<SchemeManager>pbdf</SchemeManager>
-	<IssuerID>surf</IssuerID>
-	<CredentialID>surfdrive</CredentialID>
-	<Description>
-		<en>Your SURFdrive licence, for logging in at SURFdrive</en>
-		<nl>Je SURFdrive licentie, waarmee je in kunt loggen op SURFdrive</nl>
-	</Description>
-	<ShouldBeSingleton>false</ShouldBeSingleton>
+    <Name>
+        <en>SURFdrive license</en>
+        <nl>SURFdrive licentie</nl>
+        <zh>SURFdrive 許可證</zh>
+    </Name>
+    <ShortName>
+        <en>SURFdrive license</en>
+        <nl>SURFdrive licentie</nl>
+        <zh>SURFdrive 許可證</zh>
+    </ShortName>
+    <SchemeManager>pbdf</SchemeManager>
+    <IssuerID>surf</IssuerID>
+    <CredentialID>surfdrive</CredentialID>
+    <Description>
+        <en>Your SURFdrive licence, for logging in at SURFdrive</en>
+        <nl>Je SURFdrive licentie, waarmee je in kunt loggen op SURFdrive</nl>
+        <zh>您的 SURFdrive 許可證，用來登入 SURFdrive</zh>
+    </Description>
+    <ShouldBeSingleton>false</ShouldBeSingleton>
 
-	<Attributes>
-		<Attribute id="eppn">
-			<Name>
-				<en>Institution user ID</en>
-				<nl>Instelling gebruikers-ID</nl>
-			</Name>
-			<Description>
-				<en>Your ID at your institute</en>
-				<nl>Je ID bij je instelling</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="emailadres">
-			<Name>
-				<en>Email address</en>
-				<nl>E-mailadres</nl>
-			</Name>
-			<Description>
-				<en>Your email address</en>
-				<nl>Je e-mailadres</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="displayname">
-			<Name>
-				<en>Name</en>
-				<nl>Naam</nl>
-			</Name>
-			<Description>
-				<en>Your name</en>
-				<nl>Je naam</nl>
-			</Description>
-		</Attribute>
-	</Attributes>
+    <Attributes>
+        <Attribute id="eppn">
+            <Name>
+                <en>Institution user ID</en>
+                <nl>Instelling gebruikers-ID</nl>
+                <zh>機構使用者 ID</zh>
+            </Name>
+            <Description>
+                <en>Your ID at your institute</en>
+                <nl>Je ID bij je instelling</nl>
+                <zh>您在機構中的 ID</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="emailadres">
+            <Name>
+                <en>Email address</en>
+                <nl>E-mailadres</nl>
+                <zh>電子郵件地址</zh>
+            </Name>
+            <Description>
+                <en>Your email address</en>
+                <nl>Je e-mailadres</nl>
+                <zh>您的電子郵件地址</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="displayname">
+            <Name>
+                <en>Name</en>
+                <nl>Naam</nl>
+                <zh>名字</zh>
+            </Name>
+            <Description>
+                <en>Your name</en>
+                <nl>Je naam</nl>
+                <zh>您的名字</zh>
+            </Description>
+        </Attribute>
+    </Attributes>
 </IssueSpecification>

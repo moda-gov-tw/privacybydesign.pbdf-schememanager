@@ -1,168 +1,196 @@
 <IssueSpecification version="4">
-	<Name>
-		<en>Pilot ID card data</en>
-		<nl>Pilot ID-kaartgegevens</nl>
-	</Name>
-	<ShortName>
-		<en>Pilot ID card data</en>
-		<nl>Pilot ID-kaartgegevens</nl>
-	</ShortName>
-	<SchemeManager>pbdf</SchemeManager>
-	<IssuerID>pilot-amsterdam</IssuerID>
-	<CredentialID>idcard</CredentialID>
-	<Description>
-		<en>Your Dutch ID card, read from the Yivi desk</en>
-		<nl>Je Nederlandse ID-kaart, uitgelezen via de Yivi-balie</nl>
-	</Description>
-	<ShouldBeSingleton>true</ShouldBeSingleton>
-	<ForegroundColor>#15222E</ForegroundColor>
-	<BackgroundGradientStart>#C5E6D3</BackgroundGradientStart>
-	<BackgroundGradientEnd>#F5E19C</BackgroundGradientEnd>
-	<Category>
-		<en>Personal</en>
-		<nl>Persoonlijk</nl>
-	</Category>
+    <Name>
+        <en>Pilot ID card data</en>
+        <nl>Pilot ID-kaartgegevens</nl>
+    </Name>
+    <ShortName>
+        <en>Pilot ID card data</en>
+        <nl>Pilot ID-kaartgegevens</nl>
+    </ShortName>
+    <SchemeManager>pbdf</SchemeManager>
+    <IssuerID>pilot-amsterdam</IssuerID>
+    <CredentialID>idcard</CredentialID>
+    <Description>
+        <en>Your Dutch ID card, read from the Yivi desk</en>
+        <nl>Je Nederlandse ID-kaart, uitgelezen via de Yivi-balie</nl>
+    </Description>
+    <ShouldBeSingleton>true</ShouldBeSingleton>
+    <ForegroundColor>#15222E</ForegroundColor>
+    <BackgroundGradientStart>#C5E6D3</BackgroundGradientStart>
+    <BackgroundGradientEnd>#F5E19C</BackgroundGradientEnd>
+    <Category>
+        <en>Personal</en>
+        <nl>Persoonlijk</nl>
+    </Category>
 
-	<Attributes>
-		<Attribute id="surname">
-			<Name>
-				<en>Surname</en>
-				<nl>Achternaam</nl>
-			</Name>
-			<Description>
-				<en>Your full family name: your family name or (a combination with) the name of your partner</en>
-				<nl>Je volledige achternaam: je geslachtsnaam of (een combinatie met) de naam van je partner</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="firstnames">
-			<Name>
-				<en>First names</en>
-				<nl>Voornamen</nl>
-			</Name>
-			<Description>
-				<en>All your first names</en>
-				<nl>Al je voornamen</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="gender">
-			<Name>
-				<en>Gender</en>
-				<nl>Geslacht</nl>
-			</Name>
-			<Description>
-				<en>Your gender</en>
-				<nl>Je geslacht</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="dateofbirth">
-			<Name>
-				<en>Date of birth</en>
-				<nl>Geboortedatum</nl>
-			</Name>
-			<Description>
-				<en>Your date of birth</en>
-				<nl>Je geboortedatum</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="over12" displayHint="yesno">
-			<Name>
-				<en>Over 12</en>
-				<nl>Ouder dan 12</nl>
-			</Name>
-			<Description>
-				<en>Whether you are over 12</en>
-				<nl>Of je ouder dan 12 bent</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="over16" displayHint="yesno">
-			<Name>
-				<en>Over 16</en>
-				<nl>Ouder dan 16</nl>
-			</Name>
-			<Description>
-				<en>Whether you are over 16</en>
-				<nl>Of je ouder dan 16 bent</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="over18" displayHint="yesno">
-			<Name>
-				<en>Over 18</en>
-				<nl>Ouder dan 18</nl>
-			</Name>
-			<Description>
-				<en>Whether you are over 18</en>
-				<nl>Of je ouder dan 18 bent</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="over21" displayHint="yesno">
-			<Name>
-				<en>Over 21</en>
-				<nl>Ouder dan 21</nl>
-			</Name>
-			<Description>
-				<en>Whether you are over 21</en>
-				<nl>Of je ouder dan 21 bent</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="over65" displayHint="yesno">
-			<Name>
-				<en>Over 65</en>
-				<nl>Ouder dan 65</nl>
-			</Name>
-			<Description>
-				<en>Whether you are over 65</en>
-				<nl>Of je ouder dan 65 bent</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="nationality">
-			<Name>
-				<en>Nationality</en>
-				<nl>Nationaliteit</nl>
-			</Name>
-			<Description>
-				<en>Your nationality</en>
-				<nl>Je nationaliteit</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="personalnumber">
-			<Name>
-				<en>Personal Identification Number</en>
-				<nl>Persoonlijk identificatienummer</nl>
-			</Name>
-			<Description>
-				<en>Your Personal Identification Number. For Dutch travel documents your Dutch Citizen service number (BSN)</en>
-				<nl>Je persoonlijk identificatienummber. Voor Nederlandse reisdocumenten je Burgerservicenummer (BSN)</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="assurancelevel">
-			<Name>
-				<en>Assurance level</en>
-				<nl>Betrouwbaarheidsniveau</nl>
-			</Name>
-			<Description>
-				<en>The level of assurance according to eIDAS </en>
-				<nl>Het betrouwbaarheidsniveau volgens eIDAS</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="documentnumber">
-			<Name>
-				<en>Document number</en>
-				<nl>Documentnummer</nl>
-			</Name>
-			<Description>
-				<en>The document number of your ID card</en>
-				<nl>Het documentnummer van je ID-kaart</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="photo" displayHint="portraitPhoto">
-			<Name>
-				<en>Photo</en>
-				<nl>Foto</nl>
-			</Name>
-			<Description>
-				<en>The portrait photo as included in your ID card</en>
-				<nl>De portretfoto die in je ID-kaart is opgenomen</nl>
-			</Description>
-		</Attribute>
-	</Attributes>
+    <Attributes>
+        <Attribute id="surname">
+            <Name>
+                <en>Surname</en>
+                <nl>Achternaam</nl>
+                <zh>姓氏</zh>
+            </Name>
+            <Description>
+                <en>Your full family name: your family name or (a combination with) the name of your partner</en>
+                <nl>Je volledige achternaam: je geslachtsnaam of (een combinatie met) de naam van je partner</nl>
+                <zh>您的全名：您的姓名或/與您伴侶姓氏的組合</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="firstnames">
+            <Name>
+                <en>First names</en>
+                <nl>Voornamen</nl>
+                <zh>名字</zh>
+            </Name>
+            <Description>
+                <en>All your first names</en>
+                <nl>Al je voornamen</nl>
+                <zh>您完整的名字</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="gender">
+            <Name>
+                <en>Gender</en>
+                <nl>Geslacht</nl>
+                <zh>性別</zh>
+            </Name>
+            <Description>
+                <en>Your gender</en>
+                <nl>Je geslacht</nl>
+                <zh>您的性別</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="dateofbirth">
+            <Name>
+                <en>Date of birth</en>
+                <nl>Geboortedatum</nl>
+                <zh>出生日期</zh>
+            </Name>
+            <Description>
+                <en>Your date of birth</en>
+                <nl>Je geboortedatum</nl>
+                <zh>您的出生日期</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="over12" displayHint="yesno">
+            <Name>
+                <en>Over 12</en>
+                <nl>Ouder dan 12</nl>
+                <zh>年滿 12 歲</zh>
+            </Name>
+            <Description>
+                <en>Whether you are over 12</en>
+                <nl>Of je ouder dan 12 bent</nl>
+                <zh>您是否年滿 12 歲</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="over16" displayHint="yesno">
+            <Name>
+                <en>Over 16</en>
+                <nl>Ouder dan 16</nl>
+                <zh>年滿 16 歲</zh>
+            </Name>
+            <Description>
+                <en>Whether you are over 16</en>
+                <nl>Of je ouder dan 16 bent</nl>
+                <zh>您是否年滿 16 歲</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="over18" displayHint="yesno">
+            <Name>
+                <en>Over 18</en>
+                <nl>Ouder dan 18</nl>
+                <zh>年滿 18 歲</zh>
+            </Name>
+            <Description>
+                <en>Whether you are over 18</en>
+                <nl>Of je ouder dan 18 bent</nl>
+                <zh>您是否年滿 18 歲</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="over21" displayHint="yesno">
+            <Name>
+                <en>Over 21</en>
+                <nl>Ouder dan 21</nl>
+                <zh>年滿 21 歲</zh>
+            </Name>
+            <Description>
+                <en>Whether you are over 21</en>
+                <nl>Of je ouder dan 21 bent</nl>
+                <zh>您是否年滿 21 歲</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="over65" displayHint="yesno">
+            <Name>
+                <en>Over 65</en>
+                <nl>Ouder dan 65</nl>
+                <zh>年滿 65 歲</zh>
+            </Name>
+            <Description>
+                <en>Whether you are over 65</en>
+                <nl>Of je ouder dan 65 bent</nl>
+                <zh>您是否年滿 65 歲</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="nationality">
+            <Name>
+                <en>Nationality</en>
+                <nl>Nationaliteit</nl>
+                <zh>國籍</zh>
+            </Name>
+            <Description>
+                <en>Your nationality</en>
+                <nl>Je nationaliteit</nl>
+                <zh>您的國籍</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="personalnumber">
+            <Name>
+                <en>Personal Identification Number</en>
+                <nl>Persoonlijk identificatienummer</nl>
+                <zh>個人身分識別碼</zh>
+            </Name>
+            <Description>
+                <en>Your Personal Identification Number. For Dutch travel documents your Dutch Citizen service number (BSN)</en>
+                <nl>Je persoonlijk identificatienummber. Voor Nederlandse reisdocumenten je Burgerservicenummer (BSN)</nl>
+                <zh>您的個人身分識別碼。對於荷蘭的旅行證件來說，就是荷蘭公民服務碼 (BSN)</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="assurancelevel">
+            <Name>
+                <en>Assurance level</en>
+                <nl>Betrouwbaarheidsniveau</nl>
+                <zh>保險等級</zh>
+            </Name>
+            <Description>
+                <en>The level of assurance according to eIDAS</en>
+                <nl>Het betrouwbaarheidsniveau volgens eIDAS</nl>
+                <zh>根據 eIDAS 的保險等級</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="documentnumber">
+            <Name>
+                <en>Document number</en>
+                <nl>Documentnummer</nl>
+                <zh>證件號碼</zh>
+            </Name>
+            <Description>
+                <en>The document number of your ID card</en>
+                <nl>Het documentnummer van je ID-kaart</nl>
+                <zh>您的身分證件號碼</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="photo" displayHint="portraitPhoto">
+            <Name>
+                <en>Photo</en>
+                <nl>Foto</nl>
+                <zh>照片</zh>
+            </Name>
+            <Description>
+                <en>The portrait photo as included in your ID card</en>
+                <nl>De portretfoto die in je ID-kaart is opgenomen</nl>
+                <zh>身分證件中的人像照片</zh>
+            </Description>
+        </Attribute>
+    </Attributes>
 </IssueSpecification>

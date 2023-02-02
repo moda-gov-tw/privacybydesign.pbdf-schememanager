@@ -1,16 +1,15 @@
 <Issuer version="4">
-	<ID>sidn-pbdf</ID>
-	<ShortName>
-		<en>Yivi</en>
-		<nl>Yivi</nl>
-	</ShortName>
-	<Name>
-		<en>Yivi</en>
-		<nl>Yivi</nl>
-	</Name>
-	<SchemeManager>pbdf</SchemeManager>
-	<ContactAddress>https://yivi.app</ContactAddress>
-	<ContactEMail>support@yivi.app</ContactEMail>
-	<baseURL></baseURL>
+    <ID>sidn-pbdf</ID>
+    <ShortName>
+        <en>Yivi</en>
+        <nl>Yivi</nl>
+    </ShortName>
+    <Name>
+        <en>Yivi</en>
+        <nl>Yivi</nl>
+    </Name>
+    <SchemeManager>pbdf</SchemeManager>
+    <ContactAddress>https://yivi.app</ContactAddress>
+    <ContactEMail>support@yivi.app</ContactEMail>
+    <baseURL></baseURL>
 </Issuer>
-

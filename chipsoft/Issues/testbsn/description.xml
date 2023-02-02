@@ -1,85 +1,100 @@
 <IssueSpecification version="4">
-  <Name>
-    <en>Test BSN from healthcare</en>
-    <nl>Test BSN vanuit de zorg</nl>
-  </Name>
-  <ShortName>
-    <en>Test BSN healthcare</en>
-    <nl>Test BSN zorg</nl>
-  </ShortName>
-  <SchemeManager>pbdf</SchemeManager>
-  <IssuerID>chipsoft</IssuerID>
-  <CredentialID>testbsn</CredentialID>
-  <Description>
-    <en>Test BSN from healthcare</en>
-    <nl>Test BSN vanuit de zorg</nl>
-  </Description>
-  <ShouldBeSingleton>true</ShouldBeSingleton>
-
-  <ForegroundColor>#ffffff</ForegroundColor>
-  <BackgroundGradientStart>#0E4B8F</BackgroundGradientStart>
-  <BackgroundGradientEnd>#023269</BackgroundGradientEnd>
-
-  <Attributes>
-    <Attribute id="bsn" displayIndex="0">
-      <Name>
+    <Name>
         <en>Test BSN from healthcare</en>
         <nl>Test BSN vanuit de zorg</nl>
-      </Name>
-      <Description>
+        <zh>測試出自衛生保健部門的 BSN</zh>
+    </Name>
+    <ShortName>
+        <en>Test BSN healthcare</en>
+        <nl>Test BSN zorg</nl>
+        <zh>測試衛生保健 BSN</zh>
+    </ShortName>
+    <SchemeManager>pbdf</SchemeManager>
+    <IssuerID>chipsoft</IssuerID>
+    <CredentialID>testbsn</CredentialID>
+    <Description>
         <en>Test BSN from healthcare</en>
         <nl>Test BSN vanuit de zorg</nl>
-      </Description>
-    </Attribute>
-    <Attribute id="initials" displayIndex="1">
-      <Name>
-        <en>Initials</en>
-        <nl>Voorletters</nl>
-      </Name>
-      <Description>
-        <en>Your initials, abbreviating your first names</en>
-        <nl>Je voorletters, een afkorting van je voornamen</nl>
-      </Description>
-    </Attribute>
-    <Attribute id="firstnames" displayIndex="2">
-      <Name>
-        <en>First names</en>
-        <nl>Voornamen</nl>
-      </Name>
-      <Description>
-        <en>Your first names</en>
-        <nl>Je voornamen</nl>
-      </Description>
-    </Attribute>
-    <Attribute id="prefix" optional="true" displayIndex="3">
-      <Name>
-        <en>Prefix</en>
-        <nl>Voorvoegsel</nl>
-      </Name>
-      <Description>
-        <en>Prefix of your family name</en>
-        <nl>Voorvoegsel van je achternaam</nl>
-      </Description>
-    </Attribute>
-    <Attribute id="familyname" displayIndex="4">
-      <Name>
-        <en>Family name</en>
-        <nl>Geslachtsnaam</nl>
-      </Name>
-      <Description>
-        <en>Your family name, as given to you at birth</en>
-        <nl>Je achternaam, zoals aan je toegekend bij je geboorte</nl>
-      </Description>
-    </Attribute>
-    <Attribute id="dateofbirth" displayIndex="5">
-      <Name>
-        <en>Date of birth</en>
-        <nl>Geboortedatum</nl>
-      </Name>
-      <Description>
-        <en>Your date of birth</en>
-        <nl>Je geboortedatum</nl>
-      </Description>
-    </Attribute>
-  </Attributes>
+        <zh>測試出自衛生保健部門的 BSN</zh>
+    </Description>
+    <ShouldBeSingleton>true</ShouldBeSingleton>
+
+    <ForegroundColor>#ffffff</ForegroundColor>
+    <BackgroundGradientStart>#0E4B8F</BackgroundGradientStart>
+    <BackgroundGradientEnd>#023269</BackgroundGradientEnd>
+
+    <Attributes>
+        <Attribute id="bsn" displayIndex="0">
+            <Name>
+                <en>Test BSN from healthcare</en>
+                <nl>Test BSN vanuit de zorg</nl>
+                <zh>測試出自衛生保健部門的 BSN</zh>
+            </Name>
+            <Description>
+                <en>Test BSN from healthcare</en>
+                <nl>Test BSN vanuit de zorg</nl>
+                <zh>測試出自衛生保健部門的 BSN</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="initials" displayIndex="1">
+            <Name>
+                <en>Initials</en>
+                <nl>Voorletters</nl>
+                <zh>名字縮寫</zh>
+            </Name>
+            <Description>
+                <en>Your initials, abbreviating your first names</en>
+                <nl>Je voorletters, een afkorting van je voornamen</nl>
+                <zh>您名字的首字母縮寫</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="firstnames" displayIndex="2">
+            <Name>
+                <en>First names</en>
+                <nl>Voornamen</nl>
+                <zh>名字</zh>
+            </Name>
+            <Description>
+                <en>Your first names</en>
+                <nl>Je voornamen</nl>
+                <zh>您的名字</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="prefix" optional="true" displayIndex="3">
+            <Name>
+                <en>Prefix</en>
+                <nl>Voorvoegsel</nl>
+                <zh>前綴</zh>
+            </Name>
+            <Description>
+                <en>Prefix of your family name</en>
+                <nl>Voorvoegsel van je achternaam</nl>
+                <zh>您姓氏的前綴</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="familyname" displayIndex="4">
+            <Name>
+                <en>Family name</en>
+                <nl>Geslachtsnaam</nl>
+                <zh>姓氏</zh>
+            </Name>
+            <Description>
+                <en>Your family name, as given to you at birth</en>
+                <nl>Je achternaam, zoals aan je toegekend bij je geboorte</nl>
+                <zh>您出生時的家族姓氏</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="dateofbirth" displayIndex="5">
+            <Name>
+                <en>Date of birth</en>
+                <nl>Geboortedatum</nl>
+                <zh>出生日期</zh>
+            </Name>
+            <Description>
+                <en>Your date of birth</en>
+                <nl>Je geboortedatum</nl>
+                <zh>您的出生日期</zh>
+            </Description>
+        </Attribute>
+    </Attributes>
 </IssueSpecification>

@@ -1,16 +1,18 @@
 <Issuer version="4">
-  <ID>nuts</ID>
-  <Name>
-    <en>Nuts</en>
-    <nl>Nuts</nl>
-  </Name>
-  <ShortName>
-    <en>Nuts</en>
-    <nl>Nuts</nl>
-  </ShortName>
-  <SchemeManager>pbdf</SchemeManager>
-  <ContactAddress>https://nuts.nl</ContactAddress>
-  <ContactEMail>info@nuts.nl</ContactEMail>
+    <ID>nuts</ID>
+    <Name>
+        <en>Nuts</en>
+        <nl>Nuts</nl>
+        <zh>Nuts</zh>
+    </Name>
+    <ShortName>
+        <en>Nuts</en>
+        <nl>Nuts</nl>
+        <zh>Nuts</zh>
+    </ShortName>
+    <SchemeManager>pbdf</SchemeManager>
+    <ContactAddress>https://nuts.nl</ContactAddress>
+    <ContactEMail>info@nuts.nl</ContactEMail>
 
-  <baseURL></baseURL>
+    <baseURL></baseURL>
 </Issuer>

@@ -1,16 +1,18 @@
 <Issuer version="4">
-	<ID>nijmegen</ID>
-	<DeprecatedSince>1576843200</DeprecatedSince>
-	<ShortName>
-		<en>Gemeente Nijmegen</en>
-		<nl>Gemeente Nijmegen</nl>
-	</ShortName>
-	<Name>
-		<en>Gemeente Nijmegen</en>
-		<nl>Gemeente Nijmegen</nl>
-	</Name>
-	<SchemeManager>pbdf</SchemeManager>
-	<ContactAddress>https://www.nijmegen.nl</ContactAddress>
-	<ContactEMail>gemeente@nijmegen.nl</ContactEMail>
-	<baseURL></baseURL>
+    <ID>nijmegen</ID>
+    <DeprecatedSince>1576843200</DeprecatedSince>
+    <ShortName>
+        <en>Gemeente Nijmegen</en>
+        <nl>Gemeente Nijmegen</nl>
+        <zh>Gemeente Nijmegen</zh>
+    </ShortName>
+    <Name>
+        <en>Gemeente Nijmegen</en>
+        <nl>Gemeente Nijmegen</nl>
+        <zh>Gemeente Nijmegen</zh>
+    </Name>
+    <SchemeManager>pbdf</SchemeManager>
+    <ContactAddress>https://www.nijmegen.nl</ContactAddress>
+    <ContactEMail>gemeente@nijmegen.nl</ContactEMail>
+    <baseURL></baseURL>
 </Issuer>

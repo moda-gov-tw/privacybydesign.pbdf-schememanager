@@ -1,66 +1,72 @@
 <IssueSpecification version="4">
-	<Name>
-		<en>Email address</en>
-		<nl>E-mailadres</nl>
-	</Name>
-	<ShortName>
-		<en>Email</en>
-		<nl>E-mail</nl>
-	</ShortName>
-	<SchemeManager>pbdf</SchemeManager>
-	<IssuerID>pbdf</IssuerID>
-	<CredentialID>email</CredentialID>
-	<DeprecatedSince>1606694400</DeprecatedSince>
-	<Description>
-		<en>Your verified email address</en>
-		<nl>Je geverifieerde e-mailadres</nl>
-	</Description>
-	<ShouldBeSingleton>false</ShouldBeSingleton>
+    <Name>
+        <en>Email address</en>
+        <nl>E-mailadres</nl>
+        <zh>電子郵件地址</zh>
+    </Name>
+    <ShortName>
+        <en>Email</en>
+        <nl>E-mail</nl>
+    </ShortName>
+    <SchemeManager>pbdf</SchemeManager>
+    <IssuerID>pbdf</IssuerID>
+    <CredentialID>email</CredentialID>
+    <DeprecatedSince>1606694400</DeprecatedSince>
+    <Description>
+        <en>Your verified email address</en>
+        <nl>Je geverifieerde e-mailadres</nl>
+        <zh>您驗證過的電子郵件地址</zh>
+    </Description>
+    <ShouldBeSingleton>false</ShouldBeSingleton>
 
-	<ForegroundColor>#15222E</ForegroundColor>
-	<BackgroundGradientStart>#3BB992</BackgroundGradientStart>
-	<BackgroundGradientEnd>#6CE6C1</BackgroundGradientEnd>
-	<Category>
-		<en>Personal</en>
-		<nl>Persoonlijk</nl>
-	</Category>
-	<FAQIntro>
-		<en>Add your email address to your Yivi app. You can add multiple email addresses.</en>
-		<nl>Laad je e-mailadres in je Yivi-app. Je kunt meerdere e-mailadressen toevoegen.</nl>
-	</FAQIntro>
-	<FAQPurpose>
-		<en>With your email address in your Yivi app, you can show that this address is really yours. For instance, you can use your email address to fill in a line in a form, or to login at a website.</en>
-		<nl>Met jouw e-mailadres in de Yivi-app kun je laten zien dat dit adres echt bij jou hoort. Je kunt bijvoorbeeld je e-mailadres gebruiken om een regel in een formulier in te vullen of om op een website in te loggen.</nl>
-	</FAQPurpose>
-	<FAQContent>
-		<en>You will add the following data:\n• email address\n• email domain name.</en>
-		<nl>Je laadt de volgende gegevens:\n• e-mailadres\n• e-mail domeinnaam.</nl>
-	</FAQContent>
-	<FAQHowto>
-		<en>Complete the following steps.\n1. Enter your e-mail address.\n2. Open your email application and go to your Inbox (if there is no new mail soon, please check your Spam folder).\n3. Click the link in the email message, sent by the Privacy by Design Foundation. If you see a QR code on your computer screen, scan it with the QR scanner in your Yivi app. The Privacy by Design Foundation copies your email data into your Yivi app.\n\nYou now receive a card with your email address and its domain name in your Yivi app. Repeat this process for other email addresses that you wish to add.</en>
-		<nl>Doorloop de volgende stappen.\n1. Vul je e-mailadres in.\n2. Open je e-maillezer en ga naar 'inkomende berichten' (als er geen mail verschijnt, controleer zonodig je Spam folder).\n3. Open de link in het e-mailbericht van de stichting Privacy by Design. Als je een QR-code te zien krijgt, scan deze met je Yivi-app. De stichting Privacy by Design voegt je e-mail gegevens toe in je Yivi-app.\n\nJe ontvangt nu een kaartje met je e-mailadres en de domeinnaam van dat adres in je Yivi app. Herhaal dit proces voor ieder e-mail adres dat je toe wil voegen.</nl>
-	</FAQHowto>
+    <ForegroundColor>#15222E</ForegroundColor>
+    <BackgroundGradientStart>#3BB992</BackgroundGradientStart>
+    <BackgroundGradientEnd>#6CE6C1</BackgroundGradientEnd>
+    <Category>
+        <en>Personal</en>
+        <nl>Persoonlijk</nl>
+    </Category>
+    <FAQIntro>
+        <en>Add your email address to your Yivi app. You can add multiple email addresses.</en>
+        <nl>Laad je e-mailadres in je Yivi-app. Je kunt meerdere e-mailadressen toevoegen.</nl>
+    </FAQIntro>
+    <FAQPurpose>
+        <en>With your email address in your Yivi app, you can show that this address is really yours. For instance, you can use your email address to fill in a line in a form, or to login at a website.</en>
+        <nl>Met jouw e-mailadres in de Yivi-app kun je laten zien dat dit adres echt bij jou hoort. Je kunt bijvoorbeeld je e-mailadres gebruiken om een regel in een formulier in te vullen of om op een website in te loggen.</nl>
+    </FAQPurpose>
+    <FAQContent>
+        <en>You will add the following data:\n• email address\n• email domain name.</en>
+        <nl>Je laadt de volgende gegevens:\n• e-mailadres\n• e-mail domeinnaam.</nl>
+    </FAQContent>
+    <FAQHowto>
+        <en>Complete the following steps.\n1. Enter your e-mail address.\n2. Open your email application and go to your Inbox (if there is no new mail soon, please check your Spam folder).\n3. Click the link in the email message, sent by the Privacy by Design Foundation. If you see a QR code on your computer screen, scan it with the QR scanner in your Yivi app. The Privacy by Design Foundation copies your email data into your Yivi app.\n\nYou now receive a card with your email address and its domain name in your Yivi app. Repeat this process for other email addresses that you wish to add.</en>
+        <nl>Doorloop de volgende stappen.\n1. Vul je e-mailadres in.\n2. Open je e-maillezer en ga naar 'inkomende berichten' (als er geen mail verschijnt, controleer zonodig je Spam folder).\n3. Open de link in het e-mailbericht van de stichting Privacy by Design. Als je een QR-code te zien krijgt, scan deze met je Yivi-app. De stichting Privacy by Design voegt je e-mail gegevens toe in je Yivi-app.\n\nJe ontvangt nu een kaartje met je e-mailadres en de domeinnaam van dat adres in je Yivi app. Herhaal dit proces voor ieder e-mail adres dat je toe wil voegen.</nl>
+    </FAQHowto>
 
-	<Attributes>
-		<Attribute id="email">
-			<Name>
-				<en>Email address</en>
-				<nl>E-mailadres</nl>
-			</Name>
-			<Description>
-				<en>Your verified email address</en>
-				<nl>Je geverifieerde e-mailadres</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="domain" optional="true">
-			<Name>
-				<en>Email domain name</en>
-				<nl>E-mail domeinnaam</nl>
-			</Name>
-			<Description>
-				<en>The domain name of your email address</en>
-				<nl>De domeinnaam van je e-mailadres</nl>
-			</Description>
-		</Attribute>
-	</Attributes>
+    <Attributes>
+        <Attribute id="email">
+            <Name>
+                <en>Email address</en>
+                <nl>E-mailadres</nl>
+                <zh>電子郵件地址</zh>
+            </Name>
+            <Description>
+                <en>Your verified email address</en>
+                <nl>Je geverifieerde e-mailadres</nl>
+                <zh>您驗證過的電子郵件地址</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="domain" optional="true">
+            <Name>
+                <en>Email domain name</en>
+                <nl>E-mail domeinnaam</nl>
+                <zh>電子郵件網域名稱</zh>
+            </Name>
+            <Description>
+                <en>The domain name of your email address</en>
+                <nl>De domeinnaam van je e-mailadres</nl>
+                <zh>您電子郵件地址的網域名稱</zh>
+            </Description>
+        </Attribute>
+    </Attributes>
 </IssueSpecification>

@@ -1,68 +1,80 @@
 <IssueSpecification version="4">
-	<Name>
-		<en>Twitter</en>
-		<nl>Twitter</nl>
-	</Name>
-	<ShortName>
-		<en>Twitter</en>
-		<nl>Twitter</nl>
-	</ShortName>
-	<SchemeManager>pbdf</SchemeManager>
-	<IssuerID>pbdf</IssuerID>
-	<CredentialID>twitter</CredentialID>
-	<Description>
-		<en>Twitter attributes from your Twitter account</en>
-		<nl>Twitter attributen uit je Twitter account</nl>
-	</Description>
-	<ShouldBeSingleton>false</ShouldBeSingleton>
-	<IssueURL>
-		<en>https://privacybydesign.foundation/issuance/social/twitter/</en>
-		<nl>https://privacybydesign.foundation/uitgifte/social/twitter/</nl>
-	</IssueURL>
+    <Name>
+        <en>Twitter</en>
+        <nl>Twitter</nl>
+        <zh>Twitter</zh>
+    </Name>
+    <ShortName>
+        <en>Twitter</en>
+        <nl>Twitter</nl>
+        <zh>Twitter</zh>
+    </ShortName>
+    <SchemeManager>pbdf</SchemeManager>
+    <IssuerID>pbdf</IssuerID>
+    <CredentialID>twitter</CredentialID>
+    <Description>
+        <en>Twitter attributes from your Twitter account</en>
+        <nl>Twitter attributen uit je Twitter account</nl>
+        <zh>出自您 Twitter 帳號的 Twitter 特性</zh>
+    </Description>
+    <ShouldBeSingleton>false</ShouldBeSingleton>
+    <IssueURL>
+        <en>https://privacybydesign.foundation/issuance/social/twitter/</en>
+        <nl>https://privacybydesign.foundation/uitgifte/social/twitter/</nl>
+        <zh>https://privacybydesign.foundation/uitgifte/social/twitter/</zh>
+    </IssueURL>
 
-	<ForegroundColor>#15222E</ForegroundColor>
-	<BackgroundGradientStart>#1DA1F2</BackgroundGradientStart>
-	<BackgroundGradientEnd>#71C9F8</BackgroundGradientEnd>
-	<Attributes>
-		<Attribute id="username">
-			<Name>
-				<en>Username</en>
-				<nl>Gebruikersnaam</nl>
-			</Name>
-			<Description>
-				<en>Your username at Twitter, as registered by Twitter</en>
-				<nl>Je gebruikersnaam bij Twitter, zoals geregistreerd bij Twitter</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="fullname">
-			<Name>
-				<en>Full name</en>
-				<nl>Volledige naam</nl>
-			</Name>
-			<Description>
-				<en>Your full name, as registered by Twitter</en>
-				<nl>Je volledige naam, zoals geregistreerd bij Twitter</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="email">
-			<Name>
-				<en>Email address</en>
-				<nl>E-mailadres</nl>
-			</Name>
-			<Description>
-				<en>Your email address, as registered by Twitter</en>
-				<nl>Je e-mailadres, zoals geregistreerd bij Twitter</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="profileurl">
-			<Name>
-				<en>Profile</en>
-				<nl>Profiel</nl>
-			</Name>
-			<Description>
-				<en>URL to your Twitter profile</en>
-				<nl>URL naar je Twitter-profiel</nl>
-			</Description>
-		</Attribute>
-	</Attributes>
+    <ForegroundColor>#15222E</ForegroundColor>
+    <BackgroundGradientStart>#1DA1F2</BackgroundGradientStart>
+    <BackgroundGradientEnd>#71C9F8</BackgroundGradientEnd>
+    <Attributes>
+        <Attribute id="username">
+            <Name>
+                <en>Username</en>
+                <nl>Gebruikersnaam</nl>
+                <zh>使用者名稱</zh>
+            </Name>
+            <Description>
+                <en>Your username at Twitter, as registered by Twitter</en>
+                <nl>Je gebruikersnaam bij Twitter, zoals geregistreerd bij Twitter</nl>
+                <zh>您在 Twitter 上註冊的使用者名稱</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="fullname">
+            <Name>
+                <en>Full name</en>
+                <nl>Volledige naam</nl>
+                <zh>全名</zh>
+            </Name>
+            <Description>
+                <en>Your full name, as registered by Twitter</en>
+                <nl>Je volledige naam, zoals geregistreerd bij Twitter</nl>
+                <zh>您在 Twitter 上登記的全名</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="email">
+            <Name>
+                <en>Email address</en>
+                <nl>E-mailadres</nl>
+                <zh>電子郵件地址</zh>
+            </Name>
+            <Description>
+                <en>Your email address, as registered by Twitter</en>
+                <nl>Je e-mailadres, zoals geregistreerd bij Twitter</nl>
+                <zh>您在 Twitter 上登記的電子郵件地址</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="profileurl">
+            <Name>
+                <en>Profile</en>
+                <nl>Profiel</nl>
+                <zh>個人檔案</zh>
+            </Name>
+            <Description>
+                <en>URL to your Twitter profile</en>
+                <nl>URL naar je Twitter-profiel</nl>
+                <zh>指向您 Twitter 個人檔案的網址</zh>
+            </Description>
+        </Attribute>
+    </Attributes>
 </IssueSpecification>

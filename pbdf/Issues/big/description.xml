@@ -1,65 +1,76 @@
 <IssueSpecification version="4">
-	<Name>
-		<en>BIG registration</en>
-		<nl>BIG-registratie</nl>
-	</Name>
-	<ShortName>
-		<en>BIG</en>
-		<nl>BIG</nl>
-	</ShortName>
-	<SchemeManager>pbdf</SchemeManager>
-	<IssuerID>pbdf</IssuerID>
-	<CredentialID>big</CredentialID>
-	<Description>
-		<en>BIG attributes from the BIG registration</en>
-		<nl>BIG-attributen uit het BIG-register</nl>
-	</Description>
-	<ShouldBeSingleton>false</ShouldBeSingleton>
-	<IssueURL>
-		<en>https://privacybydesign.foundation/issuance/big/</en>
-		<nl>https://privacybydesign.foundation/uitgifte/big/</nl>
-	</IssueURL>
+    <Name>
+        <en>BIG registration</en>
+        <nl>BIG-registratie</nl>
+        <zh>BIG 登記名冊</zh>
+    </Name>
+    <ShortName>
+        <en>BIG</en>
+        <nl>BIG</nl>
+        <zh>BIG</zh>
+    </ShortName>
+    <SchemeManager>pbdf</SchemeManager>
+    <IssuerID>pbdf</IssuerID>
+    <CredentialID>big</CredentialID>
+    <Description>
+        <en>BIG attributes from the BIG registration</en>
+        <nl>BIG-attributen uit het BIG-register</nl>
+        <zh>出自 BIG 登記名冊的 BIG 特性</zh>
+    </Description>
+    <ShouldBeSingleton>false</ShouldBeSingleton>
+    <IssueURL>
+        <en>https://privacybydesign.foundation/issuance/big/</en>
+        <nl>https://privacybydesign.foundation/uitgifte/big/</nl>
+    </IssueURL>
 
-	<Attributes>
-		<Attribute id="bignumber">
-			<Name>
-				<en>BIG number</en>
-				<nl>BIG nummer</nl>
-			</Name>
-			<Description>
-				<en>Your BIG code</en>
-				<nl>Je BIG-nummer</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="startdate">
-			<Name>
-				<en>Start date</en>
-				<nl>Startdatum</nl>
-			</Name>
-			<Description>
-				<en>Start date of this registration</en>
-				<nl>Startdatum van je registratie</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="profession">
-			<Name>
-				<en>Profession</en>
-				<nl>Beroep</nl>
-			</Name>
-			<Description>
-				<en>The profession you have</en>
-				<nl>Je beroep</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="specialism">
-			<Name>
-				<en>Specialism</en>
-				<nl>Specialisme</nl>
-			</Name>
-			<Description>
-				<en>The specialty you have as part of your profession</en>
-				<nl>De specialisatie binnen je beroep</nl>
-			</Description>
-		</Attribute>
-	</Attributes>
+    <Attributes>
+        <Attribute id="bignumber">
+            <Name>
+                <en>BIG number</en>
+                <nl>BIG nummer</nl>
+                <zh>BIG 號碼</zh>
+            </Name>
+            <Description>
+                <en>Your BIG code</en>
+                <nl>Je BIG-nummer</nl>
+                <zh>您的 BIG 代碼</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="startdate">
+            <Name>
+                <en>Start date</en>
+                <nl>Startdatum</nl>
+                <zh>開始日期</zh>
+            </Name>
+            <Description>
+                <en>Start date of this registration</en>
+                <nl>Startdatum van je registratie</nl>
+                <zh>本次登記開始的日期</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="profession">
+            <Name>
+                <en>Profession</en>
+                <nl>Beroep</nl>
+                <zh>職業</zh>
+            </Name>
+            <Description>
+                <en>The profession you have</en>
+                <nl>Je beroep</nl>
+                <zh>您從事的職業</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="specialism">
+            <Name>
+                <en>Specialism</en>
+                <nl>Specialisme</nl>
+                <zh>專長</zh>
+            </Name>
+            <Description>
+                <en>The specialty you have as part of your profession</en>
+                <nl>De specialisatie binnen je beroep</nl>
+                <zh>您從事職業中您專長的部分</zh>
+            </Description>
+        </Attribute>
+    </Attributes>
 </IssueSpecification>

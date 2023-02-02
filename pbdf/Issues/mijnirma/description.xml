@@ -1,37 +1,36 @@
 <IssueSpecification version="4">
-	<Name>
-		<en>MyYivi</en>
-		<nl>MijnYivi</nl>
-	</Name>
-	<ShortName>
-		<en>MyYivi</en>
-		<nl>MijnYivi</nl>
-	</ShortName>
-	<SchemeManager>pbdf</SchemeManager>
-	<IssuerID>pbdf</IssuerID>
-	<CredentialID>mijnirma</CredentialID>
-	<DeprecatedSince>1591183626</DeprecatedSince>
-	<Description>
-		<en>Your MyYivi app ID</en>
-		<nl>Je MijnYivi app-ID</nl>
-	</Description>
-	<ShouldBeSingleton>true</ShouldBeSingleton>
-	<DisallowDelete>true</DisallowDelete>
+    <Name>
+        <en>MyYivi</en>
+        <nl>MijnYivi</nl>
+    </Name>
+    <ShortName>
+        <en>MyYivi</en>
+        <nl>MijnYivi</nl>
+    </ShortName>
+    <SchemeManager>pbdf</SchemeManager>
+    <IssuerID>pbdf</IssuerID>
+    <CredentialID>mijnirma</CredentialID>
+    <DeprecatedSince>1591183626</DeprecatedSince>
+    <Description>
+        <en>Your MyYivi app ID</en>
+        <nl>Je MijnYivi app-ID</nl>
+    </Description>
+    <ShouldBeSingleton>true</ShouldBeSingleton>
+    <DisallowDelete>true</DisallowDelete>
+    <ForegroundColor>#15222E</ForegroundColor>
+    <BackgroundGradientStart>#FFB54C</BackgroundGradientStart>
+    <BackgroundGradientEnd>#FFE8CD</BackgroundGradientEnd>
 
-	<ForegroundColor>#15222E</ForegroundColor>
-	<BackgroundGradientStart>#FFB54C</BackgroundGradientStart>
-	<BackgroundGradientEnd>#FFE8CD</BackgroundGradientEnd>
-
-	<Attributes>
-		<Attribute id="email">
-			<Name>
-				<en>Username</en>
-				<nl>Gebruikersnaam</nl>
-			</Name>
-			<Description>
-				<en>Your MyYivi app ID</en>
-				<nl>Je MijnYivi app-ID</nl>
-			</Description>
-		</Attribute>
-	</Attributes>
+    <Attributes>
+        <Attribute id="email">
+            <Name>
+                <en>Username</en>
+                <nl>Gebruikersnaam</nl>
+            </Name>
+            <Description>
+                <en>Your MyYivi app ID</en>
+                <nl>Je MijnYivi app-ID</nl>
+            </Description>
+        </Attribute>
+    </Attributes>
 </IssueSpecification>

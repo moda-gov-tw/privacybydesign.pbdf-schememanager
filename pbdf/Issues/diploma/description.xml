@@ -1,135 +1,161 @@
 <IssueSpecification version="4">
-	<Name>
-		<en>Diploma</en>
-		<nl>Diploma</nl>
-	</Name>
-	<ShortName>
-		<en>Diploma</en>
-		<nl>Diploma</nl>
-	</ShortName>
-	<SchemeManager>pbdf</SchemeManager>
-	<IssuerID>pbdf</IssuerID>
-	<CredentialID>diploma</CredentialID>
-	<Description>
-		<en>Data extracted from your diploma provided by DUO</en>
-		<nl>Gegevens uit je diploma, verkregen via DUO</nl>
-	</Description>
-	<ShouldBeSingleton>false</ShouldBeSingleton>
-	<IssueURL>
-		<en>https://privacybydesign.foundation/uitgifte/diploma/</en>
-		<nl>https://privacybydesign.foundation/uitgifte/diploma/</nl>
-	</IssueURL>
+    <Name>
+        <en>Diploma</en>
+        <nl>Diploma</nl>
+        <zh>文憑</zh>
+    </Name>
+    <ShortName>
+        <en>Diploma</en>
+        <nl>Diploma</nl>
+        <zh>文憑</zh>
+    </ShortName>
+    <SchemeManager>pbdf</SchemeManager>
+    <IssuerID>pbdf</IssuerID>
+    <CredentialID>diploma</CredentialID>
+    <Description>
+        <en>Data extracted from your diploma provided by DUO</en>
+        <nl>Gegevens uit je diploma, verkregen via DUO</nl>
+        <zh>從 DUO 提供的文憑中擷取的資料</zh>
+    </Description>
+    <ShouldBeSingleton>false</ShouldBeSingleton>
+    <IssueURL>
+        <en>https://privacybydesign.foundation/uitgifte/diploma/</en>
+        <nl>https://privacybydesign.foundation/uitgifte/diploma/</nl>
+        <zh>https://privacybydesign.foundation/uitgifte/diploma/</zh>
+    </IssueURL>
 
-	<Attributes>
-		<Attribute id="firstname">
-			<Name>
-				<en>First name</en>
-				<nl>Voornaam</nl>
-			</Name>
-			<Description>
-				<en>Your first name from your diploma</en>
-				<nl>Je voornaam uit je diploma</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="prefix" optional="true">
-			<Name>
-				<en>Prefix</en>
-				<nl>Tussenvoegsel</nl>
-			</Name>
-			<Description>
-				<en>Your family name prefix from your diploma</en>
-				<nl>Je tussenvoegsel uit je diploma</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="familyname">
-			<Name>
-				<en>Family name</en>
-				<nl>Achternaam</nl>
-			</Name>
-			<Description>
-				<en>Your family name from your diploma</en>
-				<nl>Je achternaam uit je diploma</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="dateofbirth">
-			<Name>
-				<en>Date of birth</en>
-				<nl>Geboortedatum</nl>
-			</Name>
-			<Description>
-				<en>Your date of birth from your diploma</en>
-				<nl>Je geboortedatum uit je diploma</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="gender">
-			<Name>
-				<en>Gender</en>
-				<nl>Geslacht</nl>
-			</Name>
-			<Description>
-				<en>Your gender from your diploma</en>
-				<nl>Je geslacht uit je diploma</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="education">
-			<Name>
-				<en>Education</en>
-				<nl>Opleiding</nl>
-			</Name>
-			<Description>
-				<en>Completed education</en>
-				<nl>Voltooide opleiding</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="degree" optional="true">
-			<Name>
-				<en>Degree</en>
-				<nl>Opleiding</nl>
-			</Name>
-			<Description>
-				<en>Type of education</en>
-				<nl>Soort opleiding</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="profile" optional="true">
-			<Name>
-				<en>Profile</en>
-				<nl>Profiel</nl>
-			</Name>
-			<Description>
-				<en>Education profile</en>
-				<nl>Opleidingsprofiel</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="achieved">
-			<Name>
-				<en>Achieved in</en>
-				<nl>Behaald in</nl>
-			</Name>
-			<Description>
-				<en>Month of achieving this diploma</en>
-				<nl>Maand waarin dit diploma behaald is</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="institute">
-			<Name>
-				<en>Institute</en>
-				<nl>Instituut</nl>
-			</Name>
-			<Description>
-				<en>The institute where this degree has been achieved</en>
-				<nl>De instantie waar dit diploma behaald is</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="city">
-			<Name>
-				<en>City</en>
-				<nl>Stad</nl>
-			</Name>
-			<Description>
-				<en>The city of the institute where this degree has been achieved</en>
-				<nl>De stad van de instantie waar dit diploma behaald is</nl>
-			</Description>
-		</Attribute>
-	</Attributes>
+    <Attributes>
+        <Attribute id="firstname">
+            <Name>
+                <en>First name</en>
+                <nl>Voornaam</nl>
+                <zh>名字</zh>
+            </Name>
+            <Description>
+                <en>Your first name from your diploma</en>
+                <nl>Je voornaam uit je diploma</nl>
+                <zh>文憑上您的名字</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="prefix" optional="true">
+            <Name>
+                <en>Prefix</en>
+                <nl>Tussenvoegsel</nl>
+                <zh>前綴</zh>
+            </Name>
+            <Description>
+                <en>Your family name prefix from your diploma</en>
+                <nl>Je tussenvoegsel uit je diploma</nl>
+                <zh>文憑上您的姓氏前綴</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="familyname">
+            <Name>
+                <en>Family name</en>
+                <nl>Achternaam</nl>
+                <zh>姓氏</zh>
+            </Name>
+            <Description>
+                <en>Your family name from your diploma</en>
+                <nl>Je achternaam uit je diploma</nl>
+                <zh>文憑上您的姓氏</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="dateofbirth">
+            <Name>
+                <en>Date of birth</en>
+                <nl>Geboortedatum</nl>
+                <zh>出生日期</zh>
+            </Name>
+            <Description>
+                <en>Your date of birth from your diploma</en>
+                <nl>Je geboortedatum uit je diploma</nl>
+                <zh>文憑上您的出生日期</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="gender">
+            <Name>
+                <en>Gender</en>
+                <nl>Geslacht</nl>
+                <zh>性別</zh>
+            </Name>
+            <Description>
+                <en>Your gender from your diploma</en>
+                <nl>Je geslacht uit je diploma</nl>
+                <zh>文憑上您的性別</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="education">
+            <Name>
+                <en>Education</en>
+                <nl>Opleiding</nl>
+                <zh>教育</zh>
+            </Name>
+            <Description>
+                <en>Completed education</en>
+                <nl>Voltooide opleiding</nl>
+                <zh>完成的教育</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="degree" optional="true">
+            <Name>
+                <en>Degree</en>
+                <nl>Opleiding</nl>
+                <zh>學位</zh>
+            </Name>
+            <Description>
+                <en>Type of education</en>
+                <nl>Soort opleiding</nl>
+                <zh>教育類型</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="profile" optional="true">
+            <Name>
+                <en>Profile</en>
+                <nl>Profiel</nl>
+                <zh>個人檔案</zh>
+            </Name>
+            <Description>
+                <en>Education profile</en>
+                <nl>Opleidingsprofiel</nl>
+                <zh>個人教育檔案</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="achieved">
+            <Name>
+                <en>Achieved in</en>
+                <nl>Behaald in</nl>
+                <zh>學歷取得</zh>
+            </Name>
+            <Description>
+                <en>Month of achieving this diploma</en>
+                <nl>Maand waarin dit diploma behaald is</nl>
+                <zh>取得該文憑的月份</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="institute">
+            <Name>
+                <en>Institute</en>
+                <nl>Instituut</nl>
+                <zh>研究機構</zh>
+            </Name>
+            <Description>
+                <en>The institute where this degree has been achieved</en>
+                <nl>De instantie waar dit diploma behaald is</nl>
+                <zh>取得學位時所在的研究機構</zh>
+            </Description>
+        </Attribute>
+        <Attribute id="city">
+            <Name>
+                <en>City</en>
+                <nl>Stad</nl>
+                <zh>鄉鎮市區</zh>
+            </Name>
+            <Description>
+                <en>The city of the institute where this degree has been achieved</en>
+                <nl>De stad van de instantie waar dit diploma behaald is</nl>
+                <zh>取得學位時所在研究機構的城市</zh>
+            </Description>
+        </Attribute>
+    </Attributes>
 </IssueSpecification>
