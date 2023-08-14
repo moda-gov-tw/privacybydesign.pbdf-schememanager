@@ -3,14 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-24 11:10+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-08-16 11:44+0000\n"
+"Last-Translator: Tommy JIang <baptist333@yahoo.com.tw>\n"
+"Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/yivi/"
+"pbdf-schememanager/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Translate Toolkit 3.9.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.18.2\n"
 
 msgid ""
 msgstr ""
@@ -26,7 +28,7 @@ msgstr ""
 #. (itstool) path: Name/en
 #: .//nuts/Issues/agb/description.xml:3
 msgid "AGB code"
-msgstr ""
+msgstr "AGB 代碼"
 
 #. (itstool) path: Name/nl
 #. (itstool) path: Name/en
@@ -34,57 +36,72 @@ msgstr ""
 #: .//nuts/Issues/agb/description.xml:51
 #: .//nuts/Issues/agb/description.xml:52
 msgid "AGB-code"
-msgstr ""
+msgstr "AGB 代碼"
 
 #. (itstool) path: Description/en
 #: .//nuts/Issues/agb/description.xml:14
 msgid "An AGB code (in Dutch: Algemeen GegevensBeheer code) is a Dutch national code system which uniquely identifies a care provider. Care providers are registered in a national database with such a code. The database is maintained by Vektis"
 msgstr ""
+"AGB 代碼（荷蘭語：Algemeen GegevensBeheer code）是荷蘭國家代碼系統，用來唯一"
+"識別某個衛生保健提供者。衛生保健提供者使用該代碼在國家資料庫中登記。資料庫由 "
+"Vektis 維護"
 
 #. (itstool) path: Category/en
 #: .//nuts/Issues/agb/description.xml:28
 msgid "Healthcare"
-msgstr ""
+msgstr "衛生保健"
 
 #. (itstool) path: FAQIntro/en
 #: .//nuts/Issues/agb/description.xml:32
 msgid "Add your AGB code to your Yivi app."
-msgstr ""
+msgstr "將您的 AGB 代碼新增至 Yivi 程式中。"
 
 #. (itstool) path: FAQPurpose/en
 #: .//nuts/Issues/agb/description.xml:36
 msgid "With your AGB code in your Yivi app, you can prove what your healthcare provider code in the AGB registry is."
-msgstr ""
+msgstr "透過 Yivi 程式中您的 AGB 代碼，可以證明您在 AGB "
+"登記名冊中的健康照護提供者代碼。"
 
 #. (itstool) path: FAQContent/en
 #: .//nuts/Issues/agb/description.xml:40
 msgid "You will add the following data:\\n• AGB code."
 msgstr ""
+"您將要新增以下資料：\\n"
+"• AGB 代碼。"
 
 #. (itstool) path: FAQHowto/en
 #: .//nuts/Issues/agb/description.xml:44
 msgid "In case you are a healthcare professional registered in the Netherlands, you can load your AGB code into your Yivi app. But first, you need to load your personal data, stemming from the Dutch population registry. Assuming you already have these personal data in your Yivi app, complete the following steps.\\n1. Reveal your initials, surname and date of birth to the Nuts Foundation via Yivi.\\n2. Enter your own AGB code manually.\\n3. Confirm that you wish to add your AGB code to your Yivi app. After verifying your data in the AGB registry, the Nuts Foundation copies your AGB code into your Yivi app.\\n\\nYou now receive a card with your AGB code."
 msgstr ""
+"若您是在荷蘭註冊的衛生保健專業人員，您可以將您的 AGB 代碼載入到 Yivi "
+"程式中。但您必須先載入出自荷蘭人口登記名冊的個人資料。假設您的 Yivi "
+"程式已經有這些個人資料了，那麼請完成以下步驟。\\n"
+"1. 透過 Yivi 向 Nuts 基金會揭露您的名字縮寫、姓氏與出生日期。\\n"
+"2. 手動輸入您的 AGB 代碼。\\n"
+"3. 確認您想要新增 AGB 代碼到 Yivi 程式中。在驗證您在 AGB 登記名冊中的資料後，"
+"Nuts 基金會複製您的 AGB 代碼到 Yivi 程式中。\\n"
+"\\n"
+"現在，您會收到您 AGB 代碼的卡片。"
 
 #. (itstool) path: Description/en
 #: .//nuts/Issues/agb/description.xml:55
 msgid "Uniquely identifying code for individual healthcare professional"
-msgstr ""
+msgstr "個人衛生保健專業人員的唯一識別碼"
 
 #. (itstool) path: Description/en
 #: .//ivido/Issues/login/description.xml:14
 msgid "Attributen benodigd voor het inloggen bij Ivido"
-msgstr ""
+msgstr "登入 Ivido 所需的資料特點"
 
 #. (itstool) path: Description/en
 #: .//ivido/Issues/login/description.xml:34
 msgid "Unique identifier for Ivido"
-msgstr ""
+msgstr "Ivido 的唯一識別碼"
 
 #. (itstool) path: Description/en
 #: .//PubHubs/Issues/pubhubsaccount/description.xml:14
 msgid "Your PubHubs account"
-msgstr ""
+msgstr "您的 PubHubs 帳號"
 
 #. (itstool) path: Name/en
 #: .//PubHubs/Issues/pubhubsaccount/description.xml:22
@@ -99,13 +116,13 @@ msgstr ""
 #: .//pbdf/Issues/email/description.xml:47
 #: .//pbdf/Issues/linkedin/description.xml:60
 msgid "Email address"
-msgstr ""
+msgstr "電子郵件地址"
 
 #. (itstool) path: Description/en
 #: .//PubHubs/Issues/pubhubsaccount/description.xml:26
 #: .//surf/Issues/surfdrive/description.xml:36
 msgid "Your email address"
-msgstr ""
+msgstr "您的電子郵件地址"
 
 #. (itstool) path: Name/en
 #: .//PubHubs/Issues/pubhubsaccount/description.xml:32
@@ -114,43 +131,43 @@ msgstr ""
 #: .//pbdf/Issues/mobilenumber/description.xml:3
 #: .//pbdf/Issues/mobilenumber/description.xml:48
 msgid "Mobile phone number"
-msgstr ""
+msgstr "行動電話號碼"
 
 #. (itstool) path: Description/en
 #: .//PubHubs/Issues/pubhubsaccount/description.xml:36
 msgid "Your mobile phone number"
-msgstr ""
+msgstr "您的行動電話號碼"
 
 #. (itstool) path: Name/en
 #: .//PubHubs/Issues/pubhubsaccount/description.xml:42
 msgid "Registration date"
-msgstr ""
+msgstr "登記日期"
 
 #. (itstool) path: Description/en
 #: .//PubHubs/Issues/pubhubsaccount/description.xml:46
 msgid "Your registration date"
-msgstr ""
+msgstr "您的登記日期"
 
 #. (itstool) path: Name/en
 #: .//chipsoft/Issues/bsn/description.xml:3
 #: .//chipsoft/Issues/bsn/description.xml:26
 msgid "BSN from healthcare"
-msgstr ""
+msgstr "出自衛生保健的 BSN"
 
 #. (itstool) path: ShortName/en
 #: .//chipsoft/Issues/bsn/description.xml:7
 msgid "BSN healthcare"
-msgstr ""
+msgstr "衛生保健 BSN"
 
 #. (itstool) path: Description/en
 #: .//chipsoft/Issues/bsn/description.xml:14
 msgid "Your Dutch Citizen service number (BSN), from the Dutch Personal Records Database (BRP), verified face to face"
-msgstr ""
+msgstr "您的荷蘭公民服務號碼 (BSN)，出自荷蘭人口登記名冊 (BRP)，已通過當面核驗"
 
 #. (itstool) path: Description/en
 #: .//chipsoft/Issues/bsn/description.xml:30
 msgid "Your Dutch Citizen service number (BSN) from healthcare"
-msgstr ""
+msgstr "您從衛生保健部門取得的荷蘭公民服務號碼 (BSN)"
 
 #. (itstool) path: Name/en
 #: .//chipsoft/Issues/bsn/description.xml:36
@@ -162,7 +179,7 @@ msgstr ""
 #: .//cis/Issues/digitalInsurancePassport/description.xml:48
 #: .//gemeente/Issues/personalData/description.xml:51
 msgid "Initials"
-msgstr ""
+msgstr "名字縮寫"
 
 #. (itstool) path: Description/en
 #: .//chipsoft/Issues/bsn/description.xml:40
@@ -172,7 +189,7 @@ msgstr ""
 #: .//cis/Issues/digitalInsurancePassport/description.xml:52
 #: .//gemeente/Issues/personalData/description.xml:55
 msgid "Your initials, abbreviating your first names"
-msgstr ""
+msgstr "您名字的首字母縮寫"
 
 #. (itstool) path: Name/en
 #: .//chipsoft/Issues/bsn/description.xml:46
@@ -184,7 +201,7 @@ msgstr ""
 #: .//bzkpilot/Issues/personalData/description.xml:73
 #: .//gemeente/Issues/personalData/description.xml:61
 msgid "First names"
-msgstr ""
+msgstr "名字"
 
 #. (itstool) path: Description/en
 #: .//chipsoft/Issues/bsn/description.xml:50
@@ -193,7 +210,7 @@ msgstr ""
 #: .//bzkpilot/Issues/personalData/description.xml:77
 #: .//gemeente/Issues/personalData/description.xml:65
 msgid "Your first names"
-msgstr ""
+msgstr "您的名字"
 
 #. (itstool) path: Name/en
 #: .//chipsoft/Issues/bsn/description.xml:56
@@ -205,7 +222,7 @@ msgstr ""
 #: .//cis/Issues/digitalInsurancePassport/description.xml:58
 #: .//gemeente/Issues/personalData/description.xml:71
 msgid "Prefix"
-msgstr ""
+msgstr "前綴"
 
 #. (itstool) path: Description/en
 #: .//chipsoft/Issues/bsn/description.xml:60
@@ -215,7 +232,7 @@ msgstr ""
 #: .//cis/Issues/digitalInsurancePassport/description.xml:62
 #: .//gemeente/Issues/personalData/description.xml:75
 msgid "Prefix of your family name"
-msgstr ""
+msgstr "您姓氏的前綴"
 
 #. (itstool) path: Name/en
 #: .//chipsoft/Issues/bsn/description.xml:66
@@ -230,7 +247,7 @@ msgstr ""
 #: .//bzkpilot/Issues/personalData/description.xml:93
 #: .//gemeente/Issues/personalData/description.xml:81
 msgid "Family name"
-msgstr ""
+msgstr "姓氏"
 
 #. (itstool) path: Description/en
 #: .//chipsoft/Issues/bsn/description.xml:70
@@ -239,7 +256,7 @@ msgstr ""
 #: .//bzkpilot/Issues/personalData/description.xml:97
 #: .//gemeente/Issues/personalData/description.xml:85
 msgid "Your family name, as given to you at birth"
-msgstr ""
+msgstr "您出生時的家族姓氏"
 
 #. (itstool) path: Name/en
 #: .//chipsoft/Issues/bsn/description.xml:76
@@ -255,7 +272,7 @@ msgstr ""
 #: .//cis/Issues/digitalInsurancePassport/description.xml:88
 #: .//gemeente/Issues/personalData/description.xml:131
 msgid "Date of birth"
-msgstr ""
+msgstr "出生日期"
 
 #. (itstool) path: Description/en
 #: .//chipsoft/Issues/bsn/description.xml:80
@@ -267,7 +284,7 @@ msgstr ""
 #: .//cis/Issues/digitalInsurancePassport/description.xml:92
 #: .//gemeente/Issues/personalData/description.xml:135
 msgid "Your date of birth"
-msgstr ""
+msgstr "您的出生日期"
 
 #. (itstool) path: Name/en
 #. (itstool) path: Description/en
@@ -276,236 +293,310 @@ msgstr ""
 #: .//chipsoft/Issues/testbsn/description.xml:26
 #: .//chipsoft/Issues/testbsn/description.xml:30
 msgid "Test BSN from healthcare"
-msgstr ""
+msgstr "測試出自衛生保健部門的 BSN"
 
 #. (itstool) path: ShortName/en
 #: .//chipsoft/Issues/testbsn/description.xml:7
 msgid "Test BSN healthcare"
-msgstr ""
+msgstr "測試衛生保健 BSN"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:3
 msgid "KVK authorization info"
-msgstr ""
+msgstr "KVK 授權資訊"
 
 #. (itstool) path: ShortName/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:7
 msgid "KVK authorization"
-msgstr ""
+msgstr "KVK 授權"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:14
 msgid "KVK authorization information of an official of a legal entity"
-msgstr ""
+msgstr "法律實體代表的 KVK 授權資訊"
 
 #. (itstool) path: Category/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:26
 #: .//pbdf/Issues/ideal/description.xml:28
 msgid "Financial"
-msgstr ""
+msgstr "金融"
 
 #. (itstool) path: FAQIntro/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:30
 msgid "Load - FOR A PAYMENT - a personal card with your Chamber of Commerce Trade Register data in Yivi.\\n\\nNote: It is only possible to get a card if you are registered with your name at the Chamber of Commerce number when requesting the card. The Chamber of Commerce Trade Register data in Yivi are also the data at the time of loading the ticket. These data are NOT updated by the Chamber of Commerce or Yivi."
 msgstr ""
+"在 Yivi 中綁定您的個人卡片（具備您的商會商業登記資料），用於支付費用。\\n"
+"\\n"
+"備註：申請卡片時，您必須向商會實名登記，才能拿到卡片。Yivi "
+"當中的商會商業登記資料與載入票卷時的資料一樣。這些資料並非由商會或 Yivi "
+"負責更新。"
 
 #. (itstool) path: FAQPurpose/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:34
 msgid "The KVK trade register data allows you to share your personal registration with the KVK.\\n\\nPlease note, these are the data registered in the KVK at the time of loading the ticket.\\n\\nWith the KVK trade register data you can share your personal registration with the KVK, and show what powers you have."
 msgstr ""
+"KVK 商業登記資料讓您可以分享在 KVK 上的個人登記資訊。\\n"
+"\\n"
+"請注意：這些資料是當初載入票券時於 KVK 登記的資料。\\n"
+"\\n"
+" 有了 KVK 的商業登記資料，您可以分享在 KVK "
+"上的個人登記資訊，顯示您所擁有的權力。"
 
 #. (itstool) path: FAQContent/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:38
 msgid "You are loading the following data:\\n• KVK number\\n• RSIN number\\n• Name of the organization\\n• Trade names\\n• Type of owner\\n• Legal entity\\n• Address of the organization\\n• Email address of organization\\n• Phone number of the organization\\n• SBI activity\\n• Start date of registration\\n• Date of deregistration\\n• End date of registration\\n• Special legal situation\\n• Restriction in legal action\\n• Foreign legal status\\n• Last name\\n• Prefix\\n• First names\\n• Date of birth\\n• Date of death\\n• Full Name\\n• Type of Official\\n• Position\\n• Job Title\\n• Kind of authorization\\n• Restriction of the authorization in euros\\n• Other restrictions of authorization\\n• Is authorized with other persons\\n• Type of power of attorney\\n• Restriction in money of the power of attorney\\n• Restriction on act of the power of attorney\\n• Has other power of attorney\\n• Description other power of attorney\\n• Permission to file changes to the trade register\\n• Special legal situation of the official\\n• Restriction in legal action of the official\\n• Start date of suspension\\n• End date of suspension\\n• Emancipation of a minor\\n• Has restriction\\n• Is authorized\\n• Reason for established authorization\\n• Referece moment."
 msgstr ""
+"您會載入以下資料：\\n"
+"• KVK 號碼\\n"
+"• RSIN 號碼\\n"
+"• 組織名稱\\n"
+"• 商號\\n"
+"• 業主類型\\n"
+"• 法律實體\\n"
+"• 組織地址\\n"
+"• 組織電子郵件地址\\n"
+"• 組織電話號碼\\n"
+"• SBI 活動\\n"
+"• 登記開始日期\\n"
+"• 登記註銷日期\\n"
+"• 登記結束日期\\n"
+"• 特別法律情況\\n"
+"• 法律行動限制\\n"
+"• 海外法律狀態\\n"
+"• 姓氏\\n"
+"• 前綴\\n"
+"• 名字\\n"
+"• 出生日期\\n"
+"• 死亡日期\\n"
+"• 全名\\n"
+"• 官員類型\\n"
+"• 職位\\n"
+"• 職稱\\n"
+"• 授權類型\\n"
+"• 歐元授權限制\\n"
+"• 其他授權限制\\n"
+"• 由他人授權\\n"
+"• 授權書類型\\n"
+"• 授權書金額限制\\n"
+"• 授權書行為限制\\n"
+"• 具備其他授權書\\n"
+"• 其他授權書說明\\n"
+"• 提交變更商業登記的權限\\n"
+"• 官員的特殊法律情況\\n"
+"• 官員法律行動限制\\n"
+"• 停職開始日期\\n"
+"• 停職結束日期\\n"
+"• 未成年人獨立生活資格\\n"
+"• 具有限制\\n"
+"• 已授權\\n"
+"• 明定授權原因\\n"
+"• 參考時間點。"
 
 #. (itstool) path: FAQHowto/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:42
 msgid "If your company is registered in the KVK Trade Register, and your name is listed in the register you can add - AGAINST PAYMENT - a personal card of your KVK registration to Yivi.\\n\\nPlease note that the KVK Trade Register data in Yivi is the data at the time of loading the ticket. This data is NOT updated by the KVK or Yivi.\\n\\nComplete the following steps:\\n1. Search and select your company.\\n2. Share your name and date of birth. With this we check that you are personally registered in the KVK Trade Register.\\n3. Pay via iDEAL.\\n4. Add your personal card of your KVK registration to Yivi.\\n\\nNote: only if your name is listed in the KVK Trade Register can you request a personal card of your KVK Trade Register data and add it to Yivi.\\n\\n If your name is not listed in the KVK Trade Register you will unfortunately not receive a personal card of your KVK registration and only a notification of who is listed in the KVK Trade Register. Reversing the payment is unfortunately not possible."
 msgstr ""
+"若貴公司有在 KVK 商業登記處登記，且您的名字有在商業登記處的紀錄中，您可以在 "
+"Yivi 當中綁定在 KVK 登記的個人卡片，選擇不支付。\\n"
+"\\n"
+"請注意：Yivi 當中的 KVK 商業登記處資料與載入票卷時的資料一樣。這些資料並非由 "
+"KVK 或 Yivi 負責更新。\\n"
+"\\n"
+"完成下列步驟：\\n"
+"1. 搜尋與選擇貴公司。\\n"
+"2. 分享您的姓名與出生日期。有了這些資訊，我們可以查訊您本人是否有向 KVK "
+"商業登記處登記。\\n"
+"3. 使用 iDEAL 付費。\\n"
+"4. 在 Yivi 新增您的 KVK 登記卡片。\\n"
+"\\n"
+"請注意： 您的名字必須有向 KVK 商業登記處登記，才能申請您的 KVK "
+"商業登記處個人資料卡，並且新增至 Yivi。\\n"
+"\\n"
+" 如果您的名字沒有列在 KVK 商業登記處紀錄中，您不會收到 KVK 個人註冊卡，"
+"只會收到有哪些人列在 KVK 商業登記處的通知。很遺憾，我們無法退費。"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:48
 msgid "KVK number"
-msgstr ""
+msgstr "KVK 號碼"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:52
 msgid "KVK number of the organisation"
-msgstr ""
+msgstr "組織的 KVK 號碼"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:58
 msgid "RSIN number"
-msgstr ""
+msgstr "RSIN 號碼"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:62
 msgid "Legal Entity or Partnership Identification Number"
-msgstr ""
+msgstr "法律實體或夥伴識別碼"
 
 #. (itstool) path: Name/en
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:68
 #: .//signicat/Issues/kvkTradeRegister/description.xml:72
 msgid "Name of the organisation"
-msgstr ""
+msgstr "組織名稱"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:78
 msgid "Trade names"
-msgstr ""
+msgstr "商號"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:82
 msgid "Trade names under which the company trades"
-msgstr ""
+msgstr "公司從事商業活動時使用的商號"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:88
 msgid "Type of owner"
-msgstr ""
+msgstr "業主類型"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:92
 msgid "Type of owner of the organisation"
-msgstr ""
+msgstr "組織業主類型"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:98
 msgid "Legal entity"
-msgstr ""
+msgstr "法律實體"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:102
 msgid "Legal entity of the owner of the organisation"
-msgstr ""
+msgstr "組織業主的法律實體"
 
 #. (itstool) path: Name/en
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:108
 #: .//signicat/Issues/kvkTradeRegister/description.xml:112
 msgid "Address of the organisation"
-msgstr ""
+msgstr "組織地址"
 
 #. (itstool) path: Name/en
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:118
 #: .//signicat/Issues/kvkTradeRegister/description.xml:122
 msgid "Email address of the organisation"
-msgstr ""
+msgstr "組織電子郵件地址"
 
 #. (itstool) path: Name/en
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:128
 #: .//signicat/Issues/kvkTradeRegister/description.xml:132
 msgid "Phone number of the organisation"
-msgstr ""
+msgstr "組織電話號碼"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:138
 msgid "SBI activity"
-msgstr ""
+msgstr "SBI 活動"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:142
 msgid "SBI code in accordance with the SBI 2008 structure with associated description of the activity"
-msgstr ""
+msgstr "SBI 2008 架構的 SBI 代碼，並且具備活動描述"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:148
 msgid "Start date of registration"
-msgstr ""
+msgstr "登記開始日期"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:152
 msgid "Start date of the organization's registration"
-msgstr ""
+msgstr "組織登記開始日期"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:158
 msgid "Date of deregistration"
-msgstr ""
+msgstr "登記註銷日期"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:162
 msgid "Date of deregistration of the owner of the organization"
-msgstr ""
+msgstr "組織業主的登記註銷日期"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:168
 msgid "End date of registration"
-msgstr ""
+msgstr "登記結束日期"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:172
 msgid "End date of the organization's registration"
-msgstr ""
+msgstr "組織登記結束日期"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:178
 msgid "Special legal situation"
-msgstr ""
+msgstr "特別法律情況"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:182
 msgid "Special legal situation of the owner of the organisation, eg: bankruptcy, debt restructuring or suspension of payment"
-msgstr ""
+msgstr "組織業主的特別法律情況，例如破產、債務重組或終止支付"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:188
 msgid "Restriction in legal action"
-msgstr ""
+msgstr "法律行動限制"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:192
 msgid "Restriction in legal action of the owner of the organisation, eg: provisional rule, placed under guardianship or placed under administration"
-msgstr ""
+msgstr "組織業主的法律行動限制，例如暫行規定、受人監護或管理"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:198
 msgid "Foreign legal status"
-msgstr ""
+msgstr "海外法律狀態"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:202
 msgid "Court decision by a foreign court"
-msgstr ""
+msgstr "海外法院判決"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:208
 msgid "Last name"
-msgstr ""
+msgstr "姓氏"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:212
 msgid "Last name of the official"
-msgstr ""
+msgstr "官員姓氏"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:222
 msgid "Prefix of the official"
-msgstr ""
+msgstr "官員前綴"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:232
 msgid "First names of the official"
-msgstr ""
+msgstr "官員名字"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:242
 msgid "Date of birth of the official"
-msgstr ""
+msgstr "官員出生日期"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:248
 msgid "Date of death"
-msgstr ""
+msgstr "死亡日期"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:252
 msgid "Date of death of the official"
-msgstr ""
+msgstr "官員死亡日期"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:258
@@ -519,272 +610,272 @@ msgstr ""
 #: .//bzkpilot/Issues/personalData/description.xml:53
 #: .//gemeente/Issues/personalData/description.xml:91
 msgid "Full name"
-msgstr ""
+msgstr "全名"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:262
 msgid "Full name of the official"
-msgstr ""
+msgstr "官員全名"
 
 #. (itstool) path: Name/en
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:268
 #: .//signicat/Issues/kvkTradeRegister/description.xml:272
 msgid "Type of official"
-msgstr ""
+msgstr "官員類型"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:278
 msgid "Position"
-msgstr ""
+msgstr "職位"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:282
 msgid "Position of the official"
-msgstr ""
+msgstr "官員職位"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:288
 msgid "Job title"
-msgstr ""
+msgstr "職稱"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:292
 msgid "Job title of the official"
-msgstr ""
+msgstr "官員職稱"
 
 #. (itstool) path: Name/en
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:298
 #: .//signicat/Issues/kvkTradeRegister/description.xml:302
 msgid "Kind of authorization"
-msgstr ""
+msgstr "授權類型"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:308
 msgid "Restriction of the authorization in euros"
-msgstr ""
+msgstr "歐元授權限制"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:312
 msgid "Authorization of the liable party is limited to the stated amount"
-msgstr ""
+msgstr "責任方最高僅能授權註明的金額"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:318
 msgid "Other restrictions of the authorization"
-msgstr ""
+msgstr "其他授權限制"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:322
 msgid "Indication of whether any other limitation applies to the person liable"
-msgstr ""
+msgstr "顯示是否有其他限制適用於責任方"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:328
 msgid "Is authorized with other persons"
-msgstr ""
+msgstr "由他人授權"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:332
 msgid "Indication indicating that there is joint authority with other persons (Yes) or with the other directors (No)"
-msgstr ""
+msgstr "顯示是否與他人（是）或其他主管（否）共同管理"
 
 #. (itstool) path: Name/en
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:338
 #: .//signicat/Issues/kvkTradeRegister/description.xml:342
 msgid "Type of power of attorney"
-msgstr ""
+msgstr "授權書類型"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:348
 msgid "Restriction in money of the power of attorney"
-msgstr ""
+msgstr "授權書金額限制"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:352
 msgid "If the authorized representative is authorized up to a certain amount"
-msgstr ""
+msgstr "授權代表是否取得一定金額的授權"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:358
 msgid "Restriction on act of the power of attorney"
-msgstr ""
+msgstr "授權書行為限制"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:362
 msgid "If the authorized person has a structured restriction of type of act"
-msgstr ""
+msgstr "被授權人的行動類型是否具有有組織的限制"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:368
 msgid "Has other power of attorney"
-msgstr ""
+msgstr "具備其他授權書"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:372
 msgid "Indication indicating that the authorized person has a power of attorney that cannot be included in a structured way as a type of act"
-msgstr ""
+msgstr "顯示被授權人是否具備無法以結構化方式歸類在公證行為類型的授權書"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:378
 msgid "Description other power of attorney"
-msgstr ""
+msgstr "其他授權書說明"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:382
 msgid "Content of the restriction not to be included in a structured way in the power of attorney"
-msgstr ""
+msgstr "限制內容無法以結構化方式收錄在授權書中"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:388
 msgid "Permission to file changes to the trade register"
-msgstr ""
+msgstr "提交變更商業登記的權限"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:392
 msgid "If the authorized representative has the permission to file changes to the trade register"
-msgstr ""
+msgstr "授權代表是否有權限提交變更商業登記"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:398
 msgid "Special legal situation of the official"
-msgstr ""
+msgstr "官員的特殊法律情況"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:402
 msgid "Special legal situation of the official, eg: bankruptcy, debt restructuring or suspension of payment"
-msgstr ""
+msgstr "官員的特別法律情況，例如破產、債務重組或終止支付"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:408
 msgid "Restriction in legal action of the official"
-msgstr ""
+msgstr "官員法律行動限制"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:412
 msgid "Restriction in legal action of the official, eg: provisional rule, placed under guardianship or placed under administration"
-msgstr ""
+msgstr "官員的法律行動限制，例如暫行規定、受人監護或管理"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:418
 msgid "Start date of suspension"
-msgstr ""
+msgstr "停職開始日期"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:422
 msgid "Indicates when the official's suspension started"
-msgstr ""
+msgstr "顯示官員停職的開始日期"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:428
 msgid "End date of suspension"
-msgstr ""
+msgstr "停職結束日期"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:432
 msgid "Indicates when the official's suspension has ended"
-msgstr ""
+msgstr "顯示官員停職的結束時間"
 
 #. (itstool) path: Name/en
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:438
 #: .//signicat/Issues/kvkTradeRegister/description.xml:442
 msgid "Emancipation of a minor"
-msgstr ""
+msgstr "未成年人獨立生活資格"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:448
 msgid "Has restriction"
-msgstr ""
+msgstr "具有限制"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:452
 msgid "Indication of whether there is some kind of restriction that affects the determination of an authorization (Yes, No)"
-msgstr ""
+msgstr "顯示是否有限制影響到授權的判定（是/否）"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:458
 msgid "Is authorized"
-msgstr ""
+msgstr "已授權"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:462
 msgid "Indication of whether someone is authorized (Yes, No or Not established)"
-msgstr ""
+msgstr "顯示某人是否已取得授權（是、否或未知）"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:468
 msgid "Reason for established authorization"
-msgstr ""
+msgstr "既定授權原因"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:472
 msgid "Reason for (not) being authorized or not being able to determine someone's authorization"
-msgstr ""
+msgstr "取得（或未取得）授權或是無法判定他人授權的原因"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:478
 msgid "Reference moment"
-msgstr ""
+msgstr "參考時間點"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:482
 msgid "Reference moment is the moment the data is extracted from the trade register (format yyyymmddhhmmssmmm)"
-msgstr ""
+msgstr "參考時間點就是從商業登記處擷取出資料的時間（格式：yyyymmddhhmmssmmm）"
 
 #. (itstool) path: Description/en
 #: .//surf/Issues/secureid/description.xml:14
 msgid "Your SURFsecureID 2nd factor"
-msgstr ""
+msgstr "您的 SURFsecureID 雙重認證"
 
 #. (itstool) path: Description/en
 #: .//surf/Issues/secureid/description.xml:30
 msgid "Your SURFsecureID identifier"
-msgstr ""
+msgstr "您的 SURFsecureID 識別碼"
 
 #. (itstool) path: Name/en
 #: .//surf/Issues/secureid/description.xml:36
 msgid "Environment"
-msgstr ""
+msgstr "環境"
 
 #. (itstool) path: Description/en
 #: .//surf/Issues/secureid/description.xml:40
 msgid "The SURFsecureID environment"
-msgstr ""
+msgstr "SURFsecureID 環境"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
 #: .//surf/Issues/surfdrive/description.xml:3
 #: .//surf/Issues/surfdrive/description.xml:7
 msgid "SURFdrive license"
-msgstr ""
+msgstr "SURFdrive 授權"
 
 #. (itstool) path: Description/en
 #: .//surf/Issues/surfdrive/description.xml:14
 msgid "Your SURFdrive licence, for logging in at SURFdrive"
-msgstr ""
+msgstr "您的 SURFdrive 授權可用來登入 SURFdrive"
 
 #. (itstool) path: Name/en
 #: .//surf/Issues/surfdrive/description.xml:22
 msgid "Institution user ID"
-msgstr ""
+msgstr "機構使用者 ID"
 
 #. (itstool) path: Description/en
 #: .//surf/Issues/surfdrive/description.xml:26
 msgid "Your ID at your institute"
-msgstr ""
+msgstr "您的機構 ID"
 
 #. (itstool) path: Name/en
 #: .//surf/Issues/surfdrive/description.xml:42
 msgid "Name"
-msgstr ""
+msgstr "姓名"
 
 #. (itstool) path: Description/en
 #: .//surf/Issues/surfdrive/description.xml:46
 msgid "Your name"
-msgstr ""
+msgstr "您的姓名"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
@@ -795,12 +886,12 @@ msgstr ""
 #: .//gemeente/Issues/personalData/description.xml:3
 #: .//gemeente/Issues/personalData/description.xml:7
 msgid "Personal data"
-msgstr ""
+msgstr "個人資料"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/personalData/description.xml:14
 msgid "Your personal data, from the Dutch population register"
-msgstr ""
+msgstr "荷蘭人口登記處的您的個人資料"
 
 #. (itstool) path: Name/en
 #: .//nijmegen/Issues/personalData/description.xml:66
@@ -810,20 +901,20 @@ msgstr ""
 #: .//cis/Issues/digitalInsurancePassport/description.xml:68
 #: .//gemeente/Issues/personalData/description.xml:121
 msgid "Surname"
-msgstr ""
+msgstr "姓氏"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/personalData/description.xml:70
 #: .//cis/Issues/digitalInsurancePassport/description.xml:72
 msgid "Your full family name: your family name or (a combination with) that of your partner"
-msgstr ""
+msgstr "您的全名：您的姓名或/與您伴侶姓氏的組合"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/personalData/description.xml:80
 #: .//pbdf/Issues/irmatube/description.xml:54
 #: .//gemeente/Issues/personalData/description.xml:95
 msgid "Your full name"
-msgstr ""
+msgstr "您的全名"
 
 #. (itstool) path: Name/en
 #: .//nijmegen/Issues/personalData/description.xml:96
@@ -835,7 +926,7 @@ msgstr ""
 #: .//cis/Issues/digitalInsurancePassport/description.xml:78
 #: .//gemeente/Issues/personalData/description.xml:101
 msgid "Gender"
-msgstr ""
+msgstr "性別"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/personalData/description.xml:100
@@ -845,26 +936,26 @@ msgstr ""
 #: .//cis/Issues/digitalInsurancePassport/description.xml:82
 #: .//gemeente/Issues/personalData/description.xml:105
 msgid "Your gender"
-msgstr ""
+msgstr "您的性別"
 
 #. (itstool) path: Name/en
 #: .//nijmegen/Issues/personalData/description.xml:106
 #: .//bzkpilot/Issues/personalData/description.xml:173
 #: .//gemeente/Issues/personalData/description.xml:111
 msgid "Dutch nationality"
-msgstr ""
+msgstr "荷蘭國籍"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/personalData/description.xml:110
 #: .//bzkpilot/Issues/personalData/description.xml:177
 #: .//gemeente/Issues/personalData/description.xml:115
 msgid "Whether you have the dutch nationality"
-msgstr ""
+msgstr "您是否具有荷蘭國籍"
 
 #. (itstool) path: Name/en
 #: .//nijmegen/Issues/ageLimits/description.xml:3
 msgid "Age limits"
-msgstr ""
+msgstr "年齡限制"
 
 #. (itstool) path: ShortName/en
 #. (itstool) path: Name/en
@@ -872,12 +963,12 @@ msgstr ""
 #: .//pbdf/Issues/ageLimits/description.xml:3
 #: .//pbdf/Issues/ageLimits/description.xml:7
 msgid "Age"
-msgstr ""
+msgstr "年齡"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/ageLimits/description.xml:14
 msgid "Your age limits, derived from your birthdate from the Dutch population register"
-msgstr ""
+msgstr "您的年齡限制，根據您在荷蘭人口登記名冊的出生日期所得出"
 
 #. (itstool) path: Name/en
 #: .//nijmegen/Issues/ageLimits/description.xml:26
@@ -888,7 +979,7 @@ msgstr ""
 #: .//bzkpilot/Issues/personalData/description.xml:123
 #: .//gemeente/Issues/personalData/description.xml:161
 msgid "Over 12"
-msgstr ""
+msgstr "年滿 12 歲"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/ageLimits/description.xml:30
@@ -899,7 +990,7 @@ msgstr ""
 #: .//bzkpilot/Issues/personalData/description.xml:127
 #: .//gemeente/Issues/personalData/description.xml:165
 msgid "Whether you are over 12"
-msgstr ""
+msgstr "您是否年滿 12 歲"
 
 #. (itstool) path: Name/en
 #: .//nijmegen/Issues/ageLimits/description.xml:36
@@ -910,7 +1001,7 @@ msgstr ""
 #: .//bzkpilot/Issues/personalData/description.xml:133
 #: .//gemeente/Issues/personalData/description.xml:171
 msgid "Over 16"
-msgstr ""
+msgstr "年滿 16 歲"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/ageLimits/description.xml:40
@@ -921,7 +1012,7 @@ msgstr ""
 #: .//bzkpilot/Issues/personalData/description.xml:137
 #: .//gemeente/Issues/personalData/description.xml:175
 msgid "Whether you are over 16"
-msgstr ""
+msgstr "您是否年滿 16 歲"
 
 #. (itstool) path: Name/en
 #: .//nijmegen/Issues/ageLimits/description.xml:46
@@ -932,7 +1023,7 @@ msgstr ""
 #: .//bzkpilot/Issues/personalData/description.xml:143
 #: .//gemeente/Issues/personalData/description.xml:181
 msgid "Over 18"
-msgstr ""
+msgstr "年滿 18 歲"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/ageLimits/description.xml:50
@@ -943,7 +1034,7 @@ msgstr ""
 #: .//bzkpilot/Issues/personalData/description.xml:147
 #: .//gemeente/Issues/personalData/description.xml:185
 msgid "Whether you are over 18"
-msgstr ""
+msgstr "您是否年滿 18 歲"
 
 #. (itstool) path: Name/en
 #: .//nijmegen/Issues/ageLimits/description.xml:56
@@ -954,7 +1045,7 @@ msgstr ""
 #: .//bzkpilot/Issues/personalData/description.xml:153
 #: .//gemeente/Issues/personalData/description.xml:191
 msgid "Over 21"
-msgstr ""
+msgstr "年滿 21 歲"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/ageLimits/description.xml:60
@@ -965,7 +1056,7 @@ msgstr ""
 #: .//bzkpilot/Issues/personalData/description.xml:157
 #: .//gemeente/Issues/personalData/description.xml:195
 msgid "Whether you are over 21"
-msgstr ""
+msgstr "您是否年滿 21 歲"
 
 #. (itstool) path: Name/en
 #: .//nijmegen/Issues/ageLimits/description.xml:66
@@ -976,7 +1067,7 @@ msgstr ""
 #: .//bzkpilot/Issues/personalData/description.xml:163
 #: .//gemeente/Issues/personalData/description.xml:201
 msgid "Over 65"
-msgstr ""
+msgstr "年滿 65 歲"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/ageLimits/description.xml:70
@@ -987,7 +1078,7 @@ msgstr ""
 #: .//bzkpilot/Issues/personalData/description.xml:167
 #: .//gemeente/Issues/personalData/description.xml:205
 msgid "Whether you are over 65"
-msgstr ""
+msgstr "您是否年滿 65 歲"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
@@ -998,62 +1089,62 @@ msgstr ""
 #: .//bzkpilot/Issues/address/description.xml:7
 #: .//gemeente/Issues/address/description.xml:7
 msgid "Address"
-msgstr ""
+msgstr "地址"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/address/description.xml:14
 msgid "Your address, from the Dutch population register"
-msgstr ""
+msgstr "荷蘭人口登記處的您的地址"
 
 #. (itstool) path: Name/en
 #: .//nijmegen/Issues/address/description.xml:26
 #: .//bzkpilot/Issues/address/description.xml:53
 #: .//gemeente/Issues/address/description.xml:50
 msgid "Street"
-msgstr ""
+msgstr "街"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/address/description.xml:30
 #: .//bzkpilot/Issues/address/description.xml:57
 #: .//gemeente/Issues/address/description.xml:54
 msgid "Your street"
-msgstr ""
+msgstr "您所居住的街道"
 
 #. (itstool) path: Name/en
 #: .//nijmegen/Issues/address/description.xml:36
 #: .//bzkpilot/Issues/address/description.xml:63
 #: .//gemeente/Issues/address/description.xml:60
 msgid "House number"
-msgstr ""
+msgstr "門牌號碼"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/address/description.xml:40
 msgid "Your house number, letter and/or addition"
-msgstr ""
+msgstr "您居住地的門牌號碼"
 
 #. (itstool) path: Name/en
 #: .//nijmegen/Issues/address/description.xml:46
 msgid "Zip code"
-msgstr ""
+msgstr "郵遞區號"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/address/description.xml:50
 msgid "Your zip code"
-msgstr ""
+msgstr "您的郵遞區號"
 
 #. (itstool) path: Name/en
 #: .//nijmegen/Issues/address/description.xml:56
 #: .//bzkpilot/Issues/address/description.xml:93
 #: .//gemeente/Issues/address/description.xml:80
 msgid "Municipality"
-msgstr ""
+msgstr "省市鎮"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/address/description.xml:60
 #: .//bzkpilot/Issues/address/description.xml:97
 #: .//gemeente/Issues/address/description.xml:84
 msgid "Your municipality"
-msgstr ""
+msgstr "您的省市鎮"
 
 #. (itstool) path: Name/en
 #: .//nijmegen/Issues/address/description.xml:66
@@ -1064,94 +1155,94 @@ msgstr ""
 #: .//bzkpilot/Issues/address/description.xml:83
 #: .//gemeente/Issues/address/description.xml:90
 msgid "City"
-msgstr ""
+msgstr "城市"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/address/description.xml:70
 #: .//bzkpilot/Issues/address/description.xml:87
 #: .//gemeente/Issues/address/description.xml:94
 msgid "Your city of residence"
-msgstr ""
+msgstr "您居住地所在城市"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/bsn/description.xml:14
 msgid "Your Dutch Citizen service number (BSN), from the Dutch population register"
-msgstr ""
+msgstr "荷蘭人口登記處的您的荷蘭公民服務號碼 (BSN)"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/bsn/description.xml:30
 #: .//gemeente/Issues/personalData/description.xml:215
 msgid "Your Dutch Citizen service number (BSN)"
-msgstr ""
+msgstr "您的荷蘭公民服務號碼（BSN）"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
 #: .//nijmegen/Issues/travelDocument/description.xml:3
 #: .//nijmegen/Issues/travelDocument/description.xml:7
 msgid "Travel Document"
-msgstr ""
+msgstr "旅行證件"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/travelDocument/description.xml:14
 msgid "Your Dutch passport or identity card, from the Dutch population register"
-msgstr ""
+msgstr "您由荷蘭人口登記處所發放的荷蘭護照或身分證"
 
 #. (itstool) path: Name/en
 #: .//nijmegen/Issues/travelDocument/description.xml:26
 msgid "Document kind"
-msgstr ""
+msgstr "文件類型"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/travelDocument/description.xml:30
 msgid "The document kind (passport or identity card)"
-msgstr ""
+msgstr "文件類型（護照或身分證）"
 
 #. (itstool) path: Name/en
 #: .//nijmegen/Issues/travelDocument/description.xml:36
 #: .//pilot-amsterdam/Issues/passport/description.xml:149
 #: .//pilot-amsterdam/Issues/idcard/description.xml:149
 msgid "Document number"
-msgstr ""
+msgstr "文件號碼"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/travelDocument/description.xml:40
 msgid "The travel document number"
-msgstr ""
+msgstr "旅行證件號碼"
 
 #. (itstool) path: Name/en
 #: .//nijmegen/Issues/travelDocument/description.xml:46
 msgid "Issuance date"
-msgstr ""
+msgstr "發照/證日期"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/travelDocument/description.xml:50
 msgid "Date of issuance of the travel document"
-msgstr ""
+msgstr "旅行證件發放日期"
 
 #. (itstool) path: Name/en
 #: .//nijmegen/Issues/travelDocument/description.xml:56
 msgid "Expiry date"
-msgstr ""
+msgstr "到期日期"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/travelDocument/description.xml:60
 msgid "Expiry date of the travel document"
-msgstr ""
+msgstr "旅行證件到期日期"
 
 #. (itstool) path: Name/en
 #: .//nijmegen/Issues/travelDocument/description.xml:66
 msgid "Document issuer"
-msgstr ""
+msgstr "文件發照單位"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/travelDocument/description.xml:70
 msgid "Issuer of the travel document"
-msgstr ""
+msgstr "旅行證件發照單位"
 
 #. (itstool) path: Name/en
 #: .//sidn-pbdf/Issues/irma/description.xml:3
 msgid "MyYivi app ID"
-msgstr ""
+msgstr "MyYivi 程式 ID"
 
 #. (itstool) path: ShortName/en
 #. (itstool) path: Name/en
@@ -1159,7 +1250,7 @@ msgstr ""
 #: .//pbdf/Issues/mijnirma/description.xml:3
 #: .//pbdf/Issues/mijnirma/description.xml:7
 msgid "MyYivi"
-msgstr ""
+msgstr "MyYivi"
 
 #. (itstool) path: Description/en
 #: .//sidn-pbdf/Issues/irma/description.xml:14
@@ -1167,18 +1258,18 @@ msgstr ""
 #: .//pbdf/Issues/mijnirma/description.xml:15
 #: .//pbdf/Issues/mijnirma/description.xml:32
 msgid "Your MyYivi app ID"
-msgstr ""
+msgstr "您的 MyYivi 程式 ID"
 
 #. (itstool) path: Name/en
 #: .//sidn-pbdf/Issues/irma/description.xml:27
 msgid "App ID"
-msgstr ""
+msgstr "程式 ID"
 
 #. (itstool) path: ShortName/en
 #: .//sidn-pbdf/Issues/mobilenumber/description.xml:7
 #: .//pbdf/Issues/mobilenumber/description.xml:7
 msgid "Mobile number"
-msgstr ""
+msgstr "行動電話號碼"
 
 #. (itstool) path: Description/en
 #: .//sidn-pbdf/Issues/mobilenumber/description.xml:14
@@ -1186,12 +1277,12 @@ msgstr ""
 #: .//pbdf/Issues/mobilenumber/description.xml:15
 #: .//pbdf/Issues/mobilenumber/description.xml:52
 msgid "Your verified mobile phone number"
-msgstr ""
+msgstr "您驗證過的行動電話號碼"
 
 #. (itstool) path: IssueURL/en
 #: .//sidn-pbdf/Issues/mobilenumber/description.xml:19
 msgid "https://sidnsmsissuer.yiviconnect.nl/issuance/sms/"
-msgstr ""
+msgstr "https://sidnsmsissuer.yiviconnect.nl/issuance/sms/"
 
 #. (itstool) path: Category/en
 #: .//sidn-pbdf/Issues/mobilenumber/description.xml:28
@@ -1206,70 +1297,84 @@ msgstr ""
 #: .//gemeente/Issues/personalData/description.xml:28
 #: .//gemeente/Issues/address/description.xml:28
 msgid "Personal"
-msgstr ""
+msgstr "個人"
 
 #. (itstool) path: FAQIntro/en
 #: .//sidn-pbdf/Issues/mobilenumber/description.xml:32
 #: .//pbdf/Issues/mobilenumber/description.xml:29
 msgid "Add your mobile phone number to your Yivi app.\\nYou can add multiple phone numbers."
 msgstr ""
+"將您的行動電話號碼新增至 Yivi 程式中。\\n"
+"您可以新增多個行動電話號碼。"
 
 #. (itstool) path: FAQPurpose/en
 #: .//sidn-pbdf/Issues/mobilenumber/description.xml:36
 #: .//pbdf/Issues/mobilenumber/description.xml:33
 msgid "With your mobile phone number in your Yivi app, you can show that this number is really yours. For instance, you can disclose your phone number in a form or use it to login at a website."
-msgstr ""
+msgstr "透過您 Yivi 程式中的行動電話號碼，您可以證明這個號碼確實是您所有。舉例來說，"
+"您可以在表單中揭露您的行動電話號碼，或是用來登入網站。"
 
 #. (itstool) path: FAQContent/en
 #: .//sidn-pbdf/Issues/mobilenumber/description.xml:40
 #: .//pbdf/Issues/mobilenumber/description.xml:37
 msgid "You will add the following data:\\n• mobile phone number."
 msgstr ""
+"您會新增以下資料：\\n"
+"• 行動電話號碼。"
 
 #. (itstool) path: FAQHowto/en
 #: .//sidn-pbdf/Issues/mobilenumber/description.xml:44
 #: .//pbdf/Issues/mobilenumber/description.xml:41
 msgid "Complete the following steps.\\n1. Enter your mobile phone number.\\n2. Check the Yivi SMS message on your phone.\\n3. Use either the verification code in the message, or use the link in the message. After filling in the verification on the webpage for issuing phone numbers you will see a QR code that you can scan with the Yivi app on your phone. If you use the direct link in the SMS message you are sent back automatically to the Yivi app.\\n\\nYou now receive a card with your mobile phone number. Repeat this process for other mobile phone numbers that you wish to add."
 msgstr ""
+"請完成以下步驟。\\n"
+"1. 輸入您的行動電話號碼。\\n"
+"2. 在行動電話上檢查是否有收到來自 Yivi 的 SMS 簡訊。\\n"
+"3. 使用簡訊中的驗證碼或是連結。在驗證用的網頁上填寫行動電話號碼，"
+"然後您會看到 QR 圖碼，您可以使用行動電話上的 Yivi "
+"程式掃描它。若您點按簡訊中的直接連結，您會被自動送回 Yivi 程式中。\\n"
+"\\n"
+"現在，您會收到您行動電話號碼的卡片。請對您想要新增的其他行動電話號碼重複此流"
+"程。"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
 #: .//sidn-pbdf/Issues/uniqueid/description.xml:3
 #: .//sidn-pbdf/Issues/uniqueid/description.xml:7
 msgid "Login data"
-msgstr ""
+msgstr "登入資料"
 
 #. (itstool) path: Description/en
 #: .//sidn-pbdf/Issues/uniqueid/description.xml:14
 msgid "Your unique login data."
-msgstr ""
+msgstr "您唯一識別的登入資料。"
 
 #. (itstool) path: Name/en
 #: .//sidn-pbdf/Issues/uniqueid/description.xml:22
 #: .//gebiedonline/Issues/useridentification/description.xml:31
 msgid "Login code"
-msgstr ""
+msgstr "登入代號"
 
 #. (itstool) path: Description/en
 #: .//sidn-pbdf/Issues/uniqueid/description.xml:26
 msgid "Your unique login code."
-msgstr ""
+msgstr "您唯一識別的登入代碼。"
 
 #. (itstool) path: Name/en
 #: .//sidn-pbdf/Issues/uniqueid/description.xml:32
 msgid "Organization"
-msgstr ""
+msgstr "組織"
 
 #. (itstool) path: Description/en
 #: .//sidn-pbdf/Issues/uniqueid/description.xml:36
 msgid "The organization that uses this login."
-msgstr ""
+msgstr "使用此登入資料的組織。"
 
 #. (itstool) path: ShortName/en
 #: .//sidn-pbdf/Issues/email/description.xml:7
 #: .//pbdf/Issues/email/description.xml:7
 msgid "Email"
-msgstr ""
+msgstr "電子郵件"
 
 #. (itstool) path: Description/en
 #: .//sidn-pbdf/Issues/email/description.xml:14
@@ -1277,76 +1382,90 @@ msgstr ""
 #: .//pbdf/Issues/email/description.xml:15
 #: .//pbdf/Issues/email/description.xml:51
 msgid "Your verified email address"
-msgstr ""
+msgstr "您驗證過的電子郵件地址"
 
 #. (itstool) path: IssueURL/en
 #: .//sidn-pbdf/Issues/email/description.xml:19
 msgid "https://sidnemailissuer.yiviconnect.nl/issuance/email"
-msgstr ""
+msgstr "https://sidnemailissuer.yiviconnect.nl/issuance/email"
 
 #. (itstool) path: FAQIntro/en
 #: .//sidn-pbdf/Issues/email/description.xml:32
 #: .//pbdf/Issues/email/description.xml:28
 msgid "Add your email address to your Yivi app. You can add multiple email addresses."
-msgstr ""
+msgstr "將您的電子郵件地址新增至 Yivi 程式。您可以新增多個電子郵件地址。"
 
 #. (itstool) path: FAQPurpose/en
 #: .//sidn-pbdf/Issues/email/description.xml:36
 #: .//pbdf/Issues/email/description.xml:32
 msgid "With your email address in your Yivi app, you can show that this address is really yours. For instance, you can use your email address to fill in a line in a form, or to login at a website."
-msgstr ""
+msgstr "透過您 Yivi 程式中的電子郵件地址，可以證明這個地址確實是您的。舉例來說，您可"
+"以使用電子郵件地址來填寫表單，或是登入網站。"
 
 #. (itstool) path: FAQContent/en
 #: .//sidn-pbdf/Issues/email/description.xml:40
 msgid "You will add the following data.\\n• email address\\n• email domain name"
 msgstr ""
+"您會新增以下資料：\\n"
+"• 電子郵件地址\\n"
+"• 電子郵件網域名稱"
 
 #. (itstool) path: FAQHowto/en
 #: .//sidn-pbdf/Issues/email/description.xml:44
 msgid "Complete the following steps.\\n1. Enter your email address.\\n2. Open your email application and go to your Inbox (if there is no new mail soon, please check your Spam folder).\\n3. Click the link in the email message, sent by Yivi. If you see a QR code on your computer screen, scan it with the QR scanner in your Yivi app. Yivi copies your email data into your Yivi app.\\n\\nYou now receive a card with your email address and its domain name in your Yivi app. Repeat this process for other email addresses that you wish to add."
 msgstr ""
+"請完成以下步驟。\\n"
+"1. 輸入您的電子郵件地址。\\n"
+"2. 開啟您的電子郵件程式，並檢視收件匣（若還未看到新郵件，請檢查「垃圾信件」資"
+"料夾）。\\n"
+"3. 點擊 Yivi 傳送的電子郵件中的連結。若您在電腦畫面上看見 QR 圖碼，請以 Yivi "
+"程式中的 QR 圖碼掃描程式掃描。Yivi 會複製您的電子郵件資料到 Yivi 程式中。\\n"
+"\\n"
+"現在，您會在 Yivi 程式中收到您電子郵件地址與其網域名稱的卡片。對您想新增的其"
+"他電子郵件地址重複此流程。"
 
 #. (itstool) path: Name/en
 #: .//sidn-pbdf/Issues/email/description.xml:61
 #: .//pbdf/Issues/email/description.xml:57
 msgid "Email domain name"
-msgstr ""
+msgstr "電子郵件網域名稱"
 
 #. (itstool) path: Description/en
 #: .//sidn-pbdf/Issues/email/description.xml:65
 #: .//pbdf/Issues/email/description.xml:61
 msgid "The domain name of your email address"
-msgstr ""
+msgstr "您電子郵件地址的網域名稱"
 
 #. (itstool) path: Name/en
 #: .//description.xml:5
 #: .//pbdf/description.xml:8
 msgid "Privacy by Design Foundation"
-msgstr ""
+msgstr "Privacy by Design 基金會"
 
 #. (itstool) path: Description/en
 #: .//description.xml:9
 msgid "The Privacy by Design Foundation develops the Yivi app and the Yivi infrastructure, and issues basic attributes for free"
-msgstr ""
+msgstr "Privacy by Design 基金會開發了 Yivi 程式與 Yivi "
+"基礎設施，並免費發行基本的資料特性"
 
 #. (itstool) path: ShortName/en
 #. (itstool) path: Name/en
 #: .//pilot-amsterdam/description.xml:4
 #: .//pilot-amsterdam/description.xml:8
 msgid "Pilot Municipality of Amsterdam"
-msgstr ""
+msgstr "阿姆斯特丹試行市鎮"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
 #: .//pilot-amsterdam/Issues/passport/description.xml:3
 #: .//pilot-amsterdam/Issues/passport/description.xml:7
 msgid "Pilot Passport data"
-msgstr ""
+msgstr "試行護照資料"
 
 #. (itstool) path: Description/en
 #: .//pilot-amsterdam/Issues/passport/description.xml:14
 msgid "Your Dutch passport, read from the Yivi desk"
-msgstr ""
+msgstr "從 Yivi 服務台讀取的您的荷蘭護照"
 
 #. (itstool) path: Description/en
 #: .//pilot-amsterdam/Issues/passport/description.xml:33
@@ -1354,37 +1473,37 @@ msgstr ""
 #: .//bzkpilot/Issues/personalData/description.xml:57
 #: .//gemeente/Issues/personalData/description.xml:125
 msgid "Your full family name: your family name or (a combination with) the name of your partner"
-msgstr ""
+msgstr "您的全名：您的姓名或/與您伴侶姓氏的組合"
 
 #. (itstool) path: Description/en
 #: .//pilot-amsterdam/Issues/passport/description.xml:43
 #: .//pilot-amsterdam/Issues/idcard/description.xml:43
 msgid "All your first names"
-msgstr ""
+msgstr "您完整的名字"
 
 #. (itstool) path: Name/en
 #: .//pilot-amsterdam/Issues/passport/description.xml:119
 #: .//pilot-amsterdam/Issues/idcard/description.xml:119
 msgid "Nationality"
-msgstr ""
+msgstr "國籍"
 
 #. (itstool) path: Description/en
 #: .//pilot-amsterdam/Issues/passport/description.xml:123
 #: .//pilot-amsterdam/Issues/idcard/description.xml:123
 msgid "Your nationality"
-msgstr ""
+msgstr "您的國籍"
 
 #. (itstool) path: Name/en
 #: .//pilot-amsterdam/Issues/passport/description.xml:129
 #: .//pilot-amsterdam/Issues/idcard/description.xml:129
 msgid "Personal Identification Number"
-msgstr ""
+msgstr "個人身分識別碼"
 
 #. (itstool) path: Description/en
 #: .//pilot-amsterdam/Issues/passport/description.xml:133
 #: .//pilot-amsterdam/Issues/idcard/description.xml:133
 msgid "Your Personal Identification Number. For Dutch travel documents your Dutch Citizen service number (BSN)"
-msgstr ""
+msgstr "您的個人身分識別碼。對於荷蘭的旅行證件來說，就是荷蘭公民服務碼 (BSN)"
 
 #. (itstool) path: Name/en
 #: .//pilot-amsterdam/Issues/passport/description.xml:139
@@ -1392,505 +1511,538 @@ msgstr ""
 #: .//cis/Issues/digitalInsurancePassport/description.xml:118
 #: .//gemeente/Issues/personalData/description.xml:221
 msgid "Assurance level"
-msgstr ""
+msgstr "保險等級"
 
 #. (itstool) path: Description/en
 #: .//pilot-amsterdam/Issues/passport/description.xml:143
 #: .//pilot-amsterdam/Issues/idcard/description.xml:143
 msgid "The level of assurance according to eIDAS"
-msgstr ""
+msgstr "根據 eIDAS 的保險等級"
 
 #. (itstool) path: Description/en
 #: .//pilot-amsterdam/Issues/passport/description.xml:153
 msgid "The document number of your passport"
-msgstr ""
+msgstr "您護照的證件號碼"
 
 #. (itstool) path: Name/en
 #: .//pilot-amsterdam/Issues/passport/description.xml:159
 #: .//pilot-amsterdam/Issues/idcard/description.xml:159
 #: .//bzkpilot/Issues/personalData/description.xml:203
 msgid "Photo"
-msgstr ""
+msgstr "照片"
 
 #. (itstool) path: Description/en
 #: .//pilot-amsterdam/Issues/passport/description.xml:163
 msgid "The portrait photo as included in your passport"
-msgstr ""
+msgstr "護照中的人像照片"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
 #: .//pilot-amsterdam/Issues/idcard/description.xml:3
 #: .//pilot-amsterdam/Issues/idcard/description.xml:7
 msgid "Pilot ID card data"
-msgstr ""
+msgstr "試行證件卡片資料"
 
 #. (itstool) path: Description/en
 #: .//pilot-amsterdam/Issues/idcard/description.xml:14
 msgid "Your Dutch ID card, read from the Yivi desk"
-msgstr ""
+msgstr "從 Yivi 服務台讀取的您的荷蘭身分證"
 
 #. (itstool) path: Description/en
 #: .//pilot-amsterdam/Issues/idcard/description.xml:153
 msgid "The document number of your ID card"
-msgstr ""
+msgstr "您身分證的證件號碼"
 
 #. (itstool) path: Description/en
 #: .//pilot-amsterdam/Issues/idcard/description.xml:163
 msgid "The portrait photo as included in your ID card"
-msgstr ""
+msgstr "身分證中的人像照片"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
 #: .//gebiedonline/Issues/workingarea/description.xml:3
 #: .//gebiedonline/Issues/workingarea/description.xml:7
 msgid "Working area"
-msgstr ""
+msgstr "工作鄰里社區"
 
 #. (itstool) path: Description/en
 #: .//gebiedonline/Issues/workingarea/description.xml:14
 msgid "The area where I work"
-msgstr ""
+msgstr "我工作的鄰里社區"
 
 #. (itstool) path: Name/en
 #: .//gebiedonline/Issues/workingarea/description.xml:29
 #: .//gebiedonline/Issues/livingarea/description.xml:30
 msgid "Zip code in 4 digits"
-msgstr ""
+msgstr "四位數郵遞區號"
 
 #. (itstool) path: Description/en
 #: .//gebiedonline/Issues/workingarea/description.xml:33
 msgid "Zip code (4 digits) of the area(s) where I work"
-msgstr ""
+msgstr "我工作鄰里社區的四位數郵遞區號"
 
 #. (itstool) path: Name/en
 #: .//gebiedonline/Issues/workingarea/description.xml:40
 #: .//gebiedonline/Issues/livingarea/description.xml:41
 msgid "District"
-msgstr ""
+msgstr "區"
 
 #. (itstool) path: Description/en
 #: .//gebiedonline/Issues/workingarea/description.xml:44
 msgid "The district(s) where I work"
-msgstr ""
+msgstr "我工作的鄉鎮市區"
 
 #. (itstool) path: Description/en
 #: .//gebiedonline/Issues/workingarea/description.xml:55
 msgid "The city/cities where I work"
-msgstr ""
+msgstr "我工作的鄉鎮市區"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
 #: .//gebiedonline/Issues/livingarea/description.xml:3
 #: .//gebiedonline/Issues/livingarea/description.xml:7
 msgid "Living area"
-msgstr ""
+msgstr "居住區域"
 
 #. (itstool) path: Description/en
 #: .//gebiedonline/Issues/livingarea/description.xml:15
 msgid "The area where I live"
-msgstr ""
+msgstr "我居住的地區"
 
 #. (itstool) path: Description/en
 #: .//gebiedonline/Issues/livingarea/description.xml:34
 msgid "Zip code (4 digits) of the area where I live"
-msgstr ""
+msgstr "我居住區域的四位數郵遞區號"
 
 #. (itstool) path: Description/en
 #: .//gebiedonline/Issues/livingarea/description.xml:45
 msgid "The district where I live"
-msgstr ""
+msgstr "我居住的區"
 
 #. (itstool) path: Description/en
 #: .//gebiedonline/Issues/livingarea/description.xml:56
 msgid "The city where I live"
-msgstr ""
+msgstr "我居住的都市"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
 #: .//gebiedonline/Issues/useridentification/description.xml:3
 #: .//gebiedonline/Issues/useridentification/description.xml:7
 msgid "User identification"
-msgstr ""
+msgstr "使用者身分識別"
 
 #. (itstool) path: Description/en
 #: .//gebiedonline/Issues/useridentification/description.xml:15
 msgid "My identification for Gebiedonline community websites"
-msgstr ""
+msgstr "我在 Gebiedonline 社群網站的身分識別"
 
 #. (itstool) path: Description/en
 #: .//gebiedonline/Issues/useridentification/description.xml:35
 msgid "My personal code to get access to my user account"
-msgstr ""
+msgstr "我的個人代號，用於存取我的使用者帳號"
 
 #. (itstool) path: Name/en
 #: .//minvws-cibg/description.xml:4
 msgid "Authority for issuing UZI credentials"
-msgstr ""
+msgstr "發佈 UZI 驗證資訊的權限"
 
 #. (itstool) path: Name/en
 #: .//minvws-cibg/Issues/pilot-2/description.xml:6
 msgid "UZI register"
-msgstr ""
+msgstr "UZI 登記處"
 
 #. (itstool) path: ShortName/en
 #: .//minvws-cibg/Issues/pilot-2/description.xml:10
 msgid "UZI Register"
-msgstr ""
+msgstr "UZI 登記處"
 
 #. (itstool) path: Description/en
 #: .//minvws-cibg/Issues/pilot-2/description.xml:17
 msgid "Attributes of your healthcare identity from the UZI register"
-msgstr ""
+msgstr "UZI 登記處中您的衛生保健身份屬性"
 
 #. (itstool) path: Description/en
 #: .//minvws-cibg/Issues/pilot-2/description.xml:31
 msgid "Your initials"
-msgstr ""
+msgstr "您的名字縮寫"
 
 #. (itstool) path: Name/en
 #: .//minvws-cibg/Issues/pilot-2/description.xml:37
 msgid "Surname prefix(es)"
-msgstr ""
+msgstr "姓氏前綴"
 
 #. (itstool) path: Description/en
 #: .//minvws-cibg/Issues/pilot-2/description.xml:41
 msgid "Your surname prefix(es)"
-msgstr ""
+msgstr "您的姓名前綴"
 
 #. (itstool) path: Description/en
 #: .//minvws-cibg/Issues/pilot-2/description.xml:51
 msgid "Your surname"
-msgstr ""
+msgstr "您的姓氏"
 
 #. (itstool) path: Name/en
 #: .//minvws-cibg/Issues/pilot-2/description.xml:57
 msgid "Name of healthcare provider"
-msgstr ""
+msgstr "健康照護提供者名稱"
 
 #. (itstool) path: Description/en
 #: .//minvws-cibg/Issues/pilot-2/description.xml:61
 msgid "The name of the healthcare provider"
-msgstr ""
+msgstr "健康照護提供者名稱"
 
 #. (itstool) path: Name/en
 #: .//minvws-cibg/Issues/pilot-2/description.xml:67
 msgid "URA number"
-msgstr ""
+msgstr "URA 號碼"
 
 #. (itstool) path: Description/en
 #: .//minvws-cibg/Issues/pilot-2/description.xml:71
 msgid "The URA number of a healthcare provider"
-msgstr ""
+msgstr "健康照護提供者 URA 號碼"
 
 #. (itstool) path: Name/en
 #: .//minvws-cibg/Issues/pilot-2/description.xml:77
 msgid "UZI number"
-msgstr ""
+msgstr "UZI 號碼"
 
 #. (itstool) path: Description/en
 #: .//minvws-cibg/Issues/pilot-2/description.xml:81
 msgid "Your UZI number"
-msgstr ""
+msgstr "您的 UZI 號碼"
 
 #. (itstool) path: Name/en
 #: .//minvws-cibg/Issues/pilot-2/description.xml:87
 msgid "Roles"
-msgstr ""
+msgstr "角色"
 
 #. (itstool) path: Description/en
 #: .//minvws-cibg/Issues/pilot-2/description.xml:91
 msgid "Your roles at a healthcare organisation as defined in the UZI register"
-msgstr ""
+msgstr "UZI 登記處中您在衛生保健組織的角色"
 
 #. (itstool) path: Name/en
 #: .//minvws-cibg/Issues/pilot-2/description.xml:97
 msgid "Authentication assurance level"
-msgstr ""
+msgstr "驗證保險等級"
 
 #. (itstool) path: Description/en
 #: .//minvws-cibg/Issues/pilot-2/description.xml:101
 msgid "Level of authenticatie assurance"
-msgstr ""
+msgstr "驗證保險等級"
 
 #. (itstool) path: Name/en
 #: .//minvws-cibg/Issues/pilot-2/description.xml:107
 msgid "UZI assurance level"
-msgstr ""
+msgstr "UZI 保險等級"
 
 #. (itstool) path: Description/en
 #: .//minvws-cibg/Issues/pilot-2/description.xml:111
 msgid "Level of assurance of UZI identity"
-msgstr ""
+msgstr "UZI 身份保險等級"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/twitter/description.xml:14
 msgid "Twitter attributes from your Twitter account"
-msgstr ""
+msgstr "出自您 Twitter 帳號的 Twitter 特性"
 
 #. (itstool) path: IssueURL/en
 #: .//pbdf/Issues/twitter/description.xml:19
 msgid "https://privacybydesign.foundation/issuance/social/twitter/"
-msgstr ""
+msgstr "https://privacybydesign.foundation/issuance/social/twitter/"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/twitter/description.xml:29
 #: .//pbdf/Issues/mijnirma/description.xml:28
 msgid "Username"
-msgstr ""
+msgstr "使用者名稱"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/twitter/description.xml:33
 msgid "Your username at Twitter, as registered by Twitter"
-msgstr ""
+msgstr "您在 Twitter 上註冊的使用者名稱"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/twitter/description.xml:43
 msgid "Your full name, as registered by Twitter"
-msgstr ""
+msgstr "您在 Twitter 上登記的全名"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/twitter/description.xml:53
 msgid "Your email address, as registered by Twitter"
-msgstr ""
+msgstr "您在 Twitter 上登記的電子郵件地址"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/twitter/description.xml:59
 #: .//pbdf/Issues/diploma/description.xml:96
 #: .//pbdf/Issues/linkedin/description.xml:70
 msgid "Profile"
-msgstr ""
+msgstr "個人檔案"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/twitter/description.xml:63
 msgid "URL to your Twitter profile"
-msgstr ""
+msgstr "指向您 Twitter 個人檔案的網址"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/idin/description.xml:3
 msgid "Personal data from the bank"
-msgstr ""
+msgstr "出自銀行的個人資料"
 
 #. (itstool) path: ShortName/en
 #: .//pbdf/Issues/idin/description.xml:7
 msgid "Personal data bank"
-msgstr ""
+msgstr "銀行個人資料"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/idin/description.xml:14
 msgid "Your personal data, provided by your bank, obtained through iDIN"
-msgstr ""
+msgstr "您的個人資料，由銀行提供，透過 iDIN 取得"
 
 #. (itstool) path: FAQIntro/en
 #: .//pbdf/Issues/idin/description.xml:32
 msgid "Load your personal data, known by your bank, into your Yivi app."
-msgstr ""
+msgstr "將您在銀行登記的個人資料載入 Yivi 程式。"
 
 #. (itstool) path: FAQPurpose/en
 #: .//pbdf/Issues/idin/description.xml:36
 msgid "With your personal data from your bank in your Yivi app, you can, for instance, prove what your name is, what your date of birth is, and where you live."
-msgstr ""
+msgstr "透過您 Yivi "
+"程式中出自銀行的個人資料，您可以藉此證明您的姓名、出生日期與居住地等。"
 
 #. (itstool) path: FAQContent/en
 #: .//pbdf/Issues/idin/description.xml:40
 msgid "You will add the following data:\\n• initials,\\n• last name,\\n• gender,\\n• date of birth,\\n• age limits (older than 12, 16, 18, 21 or 65),\\n• address,\\n• postal code,\\n• city."
 msgstr ""
+"您會新增以下資料：\\n"
+"• 名字縮寫、\\n"
+"• 姓氏、\\n"
+"• 性別、\\n"
+"• 出生日期、\\n"
+"• 年齡限制（已滿 12、16、18、21 或 65 歲）、\\n"
+"• 地址、\\n"
+"• 郵遞區號、\\n"
+"• 城市。"
 
 #. (itstool) path: FAQHowto/en
 #: .//pbdf/Issues/idin/description.xml:44
 msgid "If you have a Dutch bank account, you can add personal data from the bank to your Yivi app.\\n\\n To do so, complete the following steps.\\n1. Log in to your own bank via the bank's login service called iDIN.\\n2. You see the personal data that you can load into your Yivi app.\\n3. Confirm that you wish to do so.\\nThe Privacy by Design Foundation receives your personal data from iDIN and passes them on to your Yivi app.\\n\\nYou now receive a card with your personal details from your bank."
 msgstr ""
+"若您有荷蘭的銀行帳號，您可以將您銀行的個人資料，新增至 Yivi 程式中。\\n"
+"\\n"
+"若要這麼做，請完成以下步驟。\\n"
+"1. 透過名為 iDIN 的銀行登入服務登入您的銀行。\\n"
+"2. 您會看到可以載入您 Yivi 程式中的個人資料。\\n"
+"3. 確認您想要這麼做。\\n"
+"Privacy by Design 基金會收到 iDIN 的您個人資料，然後傳遞給您的 Yivi 程式。\\n"
+"\\n"
+"現在，您會收到您銀行個人資料的卡片。"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/idin/description.xml:55
 msgid "First letters of your given name(s), as registered at your bank"
-msgstr ""
+msgstr "您在銀行登記的名字縮寫"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/idin/description.xml:65
 msgid "Your family name, as registered at your bank"
-msgstr ""
+msgstr "您在銀行登記的姓氏"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/idin/description.xml:75
 msgid "Your date of birth, as registered at your bank"
-msgstr ""
+msgstr "您在銀行登記的出生日期"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/idin/description.xml:85
 msgid "Your gender, as registered at your bank"
-msgstr ""
+msgstr "您在銀行登記的性別"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/idin/description.xml:95
 msgid "Your address, as registered at your bank"
-msgstr ""
+msgstr "您在銀行登記的地址"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/idin/description.xml:101
 #: .//bzkpilot/Issues/address/description.xml:73
 #: .//gemeente/Issues/address/description.xml:70
 msgid "Postal code"
-msgstr ""
+msgstr "郵遞區號"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/idin/description.xml:105
 msgid "Your postal code, as registered at your bank"
-msgstr ""
+msgstr "您在銀行登記的郵遞區號"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/idin/description.xml:115
 msgid "Your city of residence, as registered at your bank"
-msgstr ""
+msgstr "您在銀行登記的居住城市"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/idin/description.xml:121
 msgid "Country"
-msgstr ""
+msgstr "國家"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/idin/description.xml:125
 msgid "Your country of residence, as registered at your bank"
-msgstr ""
+msgstr "您在銀行登記的居住國家"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/big/description.xml:3
 msgid "BIG registration"
-msgstr ""
+msgstr "BIG 登記名冊"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/big/description.xml:14
 msgid "BIG attributes from the BIG registration"
-msgstr ""
+msgstr "出自 BIG 登記名冊的 BIG 特性"
 
 #. (itstool) path: IssueURL/en
 #: .//pbdf/Issues/big/description.xml:19
 msgid "https://privacybydesign.foundation/issuance/big/"
-msgstr ""
+msgstr "https://privacybydesign.foundation/issuance/big/"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/big/description.xml:26
 msgid "BIG number"
-msgstr ""
+msgstr "BIG 號碼"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/big/description.xml:30
 msgid "Your BIG code"
-msgstr ""
+msgstr "您的 BIG 代碼"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/big/description.xml:36
 msgid "Start date"
-msgstr ""
+msgstr "開始日期"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/big/description.xml:40
 msgid "Start date of this registration"
-msgstr ""
+msgstr "本次登記開始的日期"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/big/description.xml:46
 msgid "Profession"
-msgstr ""
+msgstr "職業"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/big/description.xml:50
 msgid "The profession you have"
-msgstr ""
+msgstr "您從事的職業"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/big/description.xml:56
 msgid "Specialism"
-msgstr ""
+msgstr "專長"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/big/description.xml:60
 msgid "The specialty you have as part of your profession"
-msgstr ""
+msgstr "您從事職業中您專長的部分"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/ideal/description.xml:3
 msgid "Bank account"
-msgstr ""
+msgstr "銀行帳號"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/ideal/description.xml:14
 msgid "Your account details, provided by your bank, obtained through a token payment"
-msgstr ""
+msgstr "您帳號的詳細資訊，由您的銀行提供，透過代驗支付取得"
 
 #. (itstool) path: FAQIntro/en
 #: .//pbdf/Issues/ideal/description.xml:32
 msgid "Add your bank account to your Yivi app. You can add multiple bank accounts."
-msgstr ""
+msgstr "將您的銀行帳號新增至您的 Yivi 程式中。您可以新增多個銀行帳號。"
 
 #. (itstool) path: FAQPurpose/en
 #: .//pbdf/Issues/ideal/description.xml:36
 msgid "With your bank account in your Yivi app you can disclose that you are the account holder of this verified bank account."
-msgstr ""
+msgstr "您可以透過 Yivi 程式揭露您的銀行帳號，來證明您是這個核驗過的銀行帳號持有人。"
 
 #. (itstool) path: FAQContent/en
 #: .//pbdf/Issues/ideal/description.xml:40
 msgid "You will add the following data:\\n• IBAN,\\n• BIC code,\\n• account holder."
 msgstr ""
+"您會新增以下資料：\\n"
+"• IBAN、\\n"
+"• BIC 代碼、\\n"
+"• 帳號持有人。"
 
 #. (itstool) path: FAQHowto/en
 #: .//pbdf/Issues/ideal/description.xml:44
 msgid "In case you have a Dutch bank account, you can add its account details to your Yivi app. To do so, complete the following steps.\\n1. Select iDeal payment.\\n2. Transfer an amount of at least 50 cents to the Privacy by Design Foundation via an ordinary iDEAL payment.\\n3. The Privacy by Design Foundation receives your bank details from iDEAL and passes them on to your Yivi app.\\n\\nYou now receive a card with the bank details of the account that you used for the payment. Repeat this process for other bank accounts that you wish to load into Yivi."
 msgstr ""
+"若您有荷蘭的銀行帳號，您可以將其詳細資訊新增至 Yivi "
+"程式中。若要這麼做，請完成以下步驟。\\n"
+"1. 選取 iDeal 支付。\\n"
+"2. 透過普通的 iDeal 支付向 Privacy by Design 基金會轉帳至少 0.5 元（50 "
+"分錢）。\\n"
+"3. Privacy by Design 基金會從 iDeal 收到您的銀行詳細資料，並將其傳遞給您的 "
+"Yivi 程式。\\n"
+"\\n"
+"現在，您會收到您用於付款的帳號資訊卡片。您可以對想要載入至 Yivi "
+"的其他銀行帳號重複此流程。"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/ideal/description.xml:51
 msgid "Account holder"
-msgstr ""
+msgstr "帳號持有人"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/ideal/description.xml:55
 msgid "Your full name, as registered at your bank"
-msgstr ""
+msgstr "您在銀行登記的全名"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/ideal/description.xml:65
 msgid "The IBAN of your bank account"
-msgstr ""
+msgstr "您銀行帳號的 IBAN"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/ideal/description.xml:75
 msgid "The Bank Identifier Code of your bank"
-msgstr ""
+msgstr "您銀行的銀行識別碼"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/irmatube/description.xml:3
 msgid "IRMATube membership"
-msgstr ""
+msgstr "IRMATube 會員資格"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/irmatube/description.xml:14
 msgid "Your IRMATube membership attributes"
-msgstr ""
+msgstr "您的 IRMATube 會員資格特性"
 
 #. (itstool) path: IssueURL/en
 #: .//pbdf/Issues/irmatube/description.xml:19
 msgid "https://privacybydesign.foundation/demo-en/irmaTube/"
-msgstr ""
+msgstr "https://privacybydesign.foundation/demo-en/irmaTube/"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/irmatube/description.xml:34
 msgid "Your membership type"
-msgstr ""
+msgstr "您的會員資格類型"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/irmatube/description.xml:44
 msgid "Your membership ID"
-msgstr ""
+msgstr "您的會員資格 ID"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/facebook/description.xml:14
 msgid "Facebook attributes obtained using Facebook Connect"
-msgstr ""
+msgstr "使用 Facebook Connect 取得的 Facebook 特性"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/facebook/description.xml:31
 msgid "Your full name, as registered by Facebook"
-msgstr ""
+msgstr "您在 Facebook 註冊的全名"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/facebook/description.xml:37
@@ -1899,565 +2051,691 @@ msgstr ""
 #: .//pbdf/Issues/surfnet-2/description.xml:101
 #: .//pbdf/Issues/linkedin/description.xml:40
 msgid "First name"
-msgstr ""
+msgstr "名字"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/facebook/description.xml:41
 msgid "Your first name, as registered by Facebook"
-msgstr ""
+msgstr "您在 Facebook 註冊的名字"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/facebook/description.xml:51
 msgid "Your family name, as registered by Facebook"
-msgstr ""
+msgstr "您在 Facebook 註冊的姓氏"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/facebook/description.xml:61
 msgid "Your email address, as registered by Facebook"
-msgstr ""
+msgstr "您在 Facebook 註冊的電子郵件地址"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/facebook/description.xml:71
 msgid "Your date of birth, as registered in Facebook"
-msgstr ""
+msgstr "您在 Facebook 註冊的出生日期"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/ageLimits/description.xml:14
 msgid "Your age attributes, issued after revealing your birthdate, from your iDIN bank attributes"
-msgstr ""
+msgstr "您的年齡特性，在您揭露出生日期後核發，出自您的 iDIN 銀行特性"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/diploma/description.xml:14
 msgid "Data extracted from your diploma provided by DUO"
-msgstr ""
+msgstr "從 DUO 提供的文憑中擷取的資料"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/diploma/description.xml:30
 msgid "Your first name from your diploma"
-msgstr ""
+msgstr "文憑上您的名字"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/diploma/description.xml:40
 msgid "Your family name prefix from your diploma"
-msgstr ""
+msgstr "文憑上您的姓氏前綴"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/diploma/description.xml:50
 msgid "Your family name from your diploma"
-msgstr ""
+msgstr "文憑上您的姓氏"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/diploma/description.xml:60
 msgid "Your date of birth from your diploma"
-msgstr ""
+msgstr "文憑上您的出生日期"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/diploma/description.xml:70
 msgid "Your gender from your diploma"
-msgstr ""
+msgstr "文憑上您的性別"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/diploma/description.xml:76
 msgid "Education"
-msgstr ""
+msgstr "教育"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/diploma/description.xml:80
 msgid "Completed education"
-msgstr ""
+msgstr "完成的教育"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/diploma/description.xml:86
 msgid "Degree"
-msgstr ""
+msgstr "學位"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/diploma/description.xml:90
 msgid "Type of education"
-msgstr ""
+msgstr "教育類型"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/diploma/description.xml:100
 msgid "Education profile"
-msgstr ""
+msgstr "個人教育檔案"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/diploma/description.xml:106
 msgid "Achieved in"
-msgstr ""
+msgstr "學歷取得"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/diploma/description.xml:110
 msgid "Month of achieving this diploma"
-msgstr ""
+msgstr "取得該文憑的月份"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/diploma/description.xml:116
 #: .//pbdf/Issues/surfnet/description.xml:26
 msgid "Institute"
-msgstr ""
+msgstr "研究機構"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/diploma/description.xml:120
 msgid "The institute where this degree has been achieved"
-msgstr ""
+msgstr "取得學位時所在的研究機構"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/diploma/description.xml:130
 msgid "The city of the institute where this degree has been achieved"
-msgstr ""
+msgstr "取得學位時所在研究機構的城市"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/surfnet/description.xml:14
 msgid "Your Surfnet attributes obtained through SURFconext"
-msgstr ""
+msgstr "透過 SURFconext 取得的 Surfnet 特性"
 
 #. (itstool) path: IssueURL/en
 #: .//pbdf/Issues/surfnet/description.xml:19
 msgid "https://privacybydesign.foundation/issuance/surfnet/surfnet/"
-msgstr ""
+msgstr "https://privacybydesign.foundation/issuance/surfnet/surfnet/"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/surfnet/description.xml:30
 msgid "The institute that provided these attributes"
-msgstr ""
+msgstr "提供這些特性的機構"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/surfnet/description.xml:40
 msgid "Your position at your institute"
-msgstr ""
+msgstr "您在機構擔任的職位"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/surfnet/description.xml:46
 msgid "Institute ID"
-msgstr ""
+msgstr "機構 ID"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/surfnet/description.xml:50
 msgid "Your ID number at your institute"
-msgstr ""
+msgstr "您在機構的 ID 號碼"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/surfnet/description.xml:60
 msgid "Your full name, as registered by your institute"
-msgstr ""
+msgstr "您在機構登記的全名"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/surfnet/description.xml:70
 msgid "Your first name, as registered by your institute"
-msgstr ""
+msgstr "您在機構登記的名字"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/surfnet/description.xml:80
 msgid "Your family name, as registered by your institute"
-msgstr ""
+msgstr "您在機構登記的姓氏"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/surfnet/description.xml:90
 msgid "Your email address at your institute"
-msgstr ""
+msgstr "您在機構登記的電子郵件地址"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
 #: .//pbdf/Issues/surfnet-2/description.xml:3
 #: .//pbdf/Issues/surfnet-2/description.xml:7
 msgid "Education and research"
-msgstr ""
+msgstr "教育與研究"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/surfnet-2/description.xml:14
 msgid "Education and research personal data, obtained through SURFconext"
-msgstr ""
+msgstr "教育與研究個人資料，透過 SURFconext 取得"
 
 #. (itstool) path: IssueURL/en
 #: .//pbdf/Issues/surfnet-2/description.xml:19
 msgid "https://privacybydesign.foundation/issuance/surfconext/surfconext/"
-msgstr ""
+msgstr "https://privacybydesign.foundation/issuance/surfconext/surfconext/"
 
 #. (itstool) path: Category/en
 #: .//pbdf/Issues/surfnet-2/description.xml:28
 msgid "Education / research"
-msgstr ""
+msgstr "教育研究"
 
 #. (itstool) path: FAQIntro/en
 #: .//pbdf/Issues/surfnet-2/description.xml:32
 msgid "Add your education and research data to your Yivi app."
-msgstr ""
+msgstr "將您的教育與研究資料新增至您的 Yivi 程式中。"
 
 #. (itstool) path: FAQPurpose/en
 #: .//pbdf/Issues/surfnet-2/description.xml:36
 msgid "You can use your education and research data in your Yivi app to prove that you are studying or working at a particular school, university or research institute."
-msgstr ""
+msgstr "您可以透過您 Yivi "
+"程式中的教育與研究資料，來證明您正在特定學校、大學或研究機構就讀或工作。"
 
 #. (itstool) path: FAQContent/en
 #: .//pbdf/Issues/surfnet-2/description.xml:40
 msgid "You will add the following data:\\n• first name,\\n• last name,\\n• e-mail address,\\n• institution,\\n• employee/student,\\n• local registration number."
 msgstr ""
+"您會新增以下資料：\\n"
+"• 名字、\\n"
+"• 姓氏、\\n"
+"• 電子郵件地址、\\n"
+"• 機構、\\n"
+"• 員工/學生、\\n"
+"• 地方登記號碼。"
 
 #. (itstool) path: FAQHowto/en
 #: .//pbdf/Issues/surfnet-2/description.xml:44
 msgid "If you study or work at a participating educational or research institution, you can add your personal data known to this institution in your Yivi app.\\n\\nFollow the following steps:\\n1. Select your own institution in the SURFconext environment. If the institution does not appear in the list, it is not included and you cannot load this card.\\n2. Log in to your own institution's website in the usual way.\\n3. Choose to transfer your data to your Yivi app.\\n\\nYou will now receive a card with your data known to the educational or research institution."
 msgstr ""
+"若您在教育/研究機構就讀或工作，可以將該機構的個人資料，新增至 Yivi 程式中。"
+"\\n"
+"\\n"
+"請完成以下步驟：\\n"
+"1. 在 SURFconext "
+"環境中選取您的機構；若未列出，則您的機構並未參與，故您無法載入此卡片。\\n"
+"2. 按照平常的方式登入您機構的網站。\\n"
+"3. 確認您想要新增您的資料到 Yivi 中。\\n"
+"\\n"
+"現在，您會收到您教育/研究詳細資訊的卡片。"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/surfnet-2/description.xml:51
 msgid "Institution"
-msgstr ""
+msgstr "機構"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/surfnet-2/description.xml:55
 msgid "The institution where you study or work"
-msgstr ""
+msgstr "您就讀或工作的機構"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/surfnet-2/description.xml:65
 msgid "Your role at your institution"
-msgstr ""
+msgstr "您在機構中的身分"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/surfnet-2/description.xml:71
 msgid "Registration number"
-msgstr ""
+msgstr "登記號碼"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/surfnet-2/description.xml:75
 msgid "Your registration number at your institution"
-msgstr ""
+msgstr "您在機構的登記號碼"
 
 #. (itstool) path: Name/en
 #: .//pbdf/Issues/surfnet-2/description.xml:81
 msgid "Extended registration"
-msgstr ""
+msgstr "延伸登記"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/surfnet-2/description.xml:85
 msgid "Extended registration number at your institution"
-msgstr ""
+msgstr "您機構的延伸登記號碼"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/surfnet-2/description.xml:95
 msgid "Your full name, as registered by your institution"
-msgstr ""
+msgstr "您機構登記的全名"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/surfnet-2/description.xml:105
 msgid "Your first name, as registered by your institution"
-msgstr ""
+msgstr "您機構登記的名字"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/surfnet-2/description.xml:115
 msgid "Your family name, as registered by your institution"
-msgstr ""
+msgstr "您機構登記的姓氏"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/surfnet-2/description.xml:125
 msgid "Your email address at your institution"
-msgstr ""
+msgstr "您機構登記的電子郵件地址"
 
 #. (itstool) path: FAQContent/en
 #: .//pbdf/Issues/email/description.xml:36
 msgid "You will add the following data:\\n• email address\\n• email domain name."
 msgstr ""
+"您會新增以下資料：\\n"
+"• 電子郵件地址\\n"
+"• 電子郵件網域名稱。"
 
 #. (itstool) path: FAQHowto/en
 #: .//pbdf/Issues/email/description.xml:40
 msgid "Complete the following steps.\\n1. Enter your e-mail address.\\n2. Open your email application and go to your Inbox (if there is no new mail soon, please check your Spam folder).\\n3. Click the link in the email message, sent by the Privacy by Design Foundation. If you see a QR code on your computer screen, scan it with the QR scanner in your Yivi app. The Privacy by Design Foundation copies your email data into your Yivi app.\\n\\nYou now receive a card with your email address and its domain name in your Yivi app. Repeat this process for other email addresses that you wish to add."
 msgstr ""
+"請完成以下步驟。\\n"
+"1. 輸入您的電子郵件地址。\\n"
+"2. 開啟您的電子郵件程式，並檢視收件匣（若還未看到新郵件，請檢查「垃圾信件」資"
+"料夾）。\\n"
+"3. 點擊 Privacy by Design 基金會傳送的電子郵件中的連結。若您在電腦畫面上看見 "
+"QR 圖碼，請以 Yivi 程式中的 QR 圖碼掃描程式掃描。Privacy by Design "
+"會複製您的電子郵件資料到 Yivi 程式中。\\n"
+"\\n"
+"現在，您會在 Yivi 程式中收到您電子郵件地址與其網域名稱的卡片。對您想新增的其"
+"他電子郵件地址重複此流程。"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/linkedin/description.xml:14
 msgid "LinkedIn attributes from your LinkedIn account"
-msgstr ""
+msgstr "出自您 LinkedIn 帳號的 LinkedIn 特性"
 
 #. (itstool) path: IssueURL/en
 #: .//pbdf/Issues/linkedin/description.xml:19
 msgid "https://privacybydesign.foundation/issuance/social/linkedin/"
-msgstr ""
+msgstr "https://privacybydesign.foundation/issuance/social/linkedin/"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/linkedin/description.xml:34
 msgid "Your full name, as registered by LinkedIn"
-msgstr ""
+msgstr "您在 LinkedIn 上登記的全名"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/linkedin/description.xml:44
 msgid "Your first name, as registered by LinkedIn"
-msgstr ""
+msgstr "您在 LinkedIn 上登記的名字"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/linkedin/description.xml:54
 msgid "Your family name, as registered by LinkedIn"
-msgstr ""
+msgstr "您在 LinkedIn 上登記的姓氏"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/linkedin/description.xml:64
 msgid "Your email address, as registered by LinkedIn"
-msgstr ""
+msgstr "您在 LinkedIn 上登記的電子郵件地址"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/linkedin/description.xml:74
 msgid "URL to your LinkedIn profile"
-msgstr ""
+msgstr "指向您 LinkedIn 個人檔案的網址"
 
 #. (itstool) path: Description/en
 #: .//bzkpilot/Issues/personalData/description.xml:14
 msgid "Your personal data, from the Dutch population register (BRP)"
-msgstr ""
+msgstr "荷蘭人口登記處（BRP）的您的個人資料"
 
 #. (itstool) path: FAQIntro/en
 #: .//bzkpilot/Issues/personalData/description.xml:34
 msgid "Add your personal data from the Dutch population register (BRP) to your Yivi app."
-msgstr ""
+msgstr "將您荷蘭人口登記處的個人資料新增至 Yivi 程式。"
 
 #. (itstool) path: FAQPurpose/en
 #: .//bzkpilot/Issues/personalData/description.xml:38
 msgid "With your personal data in your Yivi app, you can make yourself known online. For instance, you can disclose your name or prove that you are over 18 years of age (without revealing your date of birth)."
 msgstr ""
+"透過您 Yivi "
+"程式中的個人資料，您可以在線上讓他人知道您。舉例來說，您可以揭露您的姓名，"
+"或證明您已滿 18 歲了（但不用揭露您的出生日期）。"
 
 #. (itstool) path: FAQContent/en
 #: .//bzkpilot/Issues/personalData/description.xml:42
 msgid "You will add the following data:\\n• full name,\\n• initials,\\n• surname,\\n• gender,\\n• date of birth,\\n• age (older than 12, 16, 18, 21 or 65),\\n• nationality,\\n• country of birth,\\n• citizen registration number (BSN)."
 msgstr ""
+"您會新增以下資料：\\n"
+"• 全名、\\n"
+"• 名字縮寫、\\n"
+"• 姓氏、\\n"
+"• 性別、\\n"
+"• 出生日期、\\n"
+"• 年齡（大於 12、16、18、21 或 65 歲）、\\n"
+"• 國籍、\\n"
+"• 出生國家、\\n"
+"• 公民登記號碼 (BSN)。"
 
 #. (itstool) path: FAQHowto/en
 #: .//bzkpilot/Issues/personalData/description.xml:46
 msgid "Complete the following steps.\\n1. Open the Sesame ID app and enter your PIN code.\\n2. In the Sesame app, choose 'Sharing data' and select 'Yivi'.\\n3. Confirm that you wish to add your data to your Yivi app. The Sesame ID app copies your data into your Yivi-app.\\n\\nYou now receive two cards: one card with your personal details and automatically also one card with your home address."
 msgstr ""
+"請完成以下步驟。\\n"
+"1. 開啟 Sesame ID 程式，並輸入您的 PIN 碼。\\n"
+"2. 在 Sesame 程式中，選擇「分享資料」並選取「Yivi」。\\n"
+"3. 確認您想要新增資料到 Yivi 程式中。Sesame ID 程式會複製您的資料到 Yivi "
+"程式中。\\n"
+"\\n"
+"現在，您會收到兩張卡片：一張是您個人資料的卡片，另一張則是自動生成您住家地址"
+"的卡片。"
 
 #. (itstool) path: Name/en
 #: .//bzkpilot/Issues/personalData/description.xml:183
 #: .//cis/Issues/digitalInsurancePassport/description.xml:98
 #: .//gemeente/Issues/personalData/description.xml:151
 msgid "Country of birth"
-msgstr ""
+msgstr "出生國家"
 
 #. (itstool) path: Description/en
 #: .//bzkpilot/Issues/personalData/description.xml:187
 #: .//cis/Issues/digitalInsurancePassport/description.xml:102
 #: .//gemeente/Issues/personalData/description.xml:155
 msgid "Your country of birth"
-msgstr ""
+msgstr "您的出生國家"
 
 #. (itstool) path: Description/en
 #: .//bzkpilot/Issues/personalData/description.xml:197
 msgid "Your Dutch Citizen registration number (BSN)"
-msgstr ""
+msgstr "您的荷蘭公民登記號碼 (BSN)"
 
 #. (itstool) path: Description/en
 #: .//bzkpilot/Issues/personalData/description.xml:207
 msgid "Your picture"
-msgstr ""
+msgstr "您的照片"
 
 #. (itstool) path: Description/en
 #: .//bzkpilot/Issues/address/description.xml:14
 msgid "Your home address, from the Dutch population register"
-msgstr ""
+msgstr "荷蘭人口登記處的您的住家地址"
 
 #. (itstool) path: FAQIntro/en
 #: .//bzkpilot/Issues/address/description.xml:34
 msgid "Add your address from the Dutch population register (BRP) to your Yivi app."
-msgstr ""
+msgstr "將荷蘭人口登記處（BRP）的您的地址新增至 Yivi 程式。"
 
 #. (itstool) path: FAQPurpose/en
 #: .//bzkpilot/Issues/address/description.xml:38
 msgid "With your home address in your Yivi app, you can give information about where you live. For instance, you can prove in which municipality you live without disclosing your exact address."
-msgstr ""
+msgstr "透過您 Yivi 程式中的住家地址，您可以提供您居住地的相關資訊。舉例來說，您可以"
+"在不必揭露自己實際地址的情況下，證明自己居住在哪個城市。"
 
 #. (itstool) path: FAQContent/en
 #: .//bzkpilot/Issues/address/description.xml:42
 msgid "You will add the following data:\\n• street,\\n• street number,\\n• postal code,\\n• city,\\n• municipality."
 msgstr ""
+"您將會新增以下資料：\\n"
+"• 街道、\\n"
+"• 門牌號碼、\\n"
+"• 郵遞區號、\\n"
+"• 鄉鎮市區、\\n"
+"• 省市鎮。"
 
 #. (itstool) path: FAQHowto/en
 #: .//bzkpilot/Issues/address/description.xml:46
 msgid "Complete the following steps.\\n1. Open the Sesame ID app and enter your PIN code.\\n2. In the Sesame app, choose 'Sharing data' and select 'Yivi'.\\n3. Confirm that you wish to add your data to your Yivi app. The Sesame ID app copies your data into your Yivi-app.\\n\\nYou now receive two cards: one card with your home address and automatically also one card with your personal details."
 msgstr ""
+"請完成以下步驟。\\n"
+"1. 開啟 Sesame ID 程式，並輸入您的 PIN 碼。\\n"
+"2. 在 Sesame 程式中，選擇「分享資料」並選取「Yivi」。\\n"
+"3. 確認您想要新增資料到 Yivi 程式中。Sesame ID 程式會複製您的資料到 Yivi "
+"程式中。\\n"
+"\\n"
+"現在，您會收到兩張卡片：一張是您住家地址的卡片，另一張則是自動生成您的個人資"
+"料卡片。"
 
 #. (itstool) path: Description/en
 #: .//bzkpilot/Issues/address/description.xml:67
 #: .//gemeente/Issues/address/description.xml:64
 msgid "Your house number, with possible extension"
-msgstr ""
+msgstr "您的門牌號碼，可以有延伸資訊"
 
 #. (itstool) path: Description/en
 #: .//bzkpilot/Issues/address/description.xml:77
 #: .//gemeente/Issues/address/description.xml:74
 msgid "Your postal code"
-msgstr ""
+msgstr "您的郵遞區號"
 
 #. (itstool) path: ShortName/en
 #: .//cis/description.xml:4
 msgid "CIS Foundation"
-msgstr ""
+msgstr "CIS 基金會"
 
 #. (itstool) path: Name/en
 #: .//cis/description.xml:8
 msgid "Central Infomation System Foundation"
-msgstr ""
+msgstr "中央資訊系統基金會"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
 #: .//cis/Issues/digitalInsurancePassport/description.xml:3
 #: .//cis/Issues/digitalInsurancePassport/description.xml:7
 msgid "Digital Insurance Passport"
-msgstr ""
+msgstr "數位保險護照"
 
 #. (itstool) path: Description/en
 #: .//cis/Issues/digitalInsurancePassport/description.xml:14
 msgid "With your Digital Insurance Passport, insurers can see who you are and determine if you do not appear in national and international sanctions, investigation and incident registers. This check is mandatory by law and insurers do these together to prevent costs and extra work for customers and insurers."
 msgstr ""
+"透過您的數位保險護照，保險公司能知道您是誰並且判斷您是否位在國內/國際制裁、調"
+"查以及事件登記冊中。保險公司依法必須審查此資訊，並且會彼此合作來預防顧客與保"
+"險公司成本上升與需要投入額外心血。"
 
 #. (itstool) path: Category/en
 #: .//cis/Issues/digitalInsurancePassport/description.xml:25
 msgid "Finance"
-msgstr ""
+msgstr "金融"
 
 #. (itstool) path: FAQIntro/en
 #: .//cis/Issues/digitalInsurancePassport/description.xml:29
 msgid "Create a Digital Insurance Passport to easily and securely share data with your insurer."
-msgstr ""
+msgstr "建立數位保險護照，讓您輕鬆安全地與保險公司分享資料。"
 
 #. (itstool) path: FAQPurpose/en
 #: .//cis/Issues/digitalInsurancePassport/description.xml:33
 msgid "With your Digital Insurance Passport, insurers can see who you are and determine you do not appear in national and international sanctions, investigation and incident registers. This check is mandatory by law and insurers do these together to prevent costs and extra work for customers and insurers."
 msgstr ""
+"透過您的數位保險護照，保險公司能知道您是誰並且判斷您是否位在國內/國際制裁、調"
+"查以及事務登記冊中。保險公司依法必須審查此資訊，並且會彼此合作來預防顧客與保"
+"險公司成本上升與需要投入額外心血。"
 
 #. (itstool) path: FAQContent/en
 #: .//cis/Issues/digitalInsurancePassport/description.xml:37
 msgid "We screen your name, date of birth and nationality against national and international sanctions, investigation and incident registers and do not use this data for other purposes. \\n• Initials,\\n• Prefix,\\n• Surname,\\n• Gender,\\n• Date of birth,\\n• Country of birth,\\n• Assurance level"
 msgstr ""
+"我們會在國內/國際制裁、調查以及事故登記冊中，比對您的姓名、出生日期與國籍。這"
+"些資料不會用於其他用途： \\n"
+"• 姓名縮寫、\\n"
+"• 前綴、\\n"
+"• 姓氏、\\n"
+"• 性別、\\n"
+"• 出生日期、\\n"
+"• 出生國家、\\n"
+"• 保險等級"
 
 #. (itstool) path: FAQHowto/en
 #: .//cis/Issues/digitalInsurancePassport/description.xml:41
 msgid "You can add your Digital Insurance Passport to your Yivi app by following the steps provided. You will then receive a separate card in your Yivi app with your details and the outcome of the screening against national and international sanctions, investigation and incident registers. Usually, the outcome is negative and you get the card in the app. In the unlikely event that an additional check is necessary, you will be notified and then informed whether the Digital Insurance Passport has been granted."
 msgstr ""
+"您可以依照提供的步驟，將數位保險護照新增至 Yivi 程式中。您的 Yivi 程式會收到"
+"另外一張卡片，上面有您的詳細資訊以及與國內/國際制裁、調查以及事故登記冊比對後"
+"的結果。通常結果是沒有相符的資料，您就會在程式中取得卡片。雖然機率很低，但如"
+"果需要額外的查核，您將會收到通知然後被告知是否有被授予數位保險護照。"
 
 #. (itstool) path: Name/en
 #: .//cis/Issues/digitalInsurancePassport/description.xml:108
 msgid "Legal Insurance Checks"
-msgstr ""
+msgstr "法定保險查核"
 
 #. (itstool) path: Description/en
 #: .//cis/Issues/digitalInsurancePassport/description.xml:112
 msgid "No hits"
-msgstr ""
+msgstr "無相符結果"
 
 #. (itstool) path: Description/en
 #: .//cis/Issues/digitalInsurancePassport/description.xml:122
 #: .//gemeente/Issues/personalData/description.xml:225
 msgid "The assurance level with which your identity was verified"
-msgstr ""
+msgstr "您身分所核驗過的保險等級"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
 #: .//vgz/Issues/machtiging/description.xml:3
 #: .//vgz/Issues/machtiging/description.xml:7
 msgid "Mandate"
-msgstr ""
+msgstr "委任"
 
 #. (itstool) path: Description/en
 #: .//vgz/Issues/machtiging/description.xml:14
 msgid "With this mandate you can submit claims to VGZ on behalf of the person who mandated you"
-msgstr ""
+msgstr "有了此委任，您可以代表委任您的人向 VGZ 遞交聲明"
 
 #. (itstool) path: Name/en
 #: .//vgz/Issues/machtiging/description.xml:26
 msgid "VGZ Customer number"
-msgstr ""
+msgstr "VGZ 客戶編號"
 
 #. (itstool) path: Description/en
 #: .//vgz/Issues/machtiging/description.xml:30
 msgid "The VGZ customer number of the VGZ client who mandated you"
-msgstr ""
+msgstr "委任您的 VGZ 客戶的 VGZ 客戶編號"
 
 #. (itstool) path: Name/en
 #: .//vgz/Issues/machtiging/description.xml:36
 msgid "Insured person"
-msgstr ""
+msgstr "委託人"
 
 #. (itstool) path: Description/en
 #: .//vgz/Issues/machtiging/description.xml:40
 msgid "The name of the VGZ customer who mandated you"
-msgstr ""
+msgstr "委託您的 VGZ 客戶名字"
 
 #. (itstool) path: Name/en
 #: .//vgz/Issues/machtiging/description.xml:46
 msgid "MandateID"
-msgstr ""
+msgstr "委任 ID"
 
 #. (itstool) path: Description/en
 #: .//vgz/Issues/machtiging/description.xml:50
 msgid "A unique ID for this mandate"
-msgstr ""
+msgstr "此委任的唯一識別 ID"
 
 #. (itstool) path: ShortName/en
 #. (itstool) path: Name/en
 #: .//gemeente/description.xml:4
 #: .//gemeente/description.xml:8
 msgid "Your Municipality"
-msgstr ""
+msgstr "您的省市鎮"
 
 #. (itstool) path: Description/en
 #: .//gemeente/Issues/personalData/description.xml:14
 msgid "Your personal data, from the Dutch Personal Records Database (BRP)"
-msgstr ""
+msgstr "您的個人資料，出自荷蘭人口紀錄資料庫 (BRP)"
 
 #. (itstool) path: FAQIntro/en
 #: .//gemeente/Issues/personalData/description.xml:32
 msgid "Add your personal data from the Dutch Personal Records Database (BRP) to your Yivi app."
-msgstr ""
+msgstr "將您的荷蘭人口紀錄資料庫（BRP）的個人資料新增至 Yivi 程式。"
 
 #. (itstool) path: FAQPurpose/en
 #: .//gemeente/Issues/personalData/description.xml:36
 msgid "Your personal data in the Yivi app allows you to identify yourself online. Then you can, for example, disclose your name or prove that you are over 18 years old (without revealing your date of birth)."
 msgstr ""
+"透過您 Yivi "
+"程式中的個人資料，您可以在線上讓他人知道您。舉例來說，您可以揭露您的姓名，"
+"或證明您已滿 18 歲了（但不用揭露您的出生日期）。"
 
 #. (itstool) path: FAQContent/en
 #: .//gemeente/Issues/personalData/description.xml:40
 msgid "You will add the following data:\\n• full name,\\n• initials,\\n• surname,\\n• gender,\\n• date of birth,\\n• age (older than 12, 16, 18, 21 or 65),\\n• nationality,\\n• country of birth,\\n• citizen registration number (BSN).\\nThis data is provided by Gemeente Nijmegen for anybody in the Netherlands."
 msgstr ""
+"您會新增以下資料：\\n"
+"• 全名、\\n"
+"• 名字縮寫、\\n"
+"• 姓氏、\\n"
+"• 性別、\\n"
+"• 出生日期、\\n"
+"• 年齡（大於 12、16、18、21 或 65 歲）、\\n"
+"• 國籍、\\n"
+"• 出生國家、\\n"
+"• 公民登記號碼 (BSN)。\\n"
+"在荷蘭是由奈梅亨市鎮提供此資料。"
 
 #. (itstool) path: FAQHowto/en
 #: .//gemeente/Issues/personalData/description.xml:44
 msgid "If you live in the Netherlands, you can add your home address from the Dutch Personal Records Database (BRP) to your Yivi app. You need your DigiD for this.\\n Complete the following steps.\\n1. Log in with your DigiD, at the municipality of Nijmegen (it provides this service to everyone in the Netherlands; you don't need to live in Nijmegen).\\n2. The municipality of Nijmegen copies your data into your Yivi app.\\n\\nYou now receive two cards: one card with your personal data and automatically also one card with your home address."
 msgstr ""
+"若您生活在荷蘭，您可以將荷蘭個人紀錄資料庫 (BRP) 的住家地址，新增至 Yivi "
+"程式中。為此，您需要有 DigiD。\\n"
+" 請完成以下步驟。\\n"
+"1. 使用您的 DigD "
+"在奈梅亨市鎮登入（服務提供給所有位在荷蘭的人；您不一定要住在奈梅亨）。\\n"
+"2. 奈梅亨市鎮會將您的資料複製到 Yivi 程式中。\\n"
+"\\n"
+"現在，您會收到兩張卡片：一張是您個人資料的卡片，另一張則自動生成您住家地址的"
+"卡片。"
 
 #. (itstool) path: Name/en
 #: .//gemeente/Issues/personalData/description.xml:141
 msgid "City of birth"
-msgstr ""
+msgstr "出生城市"
 
 #. (itstool) path: Description/en
 #: .//gemeente/Issues/personalData/description.xml:145
 msgid "Your city of birth"
-msgstr ""
+msgstr "您的出生城市"
 
 #. (itstool) path: Name/en
 #: .//gemeente/Issues/address/description.xml:3
 msgid "Home address"
-msgstr ""
+msgstr "住家地址"
 
 #. (itstool) path: Description/en
 #: .//gemeente/Issues/address/description.xml:14
 msgid "Your home address, from the Dutch Personal Records Database (BRP)"
-msgstr ""
+msgstr "您來自荷蘭個人紀錄資料庫（BRP）的住家地址"
 
 #. (itstool) path: FAQIntro/en
 #: .//gemeente/Issues/address/description.xml:32
 msgid "Add your home address from the Dutch Personal Records Database (BRP) to your Yivi app."
-msgstr ""
+msgstr "將您荷蘭個人紀錄資料庫（BRP）的住家地址新增至 Yivi 程式。"
 
 #. (itstool) path: FAQPurpose/en
 #: .//gemeente/Issues/address/description.xml:36
 msgid "With your home address in your Yivi app, you can provide information about where you live. Then you can, for example, prove in which municipality you live without revealing your exact address."
-msgstr ""
+msgstr "透過您 Yivi 程式中的住家地址，您可以提供您居住地的相關資訊。舉例來說，您可以"
+"在不必揭露自己實際地址的情況下，證明自己居住在哪個城市。"
 
 #. (itstool) path: FAQContent/en
 #: .//gemeente/Issues/address/description.xml:40
 msgid "You will add the following data:\\n• street,\\n• street number,\\n• postal code,\\n• city,\\n• municipality.\\nThis data is provided by Gemeente Nijmegen for anybody in the Netherlands."
 msgstr ""
+"您將會新增以下資料：\\n"
+"• 街道、\\n"
+"• 門牌號碼、\\n"
+"• 郵遞區號、\\n"
+"• 鄉鎮市區、\\n"
+"• 省市鎮。\\n"
+"在荷蘭是由奈梅亨市鎮提供此資料。"
 
 #. (itstool) path: FAQHowto/en
 #: .//gemeente/Issues/address/description.xml:44
 msgid "If you live in the Netherlands, you can add your home address from the Dutch Personal Records Database (BRP) to your Yivi app. You need your DigiD for this.\\n Complete the following steps.\\n1. Log in with your DigiD, at the municipality of Nijmegen (it provides this service to everyone in the Netherlands; you don't need to live in Nijmegen).\\n2. The municipality of Nijmegen copies your data into your Yivi app.\\n\\nYou now receive two cards: one card with your home address and automatically also one card with your personal details."
 msgstr ""
+"若您生活在荷蘭，您可以將荷蘭人口紀錄資料庫 (BRP) 的住家地址，新增至 Yivi "
+"程式中。為此，您需要有 DigiD。\\n"
+" 請完成以下步驟。\\n"
+"1. 使用您的 DigiD "
+"在奈梅亨市鎮登入（服務提供給所有位在荷蘭的人；您不一定要住在奈梅亨）。\\n"
+"2. 奈梅亨市鎮會將您的資料複製到 Yivi 程式中。\\n"
+"\\n"
+"現在，您會收到兩張卡片：一張是您住家地址的卡片，另一張則是自動生成您個人資料"
+"的卡片。"
