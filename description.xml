@@ -4,10 +4,12 @@
 	<Name>
 		<en>Privacy by Design Foundation</en>
 		<nl>Stichting Privacy by Design</nl>
+		<zh>Privacy by Design 基金會</zh>
 	</Name>
 	<Description>
 		<en>The Privacy by Design Foundation develops the Yivi app and the Yivi infrastructure, and issues basic attributes for free</en>
 		<nl>De stichting Privacy by Design ontwikkelt de Yivi-app en de Yivi-infrastructuur, en geeft gratis een set basisattributen uit</nl>
+		<zh>Privacy by Design 基金會開發了 Yivi 程式與 Yivi 基礎設施，並免費發行基本的資料特性</zh>
 	</Description>
 	<MinimumAppVersion>
 		<!-- Build number of app version 6.2.0 -->

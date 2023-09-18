@@ -1,6 +1,8 @@
 import polib
 import xml.etree.ElementTree as ET
 
+XML_ZH_TAG = 'zh'
+
 def main():
     locals_zh = 'locales/description_zh_Hant.po'
     zh_po = polib.pofile(locals_zh)
@@ -20,10 +22,10 @@ def main():
                         for en_tag in parent.findall('en'):
                             if entry.msgid == en_tag.text:
                                 # 檢查是否已經有ZH
-                                has_tag = parent.find('zh_Hant')
+                                has_tag = parent.find(XML_ZH_TAG)
                                 if has_tag == None:
                                     # 創建新的 'zh_Hant' 節點
-                                    zh_hant_tag = ET.SubElement(parent, 'zh_Hant')
+                                    zh_hant_tag = ET.SubElement(parent, XML_ZH_TAG)
                                     zh_hant_tag.text = entry.msgstr
 
                     tree.write(file_path, encoding='utf-8', xml_declaration=True)

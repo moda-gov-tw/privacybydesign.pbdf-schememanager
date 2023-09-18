@@ -2,10 +2,12 @@
 	<Name>
 		<en>IRMATube membership</en>
 		<nl>IRMATube lidmaatschap</nl>
+		<zh>IRMATube 會員資格</zh>
 	</Name>
 	<ShortName>
 		<en>IRMATube</en>
 		<nl>IRMATube</nl>
+		<zh>IRMATube</zh>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
@@ -13,11 +15,13 @@
 	<Description>
 		<en>Your IRMATube membership attributes</en>
 		<nl>Je IRMATube lidmaatschapsattributen</nl>
+		<zh>您的 IRMATube 會員資格特性</zh>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
 		<en>https://privacybydesign.foundation/demo-en/irmaTube/</en>
 		<nl>https://privacybydesign.foundation/demo/irmaTube/</nl>
+		<zh>https://privacybydesign.foundation/demo-en/irmaTube/</zh>
 	</IssueURL>
 
 	<ForegroundColor>#15222E</ForegroundColor>
@@ -29,30 +33,36 @@
 			<Name>
 				<en>Type</en>
 				<nl>Type</nl>
+				<zh>Type</zh>
 			</Name>
 			<Description>
 				<en>Your membership type</en>
 				<nl>Je lidmaatschapstype</nl>
+				<zh>您的會員資格類型</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="id">
 			<Name>
 				<en>ID</en>
 				<nl>ID</nl>
+				<zh>ID</zh>
 			</Name>
 			<Description>
 				<en>Your membership ID</en>
 				<nl>Je lidmaatschapsnummer</nl>
+				<zh>您的會員資格 ID</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="fullname" optional="true">
 			<Name>
 				<en>Full name</en>
 				<nl>Volledige naam</nl>
+				<zh>全名</zh>
 			</Name>
 			<Description>
 				<en>Your full name</en>
 				<nl>Uw volledige naam</nl>
+				<zh>您的全名</zh>
 			</Description>
 		</Attribute>
 	</Attributes>

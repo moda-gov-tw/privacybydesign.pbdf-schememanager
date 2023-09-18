@@ -1,12 +1,13 @@
 <Issuer version="4">
   <ID>minvws-cibg</ID>
   <Name>
-	  <en>Authority for issuing UZI credentials</en>
-	  <nl>Authoriteit voor het uitgeven van UZI-credentials</nl>
+    <en>Authority for issuing UZI credentials</en>
+    <nl>Authoriteit voor het uitgeven van UZI-credentials</nl>
+    <zh>發佈 UZI 驗證資訊的權限</zh>
   </Name>
   <ShortName>
-	  <en>MinVWS CIBG</en>
-	  <nl>MinVWS CIBG</nl>
+    <en>MinVWS CIBG</en>
+    <nl>MinVWS CIBG</nl>
   </ShortName>
   <SchemeManager>pbdf</SchemeManager>
   <ContactAddress></ContactAddress>

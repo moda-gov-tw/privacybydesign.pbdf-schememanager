@@ -2,10 +2,12 @@
 	<Name>
 		<en>Mobile phone number</en>
 		<nl>Mobiel telefoonnummer</nl>
+		<zh>行動電話號碼</zh>
 	</Name>
 	<ShortName>
 		<en>Mobile number</en>
 		<nl>Mobiel nummer</nl>
+		<zh>行動電話號碼</zh>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>sidn-pbdf</IssuerID>
@@ -13,11 +15,13 @@
 	<Description>
 		<en>Your verified mobile phone number</en>
 		<nl>Je geverifieerde mobiele telefoonnummer</nl>
+		<zh>您驗證過的行動電話號碼</zh>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<IssueURL>
 		<en>https://sidnsmsissuer.yiviconnect.nl/issuance/sms/</en>
 		<nl>https://sidnsmsissuer.yiviconnect.nl/uitgifte/sms/</nl>
+		<zh>https://sidnsmsissuer.yiviconnect.nl/issuance/sms/</zh>
 	</IssueURL>
 
 	<ForegroundColor>#15222E</ForegroundColor>
@@ -27,22 +31,27 @@
 	<Category>
 		<en>Personal</en>
 		<nl>Persoonlijk</nl>
+		<zh>個人</zh>
 	</Category>
 	<FAQIntro>
 		<en>Add your mobile phone number to your Yivi app.\nYou can add multiple phone numbers.</en>
 		<nl>Laad je mobiele telefoonnummer in je Yivi-app.\nJe kunt meerdere telefoonnummers toevoegen.</nl>
+		<zh>將您的行動電話號碼新增至 Yivi 程式中。\n您可以新增多個行動電話號碼。</zh>
 	</FAQIntro>
 	<FAQPurpose>
 		<en>With your mobile phone number in your Yivi app, you can show that this number is really yours. For instance, you can disclose your phone number in a form or use it to login at a website.</en>
 		<nl>Met jouw mobiele telefoonnummer in de Yivi-app kun je laten zien dat dit nummer echt bij jou hoort. Je kunt bijvoorbeeld je mobiele nummer in een formulier toevoegen of gebruiken om op een website in te loggen.</nl>
+		<zh>透過您 Yivi 程式中的行動電話號碼，您可以證明這個號碼確實是您所有。舉例來說，您可以在表單中揭露您的行動電話號碼，或是用來登入網站。</zh>
 	</FAQPurpose>
 	<FAQContent>
 		<en>You will add the following data:\n• mobile phone number.</en>
 		<nl>Je laadt de volgende gegevens:\n• mobiele telefoonnummer.</nl>
+		<zh>您會新增以下資料：\n• 行動電話號碼。</zh>
 	</FAQContent>
 	<FAQHowto>
 		<en>Complete the following steps.\n1. Enter your mobile phone number.\n2. Check the Yivi SMS message on your phone.\n3. Use either the verification code in the message, or use the link in the message. After filling in the verification on the webpage for issuing phone numbers you will see a QR code that you can scan with the Yivi app on your phone. If you use the direct link in the SMS message you are sent back automatically to the Yivi app.\n\nYou now receive a card with your mobile phone number. Repeat this process for other mobile phone numbers that you wish to add.</en>
 		<nl>Doorloop de volgende stappen.\n1. Vul je mobiele telefoonnummer in.\n2. Open het Yivi SMS-bericht op je telefoon.\n3. Gebruik ofwel de verificatie code of de link in dit bericht. Wanneer je de verificatiecode invult op de webpagina voor het uitgeven van mobiele nummers verschijnt een QR-code; die kun je scannen met de Yivi-app op je telefoon. Wanneer je de link in het SMS bericht kiest word je automatisch teruggestuurd naar de Yivi-app.\n\nJe ontvangt nu een kaartje met je mobiele telefoonnummer. Herhaal dit proces voor ieder mobiel nummer dat je toe wil voegen.</nl>
+		<zh>請完成以下步驟。\n1. 輸入您的行動電話號碼。\n2. 在行動電話上檢查是否有收到來自 Yivi 的 SMS 簡訊。\n3. 使用簡訊中的驗證碼或是連結。在驗證用的網頁上填寫行動電話號碼，然後您會看到 QR 圖碼，您可以使用行動電話上的 Yivi 程式掃描它。若您點按簡訊中的直接連結，您會被自動送回 Yivi 程式中。\n\n現在，您會收到您行動電話號碼的卡片。請對您想要新增的其他行動電話號碼重複此流程。</zh>
 	</FAQHowto>
 
 	<Attributes>
@@ -50,10 +59,12 @@
 			<Name>
 				<en>Mobile phone number</en>
 				<nl>Mobiele telefoonnummer</nl>
+				<zh>行動電話號碼</zh>
 			</Name>
 			<Description>
 				<en>Your verified mobile phone number</en>
 				<nl>Je geverifieerde mobiel telefoonnummer</nl>
+				<zh>您驗證過的行動電話號碼</zh>
 			</Description>
 		</Attribute>
 	</Attributes>

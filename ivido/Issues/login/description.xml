@@ -13,6 +13,7 @@
 	<Description>
 		<en>Attributen benodigd voor het inloggen bij Ivido</en>
 		<nl>Attributes required for logging in at Ivido</nl>
+		<zh>登入 Ivido 所需的資料特點</zh>
 	</Description>
 	<IssueURL>
 		<en>https://platform.ivido.nl/auth/irma/refresh_attribute.php</en>
@@ -33,6 +34,7 @@
 			<Description>
 				<en>Unique identifier for Ivido</en>
 				<nl>Unieke identificatiecode voor Ivido</nl>
+				<zh>Ivido 的唯一識別碼</zh>
 			</Description>
 		</Attribute>
 	</Attributes>

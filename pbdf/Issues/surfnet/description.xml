@@ -2,10 +2,12 @@
 	<Name>
 		<en>Surfnet</en>
 		<nl>Surfnet</nl>
+		<zh>Surfnet</zh>
 	</Name>
 	<ShortName>
 		<en>Surfnet</en>
 		<nl>Surfnet</nl>
+		<zh>Surfnet</zh>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
@@ -13,11 +15,13 @@
 	<Description>
 		<en>Your Surfnet attributes obtained through SURFconext</en>
 		<nl>Je Surfnet-attributen, verkregen via SURFconext</nl>
+		<zh>透過 SURFconext 取得的 Surfnet 特性</zh>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
 		<en>https://privacybydesign.foundation/issuance/surfnet/surfnet/</en>
 		<nl>https://privacybydesign.foundation/uitgifte/surfnet/surfnet/</nl>
+		<zh>https://privacybydesign.foundation/issuance/surfnet/surfnet/</zh>
 	</IssueURL>
 
 	<Attributes>
@@ -25,70 +29,84 @@
 			<Name>
 				<en>Institute</en>
 				<nl>Instituut</nl>
+				<zh>研究機構</zh>
 			</Name>
 			<Description>
 				<en>The institute that provided these attributes</en>
 				<nl>De instantie die deze attributen heeft aangeleverd</nl>
+				<zh>提供這些特性的機構</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="type">
 			<Name>
 				<en>Type</en>
 				<nl>Type</nl>
+				<zh>Type</zh>
 			</Name>
 			<Description>
 				<en>Your position at your institute</en>
 				<nl>Je positie bij je instantie</nl>
+				<zh>您在機構擔任的職位</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="id">
 			<Name>
 				<en>Institute ID</en>
 				<nl>Instituut ID</nl>
+				<zh>機構 ID</zh>
 			</Name>
 			<Description>
 				<en>Your ID number at your institute</en>
 				<nl>Je ID-nummer bij je instantie</nl>
+				<zh>您在機構的 ID 號碼</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="fullname">
 			<Name>
 				<en>Full name</en>
 				<nl>Volledige naam</nl>
+				<zh>全名</zh>
 			</Name>
 			<Description>
 				<en>Your full name, as registered by your institute</en>
 				<nl>Je volledige naam, zoals geregistreerd bij je instantie</nl>
+				<zh>您在機構登記的全名</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="firstname">
 			<Name>
 				<en>First name</en>
 				<nl>Voornaam</nl>
+				<zh>名字</zh>
 			</Name>
 			<Description>
 				<en>Your first name, as registered by your institute</en>
 				<nl>Je voornaam, zoals geregistreerd bij je instantie</nl>
+				<zh>您在機構登記的名字</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="familyname">
 			<Name>
 				<en>Family name</en>
 				<nl>Achternaam</nl>
+				<zh>姓氏</zh>
 			</Name>
 			<Description>
 				<en>Your family name, as registered by your institute</en>
 				<nl>Je achternaam, zoals geregistreerd bij je instantie</nl>
+				<zh>您在機構登記的姓氏</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="email">
 			<Name>
 				<en>Email address</en>
 				<nl>E-mailadres</nl>
+				<zh>電子郵件地址</zh>
 			</Name>
 			<Description>
 				<en>Your email address at your institute</en>
 				<nl>Je e-mailadres bij je instantie</nl>
+				<zh>您在機構登記的電子郵件地址</zh>
 			</Description>
 		</Attribute>
 	</Attributes>

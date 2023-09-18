@@ -1,14 +1,16 @@
 <IssueSpecification version="4">
-    <RevocationServers>
-        <RevocationServer>https://yivi.pilot.uzi-online.minvws.nl</RevocationServer>
-    </RevocationServers>
+	<RevocationServers>
+		<RevocationServer>https://yivi.pilot.uzi-online.minvws.nl</RevocationServer>
+	</RevocationServers>
 	<Name>
 		<en>UZI register</en>
 		<nl>UZI-register</nl>
+		<zh>UZI 登記處</zh>
 	</Name>
 	<ShortName>
 		<en>UZI Register</en>
 		<nl>UZI-register</nl>
+		<zh>UZI 登記處</zh>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>minvws-cibg</IssuerID>
@@ -16,6 +18,7 @@
 	<Description>
 		<en>Attributes of your healthcare identity from the UZI register</en>
 		<nl>Gegevens over uw zorgidentiteit uit het UZI-register</nl>
+		<zh>UZI 登記處中您的衛生保健身份屬性</zh>
 	</Description>
 	<IssueURL>
 		<en>https://yivi.pilot.uzi-online.minvws.nl</en>
@@ -26,92 +29,110 @@
 			<Name>
 				<en>Initials</en>
 				<nl>Initialen</nl>
+				<zh>名字縮寫</zh>
 			</Name>
 			<Description>
 				<en>Your initials</en>
 				<nl>Uw initialen</nl>
+				<zh>您的名字縮寫</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="surnamePrefix">
 			<Name>
 				<en>Surname prefix(es)</en>
 				<nl>Tussenvoegsel(s)</nl>
+				<zh>姓氏前綴</zh>
 			</Name>
 			<Description>
 				<en>Your surname prefix(es)</en>
 				<nl>Tussenvoegsel(s) bij uw achternaam</nl>
+				<zh>您的姓名前綴</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="surname">
 			<Name>
 				<en>Surname</en>
 				<nl>Achternaam</nl>
+				<zh>姓氏</zh>
 			</Name>
 			<Description>
 				<en>Your surname</en>
 				<nl>Uw achternaam</nl>
+				<zh>您的姓氏</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="entityName">
 			<Name>
 				<en>Name of healthcare provider</en>
 				<nl>Naam zorgaanbieder</nl>
+				<zh>健康照護提供者名稱</zh>
 			</Name>
 			<Description>
 				<en>The name of the healthcare provider</en>
 				<nl>De naam van de zorgaanbieder</nl>
+				<zh>健康照護提供者名稱</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="ura">
 			<Name>
 				<en>URA number</en>
 				<nl>URA-nummer</nl>
+				<zh>URA 號碼</zh>
 			</Name>
 			<Description>
 				<en>The URA number of a healthcare provider</en>
 				<nl>Het URA-nummer van een zorgaanbieder</nl>
+				<zh>健康照護提供者 URA 號碼</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="uziId">
 			<Name>
 				<en>UZI number</en>
 				<nl>UZI-nummer</nl>
+				<zh>UZI 號碼</zh>
 			</Name>
 			<Description>
 				<en>Your UZI number</en>
 				<nl>Uw UZI-nummer</nl>
+				<zh>您的 UZI 號碼</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="roles">
 			<Name>
 				<en>Roles</en>
 				<nl>Rollen</nl>
+				<zh>角色</zh>
 			</Name>
 			<Description>
 				<en>Your roles at a healthcare organisation as defined in the UZI register</en>
 				<nl>Uw rollen bij een zorgaanbieder zoals geregistreerd in het UZI-register</nl>
+				<zh>UZI 登記處中您在衛生保健組織的角色</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="loaAuthn">
 			<Name>
 				<en>Authentication assurance level</en>
 				<nl>Betrouwbaarheidsniveau authenticatie</nl>
+				<zh>驗證保險等級</zh>
 			</Name>
 			<Description>
 				<en>Level of authenticatie assurance</en>
 				<nl>Betrouwbaarheidsniveau authenticatie</nl>
+				<zh>驗證保險等級</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="loaUzi">
 			<Name>
 				<en>UZI assurance level</en>
 				<nl>UZI-betrouwbaarheidsniveau</nl>
+				<zh>UZI 保險等級</zh>
 			</Name>
 			<Description>
 				<en>Level of assurance of UZI identity</en>
 				<nl>Betrouwbaarheidsniveau van UZI-identiteit</nl>
+				<zh>UZI 身份保險等級</zh>
 			</Description>
 		</Attribute>
-		<Attribute revocation="true"/>
+		<Attribute revocation="true" />
 	</Attributes>
 </IssueSpecification>

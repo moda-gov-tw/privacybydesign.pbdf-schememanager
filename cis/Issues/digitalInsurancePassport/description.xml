@@ -2,10 +2,12 @@
 	<Name>
 		<en>Digital Insurance Passport</en>
 		<nl>Digitaal Paspoort Verzekeren</nl>
+		<zh>數位保險護照</zh>
 	</Name>
 	<ShortName>
 		<en>Digital Insurance Passport</en>
 		<nl>Digitaal Paspoort Verzekeren</nl>
+		<zh>數位保險護照</zh>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>cis</IssuerID>
@@ -13,6 +15,7 @@
 	<Description>
 		<en>With your Digital Insurance Passport, insurers can see who you are and determine if you do not appear in national and international sanctions, investigation and incident registers. This check is mandatory by law and insurers do these together to prevent costs and extra work for customers and insurers.</en>
 		<nl>Met jouw Digitaal Paspoort Verzekeren kunnen verzekeraars zien wie je bent en vaststellen dat je niet voorkomt in nationale en internationale sanctie-, opsporings- en incidentregisters. Deze controle is wettelijk verplicht en doen verzekeraars samen om kosten en extra werk te voorkomen voor klanten en verzekeraars.</nl>
+		<zh>透過您的數位保險護照，保險公司能知道您是誰並且判斷您是否位在國內/國際制裁、調查以及事件登記冊中。保險公司依法必須審查此資訊，並且會彼此合作來預防顧客與保險公司成本上升與需要投入額外心血。</zh>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
@@ -24,22 +27,27 @@
 	<Category>
 		<en>Finance</en>
 		<nl>Financieel</nl>
+		<zh>金融</zh>
 	</Category>
 	<FAQIntro>
 		<en>Create a Digital Insurance Passport to easily and securely share data with your insurer.</en>
 		<nl>Maak een Digitaal Paspoort Verzekeren aan om makkelijk en vertrouwd gegevens met je verzekeraar te delen.</nl>
+		<zh>建立數位保險護照，讓您輕鬆安全地與保險公司分享資料。</zh>
 	</FAQIntro>
 	<FAQPurpose>
 		<en>With your Digital Insurance Passport, insurers can see who you are and determine you do not appear in national and international sanctions, investigation and incident registers. This check is mandatory by law and insurers do these together to prevent costs and extra work for customers and insurers.</en>
 		<nl>Met jouw Digitaal Paspoort Verzekeren kunnen verzekeraars zien wie je bent en kunnen zo vaststellen dat je niet voorkomt in nationale en internationale sanctie-, opsporings- en incidentregisters. Deze controle is wettelijk verplicht en doen verzekeraars samen om kosten en extra werk te voorkomen voor klanten en verzekeraars.</nl>
+		<zh>透過您的數位保險護照，保險公司能知道您是誰並且判斷您是否位在國內/國際制裁、調查以及事務登記冊中。保險公司依法必須審查此資訊，並且會彼此合作來預防顧客與保險公司成本上升與需要投入額外心血。</zh>
 	</FAQPurpose>
 	<FAQContent>
 		<en>We screen your name, date of birth and nationality against national and international sanctions, investigation and incident registers and do not use this data for other purposes. \n• Initials,\n• Prefix,\n• Surname,\n• Gender,\n• Date of birth,\n• Country of birth,\n• Assurance level</en>
 		<nl>We screenen je naam, geboortedatum en nationaliteit tegen nationale en internationale sanctie-, opsporings- en incidentregisters en gebruiken deze gegevens niet voor andere doeleinden. \n• Voorletters,\n• Voorvoegsel,\n• Achternaam,\n• Geslacht,\n• Geboortedatum,\n• Geboorteland,\n• Betrouwbaarheidsniveau</nl>
+		<zh>我們會在國內/國際制裁、調查以及事故登記冊中，比對您的姓名、出生日期與國籍。這些資料不會用於其他用途： \n• 姓名縮寫、\n• 前綴、\n• 姓氏、\n• 性別、\n• 出生日期、\n• 出生國家、\n• 保險等級</zh>
 	</FAQContent>
 	<FAQHowto>
 		<en>You can add your Digital Insurance Passport to your Yivi app by following the steps provided. You will then receive a separate card in your Yivi app with your details and the outcome of the screening against national and international sanctions, investigation and incident registers. Usually, the outcome is negative and you get the card in the app. In the unlikely event that an additional check is necessary, you will be notified and then informed whether the Digital Insurance Passport has been granted.</en>
 		<nl>Je kunt je Digitaal Paspoort Verzekeren aan je Yivi-app toevoegen met het doorlopen van de gevraagde stappen. Je ontvangt daarna een apart kaartje in je Yivi-app met je gegevens en de uitkomst van de screening tegen nationale en internationale sanctie-, opsporings- en incidentregisters.</nl>
+		<zh>您可以依照提供的步驟，將數位保險護照新增至 Yivi 程式中。您的 Yivi 程式會收到另外一張卡片，上面有您的詳細資訊以及與國內/國際制裁、調查以及事故登記冊比對後的結果。通常結果是沒有相符的資料，您就會在程式中取得卡片。雖然機率很低，但如果需要額外的查核，您將會收到通知然後被告知是否有被授予數位保險護照。</zh>
 	</FAQHowto>
 
 	<Attributes>
@@ -47,80 +55,96 @@
 			<Name>
 				<en>Initials</en>
 				<nl>Voorletters</nl>
+				<zh>名字縮寫</zh>
 			</Name>
 			<Description>
 				<en>Your initials, abbreviating your first names</en>
 				<nl>Je voorletters, als afkorting van je voornamen</nl>
+				<zh>您名字的首字母縮寫</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="prefix" optional="true" displayIndex="1">
 			<Name>
 				<en>Prefix</en>
 				<nl>Voorvoegsel</nl>
+				<zh>前綴</zh>
 			</Name>
 			<Description>
 				<en>Prefix of your family name</en>
 				<nl>Voorvoegsel van je achternaam</nl>
+				<zh>您姓氏的前綴</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="surname" displayIndex="2">
 			<Name>
 				<en>Surname</en>
 				<nl>Achternaam</nl>
+				<zh>姓氏</zh>
 			</Name>
 			<Description>
 				<en>Your full family name: your family name or (a combination with) that of your partner</en>
 				<nl>Je volledige achternaam: je geslachtsnaam of (een combinatie met) die van je partner</nl>
+				<zh>您的全名：您的姓名或/與您伴侶姓氏的組合</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="gender" displayIndex="3">
 			<Name>
 				<en>Gender</en>
 				<nl>Geslacht</nl>
+				<zh>性別</zh>
 			</Name>
 			<Description>
 				<en>Your gender</en>
 				<nl>Je geslacht</nl>
+				<zh>您的性別</zh>
 			</Description>
 		</Attribute>
-		<Attribute id="dateofbirth"  displayIndex="4">
+		<Attribute id="dateofbirth" displayIndex="4">
 			<Name>
 				<en>Date of birth</en>
 				<nl>Geboortedatum</nl>
+				<zh>出生日期</zh>
 			</Name>
 			<Description>
 				<en>Your date of birth</en>
 				<nl>Je geboortedatum</nl>
+				<zh>您的出生日期</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="countryofbirth" displayIndex="5">
 			<Name>
 				<en>Country of birth</en>
 				<nl>Geboorteland</nl>
+				<zh>出生國家</zh>
 			</Name>
 			<Description>
 				<en>Your country of birth</en>
 				<nl>Je geboorteland</nl>
+				<zh>您的出生國家</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="legalInsuranceChecks" displayIndex="6">
 			<Name>
 				<en>Legal Insurance Checks</en>
 				<nl>Wettelijke Controles Verzekeringen</nl>
+				<zh>法定保險查核</zh>
 			</Name>
 			<Description>
 				<en>No hits</en>
 				<nl>Geen signaleringen</nl>
+				<zh>無相符結果</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="assuranceLevel" displayIndex="7">
 			<Name>
 				<en>Assurance level</en>
 				<nl>Betrouwbaarheidsniveau</nl>
+				<zh>保險等級</zh>
 			</Name>
 			<Description>
 				<en>The assurance level with which your identity was verified</en>
 				<nl>Het betrouwbaarheidsniveau waarmee je identiteit was vastgesteld</nl>
+				<zh>您身分所核驗過的保險等級</zh>
 			</Description>
 		</Attribute>
 	</Attributes>

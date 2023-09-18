@@ -3,10 +3,12 @@
 	<ShortName>
 		<en>Pilot Municipality of Amsterdam</en>
 		<nl>Pilot Gemeente Amsterdam</nl>
+		<zh>阿姆斯特丹試行市鎮</zh>
 	</ShortName>
 	<Name>
 		<en>Pilot Municipality of Amsterdam</en>
 		<nl>Pilot Gemeente Amsterdam</nl>
+		<zh>阿姆斯特丹試行市鎮</zh>
 	</Name>
 	<SchemeManager>pbdf</SchemeManager>
 	<ContactAddress>https://amsterdam.nl</ContactAddress>

@@ -2,10 +2,12 @@
 	<Name>
 		<en>MyYivi</en>
 		<nl>MijnYivi</nl>
+		<zh>MyYivi</zh>
 	</Name>
 	<ShortName>
 		<en>MyYivi</en>
 		<nl>MijnYivi</nl>
+		<zh>MyYivi</zh>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
@@ -14,6 +16,7 @@
 	<Description>
 		<en>Your MyYivi app ID</en>
 		<nl>Je MijnYivi app-ID</nl>
+		<zh>您的 MyYivi 程式 ID</zh>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<DisallowDelete>true</DisallowDelete>
@@ -27,10 +30,12 @@
 			<Name>
 				<en>Username</en>
 				<nl>Gebruikersnaam</nl>
+				<zh>使用者名稱</zh>
 			</Name>
 			<Description>
 				<en>Your MyYivi app ID</en>
 				<nl>Je MijnYivi app-ID</nl>
+				<zh>您的 MyYivi 程式 ID</zh>
 			</Description>
 		</Attribute>
 	</Attributes>

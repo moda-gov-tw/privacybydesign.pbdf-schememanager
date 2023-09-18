@@ -2,10 +2,12 @@
 	<Name>
 		<en>Login data</en>
 		<nl>Inloggegevens</nl>
+		<zh>登入資料</zh>
 	</Name>
 	<ShortName>
 		<en>Login data</en>
 		<nl>Inloggegevens</nl>
+		<zh>登入資料</zh>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>sidn-pbdf</IssuerID>
@@ -13,6 +15,7 @@
 	<Description>
 		<en>Your unique login data.</en>
 		<nl>Jouw unieke inloggegevens.</nl>
+		<zh>您唯一識別的登入資料。</zh>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 
@@ -21,20 +24,24 @@
 			<Name>
 				<en>Login code</en>
 				<nl>Inlogcode</nl>
+				<zh>登入代號</zh>
 			</Name>
 			<Description>
 				<en>Your unique login code.</en>
 				<nl>Je unieke inlogcode.</nl>
+				<zh>您唯一識別的登入代碼。</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="organization">
 			<Name>
 				<en>Organization</en>
 				<nl>Organisatie</nl>
+				<zh>組織</zh>
 			</Name>
 			<Description>
 				<en>The organization that uses this login.</en>
 				<nl>De organisatie die gebruik maakt van deze login.</nl>
+				<zh>使用此登入資料的組織。</zh>
 			</Description>
 		</Attribute>
 	</Attributes>

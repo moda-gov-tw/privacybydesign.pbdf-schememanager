@@ -2,10 +2,12 @@
 	<Name>
 		<en>Personal data</en>
 		<nl>Persoonsgegevens</nl>
+		<zh>個人資料</zh>
 	</Name>
 	<ShortName>
 		<en>Personal data</en>
 		<nl>Persoonsgegevens</nl>
+		<zh>個人資料</zh>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>bzkpilot</IssuerID>
@@ -13,6 +15,7 @@
 	<Description>
 		<en>Your personal data, from the Dutch population register (BRP)</en>
 		<nl>Je persoonsgegevens, afkomstig uit de Basisregistratie Persoonsgegevens (BRP)</nl>
+		<zh>荷蘭人口登記處（BRP）的您的個人資料</zh>
 	</Description>
 	<IssueURL>
 		<en>https://mul-mmi.belastingdienst.nl/IRMA-authenticator-(-pilot)</en>
@@ -29,22 +32,27 @@
 	<Category>
 		<en>Personal</en>
 		<nl>Persoonlijk</nl>
+		<zh>個人</zh>
 	</Category>
 	<FAQIntro>
 		<en>Add your personal data from the Dutch population register (BRP) to your Yivi app.</en>
 		<nl>Laad je persoonsgegevens uit de basisregistratie personen (BRP) in je Yivi-app.</nl>
+		<zh>將您荷蘭人口登記處的個人資料新增至 Yivi 程式。</zh>
 	</FAQIntro>
 	<FAQPurpose>
 		<en>With your personal data in your Yivi app, you can make yourself known online. For instance, you can disclose your name or prove that you are over 18 years of age (without revealing your date of birth).</en>
 		<nl>Met jouw persoonsgegevens in de Yivi-app kun jij jezelf online bekendmaken. Dan kun je bijvoorbeeld je naam tonen of bewijzen dat je ouder bent dan 18 jaar (zonder je geboortedatum te onthullen).</nl>
+		<zh>透過您 Yivi 程式中的個人資料，您可以在線上讓他人知道您。舉例來說，您可以揭露您的姓名，或證明您已滿 18 歲了（但不用揭露您的出生日期）。</zh>
 	</FAQPurpose>
 	<FAQContent>
 		<en>You will add the following data:\n• full name,\n• initials,\n• surname,\n• gender,\n• date of birth,\n• age (older than 12, 16, 18, 21 or 65),\n• nationality,\n• country of birth,\n• citizen registration number (BSN).</en>
 		<nl>Je laadt de volgende gegevens:\n• volledige naam,\n• voorletters,\n• voornamen,\n• achternaam,\n• geslachtsnaam,\n• geslacht,\n• geboortedatum,\n• leeftijd (ouder dan 12, 16, 18, 21 of 65),\n• nationaliteit,\n• geboorteland,\n• burgerservicenummer (BSN).</nl>
+		<zh>您會新增以下資料：\n• 全名、\n• 名字縮寫、\n• 姓氏、\n• 性別、\n• 出生日期、\n• 年齡（大於 12、16、18、21 或 65 歲）、\n• 國籍、\n• 出生國家、\n• 公民登記號碼 (BSN)。</zh>
 	</FAQContent>
 	<FAQHowto>
 		<en>Complete the following steps.\n1. Open the Sesame ID app and enter your PIN code.\n2. In the Sesame app, choose 'Sharing data' and select 'Yivi'.\n3. Confirm that you wish to add your data to your Yivi app. The Sesame ID app copies your data into your Yivi-app.\n\nYou now receive two cards: one card with your personal details and automatically also one card with your home address.</en>
 		<nl>Doorloop de volgende stappen.\n1. Open de Sesam ID-app en voer je pincode in.\n2. Kies in de Sesam app voor 'Gegevens delen' en selecteer 'Yivi'.\n3. Bevestig het overzetten van je gegevens naar je Yivi-app. De Sesam ID-app voegt je gegevens toe in je Yivi-app.\n\nJe ontvangt nu nu twee kaartjes: een kaartje met je persoonsgegevens, en automatisch ook een kaartje met je woonadres.</nl>
+		<zh>請完成以下步驟。\n1. 開啟 Sesame ID 程式，並輸入您的 PIN 碼。\n2. 在 Sesame 程式中，選擇「分享資料」並選取「Yivi」。\n3. 確認您想要新增資料到 Yivi 程式中。Sesame ID 程式會複製您的資料到 Yivi 程式中。\n\n現在，您會收到兩張卡片：一張是您個人資料的卡片，另一張則是自動生成您住家地址的卡片。</zh>
 	</FAQHowto>
 
 	<Attributes>
@@ -52,140 +60,168 @@
 			<Name>
 				<en>Full name</en>
 				<nl>Volledige naam</nl>
+				<zh>全名</zh>
 			</Name>
 			<Description>
 				<en>Your full family name: your family name or (a combination with) the name of your partner</en>
 				<nl>Je volledige achternaam: je geslachtsnaam of (een combinatie met) de naam van je partner</nl>
+				<zh>您的全名：您的姓名或/與您伴侶姓氏的組合</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="initials" displayIndex="1">
 			<Name>
 				<en>Initials</en>
 				<nl>Voorletters</nl>
+				<zh>名字縮寫</zh>
 			</Name>
 			<Description>
 				<en>Your initials, abbreviating your first names</en>
 				<nl>Je voorletters, als afkorting van je voornamen</nl>
+				<zh>您名字的首字母縮寫</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="firstnames" displayIndex="2">
 			<Name>
 				<en>First names</en>
 				<nl>Voornamen</nl>
+				<zh>名字</zh>
 			</Name>
 			<Description>
 				<en>Your first names</en>
 				<nl>Je voornamen</nl>
+				<zh>您的名字</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="prefix" optional="true" displayIndex="3">
 			<Name>
 				<en>Prefix</en>
 				<nl>Voorvoegsel</nl>
+				<zh>前綴</zh>
 			</Name>
 			<Description>
 				<en>Prefix of your family name</en>
 				<nl>Voorvoegsel van je achternaam</nl>
+				<zh>您姓氏的前綴</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="familyname" displayIndex="4">
 			<Name>
 				<en>Family name</en>
 				<nl>Achternaam</nl>
+				<zh>姓氏</zh>
 			</Name>
 			<Description>
 				<en>Your family name, as given to you at birth</en>
 				<nl>Je achternaam, zoals bij je geboorte toegekend</nl>
+				<zh>您出生時的家族姓氏</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="gender" displayIndex="5">
 			<Name>
 				<en>Gender</en>
 				<nl>Geslacht</nl>
+				<zh>性別</zh>
 			</Name>
 			<Description>
 				<en>Your gender</en>
 				<nl>Je geslacht</nl>
+				<zh>您的性別</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="dateofbirth" displayIndex="6">
 			<Name>
 				<en>Date of birth</en>
 				<nl>Geboortedatum</nl>
+				<zh>出生日期</zh>
 			</Name>
 			<Description>
 				<en>Your date of birth</en>
 				<nl>Je geboortedatum</nl>
+				<zh>您的出生日期</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="over12" displayIndex="7" displayHint="yesno">
 			<Name>
 				<en>Over 12</en>
 				<nl>Ouder dan 12</nl>
+				<zh>年滿 12 歲</zh>
 			</Name>
 			<Description>
 				<en>Whether you are over 12</en>
 				<nl>Of je ouder dan 12 bent</nl>
+				<zh>您是否年滿 12 歲</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="over16" displayIndex="8" displayHint="yesno">
 			<Name>
 				<en>Over 16</en>
 				<nl>Ouder dan 16</nl>
+				<zh>年滿 16 歲</zh>
 			</Name>
 			<Description>
 				<en>Whether you are over 16</en>
 				<nl>Of je ouder dan 16 bent</nl>
+				<zh>您是否年滿 16 歲</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="over18" displayIndex="9" displayHint="yesno">
 			<Name>
 				<en>Over 18</en>
 				<nl>Ouder dan 18</nl>
+				<zh>年滿 18 歲</zh>
 			</Name>
 			<Description>
 				<en>Whether you are over 18</en>
 				<nl>Of je ouder dan 18 bent</nl>
+				<zh>您是否年滿 18 歲</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="over21" displayIndex="10" displayHint="yesno">
 			<Name>
 				<en>Over 21</en>
 				<nl>Ouder dan 21</nl>
+				<zh>年滿 21 歲</zh>
 			</Name>
 			<Description>
 				<en>Whether you are over 21</en>
 				<nl>Of je ouder dan 21 bent</nl>
+				<zh>您是否年滿 21 歲</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="over65" displayIndex="11" displayHint="yesno">
 			<Name>
 				<en>Over 65</en>
 				<nl>Ouder dan 65</nl>
+				<zh>年滿 65 歲</zh>
 			</Name>
 			<Description>
 				<en>Whether you are over 65</en>
 				<nl>Of je ouder dan 65 bent</nl>
+				<zh>您是否年滿 65 歲</zh>
 			</Description>
 		</Attribute>
-				<Attribute id="nationality" optional="true" displayIndex="12" displayHint="yesno">
+		<Attribute id="nationality" optional="true" displayIndex="12" displayHint="yesno">
 			<Name>
 				<en>Dutch nationality</en>
 				<nl>Nederlandse nationaliteit</nl>
+				<zh>荷蘭國籍</zh>
 			</Name>
 			<Description>
 				<en>Whether you have the dutch nationality</en>
 				<nl>Of je de Nederlandse nationaliteit bezit</nl>
+				<zh>您是否具有荷蘭國籍</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="countryofbirth" displayIndex="13">
 			<Name>
 				<en>Country of birth</en>
 				<nl>Geboorteland</nl>
+				<zh>出生國家</zh>
 			</Name>
 			<Description>
 				<en>Your country of birth</en>
 				<nl>Je geboorteland</nl>
+				<zh>您的出生國家</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="bsn" displayIndex="14" displayHint="sensitive">
@@ -196,16 +232,19 @@
 			<Description>
 				<en>Your Dutch Citizen registration number (BSN)</en>
 				<nl>Je Burgerservicenummer (BSN)</nl>
+				<zh>您的荷蘭公民登記號碼 (BSN)</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="photo" displayIndex="15" displayHint="portraitPhoto">
 			<Name>
 				<en>Photo</en>
 				<nl>Foto</nl>
+				<zh>照片</zh>
 			</Name>
 			<Description>
 				<en>Your picture</en>
 				<nl>Je foto</nl>
+				<zh>您的照片</zh>
 			</Description>
 		</Attribute>
 	</Attributes>

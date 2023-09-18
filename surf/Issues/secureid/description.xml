@@ -2,10 +2,12 @@
 	<Name>
 		<en>SURFsecureID</en>
 		<nl>SURFsecureID</nl>
+		<zh>SURFsecureID</zh>
 	</Name>
 	<ShortName>
 		<en>SURFsecureID</en>
 		<nl>SURFsecureID</nl>
+		<zh>SURFsecureID</zh>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>surf</IssuerID>
@@ -13,11 +15,13 @@
 	<Description>
 		<en>Your SURFsecureID 2nd factor</en>
 		<nl>Je SURFsecureID tweede factor</nl>
+		<zh>您的 SURFsecureID 雙重認證</zh>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<IssueURL>
 		<en>https://sa.surfconext.nl/registration/select-token/</en>
 		<nl>https://sa.surfconext.nl/registration/select-token/</nl>
+		<zh>https://sa.surfconext.nl/registration/select-token/</zh>
 	</IssueURL>
 
 	<Attributes>
@@ -25,20 +29,24 @@
 			<Name>
 				<en>Identifier</en>
 				<nl>Identifier</nl>
+				<zh>Identifier</zh>
 			</Name>
 			<Description>
 				<en>Your SURFsecureID identifier</en>
 				<nl>Je SURFsecureID identifier</nl>
+				<zh>您的 SURFsecureID 識別碼</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="environment" optional="true">
 			<Name>
 				<en>Environment</en>
 				<nl>Omgeving</nl>
+				<zh>環境</zh>
 			</Name>
 			<Description>
 				<en>The SURFsecureID environment</en>
 				<nl>De SURFsecureID-omgeving</nl>
+				<zh>SURFsecureID 環境</zh>
 			</Description>
 		</Attribute>
 	</Attributes>

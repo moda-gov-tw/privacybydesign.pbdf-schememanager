@@ -2,10 +2,12 @@
 	<Name>
 		<en>Mandate</en>
 		<nl>Machtiging</nl>
+		<zh>委任</zh>
 	</Name>
 	<ShortName>
 		<en>Mandate</en>
 		<nl>Machtiging</nl>
+		<zh>委任</zh>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>vgz</IssuerID>
@@ -13,6 +15,7 @@
 	<Description>
 		<en>With this mandate you can submit claims to VGZ on behalf of the person who mandated you</en>
 		<nl>Met deze machtiging kunt je declaraties indienen bij VGZ namens de verzekerde die je deze machtiging gegeven heeft</nl>
+		<zh>有了此委任，您可以代表委任您的人向 VGZ 遞交聲明</zh>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 
@@ -25,30 +28,36 @@
 			<Name>
 				<en>VGZ Customer number</en>
 				<nl>VGZ Klantnummer</nl>
+				<zh>VGZ 客戶編號</zh>
 			</Name>
 			<Description>
 				<en>The VGZ customer number of the VGZ client who mandated you</en>
 				<nl>Het VGZ klantnummer van de VGZ verzekerde die deze machtiging aan je gegeven heeft</nl>
+				<zh>委任您的 VGZ 客戶的 VGZ 客戶編號</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="clientfullname">
 			<Name>
 				<en>Insured person</en>
 				<nl>Verzekerde</nl>
+				<zh>委託人</zh>
 			</Name>
 			<Description>
 				<en>The name of the VGZ customer who mandated you</en>
 				<nl>De naam van de VGZ verzekerde die deze machtiging aan je gegevens heeft</nl>
+				<zh>委託您的 VGZ 客戶名字</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="mandateid">
 			<Name>
 				<en>MandateID</en>
 				<nl>Machtiging ID</nl>
+				<zh>委任 ID</zh>
 			</Name>
 			<Description>
 				<en>A unique ID for this mandate</en>
 				<nl>Een uniek ID voor deze machtiging</nl>
+				<zh>此委任的唯一識別 ID</zh>
 			</Description>
 		</Attribute>
 	</Attributes>

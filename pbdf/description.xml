@@ -3,10 +3,12 @@
 	<ShortName>
 		<en>PbD.f</en>
 		<nl>PbD.f</nl>
+		<zh>PbD.f</zh>
 	</ShortName>
 	<Name>
 		<en>Privacy by Design Foundation</en>
 		<nl>Stichting Privacy by Design</nl>
+		<zh>Privacy by Design 基金會</zh>
 	</Name>
 	<SchemeManager>pbdf</SchemeManager>
 	<ContactAddress></ContactAddress>

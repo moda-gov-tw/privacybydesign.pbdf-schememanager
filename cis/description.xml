@@ -3,10 +3,12 @@
 	<ShortName>
 		<en>CIS Foundation</en>
 		<nl>Stichting CIS</nl>
+		<zh>CIS 基金會</zh>
 	</ShortName>
 	<Name>
 		<en>Central Infomation System Foundation</en>
 		<nl>Stichting Centraal Informatie Systeem</nl>
+		<zh>中央資訊系統基金會</zh>
 	</Name>
 	<SchemeManager>pbdf</SchemeManager>
 	<ContactAddress>https://stichtingcis.nl/</ContactAddress>

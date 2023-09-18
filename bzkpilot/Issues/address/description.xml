@@ -2,10 +2,12 @@
 	<Name>
 		<en>Address</en>
 		<nl>Adres</nl>
+		<zh>地址</zh>
 	</Name>
 	<ShortName>
 		<en>Address</en>
 		<nl>Adres</nl>
+		<zh>地址</zh>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>bzkpilot</IssuerID>
@@ -13,6 +15,7 @@
 	<Description>
 		<en>Your home address, from the Dutch population register</en>
 		<nl>Je adres, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
+		<zh>荷蘭人口登記處的您的住家地址</zh>
 	</Description>
 	<IssueURL>
 		<en>https://mul-mmi.belastingdienst.nl/IRMA-authenticator-(-pilot)</en>
@@ -29,22 +32,27 @@
 	<Category>
 		<en>Personal</en>
 		<nl>Persoonlijk</nl>
+		<zh>個人</zh>
 	</Category>
 	<FAQIntro>
 		<en>Add your address from the Dutch population register (BRP) to your Yivi app.</en>
 		<nl>Laad je adres uit de basisregistratie personen (BRP) in je Yivi-app.</nl>
+		<zh>將荷蘭人口登記處（BRP）的您的地址新增至 Yivi 程式。</zh>
 	</FAQIntro>
 	<FAQPurpose>
 		<en>With your home address in your Yivi app, you can give information about where you live. For instance, you can prove in which municipality you live without disclosing your exact address.</en>
 		<nl>Met jouw woonadres in de Yivi-app kun je informatie geven over waar je woont. Dan kun je bijvoorbeeld bewijzen in welke gemeente je woont zonder je exacte adres te onthullen.</nl>
+		<zh>透過您 Yivi 程式中的住家地址，您可以提供您居住地的相關資訊。舉例來說，您可以在不必揭露自己實際地址的情況下，證明自己居住在哪個城市。</zh>
 	</FAQPurpose>
 	<FAQContent>
 		<en>You will add the following data:\n• street,\n• street number,\n• postal code,\n• city,\n• municipality.</en>
 		<nl>Je laadt de volgende gegevens:\n• straat,\n• huisnummer,\n• postcode,\n• woonplaats,\n• gemeente.</nl>
+		<zh>您將會新增以下資料：\n• 街道、\n• 門牌號碼、\n• 郵遞區號、\n• 鄉鎮市區、\n• 省市鎮。</zh>
 	</FAQContent>
 	<FAQHowto>
 		<en>Complete the following steps.\n1. Open the Sesame ID app and enter your PIN code.\n2. In the Sesame app, choose 'Sharing data' and select 'Yivi'.\n3. Confirm that you wish to add your data to your Yivi app. The Sesame ID app copies your data into your Yivi-app.\n\nYou now receive two cards: one card with your home address and automatically also one card with your personal details.</en>
 		<nl>Doorloop de volgende stappen.\n1. Open de Sesam ID-app en voer je pincode in.\n2. Kies in de Sesam app voor 'Gegevens delen' en selecteer 'Yivi'.\n3. Bevestig het overzetten van je gegevens naar je Yivi-app. De Sesam ID-app voegt je gegevens toe in je Yivi-app.\n\nJe ontvangt nu nu twee kaartjes: een kaartje met je woonadres, en automatisch ook een kaartje met je persoonsgegevens.</nl>
+		<zh>請完成以下步驟。\n1. 開啟 Sesame ID 程式，並輸入您的 PIN 碼。\n2. 在 Sesame 程式中，選擇「分享資料」並選取「Yivi」。\n3. 確認您想要新增資料到 Yivi 程式中。Sesame ID 程式會複製您的資料到 Yivi 程式中。\n\n現在，您會收到兩張卡片：一張是您住家地址的卡片，另一張則是自動生成您的個人資料卡片。</zh>
 	</FAQHowto>
 
 	<Attributes>
@@ -52,50 +60,60 @@
 			<Name>
 				<en>Street</en>
 				<nl>Straat</nl>
+				<zh>街</zh>
 			</Name>
 			<Description>
 				<en>Your street</en>
 				<nl>Je straat</nl>
+				<zh>您所居住的街道</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="houseNumber" optional="true" displayIndex="1">
 			<Name>
 				<en>House number</en>
 				<nl>Huisnummer</nl>
+				<zh>門牌號碼</zh>
 			</Name>
 			<Description>
 				<en>Your house number, with possible extension</en>
 				<nl>Je huisnummer, met eventuele toevoeging</nl>
+				<zh>您的門牌號碼，可以有延伸資訊</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="zipcode" displayIndex="2">
 			<Name>
 				<en>Postal code</en>
 				<nl>Postcode</nl>
+				<zh>郵遞區號</zh>
 			</Name>
 			<Description>
 				<en>Your postal code</en>
 				<nl>Je postcode</nl>
+				<zh>您的郵遞區號</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="city" displayIndex="3">
 			<Name>
 				<en>City</en>
 				<nl>Woonplaats</nl>
+				<zh>城市</zh>
 			</Name>
 			<Description>
 				<en>Your city of residence</en>
 				<nl>Je woonplaats</nl>
+				<zh>您居住地所在城市</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="municipality" displayIndex="4">
 			<Name>
 				<en>Municipality</en>
 				<nl>Gemeente</nl>
+				<zh>省市鎮</zh>
 			</Name>
 			<Description>
 				<en>Your municipality</en>
 				<nl>Je gemeente</nl>
+				<zh>您的省市鎮</zh>
 			</Description>
 		</Attribute>
 	</Attributes>
