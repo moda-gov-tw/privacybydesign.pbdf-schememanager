@@ -20,7 +20,6 @@
 	<IssueURL>
 		<en>https://yivi.nijmegen.nl</en>
 		<nl>https://yivi.nijmegen.nl</nl>
-		<zh>https://yivi.nijmegen.nl</zh>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
