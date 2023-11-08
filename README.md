@@ -7,3 +7,7 @@ Use this repository by putting it in the `irma_configuration` folder of your pro
     git clone https://github.com/privacybydesign/pbdf-schememanager pbdf
 
 For more info, see the [`irma-demo` scheme manager](https://github.com/privacybydesign/irma-demo-schememanager).
+
+## 軟體中文化
+
+本專案為數位部開放原始碼軟體中文化專案項目之一，其中文化與專案應用可參考 [Wiki](https://github.com/moda-gov-tw/privacybydesign.pbdf-schememanager/wiki)。
