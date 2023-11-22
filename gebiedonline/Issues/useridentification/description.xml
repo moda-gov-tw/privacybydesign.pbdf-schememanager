@@ -1,28 +1,27 @@
 <IssueSpecification version="4">
-    <Name>
-        <en>User identification</en>
-        <nl>Gebruikersidentificatie</nl>
-        <zh>使用者身分識別</zh>
-    </Name>
-    <ShortName>
-        <en>User identification</en>
-        <nl>Gebruikersidentificatie</nl>
-        <zh>使用者身分識別</zh>
-    </ShortName>
-    <SchemeManager>pbdf</SchemeManager>
-    <IssuerID>gebiedonline</IssuerID>
-    <CredentialID>useridentification</CredentialID>
-    <ShouldBeSingleton>true</ShouldBeSingleton>
-    <Description>
-        <en>My identification for Gebiedonline community websites</en>
-        <nl>Mijn identificatie voor Gebiedonline community websites</nl>
-        <zh>我在 Gebiedonline 社群網站的身分識別</zh>
-    </Description>
-    <IssueURL>
-        <en>https://gebiedonline.nl/irma-uitleg</en>
-        <nl>https://gebiedonline.nl/irma-uitleg</nl>
-        <zh>https://gebiedonline.nl/irma-uitleg</zh>
-    </IssueURL>
+	<Name>
+		<en>User identification</en>
+		<nl>Gebruikersidentificatie</nl>
+		<zh>使用者身分識別</zh>
+	</Name>
+	<ShortName>
+		<en>User identification</en>
+		<nl>Gebruikersidentificatie</nl>
+		<zh>使用者身分識別</zh>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>gebiedonline</IssuerID>
+	<CredentialID>useridentification</CredentialID>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<Description>
+		<en>My identification for Gebiedonline community websites</en>
+		<nl>Mijn identificatie voor Gebiedonline community websites</nl>
+		<zh>我在 Gebiedonline 社群網站的身分識別</zh>
+	</Description>
+	<IssueURL>
+		<en>https://gebiedonline.nl/irma-uitleg</en>
+		<nl>https://gebiedonline.nl/irma-uitleg</nl>
+	</IssueURL>
 
     <ForegroundColor>#C81619</ForegroundColor>
     <BackgroundGradientStart>#EBEBEB</BackgroundGradientStart>
@@ -30,18 +29,18 @@
 
     <Attributes>
 
-        <Attribute id="logincode">
-            <Name>
-                <en>Login code</en>
-                <nl>Logincode</nl>
-                <zh>登入代號</zh>
-            </Name>
-            <Description>
-                <en>My personal code to get access to my user account</en>
-                <nl>Mijn persoonlijke code om toegang te krijgen tot mijn gebruikersaccount</nl>
-                <zh>我的個人代號，用於存取我的使用者帳號</zh>
-            </Description>
-        </Attribute>
+		<Attribute id="logincode">
+			<Name>
+				<en>Login code</en>
+				<nl>Logincode</nl>
+				<zh>登入代號</zh>
+			</Name>
+			<Description>
+				<en>My personal code to get access to my user account</en>
+				<nl>Mijn persoonlijke code om toegang te krijgen tot mijn gebruikersaccount</nl>
+				<zh>我的個人代號，用於存取我的使用者帳號</zh>
+			</Description>
+		</Attribute>
 
-    </Attributes>
+	</Attributes>
 </IssueSpecification>

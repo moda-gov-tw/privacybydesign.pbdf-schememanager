@@ -1,210 +1,214 @@
 <IssueSpecification version="4">
-    <Name>
-        <en>Personal data from the bank</en>
-        <nl>Persoonsgegevens van de bank</nl>
-        <zh>出自銀行的個人資料</zh>
-    </Name>
-    <ShortName>
-        <en>Personal data bank</en>
-        <nl>Persoonsgegevens bank</nl>
-        <zh>銀行個人資料</zh>
-    </ShortName>
-    <SchemeManager>pbdf</SchemeManager>
-    <IssuerID>pbdf</IssuerID>
-    <CredentialID>idin</CredentialID>
-    <Description>
-        <en>Your personal data, provided by your bank, obtained through iDIN</en>
-        <nl>Je persoonsgegevens volgens je bank, verkregen met iDIN</nl>
-        <zh>您的個人資料，由銀行提供，透過 iDIN 取得</zh>
-    </Description>
-    <ShouldBeSingleton>true</ShouldBeSingleton>
-    <IssueURL>
-        <en>https://privacybydesign.foundation/uitgifte/idin/</en>
-        <nl>https://privacybydesign.foundation/uitgifte/idin/</nl>
-        <zh>https://privacybydesign.foundation/uitgifte/idin/</zh>
-    </IssueURL>
+	<Name>
+		<en>Personal data from the bank</en>
+		<nl>Persoonsgegevens van de bank</nl>
+		<zh>出自銀行的個人資料</zh>
+	</Name>
+	<ShortName>
+		<en>Personal data bank</en>
+		<nl>Persoonsgegevens bank</nl>
+		<zh>銀行個人資料</zh>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>pbdf</IssuerID>
+	<CredentialID>idin</CredentialID>
+	<Description>
+		<en>Your personal data, provided by your bank, obtained through iDIN</en>
+		<nl>Je persoonsgegevens volgens je bank, verkregen met iDIN</nl>
+		<zh>您的個人資料，由銀行提供，透過 iDIN 取得</zh>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/uitgifte/idin/</en>
+		<nl>https://privacybydesign.foundation/uitgifte/idin/</nl>
+	</IssueURL>
 
-    <ForegroundColor>#15222E</ForegroundColor>
-    <BackgroundGradientStart>#00B1E5</BackgroundGradientStart>
-    <BackgroundGradientEnd>#9DDCE5</BackgroundGradientEnd>
-    <IsInCredentialStore>true</IsInCredentialStore>
-    <Category>
-        <en>Personal</en>
-        <nl>Persoonlijk</nl>
-    </Category>
-    <FAQIntro>
-        <en>Add your personal data from your bank to your IRMA app.</en>
-        <nl>Laad je persoonsgegevens van je bank in je IRMA-app.</nl>
-    </FAQIntro>
-    <FAQPurpose>
-        <en>With your personal data from your bank in your IRMA app, you can, for instance, prove what your name is, what your date of birth is, and where you live.</en>
-        <nl>Met jouw persoonsgegevens van je bank in de IRMA-app kun jij bewijzen hoe je heet, wat je geboortedatum is en waar je woont.</nl>
-    </FAQPurpose>
-    <FAQContent>
-        <en>You will add the following data:\n• initials,\n• last name,\n• gender,\n• date of birth,\n• age limits (older than 12, 16, 18, 21 or 65),\n• address,\n• postal code,\n• city.</en>
-        <nl>Je laadt de volgende gegevens:\n• initialen,\n• achternaam,\n• geslacht,\n• geboortedatum,\n• leeftijdsgrenzen (ouder dan 12, 16, 18, 21 of 65),\n• adres,\n• postcode,\n• woonplaats.</nl>
-    </FAQContent>
-    <FAQHowto>
-        <en>If you have a Dutch bank account, you can add personal data from the bank to your IRMA app.\n\n To do so, complete the following steps.\n1. Log in to your own bank via the bank's login service called iDIN.\n2. You see the personal data that you can load into your IRMA app.\n3. Confirm that you wish to do so.\nThe Privacy by Design Foundation receives your personal data from iDIN and passes them on to your IRMA app.\n\nYou now receive a card with your personal details from your bank.</en>
-        <nl>Als je een Nederlandse bankrekening hebt kun je de persoonsgegevens bij die rekening in je IRMA app laden.\n\nDoorloop de volgende stappen.\n1. Log in bij je eigen bank via de inlogdienst iDIN van de bank.\n2. Je ziet de persoonsgegevens die je van je bank in je IRMA-app laadt.\n3. Bevestig dit laden.\nDe stichting Privacy by Design ontvangt je bankgegevens van iDIN en geeft deze door aan je IRMA-app.\n\nJe ontvangt nu een kaartje met je persoonsgegevens van je bank.</nl>
-    </FAQHowto>
+	<ForegroundColor>#15222E</ForegroundColor>
+	<BackgroundGradientStart>#00B1E5</BackgroundGradientStart>
+	<BackgroundGradientEnd>#9DDCE5</BackgroundGradientEnd>
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en>Personal</en>
+		<nl>Persoonlijk</nl>
+		<zh>個人</zh>
+	</Category>
+	<FAQIntro>
+		<en>Load your personal data, known by your bank, into your Yivi app.</en>
+		<nl>Laad je persoonsgegevens, zoals bekend bij je bank, in je Yivi-app.</nl>
+		<zh>將您在銀行登記的個人資料載入 Yivi 程式。</zh>
+	</FAQIntro>
+	<FAQPurpose>
+		<en>With your personal data from your bank in your Yivi app, you can, for instance, prove what your name is, what your date of birth is, and where you live.</en>
+		<nl>Met jouw persoonsgegevens van je bank in de Yivi-app kun jij bewijzen hoe je heet, wat je geboortedatum is en waar je woont.</nl>
+		<zh>透過您 Yivi 程式中出自銀行的個人資料，您可以藉此證明您的姓名、出生日期與居住地等。</zh>
+	</FAQPurpose>
+	<FAQContent>
+		<en>You will add the following data:\n• initials,\n• last name,\n• gender,\n• date of birth,\n• age limits (older than 12, 16, 18, 21 or 65),\n• address,\n• postal code,\n• city.</en>
+		<nl>Je laadt de volgende gegevens:\n• initialen,\n• achternaam,\n• geslacht,\n• geboortedatum,\n• leeftijdsgrenzen (ouder dan 12, 16, 18, 21 of 65),\n• adres,\n• postcode,\n• woonplaats.</nl>
+		<zh>您會新增以下資料：\n• 名字縮寫、\n• 姓氏、\n• 性別、\n• 出生日期、\n• 年齡限制（已滿 12、16、18、21 或 65 歲）、\n• 地址、\n• 郵遞區號、\n• 城市。</zh>
+	</FAQContent>
+	<FAQHowto>
+		<en>If you have a Dutch bank account, you can add personal data from the bank to your Yivi app.\n\n To do so, complete the following steps.\n1. Log in to your own bank via the bank's login service called iDIN.\n2. You see the personal data that you can load into your Yivi app.\n3. Confirm that you wish to do so.\nThe Privacy by Design Foundation receives your personal data from iDIN and passes them on to your Yivi app.\n\nYou now receive a card with your personal details from your bank.</en>
+		<nl>Als je een Nederlandse bankrekening hebt kun je de persoonsgegevens bij die rekening in je Yivi app laden.\n\nDoorloop de volgende stappen.\n1. Log in bij je eigen bank via de inlogdienst iDIN van de bank.\n2. Je ziet de persoonsgegevens die je van je bank in je Yivi-app laadt.\n3. Bevestig dit laden.\nDe stichting Privacy by Design ontvangt je bankgegevens van iDIN en geeft deze door aan je Yivi-app.\n\nJe ontvangt nu een kaartje met je persoonsgegevens van je bank.</nl>
+		<zh>若您有荷蘭的銀行帳號，您可以將您銀行的個人資料，新增至 Yivi 程式中。\n\n若要這麼做，請完成以下步驟。\n1. 透過名為 iDIN 的銀行登入服務登入您的銀行。\n2. 您會看到可以載入您 Yivi 程式中的個人資料。\n3. 確認您想要這麼做。\nPrivacy by Design 基金會收到 iDIN 的您個人資料，然後傳遞給您的 Yivi 程式。\n\n現在，您會收到您銀行個人資料的卡片。</zh>
+	</FAQHowto>
 
-    <Attributes>
-        <Attribute id="initials">
-            <Name>
-                <en>Initials</en>
-                <nl>Initialen</nl>
-                <zh>名字縮寫</zh>
-            </Name>
-            <Description>
-                <en>First letters of your given name(s), as registered at your bank</en>
-                <nl>Je initialen, zoals geregistreerd bij je bank</nl>
-                <zh>您在銀行登記的名字縮寫</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="familyname">
-            <Name>
-                <en>Family name</en>
-                <nl>Achternaam</nl>
-                <zh>姓氏</zh>
-            </Name>
-            <Description>
-                <en>Your family name, as registered at your bank</en>
-                <nl>Je achternaam, zoals geregistreerd bij je bank</nl>
-                <zh>您在銀行登記的姓氏</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="dateofbirth">
-            <Name>
-                <en>Date of birth</en>
-                <nl>Geboortedatum</nl>
-                <zh>出生日期</zh>
-            </Name>
-            <Description>
-                <en>Your date of birth, as registered at your bank</en>
-                <nl>Je geboortedatum, zoals geregistreerd bij je bank</nl>
-                <zh>您在銀行登記的出生日期</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="gender">
-            <Name>
-                <en>Gender</en>
-                <nl>Geslacht</nl>
-                <zh>性別</zh>
-            </Name>
-            <Description>
-                <en>Your gender, as registered at your bank</en>
-                <nl>Je geslacht, zoals geregistreerd bij je bank</nl>
-                <zh>您在銀行登記的性別</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="address">
-            <Name>
-                <en>Address</en>
-                <nl>Adres</nl>
-                <zh>地址</zh>
-            </Name>
-            <Description>
-                <en>Your address, as registered at your bank</en>
-                <nl>Je adres, zoals geregistreerd bij je bank</nl>
-                <zh>您在銀行登記的地址</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="zipcode">
-            <Name>
-                <en>Postal code</en>
-                <nl>Postcode</nl>
-                <zh>郵遞區號</zh>
-            </Name>
-            <Description>
-                <en>Your postal code, as registered at your bank</en>
-                <nl>Je postcode, zoals geregistreerd bij je bank</nl>
-                <zh>您在銀行登記的郵遞區號</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="city">
-            <Name>
-                <en>City</en>
-                <nl>Woonplaats</nl>
-                <zh>鄉鎮市區</zh>
-            </Name>
-            <Description>
-                <en>Your city of residence, as registered at your bank</en>
-                <nl>Je woonplaats, zoals geregistreerd bij je bank</nl>
-                <zh>您在銀行登記的居住城市</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="country">
-            <Name>
-                <en>Country</en>
-                <nl>Land</nl>
-                <zh>國家</zh>
-            </Name>
-            <Description>
-                <en>Your country of residence, as registered at your bank</en>
-                <nl>Het land waar je woont, zoals geregistreerd bij je bank</nl>
-                <zh>您在銀行登記的居住國家</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="over12" optional="true" displayHint="yesno">
-            <Name>
-                <en>Over 12</en>
-                <nl>Ouder dan 12</nl>
-                <zh>年滿 12 歲</zh>
-            </Name>
-            <Description>
-                <en>Whether you are over 12</en>
-                <nl>Of je ouder dan 12 bent</nl>
-                <zh>您是否年滿 12 歲</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="over16" optional="true" displayHint="yesno">
-            <Name>
-                <en>Over 16</en>
-                <nl>Ouder dan 16</nl>
-                <zh>年滿 16 歲</zh>
-            </Name>
-            <Description>
-                <en>Whether you are over 16</en>
-                <nl>Of je ouder dan 16 bent</nl>
-                <zh>您是否年滿 16 歲</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="over18" optional="true" displayHint="yesno">
-            <Name>
-                <en>Over 18</en>
-                <nl>Ouder dan 18</nl>
-                <zh>年滿 18 歲</zh>
-            </Name>
-            <Description>
-                <en>Whether you are over 18</en>
-                <nl>Of je ouder dan 18 bent</nl>
-                <zh>您是否年滿 18 歲</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="over21" optional="true" displayHint="yesno">
-            <Name>
-                <en>Over 21</en>
-                <nl>Ouder dan 21</nl>
-                <zh>年滿 21 歲</zh>
-            </Name>
-            <Description>
-                <en>Whether you are over 21</en>
-                <nl>Of je ouder dan 21 bent</nl>
-                <zh>您是否年滿 21 歲</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="over65" optional="true" displayHint="yesno">
-            <Name>
-                <en>Over 65</en>
-                <nl>Ouder dan 65</nl>
-                <zh>年滿 65 歲</zh>
-            </Name>
-            <Description>
-                <en>Whether you are over 65</en>
-                <nl>Of je ouder dan 65 bent</nl>
-                <zh>您是否年滿 65 歲</zh>
-            </Description>
-        </Attribute>
-    </Attributes>
+	<Attributes>
+		<Attribute id="initials">
+			<Name>
+				<en>Initials</en>
+				<nl>Initialen</nl>
+				<zh>名字縮寫</zh>
+			</Name>
+			<Description>
+				<en>First letters of your given name(s), as registered at your bank</en>
+				<nl>Je initialen, zoals geregistreerd bij je bank</nl>
+				<zh>您在銀行登記的名字縮寫</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="familyname">
+			<Name>
+				<en>Family name</en>
+				<nl>Achternaam</nl>
+				<zh>姓氏</zh>
+			</Name>
+			<Description>
+				<en>Your family name, as registered at your bank</en>
+				<nl>Je achternaam, zoals geregistreerd bij je bank</nl>
+				<zh>您在銀行登記的姓氏</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="dateofbirth">
+			<Name>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+				<zh>出生日期</zh>
+			</Name>
+			<Description>
+				<en>Your date of birth, as registered at your bank</en>
+				<nl>Je geboortedatum, zoals geregistreerd bij je bank</nl>
+				<zh>您在銀行登記的出生日期</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="gender">
+			<Name>
+				<en>Gender</en>
+				<nl>Geslacht</nl>
+				<zh>性別</zh>
+			</Name>
+			<Description>
+				<en>Your gender, as registered at your bank</en>
+				<nl>Je geslacht, zoals geregistreerd bij je bank</nl>
+				<zh>您在銀行登記的性別</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="address">
+			<Name>
+				<en>Address</en>
+				<nl>Adres</nl>
+				<zh>地址</zh>
+			</Name>
+			<Description>
+				<en>Your address, as registered at your bank</en>
+				<nl>Je adres, zoals geregistreerd bij je bank</nl>
+				<zh>您在銀行登記的地址</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="zipcode">
+			<Name>
+				<en>Postal code</en>
+				<nl>Postcode</nl>
+				<zh>郵遞區號</zh>
+			</Name>
+			<Description>
+				<en>Your postal code, as registered at your bank</en>
+				<nl>Je postcode, zoals geregistreerd bij je bank</nl>
+				<zh>您在銀行登記的郵遞區號</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="city">
+			<Name>
+				<en>City</en>
+				<nl>Woonplaats</nl>
+				<zh>城市</zh>
+			</Name>
+			<Description>
+				<en>Your city of residence, as registered at your bank</en>
+				<nl>Je woonplaats, zoals geregistreerd bij je bank</nl>
+				<zh>您在銀行登記的居住城市</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="country">
+			<Name>
+				<en>Country</en>
+				<nl>Land</nl>
+				<zh>國家</zh>
+			</Name>
+			<Description>
+				<en>Your country of residence, as registered at your bank</en>
+				<nl>Het land waar je woont, zoals geregistreerd bij je bank</nl>
+				<zh>您在銀行登記的居住國家</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="over12" optional="true" displayHint="yesno">
+			<Name>
+				<en>Over 12</en>
+				<nl>Ouder dan 12</nl>
+				<zh>年滿 12 歲</zh>
+			</Name>
+			<Description>
+				<en>Whether you are over 12</en>
+				<nl>Of je ouder dan 12 bent</nl>
+				<zh>您是否年滿 12 歲</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="over16" optional="true" displayHint="yesno">
+			<Name>
+				<en>Over 16</en>
+				<nl>Ouder dan 16</nl>
+				<zh>年滿 16 歲</zh>
+			</Name>
+			<Description>
+				<en>Whether you are over 16</en>
+				<nl>Of je ouder dan 16 bent</nl>
+				<zh>您是否年滿 16 歲</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="over18" optional="true" displayHint="yesno">
+			<Name>
+				<en>Over 18</en>
+				<nl>Ouder dan 18</nl>
+				<zh>年滿 18 歲</zh>
+			</Name>
+			<Description>
+				<en>Whether you are over 18</en>
+				<nl>Of je ouder dan 18 bent</nl>
+				<zh>您是否年滿 18 歲</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="over21" optional="true" displayHint="yesno">
+			<Name>
+				<en>Over 21</en>
+				<nl>Ouder dan 21</nl>
+				<zh>年滿 21 歲</zh>
+			</Name>
+			<Description>
+				<en>Whether you are over 21</en>
+				<nl>Of je ouder dan 21 bent</nl>
+				<zh>您是否年滿 21 歲</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="over65" optional="true" displayHint="yesno">
+			<Name>
+				<en>Over 65</en>
+				<nl>Ouder dan 65</nl>
+				<zh>年滿 65 歲</zh>
+			</Name>
+			<Description>
+				<en>Whether you are over 65</en>
+				<nl>Of je ouder dan 65 bent</nl>
+				<zh>您是否年滿 65 歲</zh>
+			</Description>
+		</Attribute>
+	</Attributes>
 </IssueSpecification>

@@ -1,71 +1,70 @@
 <IssueSpecification version="4">
-    <Name>
-        <en>Working area</en>
-        <nl>Werkgebied</nl>
-        <zh>工作鄰里社區</zh>
-    </Name>
-    <ShortName>
-        <en>Working area</en>
-        <nl>Werkgebied</nl>
-        <zh>工作鄰里社區</zh>
-    </ShortName>
-    <SchemeManager>pbdf</SchemeManager>
-    <IssuerID>gebiedonline</IssuerID>
-    <CredentialID>workingarea</CredentialID>
-    <Description>
-        <en>The area where I work</en>
-        <nl>Het gebied waar ik werk</nl>
-        <zh>我工作的鄰里社區</zh>
-    </Description>
-    <IssueURL>
-        <en>https://gebiedonline.nl/irma-uitleg</en>
-        <nl>https://gebiedonline.nl/irma-uitleg</nl>
-        <zh>https://gebiedonline.nl/irma-uitleg</zh>
-    </IssueURL>
+	<Name>
+		<en>Working area</en>
+		<nl>Werkgebied</nl>
+		<zh>工作鄰里社區</zh>
+	</Name>
+	<ShortName>
+		<en>Working area</en>
+		<nl>Werkgebied</nl>
+		<zh>工作鄰里社區</zh>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>gebiedonline</IssuerID>
+	<CredentialID>workingarea</CredentialID>
+	<Description>
+		<en>The area where I work</en>
+		<nl>Het gebied waar ik werk</nl>
+		<zh>我工作的鄰里社區</zh>
+	</Description>
+	<IssueURL>
+		<en>https://gebiedonline.nl/irma-uitleg</en>
+		<nl>https://gebiedonline.nl/irma-uitleg</nl>
+	</IssueURL>
 
     <ForegroundColor>#C81619</ForegroundColor>
     <BackgroundGradientStart>#EBEBEB</BackgroundGradientStart>
     <BackgroundGradientEnd>#FFFFFF</BackgroundGradientEnd>
 
-    <Attributes>
-        <Attribute id="zipcode">
-            <Name>
-                <en>Zip code in 4 digits</en>
-                <nl>Postcode in 4 cijfers</nl>
-                <zh>四位數的郵遞區號</zh>
-            </Name>
-            <Description>
-                <en>Zip code (4 digits) of the area(s) where I work</en>
-                <nl>Postcode (4 cijfers) van de gebied(en) waar ik werk</nl>
-                <zh>我工作鄰里社區的四位數郵遞區號</zh>
-            </Description>
-        </Attribute>
+	<Attributes>
+		<Attribute id="zipcode">
+			<Name>
+				<en>Zip code in 4 digits</en>
+				<nl>Postcode in 4 cijfers</nl>
+				<zh>四位數郵遞區號</zh>
+			</Name>
+			<Description>
+				<en>Zip code (4 digits) of the area(s) where I work</en>
+				<nl>Postcode (4 cijfers) van de gebied(en) waar ik werk</nl>
+				<zh>我工作鄰里社區的四位數郵遞區號</zh>
+			</Description>
+		</Attribute>
 
-        <Attribute id="district">
-            <Name>
-                <en>District</en>
-                <nl>Wijk</nl>
-                <zh>區</zh>
-            </Name>
-            <Description>
-                <en>The district(s) where I work</en>
-                <nl>De wijk(en) waar ik werk</nl>
-                <zh>我工作的鄉鎮市區</zh>
-            </Description>
-        </Attribute>
+		<Attribute id="district">
+			<Name>
+				<en>District</en>
+				<nl>Wijk</nl>
+				<zh>區</zh>
+			</Name>
+			<Description>
+				<en>The district(s) where I work</en>
+				<nl>De wijk(en) waar ik werk</nl>
+				<zh>我工作的鄉鎮市區</zh>
+			</Description>
+		</Attribute>
 
-        <Attribute id="city">
-            <Name>
-                <en>City</en>
-                <nl>Plaats</nl>
-                <zh>鄉鎮市區</zh>
-            </Name>
-            <Description>
-                <en>The city/cities where I work</en>
-                <nl>De plaats(en) waar ik werk</nl>
-                <zh>我工作的鄉鎮市區</zh>
-            </Description>
-        </Attribute>
+		<Attribute id="city">
+			<Name>
+				<en>City</en>
+				<nl>Plaats</nl>
+				<zh>城市</zh>
+			</Name>
+			<Description>
+				<en>The city/cities where I work</en>
+				<nl>De plaats(en) waar ik werk</nl>
+				<zh>我工作的鄉鎮市區</zh>
+			</Description>
+		</Attribute>
 
-    </Attributes>
+	</Attributes>
 </IssueSpecification>

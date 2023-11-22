@@ -1,45 +1,41 @@
 <IssueSpecification version="4">
-    <Name>
-        <en>Ivido Login</en>
-        <nl>Ivido Login</nl>
-        <zh>Ivido Login</zh>
-    </Name>
-    <ShortName>
-        <en>Ivido Login</en>
-        <nl>Ivido Login</nl>
-        <zh>Ivido Login</zh>
-    </ShortName>
-    <SchemeManager>pbdf</SchemeManager>
-    <IssuerID>ivido</IssuerID>
-    <CredentialID>login</CredentialID>
-    <Description>
-        <en>Attributen benodigd voor het inloggen bij Ivido</en>
-        <nl>Attributes required for logging in at Ivido</nl>
-        <zh>登入 Ivido 所需的資料特點</zh>
-    </Description>
-    <IssueURL>
-        <en>https://platform.ivido.nl/auth/irma/refresh_attribute.php</en>
-        <nl>https://platform.ivido.nl/auth/irma/refresh_attribute.php</nl>
-        <zh>https://platform.ivido.nl/auth/irma/refresh_attribute.php</zh>
-    </IssueURL>
-    <ShouldBeSingleton>true</ShouldBeSingleton>
+	<Name>
+		<en>Ivido Login</en>
+		<nl>Ivido Login</nl>
+	</Name>
+	<ShortName>
+		<en>Ivido Login</en>
+		<nl>Ivido Login</nl>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>ivido</IssuerID>
+	<CredentialID>login</CredentialID>
+	<Description>
+		<en>Attributen benodigd voor het inloggen bij Ivido</en>
+		<nl>Attributes required for logging in at Ivido</nl>
+		<zh>登入 Ivido 所需的資料特點</zh>
+	</Description>
+	<IssueURL>
+		<en>https://platform.ivido.nl/auth/irma/refresh_attribute.php</en>
+		<nl>https://platform.ivido.nl/auth/irma/refresh_attribute.php</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
 
     <ForegroundColor>#FFFFFF</ForegroundColor>
     <BackgroundGradientStart>#5C13FF</BackgroundGradientStart>
     <BackgroundGradientEnd>#430AC1</BackgroundGradientEnd>
 
-    <Attributes>
-        <Attribute id="identifier">
-            <Name>
-                <en>Identifier</en>
-                <nl>Identificatiecode</nl>
-                <zh>識別</zh>
-            </Name>
-            <Description>
-                <en>Unique identifier for Ivido</en>
-                <nl>Unieke identificatiecode voor Ivido</nl>
-                <zh>Ivido 的唯一識別碼</zh>
-            </Description>
-        </Attribute>
-    </Attributes>
+	<Attributes>
+		<Attribute id="identifier">
+			<Name>
+				<en>Identifier</en>
+				<nl>Identificatiecode</nl>
+			</Name>
+			<Description>
+				<en>Unique identifier for Ivido</en>
+				<nl>Unieke identificatiecode voor Ivido</nl>
+				<zh>Ivido 的唯一識別碼</zh>
+			</Description>
+		</Attribute>
+	</Attributes>
 </IssueSpecification>
