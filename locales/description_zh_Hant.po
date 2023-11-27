@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-24 11:10+0800\n"
-"PO-Revision-Date: 2023-08-16 11:44+0000\n"
-"Last-Translator: Tommy JIang <baptist333@yahoo.com.tw>\n"
+"PO-Revision-Date: 2023-11-27 15:02+0000\n"
+"Last-Translator: Peter Chen <petercpg@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <http://weblate.steps.tw/projects/yivi/"
 "pbdf-schememanager/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -433,7 +433,7 @@ msgstr "RSIN 號碼"
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:62
 msgid "Legal Entity or Partnership Identification Number"
-msgstr "法律實體或夥伴識別碼"
+msgstr "法律實體或合夥識別碼"
 
 #. (itstool) path: Name/en
 #. (itstool) path: Description/en
@@ -445,12 +445,12 @@ msgstr "組織名稱"
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:78
 msgid "Trade names"
-msgstr "商號"
+msgstr "商業名稱"
 
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:82
 msgid "Trade names under which the company trades"
-msgstr "公司從事商業活動時使用的商號"
+msgstr "公司從事商業活動時使用的名稱"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:88
@@ -551,7 +551,7 @@ msgstr "法律行動限制"
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:192
 msgid "Restriction in legal action of the owner of the organisation, eg: provisional rule, placed under guardianship or placed under administration"
-msgstr "組織業主的法律行動限制，例如暫行規定、受人監護或管理"
+msgstr "組織業主的法律行動限制，例如暫行規定、受人監護或破產保護"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:198
@@ -756,7 +756,7 @@ msgstr "官員法律行動限制"
 #. (itstool) path: Description/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:412
 msgid "Restriction in legal action of the official, eg: provisional rule, placed under guardianship or placed under administration"
-msgstr "官員的法律行動限制，例如暫行規定、受人監護或管理"
+msgstr "官員的法律行動限制，例如暫行規定、受人監護或破產保護"
 
 #. (itstool) path: Name/en
 #: .//signicat/Issues/kvkTradeRegister/description.xml:418
@@ -907,7 +907,7 @@ msgstr "姓氏"
 #: .//nijmegen/Issues/personalData/description.xml:70
 #: .//cis/Issues/digitalInsurancePassport/description.xml:72
 msgid "Your full family name: your family name or (a combination with) that of your partner"
-msgstr "您的全名：您的姓名或/與您伴侶姓氏的組合"
+msgstr "您的完整姓氏：您的姓氏或冠上伴侶姓氏後的姓氏"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/personalData/description.xml:80
@@ -1094,7 +1094,7 @@ msgstr "地址"
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/address/description.xml:14
 msgid "Your address, from the Dutch population register"
-msgstr "荷蘭人口登記處的您的地址"
+msgstr "您登記於荷蘭人口登記處的地址"
 
 #. (itstool) path: Name/en
 #: .//nijmegen/Issues/address/description.xml:26
@@ -1167,7 +1167,7 @@ msgstr "您居住地所在城市"
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/bsn/description.xml:14
 msgid "Your Dutch Citizen service number (BSN), from the Dutch population register"
-msgstr "荷蘭人口登記處的您的荷蘭公民服務號碼 (BSN)"
+msgstr "您登記於荷蘭人口登記處的公民服務號碼 (BSN)"
 
 #. (itstool) path: Description/en
 #: .//nijmegen/Issues/bsn/description.xml:30
@@ -1311,7 +1311,7 @@ msgstr ""
 #: .//sidn-pbdf/Issues/mobilenumber/description.xml:36
 #: .//pbdf/Issues/mobilenumber/description.xml:33
 msgid "With your mobile phone number in your Yivi app, you can show that this number is really yours. For instance, you can disclose your phone number in a form or use it to login at a website."
-msgstr "透過您 Yivi 程式中的行動電話號碼，您可以證明這個號碼確實是您所有。舉例來說，"
+msgstr "您可以在 Yivi 程式中加入行動電話號碼，來證明這個號碼確實是您所有。舉例來說，"
 "您可以在表單中揭露您的行動電話號碼，或是用來登入網站。"
 
 #. (itstool) path: FAQContent/en
@@ -1329,13 +1329,13 @@ msgid "Complete the following steps.\\n1. Enter your mobile phone number.\\n2. C
 msgstr ""
 "請完成以下步驟。\\n"
 "1. 輸入您的行動電話號碼。\\n"
-"2. 在行動電話上檢查是否有收到來自 Yivi 的 SMS 簡訊。\\n"
-"3. 使用簡訊中的驗證碼或是連結。在驗證用的網頁上填寫行動電話號碼，"
-"然後您會看到 QR 圖碼，您可以使用行動電話上的 Yivi "
-"程式掃描它。若您點按簡訊中的直接連結，您會被自動送回 Yivi 程式中。\\n"
+"2. 在行動電話上檢查是否有收到來自 Yivi 的簡訊。\\n"
+"3. 使用簡訊中的驗證碼或是連結。將手機上收到的驗證碼填寫到網頁後，會看到一組 "
+"QR Code，然後請使用手機上的 Yivi 程式掃描它。若您點擊簡訊中的連結，"
+"將自動開啟 Yivi 程式。\\n"
 "\\n"
-"現在，您會收到您行動電話號碼的卡片。請對您想要新增的其他行動電話號碼重複此流"
-"程。"
+"然後，即可收到您行動電話號碼的卡片。如果想要新增其他的行動電話號碼，請重複上"
+"述流程。"
 
 #. (itstool) path: Name/en
 #. (itstool) path: ShortName/en
@@ -1416,13 +1416,13 @@ msgid "Complete the following steps.\\n1. Enter your email address.\\n2. Open yo
 msgstr ""
 "請完成以下步驟。\\n"
 "1. 輸入您的電子郵件地址。\\n"
-"2. 開啟您的電子郵件程式，並檢視收件匣（若還未看到新郵件，請檢查「垃圾信件」資"
-"料夾）。\\n"
-"3. 點擊 Yivi 傳送的電子郵件中的連結。若您在電腦畫面上看見 QR 圖碼，請以 Yivi "
-"程式中的 QR 圖碼掃描程式掃描。Yivi 會複製您的電子郵件資料到 Yivi 程式中。\\n"
+"2. 開啟您的電子郵件軟體，並開啟收件匣（若沒有看到新郵件，請檢查「垃圾信件匣」"
+"）。\\n"
+"3. 點擊 Yivi 傳送的電子郵件中的連結。若您在電腦畫面上看見 QR Code，請使用 "
+"Yivi 程式直接掃描。Yivi 會複製您的電子郵件資料到 Yivi 程式中。\\n"
 "\\n"
-"現在，您會在 Yivi 程式中收到您電子郵件地址與其網域名稱的卡片。對您想新增的其"
-"他電子郵件地址重複此流程。"
+"然後，您會在 Yivi 程式中收到您電子郵件地址與其網域名稱的卡片。如果想要新增其"
+"他的電子郵件地址，請重複上述流程。"
 
 #. (itstool) path: Name/en
 #: .//sidn-pbdf/Issues/email/description.xml:61
@@ -1473,7 +1473,7 @@ msgstr "從 Yivi 服務台讀取的您的荷蘭護照"
 #: .//bzkpilot/Issues/personalData/description.xml:57
 #: .//gemeente/Issues/personalData/description.xml:125
 msgid "Your full family name: your family name or (a combination with) the name of your partner"
-msgstr "您的全名：您的姓名或/與您伴侶姓氏的組合"
+msgstr "您的完整姓氏：您的姓氏或冠上伴侶姓氏"
 
 #. (itstool) path: Description/en
 #: .//pilot-amsterdam/Issues/passport/description.xml:43
@@ -1828,7 +1828,7 @@ msgstr ""
 #: .//pbdf/Issues/idin/description.xml:44
 msgid "If you have a Dutch bank account, you can add personal data from the bank to your Yivi app.\\n\\n To do so, complete the following steps.\\n1. Log in to your own bank via the bank's login service called iDIN.\\n2. You see the personal data that you can load into your Yivi app.\\n3. Confirm that you wish to do so.\\nThe Privacy by Design Foundation receives your personal data from iDIN and passes them on to your Yivi app.\\n\\nYou now receive a card with your personal details from your bank."
 msgstr ""
-"若您有荷蘭的銀行帳號，您可以將您銀行的個人資料，新增至 Yivi 程式中。\\n"
+"若您有荷蘭的銀行帳號，可以將您銀行的個人資料，新增至 Yivi 程式中。\\n"
 "\\n"
 "若要這麼做，請完成以下步驟。\\n"
 "1. 透過名為 iDIN 的銀行登入服務登入您的銀行。\\n"
@@ -1836,7 +1836,7 @@ msgstr ""
 "3. 確認您想要這麼做。\\n"
 "Privacy by Design 基金會收到 iDIN 的您個人資料，然後傳遞給您的 Yivi 程式。\\n"
 "\\n"
-"現在，您會收到您銀行個人資料的卡片。"
+"然後，就會收到您銀行個人資料的卡片。"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/idin/description.xml:55
@@ -2338,14 +2338,14 @@ msgid "Complete the following steps.\\n1. Enter your e-mail address.\\n2. Open y
 msgstr ""
 "請完成以下步驟。\\n"
 "1. 輸入您的電子郵件地址。\\n"
-"2. 開啟您的電子郵件程式，並檢視收件匣（若還未看到新郵件，請檢查「垃圾信件」資"
-"料夾）。\\n"
+"2. 開啟您的電子郵件軟體，並開啟收件匣（若沒有看到新郵件，請檢查「垃圾信件匣」"
+"）。\\n"
 "3. 點擊 Privacy by Design 基金會傳送的電子郵件中的連結。若您在電腦畫面上看見 "
-"QR 圖碼，請以 Yivi 程式中的 QR 圖碼掃描程式掃描。Privacy by Design "
+"QR Code，請使用 Yivi 程式直接掃描。Privacy by Design "
 "會複製您的電子郵件資料到 Yivi 程式中。\\n"
 "\\n"
-"現在，您會在 Yivi 程式中收到您電子郵件地址與其網域名稱的卡片。對您想新增的其"
-"他電子郵件地址重複此流程。"
+"然後，您會在 Yivi 程式中收到您電子郵件地址與其網域名稱的卡片。如果想要新增其"
+"他的電子郵件地址，請重複上述流程。"
 
 #. (itstool) path: Description/en
 #: .//pbdf/Issues/linkedin/description.xml:14
