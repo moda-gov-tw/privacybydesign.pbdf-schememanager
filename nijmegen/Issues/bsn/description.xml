@@ -2,10 +2,12 @@
 	<Name>
 		<en>BSN</en>
 		<nl>BSN</nl>
+		<zh>BSN</zh>
 	</Name>
 	<ShortName>
 		<en>BSN</en>
 		<nl>BSN</nl>
+		<zh>BSN</zh>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>nijmegen</IssuerID>
@@ -13,12 +15,13 @@
 	<Description>
 		<en>Your Dutch Citizen service number (BSN), from the Dutch population register</en>
 		<nl>Je Burgerservicenummer (BSN), afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
-		<zh>荷蘭人口登記處的您的荷蘭公民服務號碼 (BSN)</zh>
+		<zh>您登記於荷蘭人口登記處的公民服務號碼 (BSN)</zh>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
 		<en>https://services.nijmegen.nl/irma/issue/start</en>
 		<nl>https://services.nijmegen.nl/irma/issue/start</nl>
+		<zh>https://services.nijmegen.nl/irma/issue/start</zh>
 	</IssueURL>
 
 	<Attributes>
@@ -26,6 +29,7 @@
 			<Name>
 				<en>BSN</en>
 				<nl>BSN</nl>
+				<zh>BSN</zh>
 			</Name>
 			<Description>
 				<en>Your Dutch Citizen service number (BSN)</en>

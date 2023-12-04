@@ -21,6 +21,7 @@
 	<IssueURL>
 		<en>https://services.nijmegen.nl/irma/issue/start</en>
 		<nl>https://services.nijmegen.nl/irma/issue/start</nl>
+		<zh>https://services.nijmegen.nl/irma/issue/start</zh>
 	</IssueURL>
 
 	<Attributes>
