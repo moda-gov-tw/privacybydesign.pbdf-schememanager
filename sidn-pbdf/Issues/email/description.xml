@@ -51,7 +51,7 @@
 	<FAQHowto>
 		<en>Complete the following steps.\n1. Enter your email address.\n2. Open your email application and go to your Inbox (if there is no new mail soon, please check your Spam folder).\n3. Click the link in the email message, sent by Yivi. If you see a QR code on your computer screen, scan it with the QR scanner in your Yivi app. Yivi copies your email data into your Yivi app.\n\nYou now receive a card with your email address and its domain name in your Yivi app. Repeat this process for other email addresses that you wish to add.</en>
 		<nl>Doorloop de volgende stappen.\n1. Vul je e-mailadres in.\n2. Open je e-mailprogramma en ga naar 'inkomende berichten' (als er geen mail verschijnt, controleer zonodig je Spam folder).\n3. Open de link in het e-mailbericht van Yivi. Als je een QR-code te zien krijgt, scan deze met je Yivi-app. Yivi voegt je e-mailgegevens toe in je Yivi-app.\n\nJe ontvangt nu een kaartje met je e-mailadres en de domeinnaam van dat adres in je Yivi-app. Herhaal dit proces voor ieder e-mail adres dat je toe wil voegen.</nl>
-		<zh>請完成以下步驟。\n1. 輸入您的電子郵件地址。\n2. 開啟您的電子郵件程式，並檢視收件匣（若還未看到新郵件，請檢查「垃圾信件」資料夾）。\n3. 點擊 Yivi 傳送的電子郵件中的連結。若您在電腦畫面上看見 QR 圖碼，請以 Yivi 程式中的 QR 圖碼掃描程式掃描。Yivi 會複製您的電子郵件資料到 Yivi 程式中。\n\n現在，您會在 Yivi 程式中收到您電子郵件地址與其網域名稱的卡片。對您想新增的其他電子郵件地址重複此流程。</zh>
+		<zh>請完成以下步驟。\n1. 輸入您的電子郵件地址。\n2. 開啟您的電子郵件軟體，並開啟收件匣（若沒有看到新郵件，請檢查「垃圾信件匣」）。\n3. 點擊 Yivi 傳送的電子郵件中的連結。若您在電腦畫面上看見 QR Code，請使用 Yivi 程式直接掃描。Yivi 會複製您的電子郵件資料到 Yivi 程式中。\n\n然後，您會在 Yivi 程式中收到您電子郵件地址與其網域名稱的卡片。如果想要新增其他的電子郵件地址，請重複上述流程。</zh>
 	</FAQHowto>
 
 	<Attributes>

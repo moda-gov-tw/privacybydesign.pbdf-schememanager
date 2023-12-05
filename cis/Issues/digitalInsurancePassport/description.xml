@@ -21,6 +21,7 @@
 	<IssueURL>
 		<en>https://digitaalpaspoortverzekeren.nl/</en>
 		<nl>https://digitaalpaspoortverzekeren.nl/</nl>
+		<zh>https://digitaalpaspoortverzekeren.nl/</zh>
 	</IssueURL>
 
 	<IsInCredentialStore>false</IsInCredentialStore>
@@ -84,7 +85,7 @@
 			<Description>
 				<en>Your full family name: your family name or (a combination with) that of your partner</en>
 				<nl>Je volledige achternaam: je geslachtsnaam of (een combinatie met) die van je partner</nl>
-				<zh>您的全名：您的姓名或/與您伴侶姓氏的組合</zh>
+				<zh>您的完整姓氏：您的姓氏或冠上伴侶姓氏後的姓氏</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="gender" displayIndex="3">

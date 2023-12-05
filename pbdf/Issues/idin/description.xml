@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <IssueSpecification version="4">
 	<Name>
 		<en>Personal data from the bank</en>
@@ -50,7 +51,7 @@
 	<FAQHowto>
 		<en>If you have a Dutch bank account, you can add personal data from the bank to your Yivi app.\n\n To do so, complete the following steps.\n1. Log in to your own bank via the bank's login service called iDIN.\n2. You see the personal data that you can load into your Yivi app.\n3. Confirm that you wish to do so.\nThe Privacy by Design Foundation receives your personal data from iDIN and passes them on to your Yivi app.\n\nYou now receive a card with your personal details from your bank.</en>
 		<nl>Als je een Nederlandse bankrekening hebt kun je de persoonsgegevens bij die rekening in je Yivi app laden.\n\nDoorloop de volgende stappen.\n1. Log in bij je eigen bank via de inlogdienst iDIN van de bank.\n2. Je ziet de persoonsgegevens die je van je bank in je Yivi-app laadt.\n3. Bevestig dit laden.\nDe stichting Privacy by Design ontvangt je bankgegevens van iDIN en geeft deze door aan je Yivi-app.\n\nJe ontvangt nu een kaartje met je persoonsgegevens van je bank.</nl>
-		<zh>若您有荷蘭的銀行帳號，您可以將您銀行的個人資料，新增至 Yivi 程式中。\n\n若要這麼做，請完成以下步驟。\n1. 透過名為 iDIN 的銀行登入服務登入您的銀行。\n2. 您會看到可以載入您 Yivi 程式中的個人資料。\n3. 確認您想要這麼做。\nPrivacy by Design 基金會收到 iDIN 的您個人資料，然後傳遞給您的 Yivi 程式。\n\n現在，您會收到您銀行個人資料的卡片。</zh>
+		<zh>若您有荷蘭的銀行帳號，可以將您銀行的個人資料，新增至 Yivi 程式中。\n\n若要這麼做，請完成以下步驟。\n1. 透過名為 iDIN 的銀行登入服務登入您的銀行。\n2. 您會看到可以載入您 Yivi 程式中的個人資料。\n3. 確認您想要這麼做。\nPrivacy by Design 基金會收到 iDIN 的您個人資料，然後傳遞給您的 Yivi 程式。\n\n然後，就會收到您銀行個人資料的卡片。</zh>
 	</FAQHowto>
 
 	<Attributes>

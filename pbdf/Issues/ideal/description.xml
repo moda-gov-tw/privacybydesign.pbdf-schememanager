@@ -20,6 +20,7 @@
 	<IssueURL>
 		<en>https://privacybydesign.foundation/uitgifte/ideal/</en>
 		<nl>https://privacybydesign.foundation/uitgifte/ideal/</nl>
+		<zh>https://privacybydesign.foundation/uitgifte/ideal/</zh>
 	</IssueURL>
 
     <ForegroundColor>#ffffff</ForegroundColor>
@@ -70,6 +71,7 @@
 			<Name>
 				<en>IBAN</en>
 				<nl>IBAN</nl>
+				<zh>IBAN</zh>
 			</Name>
 			<Description>
 				<en>The IBAN of your bank account</en>
@@ -81,6 +83,7 @@
 			<Name>
 				<en>BIC</en>
 				<nl>BIC</nl>
+				<zh>BIC</zh>
 			</Name>
 			<Description>
 				<en>The Bank Identifier Code of your bank</en>

@@ -20,6 +20,7 @@
 	<IssueURL>
 		<en>https://organisatiegegevens.signicat.nl</en>
 		<nl>https://organisatiegegevens.signicat.nl</nl>
+		<zh>https://organisatiegegevens.signicat.nl</zh>
 	</IssueURL>
 	<IsInCredentialStore>true</IsInCredentialStore>
 	<ForegroundColor>#ffffff</ForegroundColor>
@@ -33,7 +34,7 @@
 	<FAQIntro>
 		<en>Load - FOR A PAYMENT - a personal card with your Chamber of Commerce Trade Register data in Yivi.\n\nNote: It is only possible to get a card if you are registered with your name at the Chamber of Commerce number when requesting the card. The Chamber of Commerce Trade Register data in Yivi are also the data at the time of loading the ticket. These data are NOT updated by the Chamber of Commerce or Yivi.</en>
 		<nl>Laad - TEGEN BETALING - een persoonlijk kaartje met je KVK Handelsregistergegevens in Yivi.\n\nLet op: Het is alleen mogelijk om een kaartje te krijgen indien je met je naam bij het op te vragen KVK nummer geregistreerd staat. Ook zijn de KVK Handelsregistergegevens in Yivi de gegevens op het moment van inladen van het kaartje. Deze gegevens worden NIET geactualiseerd door de KVK of Yivi.</nl>
-		<zh>在 Yivi 中綁定您的個人卡片（具備您的商會商業登記資料），用於支付費用。\n\n備註：申請卡片時，您必須向商會實名登記，才能拿到卡片。Yivi 當中的商會商業登記資料與載入票卷時的資料一樣。這些資料並非由商會或 Yivi 負責更新。</zh>
+		<zh>在 Yivi 中綁定您的個人卡片（具備您的商會商業登記資料），用於支付費用。\n\n備註：申請卡片時，您必須向商會實名登記，才能拿到卡片。Yivi 當中的商會商業登記資料與載入票券時的資料一樣。這些資料並非由商會或 Yivi 負責更新。</zh>
 	</FAQIntro>
 	<FAQPurpose>
 		<en>The KVK trade register data allows you to share your personal registration with the KVK.\n\nPlease note, these are the data registered in the KVK at the time of loading the ticket.\n\nWith the KVK trade register data you can share your personal registration with the KVK, and show what powers you have.</en>
@@ -48,7 +49,7 @@
 	<FAQHowto>
 		<en>If your company is registered in the KVK Trade Register, and your name is listed in the register you can add - AGAINST PAYMENT - a personal card of your KVK registration to Yivi.\n\nPlease note that the KVK Trade Register data in Yivi is the data at the time of loading the ticket. This data is NOT updated by the KVK or Yivi.\n\nComplete the following steps:\n1. Search and select your company.\n2. Share your name and date of birth. With this we check that you are personally registered in the KVK Trade Register.\n3. Pay via iDEAL.\n4. Add your personal card of your KVK registration to Yivi.\n\nNote: only if your name is listed in the KVK Trade Register can you request a personal card of your KVK Trade Register data and add it to Yivi.\n\n If your name is not listed in the KVK Trade Register you will unfortunately not receive a personal card of your KVK registration and only a notification of who is listed in the KVK Trade Register. Reversing the payment is unfortunately not possible.</en>
 		<nl>Als jouw bedrijf staat ingeschreven in het KVK Handelsregister, en jouw naam staat vermeld in het register dan kun je - TEGEN BETALING - een persoonlijk kaartje van je KVK registratie toevoegen aan Yivi.\n\nLet op: de KVK Handelsregister gegevens in Yivi zijn de gegevens op het moment van inladen van het kaartje. Deze gegevens worden NIET geactualiseerd door de KVK of Yivi.\n\nDoorloop de volgende stappen:\n1. Zoek en selecteer je bedrijf.\n2. Deel je naam en geboortedatum. Daarmee controleren wij of je persoonlijk staat ingeschreven in het KVK Handelsregister.\n3. Betaal via iDEAL.\n4. Voeg je persoonlijk kaartje van je KVK registratie toe aan Yivi.\n\nNB: alleen als je naam staat vermeld in het KVK Handelsregister kun je een persoonlijk kaartje van je KVK Handelsregister gegevens opvragen en toevoegen aan Yivi.\n\nAls je naam niet staat vermeld in het KVK Handelsregister dan krijg helaas geen persoonlijk kaartje van je KVK registratie en alleen een melding wie wel staat inschreven in het KVK Handelsregister. Het terugdraaien van de betaling is helaas niet mogelijk.</nl>
-		<zh>若貴公司有在 KVK 商業登記處登記，且您的名字有在商業登記處的紀錄中，您可以在 Yivi 當中綁定在 KVK 登記的個人卡片，選擇不支付。\n\n請注意：Yivi 當中的 KVK 商業登記處資料與載入票卷時的資料一樣。這些資料並非由 KVK 或 Yivi 負責更新。\n\n完成下列步驟：\n1. 搜尋與選擇貴公司。\n2. 分享您的姓名與出生日期。有了這些資訊，我們可以查訊您本人是否有向 KVK 商業登記處登記。\n3. 使用 iDEAL 付費。\n4. 在 Yivi 新增您的 KVK 登記卡片。\n\n請注意： 您的名字必須有向 KVK 商業登記處登記，才能申請您的 KVK 商業登記處個人資料卡，並且新增至 Yivi。\n\n 如果您的名字沒有列在 KVK 商業登記處紀錄中，您不會收到 KVK 個人註冊卡，只會收到有哪些人列在 KVK 商業登記處的通知。很遺憾，我們無法退費。</zh>
+		<zh>若貴公司有在 KVK 商業登記處登記，且您的名字有在商業登記處的紀錄中，您可以在 Yivi 當中綁定在 KVK 登記的個人卡片，選擇不支付。\n\n請注意：Yivi 當中的 KVK 商業登記處資料與載入票券時的資料一樣。這些資料並非由 KVK 或 Yivi 負責更新。\n\n完成下列步驟：\n1. 搜尋與選擇貴公司。\n2. 分享您的姓名與出生日期。有了這些資訊，我們可以查訊您本人是否有向 KVK 商業登記處登記。\n3. 使用 iDEAL 付費。\n4. 在 Yivi 新增您的 KVK 登記卡片。\n\n請注意： 您的名字必須有向 KVK 商業登記處登記，才能申請您的 KVK 商業登記處個人資料卡，並且新增至 Yivi。\n\n 如果您的名字沒有列在 KVK 商業登記處紀錄中，您不會收到 KVK 個人註冊卡，只會收到有哪些人列在 KVK 商業登記處的通知。很遺憾，我們無法退費。</zh>
 	</FAQHowto>
 	<Attributes>
 		<Attribute id="kvkNumber">
@@ -72,7 +73,7 @@
 			<Description>
 				<en>Legal Entity or Partnership Identification Number</en>
 				<nl>Rechtspersoon of Samenwerkingsverband Identificatie Nummer</nl>
-				<zh>法律實體或夥伴識別碼</zh>
+				<zh>法律實體或合夥識別碼</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="name">
@@ -91,12 +92,12 @@
 			<Name>
 				<en>Trade names</en>
 				<nl>Handelsnamen</nl>
-				<zh>商號</zh>
+				<zh>商業名稱</zh>
 			</Name>
 			<Description>
 				<en>Trade names under which the company trades</en>
 				<nl>Handelsnamen waar de onderneming onder handelt</nl>
-				<zh>公司從事商業活動時使用的商號</zh>
+				<zh>公司從事商業活動時使用的名稱</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="typeOwner">
@@ -228,7 +229,7 @@
 			<Description>
 				<en>Restriction in legal action of the owner of the organisation, eg: provisional rule, placed under guardianship or placed under administration</en>
 				<nl>Beperking in rechtshandeling van de eigenaar van de maatschappelijke activiteit, zoals: provisioneel bewind, onder curatele gesteld of onder bewind gesteld</nl>
-				<zh>組織業主的法律行動限制，例如暫行規定、受人監護或管理</zh>
+				<zh>組織業主的法律行動限制，例如暫行規定、受人監護或破產保護</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="foreignLegalStatus">
@@ -492,7 +493,7 @@
 			<Description>
 				<en>Restriction in legal action of the official, eg: provisional rule, placed under guardianship or placed under administration</en>
 				<nl>Beperking in rechtshandeling van de functionaris, zoals: provisioneel bewind, onder curatele gesteld of onder bewind gesteld</nl>
-				<zh>官員的法律行動限制，例如暫行規定、受人監護或管理</zh>
+				<zh>官員的法律行動限制，例如暫行規定、受人監護或破產保護</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="suspensionStart">

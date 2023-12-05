@@ -7,6 +7,7 @@
 	<ShortName>
 		<en>AGB</en>
 		<nl>AGB</nl>
+		<zh>AGB</zh>
 	</ShortName>
 	<SchemeManager>pbdf</SchemeManager>
 	<IssuerID>nuts</IssuerID>
@@ -19,6 +20,7 @@
 	<IssueURL>
 		<en>https://irma-agb.nuts.nl/</en>
 		<nl>https://irma-agb.nuts.nl/</nl>
+		<zh>https://irma-agb.nuts.nl/</zh>
 	</IssueURL>
 
     <ForegroundColor>#15222E</ForegroundColor>

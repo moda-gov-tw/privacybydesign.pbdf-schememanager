@@ -37,7 +37,7 @@
 			<Description>
 				<en>Your full family name: your family name or (a combination with) the name of your partner</en>
 				<nl>Je volledige achternaam: je geslachtsnaam of (een combinatie met) de naam van je partner</nl>
-				<zh>您的全名：您的姓名或/與您伴侶姓氏的組合</zh>
+				<zh>您的完整姓氏：您的姓氏或冠上伴侶姓氏</zh>
 			</Description>
 		</Attribute>
 		<Attribute id="firstnames">

@@ -15,12 +15,13 @@
 	<Description>
 		<en>Your address, from the Dutch population register</en>
 		<nl>Je adres, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
-		<zh>荷蘭人口登記處的您的地址</zh>
+		<zh>您登記於荷蘭人口登記處的地址</zh>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
 		<en>https://services.nijmegen.nl/irma/issue/start</en>
 		<nl>https://services.nijmegen.nl/irma/issue/start</nl>
+		<zh>https://services.nijmegen.nl/irma/issue/start</zh>
 	</IssueURL>
 
 	<Attributes>

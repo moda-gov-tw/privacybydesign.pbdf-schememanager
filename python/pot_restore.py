@@ -27,6 +27,8 @@ def main():
                                     # 創建新的 'zh_Hant' 節點
                                     zh_hant_tag = ET.SubElement(parent, XML_ZH_TAG)
                                     zh_hant_tag.text = entry.msgstr
+                                else:
+                                    has_tag.text = entry.msgstr
 
                     tree.write(file_path, encoding='utf-8', xml_declaration=True)
 
