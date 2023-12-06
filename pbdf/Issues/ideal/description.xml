@@ -1,90 +1,95 @@
 <IssueSpecification version="4">
-    <Name>
-        <en>Bank account</en>
-        <nl>Bankrekening</nl>
-        <zh>銀行帳號</zh>
-    </Name>
-    <ShortName>
-        <en>Bank</en>
-        <nl>Bank</nl>
-        <zh>銀行</zh>
-    </ShortName>
-    <SchemeManager>pbdf</SchemeManager>
-    <IssuerID>pbdf</IssuerID>
-    <CredentialID>ideal</CredentialID>
-    <Description>
-        <en>Your account details, provided by your bank, obtained through a token payment</en>
-        <nl>Je rekening details volgens je bank, verkregen via een kleine betaling</nl>
-        <zh>您帳號的詳細資訊，由您的銀行提供，透過代驗支付取得</zh>
-    </Description>
-    <IssueURL>
-        <en>https://privacybydesign.foundation/uitgifte/ideal/</en>
-        <nl>https://privacybydesign.foundation/uitgifte/ideal/</nl>
-        <zh>https://privacybydesign.foundation/uitgifte/ideal/</zh>
-    </IssueURL>
+	<Name>
+		<en>Bank account</en>
+		<nl>Bankrekening</nl>
+		<zh>銀行帳號</zh>
+	</Name>
+	<ShortName>
+		<en>Bank</en>
+		<nl>Bank</nl>
+		<zh>Bank</zh>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>pbdf</IssuerID>
+	<CredentialID>ideal</CredentialID>
+	<Description>
+		<en>Your account details, provided by your bank, obtained through a token payment</en>
+		<nl>Je rekening details volgens je bank, verkregen via een kleine betaling</nl>
+		<zh>您帳號的詳細資訊，由您的銀行提供，透過代驗支付取得</zh>
+	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/uitgifte/ideal/</en>
+		<nl>https://privacybydesign.foundation/uitgifte/ideal/</nl>
+		<zh>https://privacybydesign.foundation/uitgifte/ideal/</zh>
+	</IssueURL>
 
     <ForegroundColor>#ffffff</ForegroundColor>
     <BackgroundGradientStart>#053F58</BackgroundGradientStart>
     <BackgroundGradientEnd>#165B78</BackgroundGradientEnd>
 
-    <IsInCredentialStore>true</IsInCredentialStore>
-    <Category>
-        <en>Financial</en>
-        <nl>Financieel</nl>
-    </Category>
-    <FAQIntro>
-        <en>Add your bank account to your IRMA app. You can add multiple bank accounts.</en>
-        <nl>Laad je bankrekening in je IRMA-app. Je kunt meerdere bankrekeningen toevoegen.</nl>
-    </FAQIntro>
-    <FAQPurpose>
-        <en>With your bank account in your IRMA app you can disclose that you are the account holder of this verified bank account.</en>
-        <nl>Met jouw bankrekening in de IRMA-app kun je onthullen dat jij de rekeninghouder bent van deze geverifieerde bankrekening.</nl>
-    </FAQPurpose>
-    <FAQContent>
-        <en>You will add the following data:\n• IBAN,\n• BIC code,\n• account holder.</en>
-        <nl>Je laadt de volgende gegevens:\n• IBAN,\n• BIC-code,\n• rekeninghouder.</nl>
-    </FAQContent>
-    <FAQHowto>
-        <en>In case you have a Dutch bank account, you can add its account details to your IRMA app. To do so, complete the following steps.\n1. Select iDeal payment.\n2. Transfer an amount of at least 50 cents to the Privacy by Design Foundation via an ordinary iDEAL payment.\n3. The Privacy by Design Foundation receives your bank details from iDEAL and passes them on to your IRMA app.\n\nYou now receive a card with the bank details of the account that you used for the payment. Repeat this process for other bank accounts that you wish to load into IRMA.</en>
-        <nl>Je kunt de details van je (Nederlandse) bankrekening in je IRMA app laden.\n\nDoorloop daarvoor de volgende stappen.\n1. Kies de iDeal betaling.\n2. Maak een bedrag van minimaal 50 cent over aan de Privacy by Design Foundation via een normale iDEAL betaling.\n3. De stichting Privacy by Design ontvangt je bankgegevens van iDEAL en geeft deze door aan je IRMA-app.\n\nJe ontvangt nu een apart kaartje in je IRMA app met je bank details. Herhaal dit proces voor iedere bankrekening die je toe wil voegen.</nl>
-    </FAQHowto>
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en>Financial</en>
+		<nl>Financieel</nl>
+		<zh>金融</zh>
+	</Category>
+	<FAQIntro>
+		<en>Add your bank account to your Yivi app. You can add multiple bank accounts.</en>
+		<nl>Laad je bankrekening in je Yivi-app. Je kunt meerdere bankrekeningen toevoegen.</nl>
+		<zh>將您的銀行帳號新增至您的 Yivi 程式中。您可以新增多個銀行帳號。</zh>
+	</FAQIntro>
+	<FAQPurpose>
+		<en>With your bank account in your Yivi app you can disclose that you are the account holder of this verified bank account.</en>
+		<nl>Met jouw bankrekening in de Yivi-app kun je onthullen dat jij de rekeninghouder bent van deze geverifieerde bankrekening.</nl>
+		<zh>您可以透過 Yivi 程式揭露您的銀行帳號，來證明您是這個核驗過的銀行帳號持有人。</zh>
+	</FAQPurpose>
+	<FAQContent>
+		<en>You will add the following data:\n• IBAN,\n• BIC code,\n• account holder.</en>
+		<nl>Je laadt de volgende gegevens:\n• IBAN,\n• BIC-code,\n• rekeninghouder.</nl>
+		<zh>您會新增以下資料：\n• IBAN、\n• BIC 代碼、\n• 帳號持有人。</zh>
+	</FAQContent>
+	<FAQHowto>
+		<en>In case you have a Dutch bank account, you can add its account details to your Yivi app. To do so, complete the following steps.\n1. Select iDeal payment.\n2. Transfer an amount of at least 50 cents to the Privacy by Design Foundation via an ordinary iDEAL payment.\n3. The Privacy by Design Foundation receives your bank details from iDEAL and passes them on to your Yivi app.\n\nYou now receive a card with the bank details of the account that you used for the payment. Repeat this process for other bank accounts that you wish to load into Yivi.</en>
+		<nl>Je kunt de details van je (Nederlandse) bankrekening in je Yivi-app laden.\n\nDoorloop daarvoor de volgende stappen.\n1. Kies de iDeal betaling.\n2. Maak een bedrag van minimaal 50 cent over aan de Privacy by Design Foundation via een normale iDEAL betaling.\n3. De stichting Privacy by Design ontvangt je bankgegevens van iDEAL en geeft deze door aan je Yivi-app.\n\nJe ontvangt nu een apart kaartje in je Yivi app met je bank details. Herhaal dit proces voor iedere bankrekening die je toe wil voegen.</nl>
+		<zh>若您有荷蘭的銀行帳號，您可以將其詳細資訊新增至 Yivi 程式中。若要這麼做，請完成以下步驟。\n1. 選取 iDeal 支付。\n2. 透過普通的 iDeal 支付向 Privacy by Design 基金會轉帳至少 0.5 元（50 分錢）。\n3. Privacy by Design 基金會從 iDeal 收到您的銀行詳細資料，並將其傳遞給您的 Yivi 程式。\n\n現在，您會收到您用於付款的帳號資訊卡片。您可以對想要載入至 Yivi 的其他銀行帳號重複此流程。</zh>
+	</FAQHowto>
 
-    <Attributes>
-        <Attribute id="fullname">
-            <Name>
-                <en>Account holder</en>
-                <nl>Rekeninghouder</nl>
-                <zh>帳號持有人</zh>
-            </Name>
-            <Description>
-                <en>Your full name, as registered at your bank</en>
-                <nl>Je volledige naam, zoals geregistreerd bij je bank</nl>
-                <zh>您在銀行登記的全名</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="iban">
-            <Name>
-                <en>IBAN</en>
-                <nl>IBAN</nl>
-                <zh>IBAN</zh>
-            </Name>
-            <Description>
-                <en>The IBAN of your bank account</en>
-                <nl>De IBAN van je bankrekening</nl>
-                <zh>您銀行帳號的 IBAN</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="bic">
-            <Name>
-                <en>BIC</en>
-                <nl>BIC</nl>
-                <zh>BIC</zh>
-            </Name>
-            <Description>
-                <en>The Bank Identifier Code of your bank</en>
-                <nl>De Bank Identifier Code van je bank</nl>
-                <zh>您銀行的銀行識別碼</zh>
-            </Description>
-        </Attribute>
-    </Attributes>
+	<Attributes>
+		<Attribute id="fullname">
+			<Name>
+				<en>Account holder</en>
+				<nl>Rekeninghouder</nl>
+				<zh>帳號持有人</zh>
+			</Name>
+			<Description>
+				<en>Your full name, as registered at your bank</en>
+				<nl>Je volledige naam, zoals geregistreerd bij je bank</nl>
+				<zh>您在銀行登記的全名</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="iban">
+			<Name>
+				<en>IBAN</en>
+				<nl>IBAN</nl>
+				<zh>IBAN</zh>
+			</Name>
+			<Description>
+				<en>The IBAN of your bank account</en>
+				<nl>De IBAN van je bankrekening</nl>
+				<zh>您銀行帳號的 IBAN</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="bic">
+			<Name>
+				<en>BIC</en>
+				<nl>BIC</nl>
+				<zh>BIC</zh>
+			</Name>
+			<Description>
+				<en>The Bank Identifier Code of your bank</en>
+				<nl>De Bank Identifier Code van je bank</nl>
+				<zh>您銀行的銀行識別碼</zh>
+			</Description>
+		</Attribute>
+	</Attributes>
 </IssueSpecification>

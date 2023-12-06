@@ -1,84 +1,89 @@
 <IssueSpecification version="4">
-    <Name>
-        <en>Address</en>
-        <nl>Adres</nl>
-        <zh>地址</zh>
-    </Name>
-    <ShortName>
-        <en>Address</en>
-        <nl>Adres</nl>
-        <zh>地址</zh>
-    </ShortName>
-    <SchemeManager>pbdf</SchemeManager>
-    <IssuerID>nijmegen</IssuerID>
-    <CredentialID>address</CredentialID>
-    <Description>
-        <en>Your address, from the Dutch population register</en>
-        <nl>Je adres, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
-    </Description>
-    <ShouldBeSingleton>true</ShouldBeSingleton>
-    <IssueURL>
-        <en>https://services.nijmegen.nl/irma/issue/start</en>
-        <nl>https://services.nijmegen.nl/irma/issue/start</nl>
-    </IssueURL>
+	<Name>
+		<en>Address</en>
+		<nl>Adres</nl>
+		<zh>地址</zh>
+	</Name>
+	<ShortName>
+		<en>Address</en>
+		<nl>Adres</nl>
+		<zh>地址</zh>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>nijmegen</IssuerID>
+	<CredentialID>address</CredentialID>
+	<Description>
+		<en>Your address, from the Dutch population register</en>
+		<nl>Je adres, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
+		<zh>您登記於荷蘭人口登記處的地址</zh>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<IssueURL>
+		<en>https://services.nijmegen.nl/irma/issue/start</en>
+		<nl>https://services.nijmegen.nl/irma/issue/start</nl>
+		<zh>https://services.nijmegen.nl/irma/issue/start</zh>
+	</IssueURL>
 
-    <Attributes>
-        <Attribute id="street">
-            <Name>
-                <en>Street</en>
-                <nl>Straat</nl>
-                <zh>街道</zh>
-            </Name>
-            <Description>
-                <en>Your street</en>
-                <nl>Je straat</nl>
-                <zh>您的街道</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="houseNumber" optional="true">
-            <Name>
-                <en>House number</en>
-                <nl>Huisnummer</nl>
-                <zh>門牌號碼</zh>
-            </Name>
-            <Description>
-                <en>Your house number, letter and/or addition</en>
-                <nl>Je huisnummer, letter en/of toevoeging</nl>
-            </Description>
-        </Attribute>
-        <Attribute id="zipcode">
-            <Name>
-                <en>Zip code</en>
-                <nl>Postcode</nl>
-            </Name>
-            <Description>
-                <en>Your zip code</en>
-                <nl>Je postcode</nl>
-            </Description>
-        </Attribute>
-        <Attribute id="municipality">
-            <Name>
-                <en>Municipality</en>
-                <nl>Gemeente</nl>
-                <zh>省市鎮</zh>
-            </Name>
-            <Description>
-                <en>Your municipality</en>
-                <nl>Je gemeente</nl>
-                <zh>您的省市鎮</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="city">
-            <Name>
-                <en>City</en>
-                <nl>Woonplaats</nl>
-                <zh>鄉鎮市區</zh>
-            </Name>
-            <Description>
-                <en>Your city of residence</en>
-                <nl>Je woonplaats</nl>
-                <zh>您居住的鄉鎮市區</zh>
-            </Description>
-        </Attribute>
-    </Attributes>
+	<Attributes>
+		<Attribute id="street">
+			<Name>
+				<en>Street</en>
+				<nl>Straat</nl>
+				<zh>街</zh>
+			</Name>
+			<Description>
+				<en>Your street</en>
+				<nl>Je straat</nl>
+				<zh>您所居住的街道</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="houseNumber" optional="true">
+			<Name>
+				<en>House number</en>
+				<nl>Huisnummer</nl>
+				<zh>門牌號碼</zh>
+			</Name>
+			<Description>
+				<en>Your house number, letter and/or addition</en>
+				<nl>Je huisnummer, letter en/of toevoeging</nl>
+				<zh>您居住地的門牌號碼</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="zipcode">
+			<Name>
+				<en>Zip code</en>
+				<nl>Postcode</nl>
+				<zh>郵遞區號</zh>
+			</Name>
+			<Description>
+				<en>Your zip code</en>
+				<nl>Je postcode</nl>
+				<zh>您的郵遞區號</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="municipality">
+			<Name>
+				<en>Municipality</en>
+				<nl>Gemeente</nl>
+				<zh>省市鎮</zh>
+			</Name>
+			<Description>
+				<en>Your municipality</en>
+				<nl>Je gemeente</nl>
+				<zh>您的省市鎮</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="city">
+			<Name>
+				<en>City</en>
+				<nl>Woonplaats</nl>
+				<zh>城市</zh>
+			</Name>
+			<Description>
+				<en>Your city of residence</en>
+				<nl>Je woonplaats</nl>
+				<zh>您居住地所在城市</zh>
+			</Description>
+		</Attribute>
+	</Attributes>
 </IssueSpecification>

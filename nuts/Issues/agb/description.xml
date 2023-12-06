@@ -1,66 +1,71 @@
 <IssueSpecification version="4">
-    <Name>
-        <en>AGB code</en>
-        <nl>AGB-code</nl>
-        <zh>AGB 代碼</zh>
-    </Name>
-    <ShortName>
-        <en>AGB</en>
-        <nl>AGB</nl>
-        <zh>AGB</zh>
-    </ShortName>
-    <SchemeManager>pbdf</SchemeManager>
-    <IssuerID>nuts</IssuerID>
-    <CredentialID>agb</CredentialID>
-    <Description>
-        <en>An AGB code (in Dutch: Algemeen GegevensBeheer code) is a Dutch national code system which uniquely identifies a care provider. Care providers are registered in a national database with such a code. The database is maintained by Vektis</en>
-        <nl>Een Algemeen GegevensBeheer code (kort: AGB-code) is een landelijke code waarmee een zorgaanbieder kan worden herkend. Met deze unieke code staan zorgaanbieders geregistreerd in een landelijke database. Dit systeem wordt beheerd door Vektis</nl>
-        <zh>AGB 代碼（荷蘭語：Algemeen GegevensBeheer code）是荷蘭國家代碼系統，用來唯一識別某個衛生保健提供者。衛生保健提供者使用該代碼在國家資料庫中登記。資料庫由 Vektis 維護</zh>
-    </Description>
-    <IssueURL>
-        <en>https://irma-agb.nuts.nl/</en>
-        <nl>https://irma-agb.nuts.nl/</nl>
-        <zh>https://irma-agb.nuts.nl/</zh>
-    </IssueURL>
+	<Name>
+		<en>AGB code</en>
+		<nl>AGB-code</nl>
+		<zh>AGB 代碼</zh>
+	</Name>
+	<ShortName>
+		<en>AGB</en>
+		<nl>AGB</nl>
+		<zh>AGB</zh>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>nuts</IssuerID>
+	<CredentialID>agb</CredentialID>
+	<Description>
+		<en>An AGB code (in Dutch: Algemeen GegevensBeheer code) is a Dutch national code system which uniquely identifies a care provider. Care providers are registered in a national database with such a code. The database is maintained by Vektis</en>
+		<nl>Een Algemeen GegevensBeheer code (kort: AGB-code) is een landelijke code waarmee een zorgaanbieder kan worden herkend. Met deze unieke code staan zorgaanbieders geregistreerd in een landelijke database. Dit systeem wordt beheerd door Vektis</nl>
+		<zh>AGB 代碼（荷蘭語：Algemeen GegevensBeheer code）是荷蘭國家代碼系統，用來唯一識別某個衛生保健提供者。衛生保健提供者使用該代碼在國家資料庫中登記。資料庫由 Vektis 維護</zh>
+	</Description>
+	<IssueURL>
+		<en>https://irma-agb.nuts.nl/</en>
+		<nl>https://irma-agb.nuts.nl/</nl>
+		<zh>https://irma-agb.nuts.nl/</zh>
+	</IssueURL>
 
     <ForegroundColor>#15222E</ForegroundColor>
     <BackgroundGradientStart>#014483</BackgroundGradientStart>
     <BackgroundGradientEnd>#2574A6</BackgroundGradientEnd>
 
-    <IsInCredentialStore>true</IsInCredentialStore>
-    <Category>
-        <en>Healthcare</en>
-        <nl>Zorg</nl>
-    </Category>
-    <FAQIntro>
-        <en>Add your AGB code to your IRMA app.</en>
-        <nl>Laad je AGB-code in je IRMA-app.</nl>
-    </FAQIntro>
-    <FAQPurpose>
-        <en>With your AGB code in your IRMA app, you can prove what your healthcare provider code in the AGB registry is.</en>
-        <nl>Met jouw AGB-code in de IRMA-app kun je bewijzen wat je code is als zorgverlener in het AGB-register.</nl>
-    </FAQPurpose>
-    <FAQContent>
-        <en>You will add the following data:\n• AGB code.</en>
-        <nl>Je laadt de volgende gegevens:\n• AGB-code.</nl>
-    </FAQContent>
-    <FAQHowto>
-        <en>In case you are a healthcare professional registered in the Netherlands, you can load your AGB code into your IRMA app. But first, you need to load your personal data, stemming from the Dutch population registry. Assuming you already have these personal data in your IRMA app, complete the following steps.\n1. Reveal your initials, surname and date of birth to the Nuts Foundation via IRMA.\n2. Enter your own AGB code manually.\n3. Confirm that you wish to add your AGB code to your IRMA app. After verifying your data in the AGB registry, the Nuts Foundation copies your AGB code into your IRMA app.\n\nYou now receive a card with your AGB code.</en>
-        <nl>Als je een geregistreerde zorgverlener bent kun je je AGB-code in je IRMA app laden. Maar eerst moeten je persoonsgegevens uit het Basisregister Persoonsgegevens (BRP) al in de IRMA app geladen zijn. Als dat zo is, doorloop je de volgende stappen voor het laden van de AGB-code.\n1. Onthul je initialen, achternaam en geboortedatum aan de stichting Nuts via IRMA.\n2. Vul je AGB-code met de hand in.\n3. Bevestig je bedoeling om je AGB-code in je IRMA-app te laden. Na controle in het AGB-register voegt de stichting Nuts je AGB-code toe in je IRMA-app.\n\nJe ontvangt nu een kaartje met je AGB-code.</nl>
-    </FAQHowto>
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en>Healthcare</en>
+		<nl>Zorg</nl>
+		<zh>衛生保健</zh>
+	</Category>
+	<FAQIntro>
+		<en>Add your AGB code to your Yivi app.</en>
+		<nl>Laad je AGB-code in je Yivi-app.</nl>
+		<zh>將您的 AGB 代碼新增至 Yivi 程式中。</zh>
+	</FAQIntro>
+	<FAQPurpose>
+		<en>With your AGB code in your Yivi app, you can prove what your healthcare provider code in the AGB registry is.</en>
+		<nl>Met jouw AGB-code in de Yivi-app kun je bewijzen wat je code is als zorgverlener in het AGB-register.</nl>
+		<zh>透過 Yivi 程式中您的 AGB 代碼，可以證明您在 AGB 登記名冊中的健康照護提供者代碼。</zh>
+	</FAQPurpose>
+	<FAQContent>
+		<en>You will add the following data:\n• AGB code.</en>
+		<nl>Je laadt de volgende gegevens:\n• AGB-code.</nl>
+		<zh>您將要新增以下資料：\n• AGB 代碼。</zh>
+	</FAQContent>
+	<FAQHowto>
+		<en>In case you are a healthcare professional registered in the Netherlands, you can load your AGB code into your Yivi app. But first, you need to load your personal data, stemming from the Dutch population registry. Assuming you already have these personal data in your Yivi app, complete the following steps.\n1. Reveal your initials, surname and date of birth to the Nuts Foundation via Yivi.\n2. Enter your own AGB code manually.\n3. Confirm that you wish to add your AGB code to your Yivi app. After verifying your data in the AGB registry, the Nuts Foundation copies your AGB code into your Yivi app.\n\nYou now receive a card with your AGB code.</en>
+		<nl>Als je een geregistreerde zorgverlener bent kun je je AGB-code in je Yivi-app laden. Maar eerst moeten je persoonsgegevens uit het Basisregister Persoonsgegevens (BRP) al in de Yivi app geladen zijn. Als dat zo is, doorloop je de volgende stappen voor het laden van de AGB-code.\n1. Onthul je initialen, achternaam en geboortedatum aan de stichting Nuts via Yivi.\n2. Vul je AGB-code met de hand in.\n3. Bevestig je bedoeling om je AGB-code in je Yivi-app te laden. Na controle in het AGB-register voegt de stichting Nuts je AGB-code toe in je Yivi-app.\n\nJe ontvangt nu een kaartje met je AGB-code.</nl>
+		<zh>若您是在荷蘭註冊的衛生保健專業人員，您可以將您的 AGB 代碼載入到 Yivi 程式中。但您必須先載入出自荷蘭人口登記名冊的個人資料。假設您的 Yivi 程式已經有這些個人資料了，那麼請完成以下步驟。\n1. 透過 Yivi 向 Nuts 基金會揭露您的名字縮寫、姓氏與出生日期。\n2. 手動輸入您的 AGB 代碼。\n3. 確認您想要新增 AGB 代碼到 Yivi 程式中。在驗證您在 AGB 登記名冊中的資料後，Nuts 基金會複製您的 AGB 代碼到 Yivi 程式中。\n\n現在，您會收到您 AGB 代碼的卡片。</zh>
+	</FAQHowto>
 
-    <Attributes>
-        <Attribute id="agbcode">
-            <Name>
-                <en>AGB-code</en>
-                <nl>AGB-code</nl>
-                <zh>AGB 代碼</zh>
-            </Name>
-            <Description>
-                <en>Uniquely identifying code for individual healthcare professional</en>
-                <nl>Uniek identificerende code van individuele zorgverleners</nl>
-                <zh>個人衛生保健專業人員的唯一識別碼</zh>
-            </Description>
-        </Attribute>
-    </Attributes>
+	<Attributes>
+		<Attribute id="agbcode">
+			<Name>
+				<en>AGB-code</en>
+				<nl>AGB-code</nl>
+				<zh>AGB 代碼</zh>
+			</Name>
+			<Description>
+				<en>Uniquely identifying code for individual healthcare professional</en>
+				<nl>Uniek identificerende code van individuele zorgverleners</nl>
+				<zh>個人衛生保健專業人員的唯一識別碼</zh>
+			</Description>
+		</Attribute>
+	</Attributes>
 </IssueSpecification>

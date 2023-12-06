@@ -1,72 +1,72 @@
 <IssueSpecification version="4">
-    <Name>
-        <en>Living area</en>
-        <nl>Woongebied</nl>
-        <zh>居住區域</zh>
-    </Name>
-    <ShortName>
-        <en>Living area</en>
-        <nl>Woongebied</nl>
-        <zh>居住區域</zh>
-    </ShortName>
-    <SchemeManager>pbdf</SchemeManager>
-    <IssuerID>gebiedonline</IssuerID>
-    <CredentialID>livingarea</CredentialID>
-    <ShouldBeSingleton>true</ShouldBeSingleton>
-    <Description>
-        <en>The area where I live</en>
-        <nl>Het gebied waar ik woon</nl>
-        <zh>我居住的地區</zh>
-    </Description>
-    <IssueURL>
-        <en>https://gebiedonline.nl/irma-uitleg</en>
-        <nl>https://gebiedonline.nl/irma-uitleg</nl>
-        <zh>https://gebiedonline.nl/irma-uitleg</zh>
-    </IssueURL>
+	<Name>
+		<en>Living area</en>
+		<nl>Woongebied</nl>
+		<zh>居住區域</zh>
+	</Name>
+	<ShortName>
+		<en>Living area</en>
+		<nl>Woongebied</nl>
+		<zh>居住區域</zh>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>gebiedonline</IssuerID>
+	<CredentialID>livingarea</CredentialID>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<Description>
+		<en>The area where I live</en>
+		<nl>Het gebied waar ik woon</nl>
+		<zh>我居住的地區</zh>
+	</Description>
+	<IssueURL>
+		<en>https://gebiedonline.nl/irma-uitleg</en>
+		<nl>https://gebiedonline.nl/irma-uitleg</nl>
+		<zh>https://gebiedonline.nl/irma-uitleg</zh>
+	</IssueURL>
 
     <ForegroundColor>#C81619</ForegroundColor>
     <BackgroundGradientStart>#EBEBEB</BackgroundGradientStart>
     <BackgroundGradientEnd>#FFFFFF</BackgroundGradientEnd>
 
-    <Attributes>
-        <Attribute id="zipcode">
-            <Name>
-                <en>Zip code in 4 digits</en>
-                <nl>Postcode in 4 cijfers</nl>
-                <zh>四位數的郵遞區號</zh>
-            </Name>
-            <Description>
-                <en>Zip code (4 digits) of the area where I live</en>
-                <nl>Postcode (4 cijfers) van het gebied waar ik woon</nl>
-                <zh>我居住區域的四位數郵遞區號</zh>
-            </Description>
-        </Attribute>
+	<Attributes>
+		<Attribute id="zipcode">
+			<Name>
+				<en>Zip code in 4 digits</en>
+				<nl>Postcode in 4 cijfers</nl>
+				<zh>四位數郵遞區號</zh>
+			</Name>
+			<Description>
+				<en>Zip code (4 digits) of the area where I live</en>
+				<nl>Postcode (4 cijfers) van het gebied waar ik woon</nl>
+				<zh>我居住區域的四位數郵遞區號</zh>
+			</Description>
+		</Attribute>
 
-        <Attribute id="district">
-            <Name>
-                <en>District</en>
-                <nl>Wijk</nl>
-                <zh>區</zh>
-            </Name>
-            <Description>
-                <en>The district where I live</en>
-                <nl>De wijk waar ik woon</nl>
-                <zh>我居住的區</zh>
-            </Description>
-        </Attribute>
+		<Attribute id="district">
+			<Name>
+				<en>District</en>
+				<nl>Wijk</nl>
+				<zh>區</zh>
+			</Name>
+			<Description>
+				<en>The district where I live</en>
+				<nl>De wijk waar ik woon</nl>
+				<zh>我居住的區</zh>
+			</Description>
+		</Attribute>
 
-        <Attribute id="city">
-            <Name>
-                <en>City</en>
-                <nl>Plaats</nl>
-                <zh>鄉鎮市區</zh>
-            </Name>
-            <Description>
-                <en>The city where I live</en>
-                <nl>De plaats waar ik woon</nl>
-                <zh>我居住的都市</zh>
-            </Description>
-        </Attribute>
+		<Attribute id="city">
+			<Name>
+				<en>City</en>
+				<nl>Plaats</nl>
+				<zh>城市</zh>
+			</Name>
+			<Description>
+				<en>The city where I live</en>
+				<nl>De plaats waar ik woon</nl>
+				<zh>我居住的都市</zh>
+			</Description>
+		</Attribute>
 
-    </Attributes>
+	</Attributes>
 </IssueSpecification>

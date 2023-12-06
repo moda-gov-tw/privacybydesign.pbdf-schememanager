@@ -1,89 +1,89 @@
 <IssueSpecification version="4">
-    <Name>
-        <en>Age limits</en>
-        <nl>Leeftijdslimieten</nl>
-        <zh>年齡限制</zh>
-    </Name>
-    <ShortName>
-        <en>Age</en>
-        <nl>Leeftijd</nl>
-        <zh>年齡</zh>
-    </ShortName>
-    <SchemeManager>pbdf</SchemeManager>
-    <IssuerID>nijmegen</IssuerID>
-    <CredentialID>ageLimits</CredentialID>
-    <Description>
-        <en>Your age limits, derived from your birthdate from the Dutch population register</en>
-        <nl>Je leeftijdsgrenzen, afgeleid uit je geboortedatum afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
-        <zh>您的年齡限制，根據您在荷蘭人口登記名冊的出生日期所得出</zh>
-    </Description>
-    <ShouldBeSingleton>true</ShouldBeSingleton>
-    <IssueURL>
-        <en>https://services.nijmegen.nl/irma/issue/start</en>
-        <nl>https://services.nijmegen.nl/irma/issue/start</nl>
-        <zh>https://services.nijmegen.nl/irma/issue/start</zh>
-    </IssueURL>
+	<Name>
+		<en>Age limits</en>
+		<nl>Leeftijdslimieten</nl>
+		<zh>年齡限制</zh>
+	</Name>
+	<ShortName>
+		<en>Age</en>
+		<nl>Leeftijd</nl>
+		<zh>年齡</zh>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>nijmegen</IssuerID>
+	<CredentialID>ageLimits</CredentialID>
+	<Description>
+		<en>Your age limits, derived from your birthdate from the Dutch population register</en>
+		<nl>Je leeftijdsgrenzen, afgeleid uit je geboortedatum afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
+		<zh>您的年齡限制，根據您在荷蘭人口登記名冊的出生日期所得出</zh>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<IssueURL>
+		<en>https://services.nijmegen.nl/irma/issue/start</en>
+		<nl>https://services.nijmegen.nl/irma/issue/start</nl>
+		<zh>https://services.nijmegen.nl/irma/issue/start</zh>
+	</IssueURL>
 
-    <Attributes>
-        <Attribute id="over12" displayHint="yesno">
-            <Name>
-                <en>Over 12</en>
-                <nl>Ouder dan 12</nl>
-                <zh>年滿 12 歲</zh>
-            </Name>
-            <Description>
-                <en>Whether you are over 12</en>
-                <nl>Of je ouder dan 12 bent</nl>
-                <zh>您是否年滿 12 歲</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="over16" displayHint="yesno">
-            <Name>
-                <en>Over 16</en>
-                <nl>Ouder dan 16</nl>
-                <zh>年滿 16 歲</zh>
-            </Name>
-            <Description>
-                <en>Whether you are over 16</en>
-                <nl>Of je ouder dan 16 bent</nl>
-                <zh>您是否年滿 16 歲</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="over18" displayHint="yesno">
-            <Name>
-                <en>Over 18</en>
-                <nl>Ouder dan 18</nl>
-                <zh>年滿 18 歲</zh>
-            </Name>
-            <Description>
-                <en>Whether you are over 18</en>
-                <nl>Of je ouder dan 18 bent</nl>
-                <zh>您是否年滿 18 歲</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="over21" displayHint="yesno">
-            <Name>
-                <en>Over 21</en>
-                <nl>Ouder dan 21</nl>
-                <zh>年滿 21 歲</zh>
-            </Name>
-            <Description>
-                <en>Whether you are over 21</en>
-                <nl>Of je ouder dan 21 bent</nl>
-                <zh>您是否年滿 21 歲</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="over65" displayHint="yesno">
-            <Name>
-                <en>Over 65</en>
-                <nl>Ouder dan 65</nl>
-                <zh>年滿 65 歲</zh>
-            </Name>
-            <Description>
-                <en>Whether you are over 65</en>
-                <nl>Of je ouder dan 65 bent</nl>
-                <zh>您是否年滿 65 歲</zh>
-            </Description>
-        </Attribute>
-    </Attributes>
+	<Attributes>
+		<Attribute id="over12" displayHint="yesno">
+			<Name>
+				<en>Over 12</en>
+				<nl>Ouder dan 12</nl>
+				<zh>年滿 12 歲</zh>
+			</Name>
+			<Description>
+				<en>Whether you are over 12</en>
+				<nl>Of je ouder dan 12 bent</nl>
+				<zh>您是否年滿 12 歲</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="over16" displayHint="yesno">
+			<Name>
+				<en>Over 16</en>
+				<nl>Ouder dan 16</nl>
+				<zh>年滿 16 歲</zh>
+			</Name>
+			<Description>
+				<en>Whether you are over 16</en>
+				<nl>Of je ouder dan 16 bent</nl>
+				<zh>您是否年滿 16 歲</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="over18" displayHint="yesno">
+			<Name>
+				<en>Over 18</en>
+				<nl>Ouder dan 18</nl>
+				<zh>年滿 18 歲</zh>
+			</Name>
+			<Description>
+				<en>Whether you are over 18</en>
+				<nl>Of je ouder dan 18 bent</nl>
+				<zh>您是否年滿 18 歲</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="over21" displayHint="yesno">
+			<Name>
+				<en>Over 21</en>
+				<nl>Ouder dan 21</nl>
+				<zh>年滿 21 歲</zh>
+			</Name>
+			<Description>
+				<en>Whether you are over 21</en>
+				<nl>Of je ouder dan 21 bent</nl>
+				<zh>您是否年滿 21 歲</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="over65" displayHint="yesno">
+			<Name>
+				<en>Over 65</en>
+				<nl>Ouder dan 65</nl>
+				<zh>年滿 65 歲</zh>
+			</Name>
+			<Description>
+				<en>Whether you are over 65</en>
+				<nl>Of je ouder dan 65 bent</nl>
+				<zh>您是否年滿 65 歲</zh>
+			</Description>
+		</Attribute>
+	</Attributes>
 </IssueSpecification>

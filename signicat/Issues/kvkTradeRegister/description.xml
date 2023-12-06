@@ -1,0 +1,584 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>KVK authorization info</en>
+		<nl>KVK bevoegdheid</nl>
+		<zh>KVK 授權資訊</zh>
+	</Name>
+	<ShortName>
+		<en>KVK authorization</en>
+		<nl>KVK bevoegdheid</nl>
+		<zh>KVK 授權</zh>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>signicat</IssuerID>
+	<CredentialID>kvkTradeRegister</CredentialID>
+	<Description>
+		<en>KVK authorization information of an official of a legal entity</en>
+		<nl>KVK bevoegdheidsgegevens van een functionaris voor een rechtspersoon</nl>
+		<zh>法律實體代表的 KVK 授權資訊</zh>
+	</Description>
+	<IssueURL>
+		<en>https://organisatiegegevens.signicat.nl</en>
+		<nl>https://organisatiegegevens.signicat.nl</nl>
+		<zh>https://organisatiegegevens.signicat.nl</zh>
+	</IssueURL>
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<ForegroundColor>#ffffff</ForegroundColor>
+	<BackgroundGradientStart>#aa418c</BackgroundGradientStart>
+	<BackgroundGradientEnd>#aa418c</BackgroundGradientEnd>
+	<Category>
+		<en>Financial</en>
+		<nl>Financieel</nl>
+		<zh>金融</zh>
+	</Category>
+	<FAQIntro>
+		<en>Load - FOR A PAYMENT - a personal card with your Chamber of Commerce Trade Register data in Yivi.\n\nNote: It is only possible to get a card if you are registered with your name at the Chamber of Commerce number when requesting the card. The Chamber of Commerce Trade Register data in Yivi are also the data at the time of loading the ticket. These data are NOT updated by the Chamber of Commerce or Yivi.</en>
+		<nl>Laad - TEGEN BETALING - een persoonlijk kaartje met je KVK Handelsregistergegevens in Yivi.\n\nLet op: Het is alleen mogelijk om een kaartje te krijgen indien je met je naam bij het op te vragen KVK nummer geregistreerd staat. Ook zijn de KVK Handelsregistergegevens in Yivi de gegevens op het moment van inladen van het kaartje. Deze gegevens worden NIET geactualiseerd door de KVK of Yivi.</nl>
+		<zh>在 Yivi 中綁定您的個人卡片（具備您的商會商業登記資料），用於支付費用。\n\n備註：申請卡片時，您必須向商會實名登記，才能拿到卡片。Yivi 當中的商會商業登記資料與載入票券時的資料一樣。這些資料並非由商會或 Yivi 負責更新。</zh>
+	</FAQIntro>
+	<FAQPurpose>
+		<en>The KVK trade register data allows you to share your personal registration with the KVK.\n\nPlease note, these are the data registered in the KVK at the time of loading the ticket.\n\nWith the KVK trade register data you can share your personal registration with the KVK, and show what powers you have.</en>
+		<nl>Met de KVK handelsregistergegevens kun je jouw persoonlijke registratie bij de KVK delen.\n\nLet op, dit zijn de gegevens die geregistreerd staan in de KVK op het moment van inladen van het kaartje.\n\nMet de KVK handelsregister gegevens kun je jouw persoonlijke registratie bij de KVK delen, en aantonen welke bevoegdheden je hebt.</nl>
+		<zh>KVK 商業登記資料讓您可以分享在 KVK 上的個人登記資訊。\n\n請注意：這些資料是當初載入票券時於 KVK 登記的資料。\n\n 有了 KVK 的商業登記資料，您可以分享在 KVK 上的個人登記資訊，顯示您所擁有的權力。</zh>
+	</FAQPurpose>
+	<FAQContent>
+		<en>You are loading the following data:\n• KVK number\n• RSIN number\n• Name of the organization\n• Trade names\n• Type of owner\n• Legal entity\n• Address of the organization\n• Email address of organization\n• Phone number of the organization\n• SBI activity\n• Start date of registration\n• Date of deregistration\n• End date of registration\n• Special legal situation\n• Restriction in legal action\n• Foreign legal status\n• Last name\n• Prefix\n• First names\n• Date of birth\n• Date of death\n• Full Name\n• Type of Official\n• Position\n• Job Title\n• Kind of authorization\n• Restriction of the authorization in euros\n• Other restrictions of authorization\n• Is authorized with other persons\n• Type of power of attorney\n• Restriction in money of the power of attorney\n• Restriction on act of the power of attorney\n• Has other power of attorney\n• Description other power of attorney\n• Permission to file changes to the trade register\n• Special legal situation of the official\n• Restriction in legal action of the official\n• Start date of suspension\n• End date of suspension\n• Emancipation of a minor\n• Has restriction\n• Is authorized\n• Reason for established authorization\n• Referece moment.</en>
+		<nl>Je laadt de volgende gegevens:\n• KVK nummer\n• RSIN nummer\n• Naam van organisatie\n• Handelsnamen\n• Type eigenaar\n• Rechtsvorm\n• Vestigingsadres\n• Emailadres van organisatie\n• Telefoon van organisatie\n• SBI activiteit\n• Aanvangsdatum van de registratie\n• Datum van uitschrijving\n• Einddatum van de registratie\n• Bijzondere rechtstoestand\n• Beperking in rechtshandeling\n• Buitenlandse rechtstoestand\n• Geslachtsnaam\n• Voorvoegsel geslachtsnaam\n• Voornamen\n• Geboortedatum\n• Overlijdensdatum\n• Volledige naam\n• Type Functionaris\n• Functie\n• Functietitel\n• Soort bevoegdheid\n• Beperking van de bevoegdheid in euro's\n• Overige beperking van de bevoegdheid\n• Is bevoegd met andere personen\n• Type volmacht\n• Beperking in geld van de volmacht\n• Beperking in handeling van de volmacht\n• Heeft overige volmacht\n• Omschrijving overige volmacht\n• Mag opgave handelsregister doen\n• Bijzondere rechtstoestand functionaris\n• Beperking in rechtshandeling functionaris\n• Aanvangsdatum van de schorsing\n• Einddatum van de schorsing\n• Handlichting\n• Heeft beperking\n• Is bevoegd\n• Reden van vastgestelde bevoegdheid\n• Peilmoment (opvraagmoment uit handelsregister).</nl>
+		<zh>您會載入以下資料：\n• KVK 號碼\n• RSIN 號碼\n• 組織名稱\n• 商號\n• 業主類型\n• 法律實體\n• 組織地址\n• 組織電子郵件地址\n• 組織電話號碼\n• SBI 活動\n• 登記開始日期\n• 登記註銷日期\n• 登記結束日期\n• 特別法律情況\n• 法律行動限制\n• 海外法律狀態\n• 姓氏\n• 前綴\n• 名字\n• 出生日期\n• 死亡日期\n• 全名\n• 官員類型\n• 職位\n• 職稱\n• 授權類型\n• 歐元授權限制\n• 其他授權限制\n• 由他人授權\n• 授權書類型\n• 授權書金額限制\n• 授權書行為限制\n• 具備其他授權書\n• 其他授權書說明\n• 提交變更商業登記的權限\n• 官員的特殊法律情況\n• 官員法律行動限制\n• 停職開始日期\n• 停職結束日期\n• 未成年人獨立生活資格\n• 具有限制\n• 已授權\n• 明定授權原因\n• 參考時間點。</zh>
+	</FAQContent>
+	<FAQHowto>
+		<en>If your company is registered in the KVK Trade Register, and your name is listed in the register you can add - AGAINST PAYMENT - a personal card of your KVK registration to Yivi.\n\nPlease note that the KVK Trade Register data in Yivi is the data at the time of loading the ticket. This data is NOT updated by the KVK or Yivi.\n\nComplete the following steps:\n1. Search and select your company.\n2. Share your name and date of birth. With this we check that you are personally registered in the KVK Trade Register.\n3. Pay via iDEAL.\n4. Add your personal card of your KVK registration to Yivi.\n\nNote: only if your name is listed in the KVK Trade Register can you request a personal card of your KVK Trade Register data and add it to Yivi.\n\n If your name is not listed in the KVK Trade Register you will unfortunately not receive a personal card of your KVK registration and only a notification of who is listed in the KVK Trade Register. Reversing the payment is unfortunately not possible.</en>
+		<nl>Als jouw bedrijf staat ingeschreven in het KVK Handelsregister, en jouw naam staat vermeld in het register dan kun je - TEGEN BETALING - een persoonlijk kaartje van je KVK registratie toevoegen aan Yivi.\n\nLet op: de KVK Handelsregister gegevens in Yivi zijn de gegevens op het moment van inladen van het kaartje. Deze gegevens worden NIET geactualiseerd door de KVK of Yivi.\n\nDoorloop de volgende stappen:\n1. Zoek en selecteer je bedrijf.\n2. Deel je naam en geboortedatum. Daarmee controleren wij of je persoonlijk staat ingeschreven in het KVK Handelsregister.\n3. Betaal via iDEAL.\n4. Voeg je persoonlijk kaartje van je KVK registratie toe aan Yivi.\n\nNB: alleen als je naam staat vermeld in het KVK Handelsregister kun je een persoonlijk kaartje van je KVK Handelsregister gegevens opvragen en toevoegen aan Yivi.\n\nAls je naam niet staat vermeld in het KVK Handelsregister dan krijg helaas geen persoonlijk kaartje van je KVK registratie en alleen een melding wie wel staat inschreven in het KVK Handelsregister. Het terugdraaien van de betaling is helaas niet mogelijk.</nl>
+		<zh>若貴公司有在 KVK 商業登記處登記，且您的名字有在商業登記處的紀錄中，您可以在 Yivi 當中綁定在 KVK 登記的個人卡片，選擇不支付。\n\n請注意：Yivi 當中的 KVK 商業登記處資料與載入票券時的資料一樣。這些資料並非由 KVK 或 Yivi 負責更新。\n\n完成下列步驟：\n1. 搜尋與選擇貴公司。\n2. 分享您的姓名與出生日期。有了這些資訊，我們可以查訊您本人是否有向 KVK 商業登記處登記。\n3. 使用 iDEAL 付費。\n4. 在 Yivi 新增您的 KVK 登記卡片。\n\n請注意： 您的名字必須有向 KVK 商業登記處登記，才能申請您的 KVK 商業登記處個人資料卡，並且新增至 Yivi。\n\n 如果您的名字沒有列在 KVK 商業登記處紀錄中，您不會收到 KVK 個人註冊卡，只會收到有哪些人列在 KVK 商業登記處的通知。很遺憾，我們無法退費。</zh>
+	</FAQHowto>
+	<Attributes>
+		<Attribute id="kvkNumber">
+			<Name>
+				<en>KVK number</en>
+				<nl>KVK nummer</nl>
+				<zh>KVK 號碼</zh>
+			</Name>
+			<Description>
+				<en>KVK number of the organisation</en>
+				<nl>KVK nummer van de organisatie</nl>
+				<zh>組織的 KVK 號碼</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="rsin" optional="true">
+			<Name>
+				<en>RSIN number</en>
+				<nl>RSIN nummer</nl>
+				<zh>RSIN 號碼</zh>
+			</Name>
+			<Description>
+				<en>Legal Entity or Partnership Identification Number</en>
+				<nl>Rechtspersoon of Samenwerkingsverband Identificatie Nummer</nl>
+				<zh>法律實體或合夥識別碼</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="name">
+			<Name>
+				<en>Name of the organisation</en>
+				<nl>Naam van de organisatie</nl>
+				<zh>組織名稱</zh>
+			</Name>
+			<Description>
+				<en>Name of the organisation</en>
+				<nl>Naam van de organisatie</nl>
+				<zh>組織名稱</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="tradeNames" optional="true">
+			<Name>
+				<en>Trade names</en>
+				<nl>Handelsnamen</nl>
+				<zh>商業名稱</zh>
+			</Name>
+			<Description>
+				<en>Trade names under which the company trades</en>
+				<nl>Handelsnamen waar de onderneming onder handelt</nl>
+				<zh>公司從事商業活動時使用的名稱</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="typeOwner">
+			<Name>
+				<en>Type of owner</en>
+				<nl>Type eigenaar</nl>
+				<zh>業主類型</zh>
+			</Name>
+			<Description>
+				<en>Type of owner of the organisation</en>
+				<nl>Type eigenaar van de maatschappelijke activiteit</nl>
+				<zh>組織業主類型</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="legalEntity">
+			<Name>
+				<en>Legal entity</en>
+				<nl>Rechtsvorm</nl>
+				<zh>法律實體</zh>
+			</Name>
+			<Description>
+				<en>Legal entity of the owner of the organisation</en>
+				<nl>Rechtsvorm van de eigenaar van de maatschappelijke activiteit</nl>
+				<zh>組織業主的法律實體</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="address">
+			<Name>
+				<en>Address of the organisation</en>
+				<nl>Adres van de organisatie</nl>
+				<zh>組織地址</zh>
+			</Name>
+			<Description>
+				<en>Address of the organisation</en>
+				<nl>Adres van de organisatie</nl>
+				<zh>組織地址</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="emailAddress" optional="true">
+			<Name>
+				<en>Email address of the organisation</en>
+				<nl>Emailadres van de organisatie</nl>
+				<zh>組織電子郵件地址</zh>
+			</Name>
+			<Description>
+				<en>Email address of the organisation</en>
+				<nl>Emailadres van de organisatie</nl>
+				<zh>組織電子郵件地址</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="phone" optional="true">
+			<Name>
+				<en>Phone number of the organisation</en>
+				<nl>Telefoonnummer van de organisatie</nl>
+				<zh>組織電話號碼</zh>
+			</Name>
+			<Description>
+				<en>Phone number of the organisation</en>
+				<nl>Telefoonnummer van de organisatie</nl>
+				<zh>組織電話號碼</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="sbiActivity">
+			<Name>
+				<en>SBI activity</en>
+				<nl>SBI activiteit</nl>
+				<zh>SBI 活動</zh>
+			</Name>
+			<Description>
+				<en>SBI code in accordance with the SBI 2008 structure with associated description of the activity</en>
+				<nl>SBI codering conform de SBI 2008 structuur met bijbehorende omschrijving van de activiteit</nl>
+				<zh>SBI 2008 架構的 SBI 代碼，並且具備活動描述</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="registrationStart">
+			<Name>
+				<en>Start date of registration</en>
+				<nl>Aanvangsdatum van de registratie</nl>
+				<zh>登記開始日期</zh>
+			</Name>
+			<Description>
+				<en>Start date of the organization's registration</en>
+				<nl>Aanvangsdatum van de registratie van de maatschappelijke activiteit</nl>
+				<zh>組織登記開始日期</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="dateDeregistration">
+			<Name>
+				<en>Date of deregistration</en>
+				<nl>Datum van uitschrijving</nl>
+				<zh>登記註銷日期</zh>
+			</Name>
+			<Description>
+				<en>Date of deregistration of the owner of the organization</en>
+				<nl>Datum van uitschrijving van de eigenaar van de maatschappelijke activiteit</nl>
+				<zh>組織業主的登記註銷日期</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="registrationEnd">
+			<Name>
+				<en>End date of registration</en>
+				<nl>Einddatum van de registratie</nl>
+				<zh>登記結束日期</zh>
+			</Name>
+			<Description>
+				<en>End date of the organization's registration</en>
+				<nl>Einddatum van de registratie van de eigenaar van de maatschappelijke activiteit</nl>
+				<zh>組織登記結束日期</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="specialLegalSituation">
+			<Name>
+				<en>Special legal situation</en>
+				<nl>Bijzondere rechtstoestand</nl>
+				<zh>特別法律情況</zh>
+			</Name>
+			<Description>
+				<en>Special legal situation of the owner of the organisation, eg: bankruptcy, debt restructuring or suspension of payment</en>
+				<nl>Bijzondere rechtstoestand van de eigenaar van de maatschappelijke activiteit, zoals: faillissement, schuldsanering of surseance van betaling</nl>
+				<zh>組織業主的特別法律情況，例如破產、債務重組或終止支付</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="restrictionInLegalAction">
+			<Name>
+				<en>Restriction in legal action</en>
+				<nl>Beperking in rechtshandeling</nl>
+				<zh>法律行動限制</zh>
+			</Name>
+			<Description>
+				<en>Restriction in legal action of the owner of the organisation, eg: provisional rule, placed under guardianship or placed under administration</en>
+				<nl>Beperking in rechtshandeling van de eigenaar van de maatschappelijke activiteit, zoals: provisioneel bewind, onder curatele gesteld of onder bewind gesteld</nl>
+				<zh>組織業主的法律行動限制，例如暫行規定、受人監護或破產保護</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="foreignLegalStatus">
+			<Name>
+				<en>Foreign legal status</en>
+				<nl>Buitenlandse rechtstoestand</nl>
+				<zh>海外法律狀態</zh>
+			</Name>
+			<Description>
+				<en>Court decision by a foreign court</en>
+				<nl>Gerechtelijke uitspraak door een buitenlands gerecht</nl>
+				<zh>海外法院判決</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="lastName">
+			<Name>
+				<en>Last name</en>
+				<nl>Geslachtsnaam</nl>
+				<zh>姓氏</zh>
+			</Name>
+			<Description>
+				<en>Last name of the official</en>
+				<nl>Geslachtsnaam van de functionaris</nl>
+				<zh>官員姓氏</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="prefix">
+			<Name>
+				<en>Prefix</en>
+				<nl>Voorvoegsel</nl>
+				<zh>前綴</zh>
+			</Name>
+			<Description>
+				<en>Prefix of the official</en>
+				<nl>Voorvoegsel geslachtsnaam van de functionaris</nl>
+				<zh>官員前綴</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="firstNames">
+			<Name>
+				<en>First names</en>
+				<nl>Voornamen</nl>
+				<zh>名字</zh>
+			</Name>
+			<Description>
+				<en>First names of the official</en>
+				<nl>Voornamen van de functionaris</nl>
+				<zh>官員名字</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="dateOfBirth">
+			<Name>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+				<zh>出生日期</zh>
+			</Name>
+			<Description>
+				<en>Date of birth of the official</en>
+				<nl>Geboortedatum van de functionaris</nl>
+				<zh>官員出生日期</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="dateOfDeath">
+			<Name>
+				<en>Date of death</en>
+				<nl>Overlijdensdatum</nl>
+				<zh>死亡日期</zh>
+			</Name>
+			<Description>
+				<en>Date of death of the official</en>
+				<nl>Overlijdensdatum van de functionaris</nl>
+				<zh>官員死亡日期</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="fullname">
+			<Name>
+				<en>Full name</en>
+				<nl>Volledige naam</nl>
+				<zh>全名</zh>
+			</Name>
+			<Description>
+				<en>Full name of the official</en>
+				<nl>Volledige naam van de functionaris</nl>
+				<zh>官員全名</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="typeOfficial">
+			<Name>
+				<en>Type of official</en>
+				<nl>Type functionaris</nl>
+				<zh>官員類型</zh>
+			</Name>
+			<Description>
+				<en>Type of official</en>
+				<nl>Type functionaris</nl>
+				<zh>官員類型</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="position" optional="true">
+			<Name>
+				<en>Position</en>
+				<nl>Functie</nl>
+				<zh>職位</zh>
+			</Name>
+			<Description>
+				<en>Position of the official</en>
+				<nl>Functie van de functionaris</nl>
+				<zh>官員職位</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="jobTitle" optional="true">
+			<Name>
+				<en>Job title</en>
+				<nl>Functietitel</nl>
+				<zh>職稱</zh>
+			</Name>
+			<Description>
+				<en>Job title of the official</en>
+				<nl>Titel van de functionaris</nl>
+				<zh>官員職稱</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="kindOfAuthorization">
+			<Name>
+				<en>Kind of authorization</en>
+				<nl>Soort bevoegdheid</nl>
+				<zh>授權類型</zh>
+			</Name>
+			<Description>
+				<en>Kind of authorization</en>
+				<nl>Soort bevoegdheid</nl>
+				<zh>授權類型</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="restrictionInEurosAuthorization">
+			<Name>
+				<en>Restriction of the authorization in euros</en>
+				<nl>Beperking van de bevoegdheid in euro's</nl>
+				<zh>歐元授權限制</zh>
+			</Name>
+			<Description>
+				<en>Authorization of the liable party is limited to the stated amount</en>
+				<nl>Bevoegdheid van de aansprakelijke is beperkt tot het genoemde bedrag</nl>
+				<zh>責任方最高僅能授權註明的金額</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="otherRestrictionAuthorization">
+			<Name>
+				<en>Other restrictions of the authorization</en>
+				<nl>Overige beperking van de bevoegdheid</nl>
+				<zh>其他授權限制</zh>
+			</Name>
+			<Description>
+				<en>Indication of whether any other limitation applies to the person liable</en>
+				<nl>Indicatie of er een andere beperking voor de aansprakelijke geldt</nl>
+				<zh>顯示是否有其他限制適用於責任方</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="isAuthorizedWithOtherPersons">
+			<Name>
+				<en>Is authorized with other persons</en>
+				<nl>Is bevoegd met andere personen</nl>
+				<zh>由他人授權</zh>
+			</Name>
+			<Description>
+				<en>Indication indicating that there is joint authority with other persons (Yes) or with the other directors (No)</en>
+				<nl>Indicatie die aangeeft dat er een gezamenlijke bevoegdheid is met andere personen (Ja) of met de andere bestuurders (Nee)</nl>
+				<zh>顯示是否與他人（是）或其他主管（否）共同管理</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="typePowerOfAttorney">
+			<Name>
+				<en>Type of power of attorney</en>
+				<nl>Type volmacht</nl>
+				<zh>授權書類型</zh>
+			</Name>
+			<Description>
+				<en>Type of power of attorney</en>
+				<nl>Type volmacht, zoals: Volledige volmacht of beperkte volmacht</nl>
+				<zh>授權書類型</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="restrictioninMoneyPowerOfAttorney">
+			<Name>
+				<en>Restriction in money of the power of attorney</en>
+				<nl>Beperking in geld van de volmacht</nl>
+				<zh>授權書金額限制</zh>
+			</Name>
+			<Description>
+				<en>If the authorized representative is authorized up to a certain amount</en>
+				<nl>Indien de gemachtigde tot een bepaald bedrag is gemachtigd</nl>
+				<zh>授權代表是否取得一定金額的授權</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="restrictionOnActPowerOfAttorney">
+			<Name>
+				<en>Restriction on act of the power of attorney</en>
+				<nl>Beperking in handeling van de volmacht</nl>
+				<zh>授權書行為限制</zh>
+			</Name>
+			<Description>
+				<en>If the authorized person has a structured restriction of type of act</en>
+				<nl>Indien de gemachtigde een gestructureerde beperking in handelen heeft</nl>
+				<zh>被授權人的行動類型是否具有有組織的限制</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="hasOtherPowerOfAttorney">
+			<Name>
+				<en>Has other power of attorney</en>
+				<nl>Heeft overige volmacht</nl>
+				<zh>具備其他授權書</zh>
+			</Name>
+			<Description>
+				<en>Indication indicating that the authorized person has a power of attorney that cannot be included in a structured way as a type of act</en>
+				<nl>Indicatie die aangeeft dat de gemachtigde een volmacht heeft die niet gestructureerd als soort handeling opgenomen kan worden</nl>
+				<zh>顯示被授權人是否具備無法以結構化方式歸類在公證行為類型的授權書</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="descriptionOtherPowerOfAttorney">
+			<Name>
+				<en>Description other power of attorney</en>
+				<nl>Omschrijving overige volmacht</nl>
+				<zh>其他授權書說明</zh>
+			</Name>
+			<Description>
+				<en>Content of the restriction not to be included in a structured way in the power of attorney</en>
+				<nl>Inhoud van de niet gestructureerd op te nemen beperking in de volmacht</nl>
+				<zh>限制內容無法以結構化方式收錄在授權書中</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="permissionToChangeTradeRegister">
+			<Name>
+				<en>Permission to file changes to the trade register</en>
+				<nl>Mag opgave handelsregister doen</nl>
+				<zh>提交變更商業登記的權限</zh>
+			</Name>
+			<Description>
+				<en>If the authorized representative has the permission to file changes to the trade register</en>
+				<nl>Indien de gemachtigde opgave mag doen aan het handelsregister</nl>
+				<zh>授權代表是否有權限提交變更商業登記</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="specialLegalSituationOfficial">
+			<Name>
+				<en>Special legal situation of the official</en>
+				<nl>Bijzondere rechtstoestand functionaris</nl>
+				<zh>官員的特殊法律情況</zh>
+			</Name>
+			<Description>
+				<en>Special legal situation of the official, eg: bankruptcy, debt restructuring or suspension of payment</en>
+				<nl>Bijzondere rechtstoestand van de functionaris, zoals: faillissement, schuldsanering of surseance van betaling</nl>
+				<zh>官員的特別法律情況，例如破產、債務重組或終止支付</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="restrictionInLegalActionOfficial">
+			<Name>
+				<en>Restriction in legal action of the official</en>
+				<nl>Beperking in rechtshandeling functionaris</nl>
+				<zh>官員法律行動限制</zh>
+			</Name>
+			<Description>
+				<en>Restriction in legal action of the official, eg: provisional rule, placed under guardianship or placed under administration</en>
+				<nl>Beperking in rechtshandeling van de functionaris, zoals: provisioneel bewind, onder curatele gesteld of onder bewind gesteld</nl>
+				<zh>官員的法律行動限制，例如暫行規定、受人監護或破產保護</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="suspensionStart">
+			<Name>
+				<en>Start date of suspension</en>
+				<nl>Aanvangsdatum van de schorsing</nl>
+				<zh>停職開始日期</zh>
+			</Name>
+			<Description>
+				<en>Indicates when the official's suspension started</en>
+				<nl>Geeft aan wanneer de schorsing van de functionaris is gestart</nl>
+				<zh>顯示官員停職的開始日期</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="suspensionEnd">
+			<Name>
+				<en>End date of suspension</en>
+				<nl>Einddatum van de schorsing</nl>
+				<zh>停職結束日期</zh>
+			</Name>
+			<Description>
+				<en>Indicates when the official's suspension has ended</en>
+				<nl>Geeft aan wanneer de schorsing van de functionaris beeindigd is</nl>
+				<zh>顯示官員停職的結束時間</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="emancipationOfMinor">
+			<Name>
+				<en>Emancipation of a minor</en>
+				<nl>Handlichting</nl>
+				<zh>未成年人獨立生活資格</zh>
+			</Name>
+			<Description>
+				<en>Emancipation of a minor</en>
+				<nl>Handlichting houdt in dat een minderjarige door toewijzing van een rechter dezelfde bevoegdheden toegekend krijgt als een meerderjarige</nl>
+				<zh>未成年人獨立生活資格</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="hasRestriction">
+			<Name>
+				<en>Has restriction</en>
+				<nl>Heeft beperking</nl>
+				<zh>具有限制</zh>
+			</Name>
+			<Description>
+				<en>Indication of whether there is some kind of restriction that affects the determination of an authorization (Yes, No)</en>
+				<nl>Indicatie of er sprake is van enige vorm van beperking, die van invloed is op het bepalen van een bevoegdheid (Ja, Nee)</nl>
+				<zh>顯示是否有限制影響到授權的判定（是/否）</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="isAuthorized">
+			<Name>
+				<en>Is authorized</en>
+				<nl>Is bevoegd</nl>
+				<zh>已授權</zh>
+			</Name>
+			<Description>
+				<en>Indication of whether someone is authorized (Yes, No or Not established)</en>
+				<nl>Indicatie of iemand bevoegd is (Ja, Nee of Niet vastgesteld)</nl>
+				<zh>顯示某人是否已取得授權（是、否或未知）</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="reason">
+			<Name>
+				<en>Reason for established authorization</en>
+				<nl>Reden van vastgestelde bevoegdheid</nl>
+				<zh>既定授權原因</zh>
+			</Name>
+			<Description>
+				<en>Reason for (not) being authorized or not being able to determine someone's authorization</en>
+				<nl>Reden voor het niet/wel bevoegd zijn of niet kunnen vastellen van iemands bevoegdheid</nl>
+				<zh>取得（或未取得）授權或是無法判定他人授權的原因</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="referenceMoment">
+			<Name>
+				<en>Reference moment</en>
+				<nl>Peilmoment (opvraagmoment uit handelsregister)</nl>
+				<zh>參考時間點</zh>
+			</Name>
+			<Description>
+				<en>Reference moment is the moment the data is extracted from the trade register (format yyyymmddhhmmssmmm)</en>
+				<nl>Peilmoment is het moment dat de gegevens uit het handelsregister zijn onttrokken (formaat jjjjmmddhhmmssmmm)</nl>
+				<zh>參考時間點就是從商業登記處擷取出資料的時間（格式：yyyymmddhhmmssmmm）</zh>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

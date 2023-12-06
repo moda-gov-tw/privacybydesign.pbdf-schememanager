@@ -1,89 +1,89 @@
 <IssueSpecification version="4">
-    <Name>
-        <en>Facebook</en>
-        <nl>Facebook</nl>
-        <zh>Facebook</zh>
-    </Name>
-    <ShortName>
-        <en>Facebook</en>
-        <nl>Facebook</nl>
-        <zh>Facebook</zh>
-    </ShortName>
-    <SchemeManager>pbdf</SchemeManager>
-    <IssuerID>pbdf</IssuerID>
-    <CredentialID>facebook</CredentialID>
-    <Description>
-        <en>Facebook attributes obtained using Facebook Connect</en>
-        <nl>Facebook-attributen verkregen via Facebook Connect</nl>
-        <zh>使用 Facebook Connect 取得的 Facebook 特性</zh>
-    </Description>
-    <ShouldBeSingleton>false</ShouldBeSingleton>
-    <DeprecatedSince>1601458332</DeprecatedSince>
+	<Name>
+		<en>Facebook</en>
+		<nl>Facebook</nl>
+		<zh>Facebook</zh>
+	</Name>
+	<ShortName>
+		<en>Facebook</en>
+		<nl>Facebook</nl>
+		<zh>Facebook</zh>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>pbdf</IssuerID>
+	<CredentialID>facebook</CredentialID>
+	<Description>
+		<en>Facebook attributes obtained using Facebook Connect</en>
+		<nl>Facebook-attributen verkregen via Facebook Connect</nl>
+		<zh>使用 Facebook Connect 取得的 Facebook 特性</zh>
+	</Description>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<DeprecatedSince>1601458332</DeprecatedSince>
 
     <ForegroundColor>#ffffff</ForegroundColor>
     <BackgroundGradientStart>#4267B2</BackgroundGradientStart>
     <BackgroundGradientEnd>#19397B</BackgroundGradientEnd>
 
-    <Attributes>
-        <Attribute id="fullname">
-            <Name>
-                <en>Full name</en>
-                <nl>Volledige naam</nl>
-                <zh>全名</zh>
-            </Name>
-            <Description>
-                <en>Your full name, as registered by Facebook</en>
-                <nl>Je volledige naam, zoals geregistreerd bij Facebook</nl>
-                <zh>您在 Facebook 註冊的全名</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="firstname">
-            <Name>
-                <en>First name</en>
-                <nl>Voornaam</nl>
-                <zh>名字</zh>
-            </Name>
-            <Description>
-                <en>Your first name, as registered by Facebook</en>
-                <nl>Je voornaam, zoals geregistreerd bij Facebook</nl>
-                <zh>您在 Facebook 註冊的名字</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="familyname">
-            <Name>
-                <en>Family name</en>
-                <nl>Achternaam</nl>
-                <zh>姓氏</zh>
-            </Name>
-            <Description>
-                <en>Your family name, as registered by Facebook</en>
-                <nl>Je achternaam, zoals geregistreerd bij Facebook</nl>
-                <zh>您在 Facebook 註冊的姓氏</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="email">
-            <Name>
-                <en>Email address</en>
-                <nl>E-mailadres</nl>
-                <zh>電子郵件地址</zh>
-            </Name>
-            <Description>
-                <en>Your email address, as registered by Facebook</en>
-                <nl>Je e-mailadres, zoals geregistreerd bij Facebook</nl>
-                <zh>您在 Facebook 註冊的電子郵件地址</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="dateofbirth" optional="true">
-            <Name>
-                <en>Date of birth</en>
-                <nl>Geboortedatum</nl>
-                <zh>出生日期</zh>
-            </Name>
-            <Description>
-                <en>Your date of birth, as registered in Facebook</en>
-                <nl>Je geboortedatum, zoals opgegeven bij Facebook</nl>
-                <zh>您在 Facebook 註冊的出生日期</zh>
-            </Description>
-        </Attribute>
-    </Attributes>
+	<Attributes>
+		<Attribute id="fullname">
+			<Name>
+				<en>Full name</en>
+				<nl>Volledige naam</nl>
+				<zh>全名</zh>
+			</Name>
+			<Description>
+				<en>Your full name, as registered by Facebook</en>
+				<nl>Je volledige naam, zoals geregistreerd bij Facebook</nl>
+				<zh>您在 Facebook 註冊的全名</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="firstname">
+			<Name>
+				<en>First name</en>
+				<nl>Voornaam</nl>
+				<zh>名字</zh>
+			</Name>
+			<Description>
+				<en>Your first name, as registered by Facebook</en>
+				<nl>Je voornaam, zoals geregistreerd bij Facebook</nl>
+				<zh>您在 Facebook 註冊的名字</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="familyname">
+			<Name>
+				<en>Family name</en>
+				<nl>Achternaam</nl>
+				<zh>姓氏</zh>
+			</Name>
+			<Description>
+				<en>Your family name, as registered by Facebook</en>
+				<nl>Je achternaam, zoals geregistreerd bij Facebook</nl>
+				<zh>您在 Facebook 註冊的姓氏</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="email">
+			<Name>
+				<en>Email address</en>
+				<nl>E-mailadres</nl>
+				<zh>電子郵件地址</zh>
+			</Name>
+			<Description>
+				<en>Your email address, as registered by Facebook</en>
+				<nl>Je e-mailadres, zoals geregistreerd bij Facebook</nl>
+				<zh>您在 Facebook 註冊的電子郵件地址</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="dateofbirth" optional="true">
+			<Name>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+				<zh>出生日期</zh>
+			</Name>
+			<Description>
+				<en>Your date of birth, as registered in Facebook</en>
+				<nl>Je geboortedatum, zoals opgegeven bij Facebook</nl>
+				<zh>您在 Facebook 註冊的出生日期</zh>
+			</Description>
+		</Attribute>
+	</Attributes>
 </IssueSpecification>

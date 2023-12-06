@@ -1,137 +1,137 @@
 <IssueSpecification version="4">
-    <Name>
-        <en>Personal data</en>
-        <nl>Persoonsgegevens</nl>
-        <zh>個人資料</zh>
-    </Name>
-    <ShortName>
-        <en>Personal data</en>
-        <nl>Persoonsgegevens</nl>
-        <zh>個人資料</zh>
-    </ShortName>
-    <SchemeManager>pbdf</SchemeManager>
-    <IssuerID>nijmegen</IssuerID>
-    <CredentialID>personalData</CredentialID>
-    <Description>
-        <en>Your personal data, from the Dutch population register</en>
-        <nl>Je persoonsgegevens, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
-        <zh>您的個人資料，出自荷蘭人口登記名冊</zh>
-    </Description>
-    <ShouldBeSingleton>true</ShouldBeSingleton>
-    <IssueURL>
-        <en>https://services.nijmegen.nl/irma/issue/start</en>
-        <nl>https://services.nijmegen.nl/irma/issue/start</nl>
-        <zh>https://services.nijmegen.nl/irma/issue/start</zh>
-    </IssueURL>
+	<Name>
+		<en>Personal data</en>
+		<nl>Persoonsgegevens</nl>
+		<zh>個人資料</zh>
+	</Name>
+	<ShortName>
+		<en>Personal data</en>
+		<nl>Persoonsgegevens</nl>
+		<zh>個人資料</zh>
+	</ShortName>
+	<SchemeManager>pbdf</SchemeManager>
+	<IssuerID>nijmegen</IssuerID>
+	<CredentialID>personalData</CredentialID>
+	<Description>
+		<en>Your personal data, from the Dutch population register</en>
+		<nl>Je persoonsgegevens, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
+		<zh>荷蘭人口登記處的您的個人資料</zh>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<IssueURL>
+		<en>https://services.nijmegen.nl/irma/issue/start</en>
+		<nl>https://services.nijmegen.nl/irma/issue/start</nl>
+		<zh>https://services.nijmegen.nl/irma/issue/start</zh>
+	</IssueURL>
 
-    <Attributes>
-        <Attribute id="initials">
-            <Name>
-                <en>Initials</en>
-                <nl>Voorletters</nl>
-                <zh>名字縮寫</zh>
-            </Name>
-            <Description>
-                <en>Your initials, abbreviating your first names</en>
-                <nl>Je voorletters, een afkorting van je voornamen</nl>
-                <zh>您名字的首字母縮寫</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="firstnames">
-            <Name>
-                <en>First names</en>
-                <nl>Voornamen</nl>
-                <zh>名字</zh>
-            </Name>
-            <Description>
-                <en>Your first names</en>
-                <nl>Je voornamen</nl>
-                <zh>您的名字</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="prefix" optional="true">
-            <Name>
-                <en>Prefix</en>
-                <nl>Voorvoegsel</nl>
-                <zh>前綴</zh>
-            </Name>
-            <Description>
-                <en>Prefix of your family name</en>
-                <nl>Voorvoegsel van je achternaam</nl>
-                <zh>您姓氏的前綴</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="familyname">
-            <Name>
-                <en>Family name</en>
-                <nl>Geslachtsnaam</nl>
-                <zh>姓氏</zh>
-            </Name>
-            <Description>
-                <en>Your family name, as given to you at birth</en>
-                <nl>Je achternaam, zoals aan je toegekend bij je geboorte</nl>
-                <zh>您出生時的家族姓氏</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="surname">
-            <Name>
-                <en>Surname</en>
-                <nl>Achternaam</nl>
-                <zh>姓氏</zh>
-            </Name>
-            <Description>
-                <en>Your full family name: your family name or (a combination with) that of your partner</en>
-                <nl>Je volledige achternaam: je geslachtsnaam of (een combinatie met) die van je partner</nl>
-                <zh>您的全名：您的姓氏或/與您伴侶名字的組合</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="fullname" optional="true">
-            <Name>
-                <en>Full name</en>
-                <nl>Volledige naam</nl>
-                <zh>全名</zh>
-            </Name>
-            <Description>
-                <en>Your full name</en>
-                <nl>Je volledige naam</nl>
-                <zh>您的全名</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="dateofbirth">
-            <Name>
-                <en>Date of birth</en>
-                <nl>Geboortedatum</nl>
-                <zh>出生日期</zh>
-            </Name>
-            <Description>
-                <en>Your date of birth</en>
-                <nl>Je geboortedatum</nl>
-                <zh>您的出生日期</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="gender">
-            <Name>
-                <en>Gender</en>
-                <nl>Geslacht</nl>
-                <zh>性別</zh>
-            </Name>
-            <Description>
-                <en>Your gender</en>
-                <nl>Je geslacht</nl>
-                <zh>您的性別</zh>
-            </Description>
-        </Attribute>
-        <Attribute id="nationality" optional="true" displayHint="yesno">
-            <Name>
-                <en>Dutch nationality</en>
-                <nl>Nederlandse nationaliteit</nl>
-                <zh>荷蘭國籍</zh>
-            </Name>
-            <Description>
-                <en>Whether you have the dutch nationality</en>
-                <nl>Of je de Nederlandse nationaliteit bezit</nl>
-                <zh>您是否擁有荷蘭國籍</zh>
-            </Description>
-        </Attribute>
-    </Attributes>
+	<Attributes>
+		<Attribute id="initials">
+			<Name>
+				<en>Initials</en>
+				<nl>Voorletters</nl>
+				<zh>名字縮寫</zh>
+			</Name>
+			<Description>
+				<en>Your initials, abbreviating your first names</en>
+				<nl>Je voorletters, een afkorting van je voornamen</nl>
+				<zh>您名字的首字母縮寫</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="firstnames">
+			<Name>
+				<en>First names</en>
+				<nl>Voornamen</nl>
+				<zh>名字</zh>
+			</Name>
+			<Description>
+				<en>Your first names</en>
+				<nl>Je voornamen</nl>
+				<zh>您的名字</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="prefix" optional="true">
+			<Name>
+				<en>Prefix</en>
+				<nl>Voorvoegsel</nl>
+				<zh>前綴</zh>
+			</Name>
+			<Description>
+				<en>Prefix of your family name</en>
+				<nl>Voorvoegsel van je achternaam</nl>
+				<zh>您姓氏的前綴</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="familyname">
+			<Name>
+				<en>Family name</en>
+				<nl>Geslachtsnaam</nl>
+				<zh>姓氏</zh>
+			</Name>
+			<Description>
+				<en>Your family name, as given to you at birth</en>
+				<nl>Je achternaam, zoals aan je toegekend bij je geboorte</nl>
+				<zh>您出生時的家族姓氏</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="surname">
+			<Name>
+				<en>Surname</en>
+				<nl>Achternaam</nl>
+				<zh>姓氏</zh>
+			</Name>
+			<Description>
+				<en>Your full family name: your family name or (a combination with) that of your partner</en>
+				<nl>Je volledige achternaam: je geslachtsnaam of (een combinatie met) die van je partner</nl>
+				<zh>您的完整姓氏：您的姓氏或冠上伴侶姓氏後的姓氏</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="fullname" optional="true">
+			<Name>
+				<en>Full name</en>
+				<nl>Volledige naam</nl>
+				<zh>全名</zh>
+			</Name>
+			<Description>
+				<en>Your full name</en>
+				<nl>Je volledige naam</nl>
+				<zh>您的全名</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="dateofbirth">
+			<Name>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+				<zh>出生日期</zh>
+			</Name>
+			<Description>
+				<en>Your date of birth</en>
+				<nl>Je geboortedatum</nl>
+				<zh>您的出生日期</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="gender">
+			<Name>
+				<en>Gender</en>
+				<nl>Geslacht</nl>
+				<zh>性別</zh>
+			</Name>
+			<Description>
+				<en>Your gender</en>
+				<nl>Je geslacht</nl>
+				<zh>您的性別</zh>
+			</Description>
+		</Attribute>
+		<Attribute id="nationality" optional="true" displayHint="yesno">
+			<Name>
+				<en>Dutch nationality</en>
+				<nl>Nederlandse nationaliteit</nl>
+				<zh>荷蘭國籍</zh>
+			</Name>
+			<Description>
+				<en>Whether you have the dutch nationality</en>
+				<nl>Of je de Nederlandse nationaliteit bezit</nl>
+				<zh>您是否具有荷蘭國籍</zh>
+			</Description>
+		</Attribute>
+	</Attributes>
 </IssueSpecification>
